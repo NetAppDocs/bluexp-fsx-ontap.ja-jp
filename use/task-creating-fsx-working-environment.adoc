@@ -152,8 +152,6 @@ image:screenshot-opportunities.png["FSX for ONTAP のMy Opportunitiesページ�
 
 AWS管理コンソールを使用して追加したFSX for ONTAP ファイルシステムや、Cloud Managerから以前に削除したFSX for Cloudファイルシステムを手動で検出することができます。
 
-image:screenshot_fsx_working_environment_select.png["AWS リージョンと作業環境を選択する際のスクリーンショット"]
-
 .手順
 . Cloud Manager で、 * 作業環境の追加 * をクリックし、 * Amazon Web Services * を選択します。
 . Amazon FSX for ONTAP * を選択し、 * ここをクリック * します。
