@@ -1,0 +1,41 @@
+---
+indexpage:
+  lead: Amazon FSX for NetApp ONTAP は、 ONTAP の全機能を AWS のネイティブマネージドサービスに提供し、一貫したハイブリッドクラウドエクスペリエンスを実現します。このドキュメントでは、
+    NetApp Cloud Manager を使用して ONTAP の FSX を管理する方法について説明しています。
+  tiles:
+  - title: はじめに
+    links:
+    - title: リリースノート
+      url: "/whats-new.html"
+    - title: Amazon FSX for ONTAP の詳細をご覧ください
+      url: "/start/concept-fsx-aws.html"
+    - title: クイックスタート
+      url: "/start/task-getting-started-fsx.html"
+    - title: 権限を設定します
+      url: "/requirements/task-setting-up-permissions-fsx.html"
+    - title: セキュリティグループのルール
+      url: "/requirements/reference-security-groups-fsx.html"
+  - title: ONTAP には Amazon FSX を使用します
+    links:
+    - title: 作業環境を作成または検出します
+      url: "/use/task-creating-fsx-working-environment.html"
+    - title: 作業環境を管理します
+      url: "/use/task-manage-working-environment.html"
+    - title: ボリュームを作成してマウント
+      url: "/use/task-add-fsx-volumes.html"
+    - title: ボリュームとデータサービスを管理します
+      url: "/use/task-manage-fsx-volumes.html"
+  - title: 知識とサポート
+    links:
+    - title: サポートに登録します
+      url: "/support/task-support-registration.html"
+    - title: ヘルプを表示します
+      url: "/support/task-get-help.html"
+  - title: ブログコミュニティ
+    links:
+    - title: ネットアップコミュニティ
+      url: https://community.netapp.com/t5/Cloud-Data-Services/ct-p/CDS
+    - title: Cloud Central のブログです
+      url: https://cloud.netapp.com/blog
+    - title: クラウドに関する Web セミナー
+      url: https://cloud.netapp.com/events
