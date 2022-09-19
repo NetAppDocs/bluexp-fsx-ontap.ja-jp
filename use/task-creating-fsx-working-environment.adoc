@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: use/task-creating-fsx-working-environment.html 
-keywords: amazon fsx for ontap, fsx, volumes, create working environment, delete working environment, access key, secret key, region, working environment, availability zones, discover 
+keywords: amazon fsx for ontap, fsx, volumes, create working environment, delete working environment, access key, secret key, region, working environment, availability zones, discover, storage capacity, iops, throughput 
 summary: Cloud Managerを使用すると、ボリュームや追加のデータサービスを追加および管理するためのFSX for ONTAP 作業環境を作成または検出できます。 
 ---
 = Amazon FSX for ONTAP の作業環境を作成または検出します
@@ -91,8 +91,8 @@ image:screenshot_add_fsx_encryption.png["ONTAP の FSX のデフォルトのマ�
 
 . ストレージを設定します。
 +
-.. スループット、容量、単位を選択します。スループット容量はいつでも変更できます。
-.. 必要に応じて、 IOPS 値を指定できます。IOPS の値を指定しない場合、 Cloud Manager は、入力した合計容量の 1GiB あたりの 3 IOPS に基づいてデフォルト値を設定します。たとえば、合計容量に 2 、 000GiB と入力した場合、 IOPS の値が指定されていなければ、有効な IOPS の値は 6 、 000 に設定されます。
+.. スループット、容量、単位を選択します。スループットとストレージ容量の値はいつでも変更することができます。
+.. 必要に応じて、 IOPS 値を指定できます。IOPS の値を指定しない場合、 Cloud Manager は、入力した合計容量の 1GiB あたりの 3 IOPS に基づいてデフォルト値を設定します。たとえば、合計容量に 2 、 000GiB と入力した場合、 IOPS の値が指定されていなければ、有効な IOPS の値は 6 、 000 に設定されます。IOPSの値はいつでも変更できます。
 +
 
 WARNING: 最小要件を満たしていない IOPS 値を指定すると、作業環境の追加時にエラーが発生します。image:screenshot_fsx_working_environment_failed_iops.png["誤った IOPS 値が設定されている場合のエラーメッセージのスクリーンショット。"]

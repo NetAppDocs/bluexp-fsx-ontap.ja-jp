@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: use/task-manage-working-environment.html 
 keywords: amazon fsx for ontap, fsx, manage working environment, delete working environment, remove working environment, throughput capacity, change throughput, 
-summary: Cloud Managerを使用すると、FSX for ONTAP の作業環境を管理できます。実行環境の削除や削除を実行できます。 
+summary: Cloud Managerを使用すると、FSX for ONTAP の作業環境を管理できます。スループットとストレージ容量およびIOPSを変更し、作業環境を削除することができます。 
 ---
 = Amazon FSX for ONTAP 作業環境を管理します
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: Cloud Managerを使用すると、FSX for ONTAP の作業環境を管�
 
 
 [role="lead"]
-Cloud Managerを使用すると、FSX for ONTAP の作業環境を管理できます。実行環境の削除や削除を実行できます。
+Cloud Managerを使用すると、FSX for ONTAP の作業環境を管理できます。スループットとストレージ容量およびIOPSを変更し、作業環境を削除することができます。
 
 
 
@@ -26,12 +26,43 @@ Cloud Managerを使用すると、FSX for ONTAP の作業環境を管理でき�
 
 .手順
 . FSX for ONTAP 作業環境を開きます。
-. [*概要*（Overview *）]タブで、[*機能*（* Features *）]をクリックし
-+
-image:screenshot-change-thruput.png["容量の変更の場所のスクリーンショット。"]
-
+. 概要*（Overview *）タブで、*フィーチャー*（* Features *）を選択します。
 . 鉛筆のアイコン（image:icon-pencil.png["鉛筆の編集アイコンの画像。"]）をクリックして、* Throughput Capacity *編集ページを開きます。
-. ドロップダウンから新しいスループット容量を選択し、「* Update *」をクリックします。この変更が反映されるまでに最大25分かかることがあり、データアクセスが中断されることはありません。
++
+image:screenshot-change-thruput.png["スループット容量変更メニューの場所のスクリーンショット。"]
+
+. ドロップダウンから新しいスループット容量を選択し、「* Update *」を選択します。この変更が反映されるまでに最大25分かかることがあり、データアクセスが中断されることはありません。
+
+
+
+
+== ストレージ容量とIOPSを変更します
+
+ストレージ容量とIOPSは、ONTAP 作業環境でFSXを作成した後、いつでも変更できます。
+
+アクティブなが必要です https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-aws.html["AWS のコネクタ"^]。
+
+.手順
+. FSX for ONTAP 作業環境を開きます。
+. 概要*（Overview *）タブで、*フィーチャー*（* Features *）を選択します。
+. 鉛筆のアイコン（image:icon-pencil.png["鉛筆の編集アイコンの画像。"]）をクリックして、* Storage Capacity & IOPS *編集ページを開きます。
++
+image:screenshot-change-iops.png["ストレージ容量およびIOPSの変更メニューの場所のスクリーンショット。"]
+
+. ストレージ容量とIOPSは6時間に1回変更可能です。頻繁に変更しようとすると、エラーが表示されます。
++
+image:screenshot-configure-iops.png["ストレージ容量とIOPSの値を変更するページのスクリーンショット。"]
+
++
+[NOTE]
+====
+** データ階層化のパフォーマンスを維持し、追加のデータ用の容量を確保するために、推奨されるストレージ容量の最大利用率は80%です。
+** Automatic * IOPSを選択すると、プライマリストレージのGiBあたりのプロビジョニング済みSSD IOPSが最大80、000回維持されます。80、000以上のIOPS値を手動でプロビジョニングすることはできません。
+
+
+====
+. チェックボックスをオンにすると、ストレージ容量の変更がONTAP サービスのFSXのコストに影響し、さらに6時間変更できないことがわかります。
+. 「* Update *」を選択して変更を確定します。
 
 
 
@@ -42,11 +73,11 @@ ONTAP の FSX は、 ONTAP アカウントまたはボリュームの FSX を削
 
 .手順
 . 作業環境を開きます。AWS にコネクタがない場合は、プロンプト画面が表示されます。これは無視して作業環境の削除に進んでください。
-. ページの右上にあるアクションメニューを選択し、 * ワークスペースから削除 * をクリックします。
+. ページの右上にあるアクションメニューを選択し、*ワークスペースから削除*を選択します。
 +
 image:screenshot_fsx_working_environment_remove.png["Cloud Manager インターフェイスから ONTAP の FSX を削除するオプションのスクリーンショット。"]
 
-. ONTAP 用の FSX を Cloud Manager から削除するには、 * Remove * をクリックします。
+. Cloud ManagerからONTAP のFSXを削除するには、「* Remove *」を選択します。
 
 
 
@@ -70,9 +101,9 @@ WARNING: この操作を実行すると、作業環境に関連付けられて�
 
 .手順
 . 作業環境を開きます。AWS にコネクタがない場合は、プロンプト画面が表示されます。これは無視して作業環境の削除に進んでください。
-. ページの右上にあるアクションメニューを選択し、 * 削除 * をクリックします。
+. ページの右上にあるアクションメニューを選択し、*削除*を選択します。
 +
 image:screenshot_fsx_working_environment_delete.png["Cloud Manager インターフェイスからの ONTAP の FSX の削除オプションのスクリーンショット。"]
 
-. 作業環境の名前を入力し、 * 削除 * をクリックします。
+. 作業環境の名前を入力し、*削除*を選択します。
 

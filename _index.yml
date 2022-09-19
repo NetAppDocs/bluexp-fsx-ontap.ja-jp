@@ -11,6 +11,8 @@ indexpage:
       url: "/start/concept-fsx-aws.html"
     - title: クイックスタート
       url: "/start/task-getting-started-fsx.html"
+  - title: 要件
+    links:
     - title: 権限を設定します
       url: "/requirements/task-setting-up-permissions-fsx.html"
     - title: セキュリティグループのルール
@@ -25,6 +27,8 @@ indexpage:
       url: "/use/task-add-fsx-volumes.html"
     - title: ボリュームとデータサービスを管理します
       url: "/use/task-manage-fsx-volumes.html"
+    - title: NVMeとiSCSIホストの構成
+      url: https://docs.netapp.com/us-en/ontap-sanhost/
   - title: 知識とサポート
     links:
     - title: サポートに登録します

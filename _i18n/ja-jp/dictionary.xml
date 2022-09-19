@@ -96,10 +96,6 @@
   <block id="2a4a19d3d732c5f7aa35fa729ac0d8ac" category="section-title">ボリュームをマウント</block>
   <block id="86a3efaabfd178d684bcd98f4cd6434c" category="paragraph">Cloud Manager でのマウント手順を参照して、ホストにボリュームをマウントできるようにします。</block>
   <block id="6c970f68c7cf5a446d127ac3ab6d72f7" category="list-text">作業環境を開きます。</block>
-  <block id="7dae500c424af1807e52460f734b857e" category="list-text">音量メニューを開き、「 * 音量をマウントする * 」を選択します。</block>
-  <block id="958a7394acfcee5d86c01e758be4f1c2" category="inline-image-macro">ボリュームのメニューを開いたときに実行可能な処理のスクリーンショット。</block>
-  <block id="54b1fe05786347782bfe7e4a3e5de355" category="paragraph"><block ref="54b1fe05786347782bfe7e4a3e5de355" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="38aa5b57f82843fe74bb954a343bf4e0" category="list-text">指示に従ってボリュームをマウントします。</block>
   <block id="54e54adb33e337b5c804d6820b674b9a" category="inline-link-macro">Cloud Manager で IT を詳細に確認</block>
   <block id="e5375c42110b0016231f311272774e83" category="paragraph">最初のステップは、 ONTAP 作業環境用の FSX を作成することです。AWS 管理コンソールですでに ONTAP ファイルシステム用の FSX を作成している場合は、次の操作を実行できます <block ref="6a48f5b54424256e49232bb9af7a3d2f" category="inline-link-macro-rx"></block>。</block>
   <block id="faa4b07ffa49aaead3b9217354fd2e07" category="paragraph">Cloud Manager で FSX for ONTAP の作業環境を作成する前に、次のものが必要です。</block>
@@ -139,7 +135,6 @@
   <block id="5f7b5a6773d6263d66627f6153905a67" category="inline-image-macro">ONTAP の FSX のデフォルトのマスターキーを設定するスクリーンショット</block>
   <block id="18ee551ad9864bd46a8f5c35b900c641" category="paragraph"><block ref="18ee551ad9864bd46a8f5c35b900c641" category="inline-image-macro-rx" type="image"></block></block>
   <block id="8c4dc6a5ccac057271e4a3a6b3213037" category="list-text">ストレージを設定します。</block>
-  <block id="44c0eb6e7e1c5fab261de20248c94791" category="list-text">必要に応じて、 IOPS 値を指定できます。IOPS の値を指定しない場合、 Cloud Manager は、入力した合計容量の 1GiB あたりの 3 IOPS に基づいてデフォルト値を設定します。たとえば、合計容量に 2 、 000GiB と入力した場合、 IOPS の値が指定されていなければ、有効な IOPS の値は 6 、 000 に設定されます。</block>
   <block id="72c6f5d2cfeaf6fab82a1ddb12885786" category="inline-image-macro">誤った IOPS 値が設定されている場合のエラーメッセージのスクリーンショット。</block>
   <block id="6885d04a0fda617d746b2123b3620e51" category="admonition">最小要件を満たしていない IOPS 値を指定すると、作業環境の追加時にエラーが発生します。<block ref="302f4fa129241cdd96ffd6dc709561e6" category="inline-image-macro-rx" type="image"></block></block>
   <block id="8088a4fa7d414a887d0eb3f19623bc06" category="inline-image-macro">FSX for ONTAP のストレージ構成の設定のスクリーンショット</block>
@@ -168,10 +163,8 @@
   <block id="b3fee7abcfd59e1f7a4b591d94eea26b" category="section-title">ワークスペースから ONTAP の FSX を削除します</block>
   <block id="619c35c80b530c32704e964530d66517" category="paragraph">ONTAP の FSX は、 ONTAP アカウントまたはボリュームの FSX を削除することなく、 Cloud Manager から削除できます。FSX for ONTAP の作業環境は、いつでも Cloud Manager に追加できます。</block>
   <block id="9ddaae0edb615f2995d27bd6e00976ce" category="list-text">作業環境を開きます。AWS にコネクタがない場合は、プロンプト画面が表示されます。これは無視して作業環境の削除に進んでください。</block>
-  <block id="960f6c85ef871302e3e408b649cf6e70" category="list-text">ページの右上にあるアクションメニューを選択し、 * ワークスペースから削除 * をクリックします。</block>
   <block id="410c78448ff59a132a6ef7e7c2bf2f4e" category="inline-image-macro">Cloud Manager インターフェイスから ONTAP の FSX を削除するオプションのスクリーンショット。</block>
   <block id="47f6e6061b4eadfbf907049dcd591b28" category="paragraph"><block ref="47f6e6061b4eadfbf907049dcd591b28" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="a3c7ec91e48d6cb0479b63af7c30a498" category="list-text">ONTAP 用の FSX を Cloud Manager から削除するには、 * Remove * をクリックします。</block>
   <block id="2167c28c0f5b01d9e01bb4084f44d791" category="section-title">ONTAP 作業環境の FSX を削除します</block>
   <block id="4de2a58fbc41a8206c0c53a3dd1da960" category="paragraph">ONTAP の FSX は、 Cloud Manager から削除できます。</block>
   <block id="135b308ed83c53f1516b7c754566d1c4" category="list-title">作業を開始する前に</block>
@@ -181,32 +174,24 @@
   <block id="ef91377d933625cd5679a41980e84a7d" category="list-text">障害ボリュームが含まれている作業環境は削除できません。ONTAP ファイルシステムの FSX を削除する前に、 AWS 管理コンソールまたは CLI を使用して障害ボリュームを削除する必要があります。</block>
   <block id="264e33787c94efb543f65228a9b52512" category="admonition">この操作を実行すると、作業環境に関連付けられているすべてのリソースが削除されます。この操作を元に戻すことはできません。</block>
   <block id="759e9950bbe6d95f5d993751a21090d8" category="list-text">作業環境を開きます。AWS にコネクタがない場合は、プロンプト画面が表示されます。これは無視して作業環境の削除に進んでください。</block>
-  <block id="5c026b5b99b1471c1695d12c5be5e3d9" category="list-text">ページの右上にあるアクションメニューを選択し、 * 削除 * をクリックします。</block>
   <block id="eea2ce15389bae978a0efc5763b9cdac" category="inline-image-macro">Cloud Manager インターフェイスからの ONTAP の FSX の削除オプションのスクリーンショット。</block>
   <block id="636c7339a775dda79a1b6b37974a27b3" category="paragraph"><block ref="636c7339a775dda79a1b6b37974a27b3" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="7c1e5f31ebf2bb33eb06de268374f840" category="list-text">作業環境の名前を入力し、 * 削除 * をクリックします。</block>
   <block id="00b56458820e0abf51f147bc4e399a7e" category="summary">Cloud Manager を使用して、 ONTAP のボリューム、クローン、 Snapshot の管理、および FSX for の階層化ポリシーの変更を行うことができます。</block>
   <block id="7e8d943ffd901385b9eef24cb61b44b9" category="doc">Amazon FSX for ONTAP のボリュームを管理します</block>
   <block id="b29f6e00261f220f9ca9601a3dbc09df" category="section-title">ボリュームを編集します</block>
   <block id="b609b522164fd601ccb14538b7074e4e" category="paragraph">作成したボリュームはいつでも変更できます。</block>
-  <block id="e3c15b55dc36cad58edc7cb73ae80e2c" category="list-text">音量メニューを開き、「 * 編集 * 」を選択します。</block>
   <block id="4ba141f8bd3c71509d32aaf3d8ae34d6" category="list-text">NFS の場合、サイズとタグを変更できます。</block>
   <block id="ad348a3307068da0d1c8c03655a0d11e" category="list-text">CIFS の場合、共有名、ユーザ、権限、および Snapshot ポリシーを必要に応じて変更できます。</block>
-  <block id="400fae8e788b3721b9ac25fe01f04f50" category="list-text">[ 適用（ Apply ） ] をクリックします。</block>
   <block id="fee2a02b904d6d1f207e959dbd807a75" category="section-title">ボリュームをクローニングする</block>
   <block id="6b94d8d9a10c7d18376b9f389dba9855" category="paragraph">ボリュームを作成したら、新しい Snapshot から読み書き可能な新しいボリュームを作成できます。</block>
-  <block id="343bf0d675ca357b025fb7472514438f" category="list-text">音量メニューを開き、 * Clone * を選択します。</block>
   <block id="5e5db467595563d87880b20fec615319" category="list-text">クローンボリュームの名前を入力します。</block>
-  <block id="8215bd5d2f1e1b1cb3002f32795c762e" category="list-text">[* Clone* ] をクリックします。</block>
   <block id="e479d2534f323a1275e2ed0809755e56" category="section-title">Snapshot コピーを管理します</block>
   <block id="13d23436eebf5663e94f902e862ce3bb" category="paragraph">Snapshot コピーは、ボリュームのポイントインタイムコピーを提供します。Snapshot コピーを作成し、そのデータを新しいボリュームにリストアします。</block>
-  <block id="c841bd422df65ac6f48f90c6d842cfc8" category="list-text">ボリュームメニューを開き、 Snapshot コピーの管理に使用できるオプションのいずれかを選択します。</block>
   <block id="77920e8d9473162a2167976898eaa180" category="list-text">* Snapshot コピーを作成します *</block>
   <block id="fa41e2569b3e81d19868356601d4d103" category="list-text">* Snapshot コピーからのリストア *</block>
   <block id="df95b2ddbeefe0bd257bae9d1c7d663a" category="list-text">プロンプトに従って、選択した操作を完了します。</block>
   <block id="9f4aa892debf403a854859b0ca9c9ff6" category="section-title">階層化ポリシーを変更します</block>
   <block id="3a2ff6a4c845ba47894d1dd10a1b908f" category="paragraph">ボリュームの階層化ポリシーを変更します。</block>
-  <block id="d5f25d8802c3b7804d35fc3426a2f809" category="list-text">ボリュームメニューを開き、 * 階層化ポリシーの変更 * を選択します。</block>
   <block id="baef40813f00b62c8e9dcc643a76c881" category="list-text">新しいボリューム階層化ポリシーを選択し、 * Change * をクリックします。</block>
   <block id="016049d3662ab4f0c21871ed98f2bb37" category="section-title">データをレプリケートして同期</block>
   <block id="abca63d751ec4cebd209af264e376ee4" category="inline-link">システム間でのデータのレプリケーション</block>
@@ -214,7 +199,6 @@
   <block id="f91674f3b22216fc484532cd24dda908" category="section-title">ボリュームを削除します</block>
   <block id="9497c556620605c0441cf034ff68a527" category="paragraph">不要になったボリュームを削除します。</block>
   <block id="08d16a95ed82f881bcc5359ecb0c8769" category="paragraph">以前に SnapMirror 関係に含まれていたボリュームは、 Cloud Manager を使用して削除することはできません。SnapMirror ボリュームは、 AWS 管理コンソールまたは CLI を使用して削除する必要があります。</block>
-  <block id="fa41d7948af66c69407c3a05211bb4b9" category="list-text">音量メニューを開き、「 * 削除」を選択します。</block>
   <block id="a1757cd330af9ddfc6b1f315176b17e9" category="list-text">作業環境の名前を入力し、ボリュームを削除することを確認します。ボリュームが Cloud Manager から完全に削除されるまでに最大 1 時間かかることがあります。</block>
   <block id="590368745da00a61c492e4b834d9568e" category="admonition">クローンボリュームを削除しようとするとエラーが表示されます。</block>
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">法的通知</block>
@@ -511,12 +495,8 @@
   <block id="80b1b0d2b1ebf2b3cba2d25759801afd" category="list-text">mailto ： ng-cloudmanager-feedback@netapp.com [ フィードバックメール ]</block>
   <block id="bff60abbc46aceed0f73a3a4f6cfb123" category="paragraph">お客様のご意見をお考えください。Cloud Manager の改善に役立つフィードバックを送信します。</block>
   <block id="0659d428df833a806e29e65e632d380a" category="section-title">ネットアップサポート</block>
-  <block id="c91b5a63849b8d2db01014ed33192735" category="paragraph">上記のセルフサポートオプションに加え、サポートを有効にしたあとに問題が発生した場合は、ネットアップサポートエンジニアと協力して解決できます。</block>
   <block id="6c08c57e382a25a778455184cd9b1a4a" category="list-text">Cloud Manager で、 * Help &gt; Support * の順にクリックします。</block>
   <block id="f5052c65917d7341726235d4d4941461" category="list-text">テクニカルサポートで利用可能なオプションのいずれかを選択します。</block>
-  <block id="bece28b158ab337d9ed24b00d7d02cc7" category="list-text">[ * お問い合わせ * ] をクリックして、ネットアップ・テクニカル・サポートの電話番号を検索してください。</block>
-  <block id="efe81cff8e6f47ec59ef94167b76bf5a" category="list-text">[ * 問題 を開く * ] をクリックし、いずれかのオプションを選択して、 [ * 送信 * ] をクリックします。</block>
-  <block id="cbb1040836732e478409dacf7e45171a" category="paragraph">ネットアップの担当者がケースを確認し、すぐに対応を開始します。</block>
   <block id="9a11eb5da5d06e3593dc6b41553d97e5" category="sidebar">権限を設定します</block>
   <block id="390a3dfacd9551e05363b9eb09a0464c" category="sidebar">セキュリティグループのルール</block>
   <block id="1960d6022dcb5a2b9a687d1f6cbd8931" category="cell">fsxadmin管理LIFへのコネクタからアクセスし、API呼び出しをFSXに送信します</block>
@@ -549,7 +529,6 @@
   <block id="c3948e9af2286480c185296c8233504b" category="summary">Cloud Managerを使用すると、ボリュームや追加のデータサービスを追加および管理するためのFSX for ONTAP 作業環境を作成または検出できます。</block>
   <block id="56741382a48f0ad5efb57a6532876317" category="doc">Amazon FSX for ONTAP の作業環境を作成または検出します</block>
   <block id="ce077de6f3a969e5aa4cd26e1b3b5793" category="paragraph">Cloud Managerを使用すると、ボリュームや追加のデータサービスを追加および管理するためのFSX for ONTAP 作業環境を作成または検出できます。</block>
-  <block id="1854a29768044309b55fe7b58108c6b2" category="list-text">スループット、容量、単位を選択します。スループット容量はいつでも変更できます。</block>
   <block id="a856a2e7ff7a861c3124938689a66a62" category="paragraph">ONTAP 管理コンソールを使用してFSX forファイルシステムを作成した場合、または以前に削除した作業環境をリストアする場合は、**My Opportunities **を使用して検出するか、手動で検出できます。</block>
   <block id="1b52b643a7dc88400af8fd712fed3d12" category="section-title">Opportunityを使って発見する</block>
   <block id="2727507bf62cbd85fbf2b9c615630c53" category="paragraph">以前にCloud ManagerにAWSクレデンシャルを提供していた場合、* My Opportunities *は、ONTAP ファイルシステム用のFSXを自動的に検出して、Cloud Managerを使用して追加および管理することを提案します。使用可能なデータサービスを確認することもできます。</block>
@@ -573,17 +552,11 @@
   <block id="ecfc70ae41156684ed148266abaf3a62" category="list-text">**イニシエータグループ名**を入力してください。</block>
   <block id="ccb9a070caab16c4e464e89fd6afe362" category="inline-image-macro">ONTAP ボリューム作成用のiSCSI構成FSXのスクリーンショット。</block>
   <block id="f157bba0d98c84b6de3aaefa71426f09" category="paragraph"><block ref="f157bba0d98c84b6de3aaefa71426f09" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="a20dc51cbd898b34e33a20c14094ed53" category="summary">Cloud Managerを使用すると、FSX for ONTAP の作業環境を管理できます。実行環境の削除や削除を実行できます。</block>
   <block id="faac9e60f93091e9068b8f347b36ec75" category="doc">Amazon FSX for ONTAP 作業環境を管理します</block>
   <block id="8539ab4c6f55c58d2fab4f2b3261bde9" category="section-title">スループット容量を変更します</block>
   <block id="4b1f2fea7e8048c8ccd3036ead1c2a76" category="paragraph">スループット容量は、ONTAP 作業環境でFSXを作成したあとにいつでも変更できます。</block>
   <block id="e85b82fa898245e765ecb2eab8ee886e" category="paragraph">アクティブなが必要です<block ref="f8ec938ce1f3506a828c9f7802c63902" category="inline-link-rx"></block>。</block>
-  <block id="753a4005737100e35c99c30e52ef2c44" category="list-text">[*概要*（Overview *）]タブで、[*機能*（* Features *）]をクリックし</block>
-  <block id="2e68dd5f8760ab98fc603405ef786ad2" category="inline-image-macro">容量の変更の場所のスクリーンショット。</block>
-  <block id="ba4f4a5f2fc20fe299d66d82a707dcfa" category="paragraph"><block ref="ba4f4a5f2fc20fe299d66d82a707dcfa" category="inline-image-macro-rx" type="image"></block></block>
   <block id="7ccd7b62d91207f4ba83029de9cebfce" category="inline-image-macro">鉛筆の編集アイコンの画像。</block>
-  <block id="956ab3e11e7c49feef0401b3df8ea2ef" category="list-text">鉛筆のアイコン（<block ref="a3ce23dbf8ced4424507771e4b6881ae" category="inline-image-macro-rx" type="image"></block>）をクリックして、* Throughput Capacity *編集ページを開きます。</block>
-  <block id="3ce3cdf8360d5fadb6de611684221e5f" category="list-text">ドロップダウンから新しいスループット容量を選択し、「* Update *」をクリックします。この変更が反映されるまでに最大25分かかることがあり、データアクセスが中断されることはありません。</block>
   <block id="f6dfc77133ec0d2399d3f1b82fd008fe" category="list-text">現時点で、Cloud Managerは、オンプレミスまたはCloud Volumes ONTAP からONTAP のFSXに、ONTAP のFSXからオンプレミスまたはONTAP システムの他のFSXにデータをレプリケートできます。</block>
   <block id="3f10ba55f7b5ee2ce092504fcea72477" category="section-title">2022年7月31日</block>
   <block id="dd15e63d013ad6e70302caae66b83f6d" category="list-text">以前にCloud ManagerにAWSクレデンシャルを指定していた場合、新しい* My Opportunities *機能によって、Cloud Managerを使用して追加および管理するONTAP ファイルシステムのFSXが自動的に検出されて提案されます。また、［* My Opportunities *］タブで、利用可能なデータサービスを確認することもできます。</block>
@@ -598,4 +571,77 @@
   <block id="4654b99a0535f374a8ff766873df50a6" category="sidebar">作業環境を作成または検出します</block>
   <block id="6faf2fd9ba5b0e89a953f43cd89d6c46" category="sidebar">作業環境の管理</block>
   <block id="3109e49414b9edf951cefa41b4e6edeb" category="sidebar">作業環境を管理します</block>
+  <block id="f7ba76d5c9beab0576f118a6254843e9" category="section-title">2022年9月18日</block>
+  <block id="3abe9a67eae0ad33b1c96ff4ae8b1eaa" category="inline-link-macro">ストレージ容量とIOPSを変更します</block>
+  <block id="0e36458fd86c678ff613e05396096775" category="paragraph">次の操作を実行できます。 <block ref="0fb4d5e2ef1238fe0c2ee898e859399c" category="inline-link-macro-rx"></block> ONTAP 作業環境用のFSXを作成した後であれば、いつでも作成できます。</block>
+  <block id="af1b15a700df7234e9ad68515cde3f5b" category="summary">Cloud Managerを使用すると、FSX for ONTAP の作業環境を管理できます。スループットとストレージ容量およびIOPSを変更し、作業環境を削除することができます。</block>
+  <block id="f5d07457c4656e60fff8f3663f422965" category="list-text">概要*（Overview *）タブで、*フィーチャー*（* Features *）を選択します。</block>
+  <block id="2498d03a4261c0c377ff9aa14f08a01b" category="list-text">鉛筆のアイコン（<block ref="a3ce23dbf8ced4424507771e4b6881ae" category="inline-image-macro-rx" type="image"></block>）をクリックして、* Throughput Capacity *編集ページを開きます。</block>
+  <block id="87b240f45f566a73d19136ab81e90ad1" category="inline-image-macro">スループット容量変更メニューの場所のスクリーンショット。</block>
+  <block id="e09dc417c2d896d165ca331477153842" category="paragraph"><block ref="e09dc417c2d896d165ca331477153842" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="230f70d1e5d26fbe6e5ad10f5308cabe" category="list-text">ドロップダウンから新しいスループット容量を選択し、「* Update *」を選択します。この変更が反映されるまでに最大25分かかることがあり、データアクセスが中断されることはありません。</block>
+  <block id="a0ebe9e341b2c5054b22afc7d98d1401" category="section-title">ストレージ容量とIOPSを変更します</block>
+  <block id="f3c93b45ca50102a9f0b7eae1e06d071" category="paragraph">ストレージ容量とIOPSは、ONTAP 作業環境でFSXを作成した後、いつでも変更できます。</block>
+  <block id="048b8d92cffbe45e8afec553ae5bdab0" category="list-text">鉛筆のアイコン（<block ref="a3ce23dbf8ced4424507771e4b6881ae" category="inline-image-macro-rx" type="image"></block>）をクリックして、* Storage Capacity &amp; IOPS *編集ページを開きます。</block>
+  <block id="d6684930c2875391fe70b5eb14401bbb" category="inline-image-macro">ストレージ容量およびIOPSの変更メニューの場所のスクリーンショット。</block>
+  <block id="687579d242782f9a851dc5bb5ba9abc9" category="paragraph"><block ref="687579d242782f9a851dc5bb5ba9abc9" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="dfb628b495d5e0828edcde206a117a0d" category="list-text">ストレージ容量とIOPSは6時間に1回変更可能です。頻繁に変更しようとすると、エラーが表示されます。</block>
+  <block id="e67f7cfa37e5dcd4f3836e76f5301a68" category="inline-image-macro">ストレージ容量とIOPSの値を変更するページのスクリーンショット。</block>
+  <block id="f5aa006a4894acbba121bdb32f513ead" category="paragraph"><block ref="f5aa006a4894acbba121bdb32f513ead" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1c17ed8503d69fa2ad1c61b6c92a2255" category="list-text">データ階層化のパフォーマンスを維持し、追加のデータ用の容量を確保するために、推奨されるストレージ容量の最大利用率は80%です。</block>
+  <block id="e8036e0ac9189e05af8ebeb943ee3fd3" category="list-text">Automatic * IOPSを選択すると、プライマリストレージのGiBあたりのプロビジョニング済みSSD IOPSが最大80、000回維持されます。80、000以上のIOPS値を手動でプロビジョニングすることはできません。</block>
+  <block id="d179171b709f127d6b88e332ad5ac396" category="list-text">チェックボックスをオンにすると、ストレージ容量の変更がONTAP サービスのFSXのコストに影響し、さらに6時間変更できないことがわかります。</block>
+  <block id="1f25673463b8f906d801bd291ad45315" category="list-text">「* Update *」を選択して変更を確定します。</block>
+  <block id="4fe33f0977f17b0718840c634bb48345" category="list-text">ページの右上にあるアクションメニューを選択し、*ワークスペースから削除*を選択します。</block>
+  <block id="695c6322f28397cda2ea2ea4d49f33fc" category="list-text">Cloud ManagerからONTAP のFSXを削除するには、「* Remove *」を選択します。</block>
+  <block id="3767b7b1dbf8b0f59d82eb46c294df83" category="list-text">ページの右上にあるアクションメニューを選択し、*削除*を選択します。</block>
+  <block id="e19eec57ec1908f25e4a753fbf9d1bf5" category="list-text">作業環境の名前を入力し、*削除*を選択します。</block>
+  <block id="d33ef5be6071ae5e3d7d930d8977e41a" category="list-text">スループット、容量、単位を選択します。スループットとストレージ容量の値はいつでも変更することができます。</block>
+  <block id="7f234f33b9862c892e7c8dbf9dd91bc5" category="list-text">必要に応じて、 IOPS 値を指定できます。IOPS の値を指定しない場合、 Cloud Manager は、入力した合計容量の 1GiB あたりの 3 IOPS に基づいてデフォルト値を設定します。たとえば、合計容量に 2 、 000GiB と入力した場合、 IOPS の値が指定されていなければ、有効な IOPS の値は 6 、 000 に設定されます。IOPSの値はいつでも変更できます。</block>
+  <block id="c39def9377c6bd394b8633558a53f581" category="paragraph">Cloud Managerを使用して、ONTAP のボリューム、クローン、Snapshotの表示と管理、およびFSX forの階層化ポリシーの変更を行うことができます。</block>
+  <block id="ec4fc4cb1b37373b785aaee6062cfec7" category="section-title">ボリュームの詳細を表示します</block>
+  <block id="217a2eee444fb09dda70bb076071f17e" category="paragraph">ボリュームを作成したら、設定の詳細を確認できます。</block>
+  <block id="45dddf924938e17bccdd6a467352bfa0" category="admonition">ボリューム名にカーソルを合わせると、ボリュームタイプを表示できます。</block>
+  <block id="a99a1e91f5b89a3a1bb26badc77c44b1" category="list-text">音量タブを開き、*音量管理*を選択して*音量操作*メニューを開きます。</block>
+  <block id="bc113f9071c312c1d14ec49df82aa928" category="list-text">「*ボリュームの詳細を表示*」を選択します。</block>
+  <block id="a324b09bde8b0186d3f43692b7556fd9" category="list-text">「*ボリューム設定の編集*」を選択します。</block>
+  <block id="24347b3ddf5a25cc9c27e54ae285ade1" category="list-text">* 適用 * を選択します。</block>
+  <block id="d64b993d52f8a267e9dfb902139ad672" category="list-text">[* Clone the volume]を選択します。</block>
+  <block id="9de0e2b17d7e1e2da6c0ce7e9dc6e377" category="list-text">「 * Clone * 」を選択します。</block>
+  <block id="8b5f6e4263eafb9559eeaffe98711978" category="list-text">ボリュームタブを開き、*ボリュームの管理*を選択して、*保護処置*メニューを開きます。</block>
+  <block id="f5baa7ceb1673e19b71f0f856feee19a" category="list-text">Snapshotコピーの管理に使用できるオプションを1つ選択します。</block>
+  <block id="f879ed761f1ca2475598c0bea304d10d" category="list-text">音量タブを開き、*音量の管理*を選択して、*詳細アクション*メニューを開きます。</block>
+  <block id="dedc9eb7ac0cb065a0b90f9f63104b01" category="list-text">「*階層化ポリシーの変更*」を選択します。</block>
+  <block id="f596a753aac59df7e240140c2eb96e99" category="list-text">「*ボリュームの削除*」を選択します。</block>
+  <block id="87ab0ddecc6298e066c5bf52a6e57341" category="list-text">「*音量*」タブと「*音量管理*」を選択して、「*音量操作*」メニューを開きます。</block>
+  <block id="1cffe537ba60b23c60608f4b7ec02e43" category="inline-image-macro">[ボリューム操作]メニューの開き方のスクリーンショット。</block>
+  <block id="b43e642ae439f1f795292eb5df5f84d3" category="paragraph"><block ref="b43e642ae439f1f795292eb5df5f84d3" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="78c27b88e2a8142906bb69594e5b22a6" category="list-text">マウントコマンド*を選択し、指示に従ってボリュームをマウントします。</block>
+  <block id="35f5a704747f7e6644a0bbedc33a0c2e" category="paragraph">これで、ボリュームがホストにマウントされました。</block>
+  <block id="82812db645b6ff5e9c2a24ddfb66c8d6" category="paragraph">上記のセルフサポートオプションに加え、サポートを有効にしたあとで問題が発生した場合は、ネットアップサポートの担当者と相談して解決できます。</block>
+  <block id="e2a733504c4088b809813bbb35a3ddfd" category="inline-link-macro">サポートに登録する方法について説明します</block>
+  <block id="09651e14b46d7e8697d32de90d0deacb" category="paragraph">ケースの作成*機能を使用するには、まずCloud ManagerアカウントIDのシリアル番号（例960xxxx）にネットアップが付属 <block ref="3349e4b3d05f646f2f1421bee7c2ad26" category="inline-link-macro-rx"></block>。</block>
+  <block id="383133cb6f7207b1c65c3ace94aa5e95" category="list-text">電話の相手と話したい場合は、「*お電話」をクリックしてください。netapp.comのページに移動し、電話番号が表示されます。</block>
+  <block id="bf5bc6ab0f95f17f4e98c9d766b8c11d" category="list-text">[*ケースの作成*]をクリックして、ネットアップサポートスペシャリストのチケットを開きます。</block>
+  <block id="b53e0a259f4a0c8e7da80d6c94e26c84" category="list-text">* NetApp Support Site アカウント*：サポートケースをオープンしたユーザーに関連付けられている該当のNSSアカウントを選択します。この担当者は、以下に記載する追加のEメールに加えて、ネットアップから連絡を受け取る主要担当者となります。</block>
+  <block id="ec65cc87efda54741062da1fce99ff76" category="paragraph">NSSアカウントが表示されない場合は、Cloud Managerのサポートセクションにある* NSS Management *タブに移動して追加できます。</block>
+  <block id="b3144caf7d928b7954447c757b3ed77b" category="list-text">*Service*:問題 が関連付けられているサービスを選択します。たとえば、サービス内のワークフローや機能を使用して、テクニカルサポートの問題 に固有のCloud Managerなどです。</block>
+  <block id="2e50c5f85523f0aba9ff2db10f18279c" category="list-text">*作業環境*：ストレージに該当する場合は、* Cloud Volumes ONTAP *または*オンプレミス*を選択し、関連する作業環境を選択します。</block>
+  <block id="1e38219c106fb9d07d173c027b8911c7" category="paragraph">作業環境のリストは、サービスの上部バナーで選択したCloud Managerアカウント、ワークスペース、コネクタの範囲内にあります。</block>
+  <block id="e6f29fb3c7636dc0040600dd0e84bb79" category="list-text">*ケース優先度*：ケースの優先度を選択します。優先度は、[低]、[中]、[高]、[クリティカル]のいずれかになります。</block>
+  <block id="835eb4008e97c2a7f69bbb2725285e34" category="paragraph">これらの優先度の詳細を確認するには、フィールド名の横にある情報アイコンの上にマウスポインタを合わせます。</block>
+  <block id="0f7d9319c95a8be1492e74601c4b3259" category="list-text">*事象の説明 *：実行したエラーメッセージやトラブルシューティング手順など、問題の詳細な概要 を入力します。</block>
+  <block id="002c6f26fb01affb37b8cf3cef7a1fb0" category="list-text">*その他のメールアドレス*：この問題 を他のユーザーに知らせる場合は、追加のメールアドレスを入力します。</block>
+  <block id="baaf0e61add7d12cf8d12e023d5aef18" category="inline-image-macro">ネットアップサポートでケースを作成できるケースの作成フォームのスクリーンショット。</block>
+  <block id="a2ff30886e1baf1e7d5045b5fc24f5b9" category="paragraph"><block ref="a2ff30886e1baf1e7d5045b5fc24f5b9" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="18f487556417bb6d9721a7005ae097c9" category="paragraph">ポップアップにサポートケース番号が表示されます。ネットアップのサポート担当者がケースを確認し、すぐに対応させていただきます。</block>
+  <block id="04e15da1deae9568b4dcda64fbb0c8d5" category="paragraph">サポートケースの履歴を確認するには、[*設定]、[タイムライン*]の順にクリックして、[サポートケースの作成]という名前のアクションを探します。 右端のボタンをクリックすると、アクションを展開して詳細を表示できます。</block>
+  <block id="5c56753585e89a84941bb3a78bc681af" category="paragraph">ケースを作成しようとすると、次のエラーメッセージが表示される場合があります。</block>
+  <block id="a30f69ab0ec85d427a3e8835713525bd" category="paragraph">"選択したサービスに対してケースを作成する権限がありません"</block>
+  <block id="148f13242c3e296dc276821cdc574921" category="paragraph">このエラーは、NSSアカウントとそれに関連付けられているレコードの会社が、Cloud Managerアカウントのシリアル番号（例960xxxx）または動作環境のシリアル番号。[ケースの作成]フォームの上部にあるNSSアカウントの一覧を確認して、適切な一致を見つけることができます。または、次のいずれかのオプションを使用してサポートを依頼することもできます。</block>
+  <block id="e01df0b4dfd95eba2c59333419e4fac6" category="list-text">製品内のチャットを使用します</block>
+  <block id="639be990cfca56ab4b63685d8bacd437" category="list-text">テクニカル以外のケースをに送信します<block ref="2298f47e4dad19a3156da7ce6116d9b1" category="inline-link-rx"></block></block>
+  <block id="5a2ebfb8baa378cfcfcba58bbb1380c2" category="sidebar">要件</block>
+  <block id="74e5a199ea27b8b415c0c77d75229e79" category="sidebar">NVMeとiSCSIホストの構成</block>
+  <block id="7ff191df90fac0fa94ab5c2b5101a5e9" category="sidebar">Cloud Manager のすべてのドキュメント</block>
 </blocks>

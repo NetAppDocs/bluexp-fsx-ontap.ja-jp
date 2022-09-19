@@ -18,6 +18,12 @@ Amazon FSX for ONTAP の新機能をご確認ください。
 
 
 
+== 2022年9月18日
+
+次の操作を実行できます。 link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-manage-working-environment.html#change-storage-capacity-and-IOPS["ストレージ容量とIOPSを変更します"] ONTAP 作業環境用のFSXを作成した後であれば、いつでも作成できます。
+
+
+
 == 2022年7月31日
 
 * 以前にCloud ManagerにAWSクレデンシャルを指定していた場合、新しい* My Opportunities *機能によって、Cloud Managerを使用して追加および管理するONTAP ファイルシステムのFSXが自動的に検出されて提案されます。また、［* My Opportunities *］タブで、利用可能なデータサービスを確認することもできます。
