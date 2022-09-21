@@ -202,8 +202,6 @@
   <block id="a1757cd330af9ddfc6b1f315176b17e9" category="list-text">作業環境の名前を入力し、ボリュームを削除することを確認します。ボリュームが Cloud Manager から完全に削除されるまでに最大 1 時間かかることがあります。</block>
   <block id="590368745da00a61c492e4b834d9568e" category="admonition">クローンボリュームを削除しようとするとエラーが表示されます。</block>
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">法的通知</block>
-  <block id="4940124e8487cb4ea36f1511a195cf66" category="inline-link-macro">Cloud Manager 3.9 に関する注意事項</block>
-  <block id="c069fcc68c5dfa73ccc99924c836cae9" category="list-text"><block ref="c069fcc68c5dfa73ccc99924c836cae9" category="inline-link-macro-rx"></block></block>
   <block id="72999cd653b12474752fb77bab9691e3" category="inline-link-macro">Cloud Backup に関する通知です</block>
   <block id="75be9a02506771b87be972c89707f0d4" category="list-text"><block ref="75be9a02506771b87be972c89707f0d4" category="inline-link-macro-rx"></block></block>
   <block id="bf6a36d1f8c7b0ef48e5a5b01357f720" category="inline-link-macro">クラウドの同期に関する注意事項</block>
@@ -644,4 +642,6 @@
   <block id="5a2ebfb8baa378cfcfcba58bbb1380c2" category="sidebar">要件</block>
   <block id="74e5a199ea27b8b415c0c77d75229e79" category="sidebar">NVMeとiSCSIホストの構成</block>
   <block id="7ff191df90fac0fa94ab5c2b5101a5e9" category="sidebar">Cloud Manager のすべてのドキュメント</block>
+  <block id="d14a27b37d19411318313c75f11baf13" category="inline-link">Cloud Managerに関する通知</block>
+  <block id="8f4eecef1c8abf547a153a1486d48ab2" category="list-text"><block ref="8f4eecef1c8abf547a153a1486d48ab2" category="inline-link-rx"></block></block>
 </blocks>
