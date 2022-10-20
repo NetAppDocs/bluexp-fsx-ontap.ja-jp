@@ -59,11 +59,3 @@ Amazon FSX for ONTAP は、 AWS ファーストパーティの解決策です。
 Cloud Manager や Cloud Manager のマイクロサービスに関する一般的な質問については、 Cloud Manager のインラインチャットから始めることができます。
 
 内の Cloud Manager またはマイクロサービスに固有のテクニカルサポートの問題については、 Cloud Manager アカウントレベルのシリアル番号を使用してネットアップサポートチケットを開くことができます。サポートを有効にするには、 Cloud Manager のシリアル番号を登録する必要があります。
-
-
-
-== 制限
-
-* 現時点で、Cloud Managerは、オンプレミスまたはCloud Volumes ONTAP からONTAP のFSXに、ONTAP のFSXからオンプレミスまたはONTAP システムの他のFSXにデータをレプリケートできます。
-* この時点で、ONTAP のFSXからのSnapMirrorレプリケーションはです link:https://docs.netapp.com/us-en/ontap/data-protection/index.html["ONTAP CLIを使用してサポート"^]。
-

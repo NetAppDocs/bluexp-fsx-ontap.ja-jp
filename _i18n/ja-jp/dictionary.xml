@@ -393,7 +393,6 @@
   <block id="adae5e92a515a3174e9058a6b8179a41" category="paragraph">Amazon FSX for ONTAP は、 AWS ファーストパーティの解決策です。AWS FSX ファイルシステム、インフラ、またはこのサービスを使用する AWS 解決策に関連する質問やテクニカルサポートの問題については、 AWS コンソールのサポートセンターを使用して AWS へのサポートケースをオープンしてください。「 FSX for ONTAP 」サービスと該当するカテゴリを選択します。AWS サポートケースの作成に必要な残りの情報を指定します。</block>
   <block id="1db5f4a1a813c32af28e132cf45cac0f" category="paragraph">Cloud Manager や Cloud Manager のマイクロサービスに関する一般的な質問については、 Cloud Manager のインラインチャットから始めることができます。</block>
   <block id="409924e4cb5560dcfd0701e1ac237826" category="paragraph">内の Cloud Manager またはマイクロサービスに固有のテクニカルサポートの問題については、 Cloud Manager アカウントレベルのシリアル番号を使用してネットアップサポートチケットを開くことができます。サポートを有効にするには、 Cloud Manager のシリアル番号を登録する必要があります。</block>
-  <block id="e646e16bee8b32e6ea29e30d01970a6c" category="section-title">制限</block>
   <block id="7a8c8dd27a87bf665545ae7d6521b93a" category="summary">Amazon FSX for ONTAP の導入を開始するには、いくつかの手順を実行します。</block>
   <block id="bf7ec532103402eaed4653738655f6ad" category="doc">Amazon FSX for ONTAP の利用を開始しましょう</block>
   <block id="fbda414afc779c9e1e46c45b74091adb" category="paragraph">FSX for ONTAP は、ほんの数ステップで開始できます。</block>
@@ -462,10 +461,6 @@
   <block id="fc248f74f5e36542f7f5627b8610e9a3" category="paragraph"><block ref="fc248f74f5e36542f7f5627b8610e9a3" category="inline-link-rx"></block></block>
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">オープンソース</block>
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">通知ファイルには、ネットアップソフトウェアで使用されるサードパーティの著作権およびライセンスに関する情報が記載されています。</block>
-  <block id="aeaeee19a7c393222e407a525cf01991" category="section-title">NSS アカウントを追加します</block>
-  <block id="de2241fea60d98698faaa196ff73ee80" category="paragraph">サポートダッシュボードを使用すると、すべてのネットアップサポートサイトのアカウントを 1 箇所から追加および管理できます。</block>
-  <block id="5be2593b5948f30a15179a32daa73ee2" category="inline-link">1 名で登録します</block>
-  <block id="14b05cf61f1aba58d38b393e69b69538" category="list-text">ネットアップサポートサイトのアカウントがない場合は、<block ref="0a8e82436ea73fe635862cfba3acf101" category="inline-link-rx"></block>。</block>
   <block id="0046efb3377274ff3215d4b30269809e" category="list-text">Cloud Manager コンソールの右上にあるヘルプアイコンをクリックし、 * Support * を選択します。</block>
   <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">[ ヘルプ ] メニューのスクリーンショット。サポートは最初に表示されるオプションです</block>
   <block id="868d9aa88f16ea923af1d15eac5d2647" category="paragraph"><block ref="868d9aa88f16ea923af1d15eac5d2647" category="inline-image-macro-rx" type="image"></block></block>
@@ -473,12 +468,6 @@
   <block id="8aaf101e623c543c7eef3c65f6233366" category="list-text">メッセージが表示されたら、 [* Continue （続行） ] をクリックして Microsoft ログインページにリダイレクトします。</block>
   <block id="19d089db572ee6a1e154a0c9c9e57bfd" category="paragraph">ネットアップは、サポートとライセンスに固有の認証サービスのアイデンティティプロバイダとして Microsoft Azure Active Directory を使用しています。</block>
   <block id="465ec6d5eafa3524c948c99d8bfcd306" category="list-text">ログインページで、ネットアップサポートサイトの登録 E メールアドレスとパスワードを入力して認証プロセスを実行します。</block>
-  <block id="f5fb4199485234c409525f430b737010" category="paragraph">Cloud Manager で NSS アカウントを使用することができます。</block>
-  <block id="b4c6a2f33e7b2a38495546b8d5cd8e84" category="paragraph">注：お客様レベルのアカウントである必要があります（ゲストや一時アカウントは使用できません）。</block>
-  <block id="fc65ebd4739f2f8ca46062a8280faea9" category="section-title">アカウントを登録してサポートを受けてください</block>
-  <block id="3e080914efe0d0ca025439fbb68d437f" category="paragraph">サポートの登録は、 Cloud Manager のサポートダッシュボードで実行できます。</block>
-  <block id="fb07bf6b7698dbe934b8b2164d915484" category="list-text">[* リソース ] タブで、 [* サポートに登録 * ] をクリックします。</block>
-  <block id="392fb0270d0d84dbc3fdf8c67da1e5ad" category="list-text">登録する NSS 資格情報を選択し、 * 登録 * をクリックします。</block>
   <block id="51719eefc68685ac0e2a11057a44b8be" category="paragraph">ネットアップでは、 Cloud Manager とその クラウド サービス をさまざまな方法でサポートしています。ナレッジベース（ KB ）記事やコミュニティフォーラムなど、 24 時間 365 日利用可能な幅広いセルフサポートオプションをご用意しています。サポート登録には、 Web チケット処理によるリモートテクニカルサポートが含まれます。</block>
   <block id="07d41912a6ab6b97216f8cf89e93205c" category="section-title">セルフサポート</block>
   <block id="5e4b821a1a82558dead1ef6961e90666" category="paragraph">次のオプションは、 1 日 24 時間、週 7 日間無料でご利用いただけます。</block>
@@ -498,8 +487,6 @@
   <block id="9a11eb5da5d06e3593dc6b41553d97e5" category="sidebar">権限を設定します</block>
   <block id="390a3dfacd9551e05363b9eb09a0464c" category="sidebar">セキュリティグループのルール</block>
   <block id="1960d6022dcb5a2b9a687d1f6cbd8931" category="cell">fsxadmin管理LIFへのコネクタからアクセスし、API呼び出しをFSXに送信します</block>
-  <block id="63b0ed0469bbbea547bdb73446ef6e8f" category="inline-link-macro">ONTAP CLIを使用してサポート</block>
-  <block id="8e134e23e64a574b08ee8f4a104b33a7" category="list-text">この時点で、ONTAP のFSXからのSnapMirrorレプリケーションはです <block ref="cab6d77018231492052744a391f5eb40" category="inline-link-macro-rx"></block>。</block>
   <block id="74925aadd53e4f7b65df21759c37451d" category="paragraph"><block ref="74925aadd53e4f7b65df21759c37451d" category="inline-image-macro-rx" type="image"></block></block>
   <block id="f737b6b92ce7095e05c485d6d1b3acfe" category="paragraph"><block ref="f737b6b92ce7095e05c485d6d1b3acfe" category="inline-image-macro-rx" type="image"></block></block>
   <block id="29608e98541844ed43ec551876108d97" category="paragraph"><block ref="29608e98541844ed43ec551876108d97" category="inline-image-macro-rx" type="image"></block></block>
@@ -555,7 +542,6 @@
   <block id="4b1f2fea7e8048c8ccd3036ead1c2a76" category="paragraph">スループット容量は、ONTAP 作業環境でFSXを作成したあとにいつでも変更できます。</block>
   <block id="e85b82fa898245e765ecb2eab8ee886e" category="paragraph">アクティブなが必要です<block ref="f8ec938ce1f3506a828c9f7802c63902" category="inline-link-rx"></block>。</block>
   <block id="7ccd7b62d91207f4ba83029de9cebfce" category="inline-image-macro">鉛筆の編集アイコンの画像。</block>
-  <block id="f6dfc77133ec0d2399d3f1b82fd008fe" category="list-text">現時点で、Cloud Managerは、オンプレミスまたはCloud Volumes ONTAP からONTAP のFSXに、ONTAP のFSXからオンプレミスまたはONTAP システムの他のFSXにデータをレプリケートできます。</block>
   <block id="3f10ba55f7b5ee2ce092504fcea72477" category="section-title">2022年7月31日</block>
   <block id="dd15e63d013ad6e70302caae66b83f6d" category="list-text">以前にCloud ManagerにAWSクレデンシャルを指定していた場合、新しい* My Opportunities *機能によって、Cloud Managerを使用して追加および管理するONTAP ファイルシステムのFSXが自動的に検出されて提案されます。また、［* My Opportunities *］タブで、利用可能なデータサービスを確認することもできます。</block>
   <block id="6ebe96f0162b363fd765e000afd1c4f0" category="inline-link-macro">「My Opportunities（機会）」を使用して、FSX for ONTAP を検出</block>
@@ -644,4 +630,59 @@
   <block id="7ff191df90fac0fa94ab5c2b5101a5e9" category="sidebar">Cloud Manager のすべてのドキュメント</block>
   <block id="d14a27b37d19411318313c75f11baf13" category="inline-link">Cloud Managerに関する通知</block>
   <block id="8f4eecef1c8abf547a153a1486d48ab2" category="list-text"><block ref="8f4eecef1c8abf547a153a1486d48ab2" category="inline-link-rx"></block></block>
+  <block id="d1a9582568e79d0f7df77bf8db0c78c2" category="paragraph">ネットアップテクニカルサポートでサポートケースをオープンするには、NetApp Support Site （NSS）アカウントをCloud Managerに追加し、サポートに登録する必要があります。</block>
+  <block id="0b0e252af8897fbe981ec6682d2aa33b" category="section-title">サポート登録の概要</block>
+  <block id="192054ad7601240a3e8be54cc5cc548e" category="paragraph">サポート資格を有効にする登録には、次の2つの形式があります。</block>
+  <block id="e84e72c56ec69ee05b16bee368f2f4cb" category="list-text">Cloud ManagerアカウントIDサポートサブスクリプションを登録します（Cloud Managerのサポートリソースのページにある20桁の960xxxxxxxxxシリアル番号）。</block>
+  <block id="86d34aa6dedf863c0a4ff5e293c1ec79" category="paragraph">これは、Cloud Manager内のすべてのサービスの単一のサポートサブスクリプションIDとして機能します。Cloud Managerのアカウントレベルのサポートサブスクリプションがそれぞれ登録されている必要があります。</block>
+  <block id="55ff64467cd508971910145ab5d6b3b8" category="list-text">クラウドプロバイダのマーケットプレイスでのサブスクリプションに関連付けられているCloud Volumes ONTAP のシリアル番号を登録している（909201xxxxxxxxのシリアル番号）。</block>
+  <block id="dbea8abd63832b9ce98fbfac8dbb8c15" category="paragraph">これらのシリアル番号は、一般にPAY_GOと呼ばれ、Cloud Volumes ONTAP の導入時にCloud Managerによって生成されます。</block>
+  <block id="a9e835b028baaab9d917fafc714e25a5" category="paragraph">両方のタイプのシリアル番号を登録することで、サポートチケットの発行、自動ケース生成、Active IQ などの機能を利用できます。</block>
+  <block id="98bc603dcb6d5a57d540b13b541fa41a" category="paragraph">登録方法は、新規のお客様か既存のお客様かパートナーかによって異なります。</block>
+  <block id="e5646198d2e01aab2cec9ef946f9c53a" category="list-text">既存のお客様またはパートナー</block>
+  <block id="60791d56f45a3f9f1287510b65d323df" category="paragraph">ネットアップの既存のお客様またはパートナー様は、NetApp Support Site （NSS）SSOアカウントを使用して上記の登録を実行することができます。サポートダッシュボードには、Cloud Managerの* NSS Management *ページでNSSアカウントを追加することができます。NSSアカウントを追加すると、Cloud Managerで自動的にこれらのシリアル番号が登録されます。</block>
+  <block id="4e6af37fb81d50483d832d4de6e2b26a" category="inline-xref">NSSアカウントを追加する方法について説明します</block>
+  <block id="32e82838df6d3ab4de32d996ebbe98cd" category="paragraph"><block ref="27c44e31a17502f2e9a25a83f2f37696" category="inline-xref-macro-rx"></block>。</block>
+  <block id="1c91f3adc957364cb01d33e100ee1ea3" category="list-text">初めて導入する場合は</block>
+  <block id="bcce750f51c727121c6fa1fb7d2c91f8" category="paragraph">ネットアップ製品を初めてご利用になる場合は、ネットアップのサポート登録サイトで、Cloud Managerアカウントのシリアル番号の登録を1回だけ完了してください。この登録を完了して新しいNSSアカウントを作成したら、Cloud Managerのこのアカウントを使用して自動で登録することができます。</block>
+  <block id="00fc9d0c515c69ea2c368521453d982e" category="inline-xref">ネットアップへの登録方法をご確認ください</block>
+  <block id="97454ce87333f7ebd50ee38b8126fb39" category="paragraph"><block ref="37544f11913357c4e8c8a4ec607ae247" category="inline-xref-macro-rx"></block>。</block>
+  <block id="f6c4c1e9625a13b1b4d06a8f53f2ccfd" category="section-title">Cloud ManagerにNSSアカウントを追加します</block>
+  <block id="77bdda0b5be7d2725f2b5941d74db0e2" category="paragraph">サポートダッシュボードを使用すると、NetApp Support Site アカウントを追加して管理し、Cloud Managerで使用できます。</block>
+  <block id="328a2c1e7778e9edaf79d90c51409ac4" category="list-text">お客様レベルのアカウントをお持ちの場合は、1つ以上のNSSアカウントを追加することもできます。</block>
+  <block id="4fde72c535fd0cd463dbeb49347cdfae" category="list-text">パートナーアカウントまたはリセラーアカウントをお持ちの場合は、1つ以上のNSSアカウントを追加できますが、お客様レベルのアカウントと一緒に追加することはできません。</block>
+  <block id="0bfa39d13bc65474a81520ace129413d" category="paragraph">これらの操作を実行すると、Cloud ManagerはNSSアカウントを使用して、ライセンスのダウンロード、ソフトウェアアップグレードの検証、以降のサポートの登録などを実行できます。</block>
+  <block id="cf3a2d2c139bf5c9cc87fe714bfff3b1" category="paragraph">次の点に注意してください。</block>
+  <block id="0f0a0d646a020cf3a65ce82ada4cfb01" category="list-text">お客様レベルのアカウントである必要があります（ゲストや一時アカウントは使用できません）。</block>
+  <block id="1dcb63fd55c4d22e87cb32275b8cc808" category="inline-image-macro">3つの水平ドットのアイコン</block>
+  <block id="ff67299785d475e87002751aa6ab5eb8" category="list-text">ログインに成功すると、ネットアップはNSSのユーザ名を保存します。これはシステムで生成されたIDで、Eメールにマッピングされます。[*NSS Management*]ページで、から電子メールを表示できます <block ref="0d0843f26c0819e5369f690fefbf68b7" category="inline-image-macro-rx" type="image"></block> メニュー。</block>
+  <block id="505da61efe6bebebbaf092da18f64613" category="list-text">ログイン認証情報トークンを更新する必要がある場合は、の[認証情報の更新*]オプションも使用できます <block ref="0d0843f26c0819e5369f690fefbf68b7" category="inline-image-macro-rx" type="image"></block> メニュー。このオプションを使用すると、再度ログインするように求められます。</block>
+  <block id="ad56c7289bc13dcf4f78c285f7f03878" category="section-title">ネットアップに登録してください</block>
+  <block id="f1bac79c2c71fbd93863b9fbd718094c" category="paragraph">ネットアップサポートへの登録方法は、NetApp Support Site （NSS）アカウントがあるかどうかによって異なります。</block>
+  <block id="bf4c731c0ee7f60c8018ad8f96828dda" category="section-title">NSSアカウントをお持ちの既存のお客様</block>
+  <block id="d4b6092976537c153c496a428098980c" category="paragraph">NSSアカウントをお持ちのネットアップのお客様は、Cloud Managerからサポートに登録するだけで済みます。</block>
+  <block id="c9d4df035d54072bb393bd27f6769cc7" category="list-text">NSSアカウントをCloud Managerに追加していない場合は、</block>
+  <block id="819aff12752b7e6a1828e755c7664de7" category="list-text">[*リソース]ページで、[*サポートに登録*]をクリックします。</block>
+  <block id="e8a3d9970b8fc1d92caaf33d9e116bd4" category="inline-image-macro">アカウントのシリアル番号と[サポートに登録]オプションを示すスクリーンショット</block>
+  <block id="113f9cd7bac6f4faa6b8d58e3e099a8e" category="paragraph"><block ref="113f9cd7bac6f4faa6b8d58e3e099a8e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1ff5aefce774ec72a211f2b3bb10b950" category="section-title">NSSアカウントを持たない既存のお客様</block>
+  <block id="cc1d3c161bcf25e6445c2fc771647849" category="paragraph">既存のライセンスとシリアル番号をお持ちで、_no-NSSアカウントをお持ちのネットアップのお客様は、NSSアカウントを作成するだけで十分です。</block>
+  <block id="5b2b7f628f804bcb786a097c7e45aa41" category="inline-link">NetApp Support Site ユーザー登録フォーム</block>
+  <block id="0c4a8b62da9473fbd5401273c4f85ee0" category="list-text">を実行してNetApp Support Site アカウントを作成します<block ref="041bcb6d9bdf91f7d6ac92ae3a196e12" category="inline-link-rx"></block></block>
+  <block id="d61c9f72493817776f392db42ac446a2" category="list-text">適切なユーザレベルを選択してください。通常は*ネットアップのお客様/エンドユーザ*がこれに該当します。</block>
+  <block id="d6cb31c22f8f843a781cccec33157281" category="list-text">シリアル番号のフィールドには、上記のCloud Managerアカウントのシリアル番号（960xxxx）を必ずコピーしてください。これにより、アカウント処理が高速化されます。</block>
+  <block id="e9b1f53d6cabb3394833a4e102eb6a69" category="section-title">ネットアップのソリューションを初めて導入する場合は</block>
+  <block id="c20c107d0d4eef6351660f3590324232" category="paragraph">ネットアップ製品を初めてご利用になり、NSSアカウントをお持ちでない場合は、以下の手順に従ってください。</block>
+  <block id="59dd2a274c2c6a3cc5b3dce08109019d" category="list-text">Support Registrationのページで、Cloud ManagerアカウントIDのシリアル番号を確認します。</block>
+  <block id="ef5e63bb6b6827440a13cc2ec7e9cf56" category="paragraph"><block ref="ef5e63bb6b6827440a13cc2ec7e9cf56" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="dd50e314c18933734174c1156dd9237f" category="inline-link">ネットアップサポート登録サイト</block>
+  <block id="78f94e749b89d69dcbf3baff21ccb958" category="list-text">に移動します<block ref="e1c4be66250fd76d5c52bfe2cb7daee2" category="inline-link-rx"></block> 「*ネットアップ登録のお客様ではありません*」を選択します。</block>
+  <block id="d4f633ef130727b2776fa7f45024ca7d" category="list-text">必須フィールドに入力します（赤いアスタリスクのフィールド）。</block>
+  <block id="1128fc8d5ec64880f4d49337ed798d31" category="list-text">[*製品ライン*（Product Line *）]フィールドで、[* Cloud Manager *]を選択し、該当する課金プロバイダーを選択します。</block>
+  <block id="1192dec4cc2b923397748a651cef178f" category="list-text">前述の手順2からCloud Managerアカウントのシリアル番号をコピーし、セキュリティチェックを完了して、ネットアップのグローバルデータプライバシーポリシーを読み、確認します。</block>
+  <block id="3a24c87c9971d2011b4df223718f84b4" category="paragraph">この安全なトランザクションを完了するために、メールボックスに電子メールがすぐに送信されます。確認メールが数分で届かない場合は、必ずスパムフォルダを確認してください。</block>
+  <block id="03413baeca1ff7222737d8ce299bd4e8" category="list-text">Eメールからアクションを確認します。</block>
+  <block id="201080500e946070a2e4873042507c77" category="paragraph">確認ではネットアップにリクエストが送信され、NetApp Support Site アカウントを作成することを推奨します。</block>
+  <block id="684375e279a289295b72a006d93e2c4c" category="paragraph">このプロセスについては、ネットアップからご連絡ください。これは、新規ユーザ向けの1回限りのオンボーディング演習です。</block>
+  <block id="cc7175a084ebd6e004cb2c751c162569" category="paragraph">NetApp Support Site アカウントを作成したら、Cloud Managerに移動してこのNSSアカウントを追加して以降の登録を行うことができます。</block>
 </blocks>
