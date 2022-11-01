@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: requirements/reference-security-groups-fsx.html 
 keywords: security group, security groups, rules, ports, fsx, inbound, outbound, rules 
-summary: Cloud Manager で作成される AWS セキュリティグループには、 Cloud Manager と FSX for ONTAP が正常に動作するために必要なインバウンドとアウトバウンドのルールが含まれています。テスト目的または独自のポートを使用する必要がある場合には、ポートを参照してください。 
+summary: BlueXPでは、BlueXPおよびFSX for ONTAP が正常に動作するために必要なインバウンドとアウトバウンドのルールを含むAWSセキュリティグループが作成されます。テスト目的または独自のポートを使用する必要がある場合には、ポートを参照してください。 
 ---
 = ONTAP の FSX のセキュリティグループルール
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: Cloud Manager で作成される AWS セキュリティグループに�
 
 
 [role="lead"]
-Cloud Manager で作成される AWS セキュリティグループには、 Cloud Manager と FSX for ONTAP が正常に動作するために必要なインバウンドとアウトバウンドのルールが含まれています。テスト目的または独自のポートを使用する必要がある場合には、ポートを参照してください。
+BlueXPでは、BlueXPおよびFSX for ONTAP が正常に動作するために必要なインバウンドとアウトバウンドのルールを含むAWSセキュリティグループが作成されます。テスト目的または独自のポートを使用する必要がある場合には、ポートを参照してください。
 
 
 
@@ -344,7 +344,7 @@ NOTE: 送信元 IP アドレスは、コネクタホストです。
 | API コール | TCP | 8088 | S3 へのバックアップ | S3 へのバックアップを API で呼び出します 
 
 
-| DNS | UDP | 53 | DNS | Cloud Manager による DNS 解決に使用されます 
+| DNS | UDP | 53 | DNS | BlueXPによるDNS解決に使用されます 
 
 
 | クラウドデータの意味 | HTTP | 80 | Cloud Data Sense インスタンス | Cloud Volumes ONTAP に最適なクラウドデータ 

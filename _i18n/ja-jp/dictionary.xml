@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <blocks>
-  <block id="ce21e7ae4271271294ccbf54c8fd6864" category="summary">ネットアップでは、 Cloud Manager をさまざまな方法でサポートしています。ナレッジベース（ KB ）記事やコミュニティフォーラムなど、 24 時間 365 日利用可能な幅広いセルフサポートオプションをご用意しています。サポート登録には、 Web チケット処理によるリモートテクニカルサポートが含まれます。</block>
   <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">ヘルプを表示します</block>
   <block id="d41d8cd98f00b204e9800998ecf8427e" category="inline-link-macro"></block>
-  <block id="3c10116b37b407ac79092a38ffb292e4" category="summary">ネットアップテクニカルサポートでサポートケースをオープンするには、事前に Cloud Manager にネットアップサポートサイトのアカウントを追加し、サポートに登録しておく必要があります。</block>
   <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">サポートに登録します</block>
   <block id="27210695b4aa1995052b8f142c07c5f6" category="summary">Amazon FSX for ONTAP の新機能をご確認ください。</block>
   <block id="a04f5ee3ae030d60ed2d9e76b7b821ff" category="doc">Amazon FSX for ONTAP の新機能</block>
@@ -83,8 +81,6 @@
   <block id="c11b541f2dc51346609bbd4f84450b6b" category="cell">DNS ドメイン</block>
   <block id="314c2b52f53238e133233b60949a6d36" category="cell">Storage Virtual Machine （ SVM ）の DNS ドメインです。ほとんどの場合、ドメインは AD ドメインと同じです。</block>
   <block id="225f0204cd2ca87530c681aeae9b7f3e" category="cell">NTP サーバ</block>
-  <block id="339d2db752bad623389940365590a650" category="inline-link">Cloud Manager 自動化に関するドキュメント</block>
-  <block id="e55b48803bc81da61ac823b49b9b4344" category="cell">Active Directory DNS を使用して NTP サーバを設定するには、 * NTP サーバ設定を有効にする * を選択します。別のアドレスを使用して NTP サーバを設定する必要がある場合は、 API を使用してください。を参照してください<block ref="42b82f9ba6c1ea0d7f3f7e3fde7e922d" category="inline-link-rx"></block> を参照してください。</block>
   <block id="c806fc6088504aece33ec1078f7edf13" category="list-text">ワークグループセットアップを選択した場合は、 CIFS 用に設定されているワークグループのサーバとワークグループ名を入力します。</block>
   <block id="77329b4991542c66635b8dd3f7a6f518" category="list-text">* 使用状況プロファイルと階層化 * ：</block>
   <block id="0458d209a53113bf4e745280c9316fc5" category="list-text">デフォルトでは、 * Storage Efficiency * は無効になっています。この設定を変更して、重複排除と圧縮を有効にすることができます。</block>
@@ -94,18 +90,11 @@
   <block id="f3a303dc17c6a2c91073ff0eb515587f" category="list-text">* 確認 * ：ボリューム構成を確認します。設定を変更するには * 戻る * をクリックし、ボリュームを作成するには * 追加 * をクリックします。</block>
   <block id="45dbe3c136df615d693b80183c277a3b" category="paragraph">新しいボリュームが作業環境に追加されます。</block>
   <block id="2a4a19d3d732c5f7aa35fa729ac0d8ac" category="section-title">ボリュームをマウント</block>
-  <block id="86a3efaabfd178d684bcd98f4cd6434c" category="paragraph">Cloud Manager でのマウント手順を参照して、ホストにボリュームをマウントできるようにします。</block>
   <block id="6c970f68c7cf5a446d127ac3ab6d72f7" category="list-text">作業環境を開きます。</block>
-  <block id="54e54adb33e337b5c804d6820b674b9a" category="inline-link-macro">Cloud Manager で IT を詳細に確認</block>
-  <block id="e5375c42110b0016231f311272774e83" category="paragraph">最初のステップは、 ONTAP 作業環境用の FSX を作成することです。AWS 管理コンソールですでに ONTAP ファイルシステム用の FSX を作成している場合は、次の操作を実行できます <block ref="6a48f5b54424256e49232bb9af7a3d2f" category="inline-link-macro-rx"></block>。</block>
-  <block id="faa4b07ffa49aaead3b9217354fd2e07" category="paragraph">Cloud Manager で FSX for ONTAP の作業環境を作成する前に、次のものが必要です。</block>
-  <block id="110ca3ef191558286fc6a6b28dc94cb5" category="inline-link-macro">Cloud Manager に AWS クレデンシャルを追加しています</block>
   <block id="122aefb3c8684a0e38fb50d87247ad18" category="list-text">ONTAP インスタンスの FSX を作成する場所のリージョンおよび VPN 情報。</block>
-  <block id="86e4fb4adcc1e79cfd5f41b2e24492a4" category="list-text">Cloud Manager で、新しい作業環境を追加し、場所 * Amazon Web Services * を選択して、 * Next * をクリックします。</block>
   <block id="b270ee1d45588367ac774fa0f727fc7b" category="list-text">Amazon FSX for ONTAP * を選択し、 * Next * をクリックします。</block>
   <block id="f8b92939989132d828cfc3eea521a293" category="inline-image-macro">Amazon FSX for ONTAP の作業環境を追加するスクリーンショット</block>
   <block id="61a727936c57251e32cb54d629e03313" category="paragraph"><block ref="61a727936c57251e32cb54d629e03313" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="e8d84f3aa4d4c8f84d1addb4f10b99e6" category="list-text">Cloud Manager で ONTAP の FSX を認証します。</block>
   <block id="ecda29eb0e0827e3bc560f177dcde537" category="list-text">ご使用のアカウントに、 FSX for ONTAP に対する適切な AWS 権限を持つ既存の IAM ロールがある場合は、ドロップダウンからそのロールを選択します。</block>
   <block id="bc7877d082a71bb780b2cfe54a2f56db" category="inline-image-macro">AWS のロールのドロップダウンを示すスクリーンショット</block>
   <block id="88c29361a495a558e8e94ba0f1787827" category="paragraph"><block ref="88c29361a495a558e8e94ba0f1787827" category="inline-image-macro-rx" type="image"></block></block>
@@ -127,7 +116,6 @@
   <block id="8acea1c4fcca87631ca127e2bc757f13" category="inline-link">AWS 転送ゲートウェイ</block>
   <block id="98cd8d548fd2fa5186e8dc1c1123f9f6" category="list-text">_cidr Range_Empty を選択し、 * Next * をクリックすると、使用可能な範囲が自動的に設定されます。必要に応じて、を使用できます<block ref="ca64804883d6ae6ee4c5f1f5610fe766" category="inline-link-rx"></block> 範囲を手動で設定します。</block>
   <block id="7cc0a94cd1ccce02b23807753272d589" category="paragraph"><block ref="7cc0a94cd1ccce02b23807753272d589" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="a034482e4ab702e672ecf4a4f7a47766" category="list-text">フローティング IP アドレスへのルートを含むルーティングテーブルを選択します。VPC 内のサブネット用のルーティングテーブルが 1 つ（メインルーティングテーブル）だけの場合は、 Cloud Manager によってそのルーティングテーブルに自動的にフローティング IP アドレスが追加されます。「 * 次へ * 」をクリックして続行します。</block>
   <block id="efae399de597884ba9e25be68c488178" category="inline-image-macro">FSX for ONTAP のルートテーブルを選択するスクリーンショット</block>
   <block id="9e3037d0c83106b66f9113f03ee4fb10" category="paragraph"><block ref="9e3037d0c83106b66f9113f03ee4fb10" category="inline-image-macro-rx" type="image"></block></block>
   <block id="e9993ec838a8efa5cfb29506f884deca" category="inline-link">AWS KMS のセットアップ</block>
@@ -145,12 +133,9 @@
   <block id="b5bd94a09b2ad1fd2dba6c4a902a9fd3" category="list-text">[ * 追加（ Add ） ] をクリックして設定を確定し、作業環境を作成します。</block>
   <block id="ef80142d18e6c5a6d15e4724ab6810b8" category="inline-image-macro">ONTAP の FSX の設定を確認するスクリーンショット</block>
   <block id="e8b9477d45071756ecb4a2cc5082344a" category="paragraph"><block ref="e8b9477d45071756ecb4a2cc5082344a" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="fa726dbeb2fe46e53fc49ecac75ac6d7" category="paragraph">ONTAP 用 FSX の設定は、キャンバスページに表示されます。</block>
   <block id="45d8e5da7753a5571797f6a81a9c4e3c" category="inline-image-macro">作業環境のページに表示される、 ONTAP 用の Amazon FSX のスクリーンショット。</block>
   <block id="26682ff9a292960b61e97b937520b135" category="paragraph"><block ref="26682ff9a292960b61e97b937520b135" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="11fa7924f258843d0c6a8377f70c698c" category="paragraph">Cloud Manager を使用して、 FSX for ONTAP 作業環境にボリュームを追加できるようになりました。</block>
   <block id="e69624fa729e14e6bbcae0cf7889e100" category="section-title">既存の FSX for ONTAP ファイルシステムを検出します</block>
-  <block id="3eb13290c3d1e4b57acf05410a485779" category="list-text">Cloud Manager で、 * 作業環境の追加 * をクリックし、 * Amazon Web Services * を選択します。</block>
   <block id="6800849898be1086bb69e4658dd59629" category="list-text">Amazon FSX for ONTAP * を選択し、 * ここをクリック * します。</block>
   <block id="e574e1da19f282b48ebb67c362fbc5cc" category="inline-image-macro">Amazon FSX for ONTAP の作業環境を検出するスクリーンショット</block>
   <block id="72e0dd6fd0d4009c79805d8504e7e490" category="paragraph"><block ref="72e0dd6fd0d4009c79805d8504e7e490" category="inline-image-macro-rx" type="image"></block></block>
@@ -159,14 +144,9 @@
   <block id="4d40b97424368fd2dcfa3beb51eac192" category="inline-image-macro">AWS リージョンと作業環境を選択する際のスクリーンショット</block>
   <block id="daf8847714f7e326bcf10553bdbffa28" category="paragraph"><block ref="daf8847714f7e326bcf10553bdbffa28" category="inline-image-macro-rx" type="image"></block></block>
   <block id="7dee7e783d13b6d5d415926ce0bfc306" category="list-text">[ 追加（ Add ） ] をクリックします。</block>
-  <block id="3fca24f4054dbd7b229807ef3910d4b7" category="paragraph">Cloud Manager に、検出された ONTAP ファイルシステムの FSX が表示されます。</block>
   <block id="b3fee7abcfd59e1f7a4b591d94eea26b" category="section-title">ワークスペースから ONTAP の FSX を削除します</block>
-  <block id="619c35c80b530c32704e964530d66517" category="paragraph">ONTAP の FSX は、 ONTAP アカウントまたはボリュームの FSX を削除することなく、 Cloud Manager から削除できます。FSX for ONTAP の作業環境は、いつでも Cloud Manager に追加できます。</block>
   <block id="9ddaae0edb615f2995d27bd6e00976ce" category="list-text">作業環境を開きます。AWS にコネクタがない場合は、プロンプト画面が表示されます。これは無視して作業環境の削除に進んでください。</block>
-  <block id="410c78448ff59a132a6ef7e7c2bf2f4e" category="inline-image-macro">Cloud Manager インターフェイスから ONTAP の FSX を削除するオプションのスクリーンショット。</block>
-  <block id="47f6e6061b4eadfbf907049dcd591b28" category="paragraph"><block ref="47f6e6061b4eadfbf907049dcd591b28" category="inline-image-macro-rx" type="image"></block></block>
   <block id="2167c28c0f5b01d9e01bb4084f44d791" category="section-title">ONTAP 作業環境の FSX を削除します</block>
-  <block id="4de2a58fbc41a8206c0c53a3dd1da960" category="paragraph">ONTAP の FSX は、 Cloud Manager から削除できます。</block>
   <block id="135b308ed83c53f1516b7c754566d1c4" category="list-title">作業を開始する前に</block>
   <block id="b917a1d8451423450873eef39565dca3" category="inline-link-macro">すべてのボリュームを削除します</block>
   <block id="7b41e03b81e97660913781a8239006df" category="list-text">実行する必要があります <block ref="54cc4f96ff154d8637a706e7f5511434" category="inline-link-macro-rx"></block> ファイルシステムに関連付けられています。</block>
@@ -174,9 +154,6 @@
   <block id="ef91377d933625cd5679a41980e84a7d" category="list-text">障害ボリュームが含まれている作業環境は削除できません。ONTAP ファイルシステムの FSX を削除する前に、 AWS 管理コンソールまたは CLI を使用して障害ボリュームを削除する必要があります。</block>
   <block id="264e33787c94efb543f65228a9b52512" category="admonition">この操作を実行すると、作業環境に関連付けられているすべてのリソースが削除されます。この操作を元に戻すことはできません。</block>
   <block id="759e9950bbe6d95f5d993751a21090d8" category="list-text">作業環境を開きます。AWS にコネクタがない場合は、プロンプト画面が表示されます。これは無視して作業環境の削除に進んでください。</block>
-  <block id="eea2ce15389bae978a0efc5763b9cdac" category="inline-image-macro">Cloud Manager インターフェイスからの ONTAP の FSX の削除オプションのスクリーンショット。</block>
-  <block id="636c7339a775dda79a1b6b37974a27b3" category="paragraph"><block ref="636c7339a775dda79a1b6b37974a27b3" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="00b56458820e0abf51f147bc4e399a7e" category="summary">Cloud Manager を使用して、 ONTAP のボリューム、クローン、 Snapshot の管理、および FSX for の階層化ポリシーの変更を行うことができます。</block>
   <block id="7e8d943ffd901385b9eef24cb61b44b9" category="doc">Amazon FSX for ONTAP のボリュームを管理します</block>
   <block id="b29f6e00261f220f9ca9601a3dbc09df" category="section-title">ボリュームを編集します</block>
   <block id="b609b522164fd601ccb14538b7074e4e" category="paragraph">作成したボリュームはいつでも変更できます。</block>
@@ -198,8 +175,6 @@
   <block id="35931d34af92c203401fd4bb760eb1cf" category="inline-link">同期関係を作成する</block>
   <block id="f91674f3b22216fc484532cd24dda908" category="section-title">ボリュームを削除します</block>
   <block id="9497c556620605c0441cf034ff68a527" category="paragraph">不要になったボリュームを削除します。</block>
-  <block id="08d16a95ed82f881bcc5359ecb0c8769" category="paragraph">以前に SnapMirror 関係に含まれていたボリュームは、 Cloud Manager を使用して削除することはできません。SnapMirror ボリュームは、 AWS 管理コンソールまたは CLI を使用して削除する必要があります。</block>
-  <block id="a1757cd330af9ddfc6b1f315176b17e9" category="list-text">作業環境の名前を入力し、ボリュームを削除することを確認します。ボリュームが Cloud Manager から完全に削除されるまでに最大 1 時間かかることがあります。</block>
   <block id="590368745da00a61c492e4b834d9568e" category="admonition">クローンボリュームを削除しようとするとエラーが表示されます。</block>
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">法的通知</block>
   <block id="72999cd653b12474752fb77bab9691e3" category="inline-link-macro">Cloud Backup に関する通知です</block>
@@ -210,7 +185,6 @@
   <block id="3754b5e44654d3dc7bfaa36f213a8795" category="list-text"><block ref="3754b5e44654d3dc7bfaa36f213a8795" category="inline-link-macro-rx"></block></block>
   <block id="73f420c03909a74fdc36f2bebeb15d52" category="inline-link-macro">Cloud Data Sense の通知</block>
   <block id="ef4a4eef354631d5e99b3e1ea91d46d7" category="list-text"><block ref="ef4a4eef354631d5e99b3e1ea91d46d7" category="inline-link-macro-rx"></block></block>
-  <block id="e55bdaae79868c01c7cc36c1283eb425" category="summary">Cloud Manager で作成される AWS セキュリティグループには、 Cloud Manager と FSX for ONTAP が正常に動作するために必要なインバウンドとアウトバウンドのルールが含まれています。テスト目的または独自のポートを使用する必要がある場合には、ポートを参照してください。</block>
   <block id="e87d6ed459b274ad7c388e0797013c9f" category="doc">ONTAP の FSX のセキュリティグループルール</block>
   <block id="9f415057e43c73d4e37a0068a0ca9486" category="section-title">ONTAP の FSX のルール</block>
   <block id="1b3884b38c271fe13c8142e1355e4523" category="section-title">インバウンドルール</block>
@@ -341,35 +315,25 @@
   <block id="22043367a89ddcf3eb99eec509a967ba" category="cell">API コール</block>
   <block id="172ef5a94b4dd0aa120c6878fc29f70c" category="cell">8088</block>
   <block id="168342a53455f99d5b1d8d7d95e99567" category="cell">S3 へのバックアップを API で呼び出します</block>
-  <block id="dd8679112f038315d04028c46da1fef7" category="cell">Cloud Manager による DNS 解決に使用されます</block>
   <block id="d882bf73cd5caf1e5aa39edbf893ad74" category="cell">クラウドデータの意味</block>
   <block id="6cf25d0dcbf586ed6aff3b930e4d8019" category="cell">Cloud Data Sense インスタンス</block>
   <block id="059ace13ef3980df592dafb754ef8883" category="cell">Cloud Volumes ONTAP に最適なクラウドデータ</block>
   <block id="f6ebedc10f620647623a6be7cd7cb8a5" category="summary">Amazon FSX for ONTAP の作業環境を作成または管理するには、 FSX for ONTAP 権限を持つ IAM ユーザロール用の AWS アクセスキーとシークレットキーが必要です。</block>
   <block id="8fad3d94a3385eeb6406613f49896cdd" category="doc">ONTAP の FSX のアクセス許可を設定します</block>
-  <block id="b84143bbdad7df35ec2c66cf2071f420" category="paragraph">ONTAP 作業環境用の Amazon FSX を作成または管理するには、 Cloud Manager に ONTAP 作業環境用の FSX の作成に必要な権限を付与する IAM ロールの ARN を指定して、 Cloud Manager に AWS クレデンシャルを追加する必要があります。</block>
   <block id="d8a56d983b91f097e5ba55dd03a18509" category="section-title">IAM ロールを設定します</block>
   <block id="44030f19e52b4a03b050525f287bbc15" category="list-text">ターゲットアカウントの IAM コンソールに移動します。</block>
   <block id="7f4640b00b5df83a54d4aaaa51f7d6ab" category="list-text">[ アクセス管理 ] で、 [ 役割 ] 、 [ 役割の作成 *] の順にクリックし、手順に従って役割を作成します。</block>
   <block id="e1a3d580d5cb42904b96dc05c0e0903d" category="paragraph">必ず次の手順を実行してください。</block>
   <block id="e506de832b98c2693eb3f400ef0722c0" category="list-text">信頼されるエンティティのタイプ * で、 * AWS アカウント * を選択します。</block>
   <block id="30c558b7179a7e55ad7f3ae5ca262466" category="list-text">次の権限を含むポリシーを作成します。</block>
-  <block id="e08f06cebc90d5cc269f643f2df5ab95" category="list-text">IAM ロールのロール ARN をコピーして、次の手順で Cloud Manager に貼り付けることができます。</block>
   <block id="d47c23803528fa45fad33a3f83dfcf54" category="paragraph">IAM ロールに必要な権限が割り当てられます。</block>
   <block id="36bc52aaebad43ec3e49ed9a0efacd43" category="section-title">クレデンシャルを追加します</block>
-  <block id="497de2fdf34143e76f1d2110f9556188" category="paragraph">IAM ロールに必要な権限を付与したら、 Cloud Manager に ARN ロールを追加します。</block>
-  <block id="5138a631dd35ae5628a6137742d99bcc" category="paragraph">IAM ロールを作成したばかりの場合は、使用できるようになるまで数分かかることがあります。Cloud Manager にクレデンシャルを追加するまで数分待ってから、</block>
-  <block id="660dd8cc813d5a986fc14efa52264b91" category="list-text">Cloud Manager コンソールの右上にある設定アイコンをクリックし、 * クレデンシャル * を選択します。</block>
-  <block id="4305773753b9ba702b13934db50507c2" category="inline-image-macro">Cloud Manager コンソールの右上にある設定アイコンを示すスクリーンショット。</block>
-  <block id="e595ee8d0b73c843696b78f80de0bad2" category="paragraph"><block ref="e595ee8d0b73c843696b78f80de0bad2" category="inline-image-macro-rx" type="image"></block></block>
   <block id="11832df968cbb4cdb8e45984c11a77d0" category="list-text">[Add Credentials] をクリックし、ウィザードの手順に従います。</block>
-  <block id="15d1c1365d4f855b7d77c93232a59906" category="list-text">* クレデンシャルの場所 * ：「 * Amazon Web Services &gt; Cloud Manager * 」を選択します。</block>
   <block id="8cf335d7d3b1dd5cdac30699d20489c0" category="list-text">* クレデンシャルの定義 * ： IAM ロールの ARN （ Amazon リソース名）を指定します。</block>
   <block id="cc993521b8909c4085841bf25067d9c0" category="list-text">* 確認 * ：新しいクレデンシャルの詳細を確認し、 * 追加 * をクリックします。</block>
   <block id="c0abab76d53e87b10c7a7de184fc0f53" category="paragraph">ONTAP 作業環境で FSX を作成するときに、資格情報を使用できるようになりました。</block>
   <block id="f6bd0d7447ff66cc6b859603a88fbde9" category="section-title">関連リンク</block>
   <block id="97911b3c54a4e826b34c1f79026316c5" category="inline-link">AWS のクレデンシャルと権限</block>
-  <block id="6bccb09f2c81a00c03cd35c87a54b03f" category="inline-link">Cloud Manager 用の AWS クレデンシャルの管理</block>
   <block id="603ec1431df96260c06b8b0fc539dca4" category="summary">Amazon FSX for ONTAP はフルマネージドサービスで、お客様は NetApp ONTAP ストレージオペレーティングシステムを搭載したファイルシステムを起動して実行できます。FSX for ONTAP は、ネットアップのお客様が現在オンプレミスで使用しているのと同じ機能、パフォーマンス、管理機能を、ネイティブの AWS サービスの簡易性、即応性、セキュリティ、拡張性で提供します。</block>
   <block id="2373ee05a5847e8f92338b8835c8a17b" category="paragraph"><block ref="96821e1e659978c978732a5dc24298ac" category="inline-link-macro-rx"></block> は、 NetApp ONTAP ストレージ・オペレーティング・システムを搭載したファイル・システムの起動と実行を可能にするフルマネージド・サービスです。FSX for ONTAP は、ネットアップのお客様がオンプレミスで使用しているのと同じ機能、パフォーマンス、管理機能を、ネイティブの AWS サービスの簡易性、即応性、セキュリティ、拡張性で提供します。</block>
   <block id="98f770b0af18ca763421bac22b4b6805" category="section-title">の機能</block>
@@ -378,32 +342,23 @@
   <block id="f6ad83cb7f527e383e392f709849a098" category="list-text">使用頻度の低い IA （ストレージ・ティア）を使用して ' 低コストで事実上無制限のデータ・ストレージ容量を実現します</block>
   <block id="3c36508c8697f7ec7a94803545518d69" category="list-text">Oracle RAC を含むレイテンシの影響を受けやすいアプリケーションでの実行が保証されています。</block>
   <block id="6c2a9ed4ea140413912e894a10672e01" category="list-text">バンドル価格と従量課金制のいずれかを選択できます</block>
-  <block id="4b892d08b42aafcd301b83ab05b6e993" category="section-title">Cloud Manager のその他の機能</block>
   <block id="d59048f21fd887ad520398ce677be586" category="inline-link">詳細はこちら。</block>
   <block id="d9bf9116e04a89e455600416ad7872f3" category="list-text">人工知能（ AI ）ベースのテクノロジを使用したクラウドデータセンスは、データコンテキストを理解し、 FSX for ONTAP アカウントに存在する機密データを識別するのに役立ちます。<block ref="ff015941fa4b0cfada66f8159ed80c63" category="inline-link-rx"></block>。</block>
   <block id="1f944a9ec2785c18a692aeedf9839548" category="list-text">NetApp Cloud Sync を使用すると、クラウド内やオンプレミス内のあらゆるターゲットへのデータ移行を自動化できます。<block ref="0d960aec46349f597fec0ba1ad479bc2" category="inline-link-rx"></block></block>
   <block id="20b4f77bd00b4f63a49ec8e08f3bf6a6" category="section-title">コスト</block>
   <block id="8bffb197ac66e59166722f267ae2aa89" category="inline-link">『 Amazon FSX for ONTAP Getting Started Guide 』</block>
-  <block id="b63f9ea0c064f36284d9518a04bb2394" category="paragraph">ONTAP 用の FSX アカウントは、 Cloud Manager ではなく AWS で管理されます。<block ref="8ceb48ebb1fa83d69a24f299e3fde40a" category="inline-link-rx"></block></block>
   <block id="bcde5e61b57c391c5832e7ea9a5bf2b1" category="paragraph">AWS でコネクタを使用する場合、および Cloud Sync や Data Sense などのオプションのデータサービスを使用する場合は、追加コストが発生します。</block>
   <block id="8c4b25218155a1fdb972f4169855d04f" category="section-title">サポートされている地域</block>
   <block id="d5b1044cbc510048a5dac270bde89ed5" category="inline-link">サポート対象の Amazon リージョンを表示します。</block>
   <block id="ee9b3af8630059982f4d1dd2fd3834a3" category="paragraph"><block ref="ee9b3af8630059982f4d1dd2fd3834a3" category="inline-link-rx"></block></block>
   <block id="20c404f3ca0633629eee9b1b4ccd6737" category="section-title">サポートを受ける</block>
   <block id="adae5e92a515a3174e9058a6b8179a41" category="paragraph">Amazon FSX for ONTAP は、 AWS ファーストパーティの解決策です。AWS FSX ファイルシステム、インフラ、またはこのサービスを使用する AWS 解決策に関連する質問やテクニカルサポートの問題については、 AWS コンソールのサポートセンターを使用して AWS へのサポートケースをオープンしてください。「 FSX for ONTAP 」サービスと該当するカテゴリを選択します。AWS サポートケースの作成に必要な残りの情報を指定します。</block>
-  <block id="1db5f4a1a813c32af28e132cf45cac0f" category="paragraph">Cloud Manager や Cloud Manager のマイクロサービスに関する一般的な質問については、 Cloud Manager のインラインチャットから始めることができます。</block>
-  <block id="409924e4cb5560dcfd0701e1ac237826" category="paragraph">内の Cloud Manager またはマイクロサービスに固有のテクニカルサポートの問題については、 Cloud Manager アカウントレベルのシリアル番号を使用してネットアップサポートチケットを開くことができます。サポートを有効にするには、 Cloud Manager のシリアル番号を登録する必要があります。</block>
   <block id="7a8c8dd27a87bf665545ae7d6521b93a" category="summary">Amazon FSX for ONTAP の導入を開始するには、いくつかの手順を実行します。</block>
   <block id="bf7ec532103402eaed4653738655f6ad" category="doc">Amazon FSX for ONTAP の利用を開始しましょう</block>
   <block id="fbda414afc779c9e1e46c45b74091adb" category="paragraph">FSX for ONTAP は、ほんの数ステップで開始できます。</block>
-  <block id="2db8ac87c99d0b6932322889e2e22b9e" category="inline-link-macro">Cloud Manager SaaS で役割を引き受けることを可能にする IAM ロールを設定します</block>
   <block id="fdf5c0db5e25841d90a9737c63c9172a" category="inline-link">AWS 用コネクタ</block>
-  <block id="173cc3f2694be1fa38808fdd8021304c" category="paragraph">ONTAP ボリュームの FSX は、 Cloud Manager を使用して作成できます。</block>
-  <block id="711497cf466e121cf263849d7f648140" category="paragraph">Cloud Manager を使用してボリュームを管理し、レプリケーション、 Cloud Sync 、データセンスなどの追加サービスを設定します。</block>
-  <block id="4d36bd7ea566aabab173cf25b707699a" category="inline-link">Cloud Manager からコネクタを作成します</block>
   <block id="de737ba84e61f1a8380fd351112b7183" category="inline-link">AWS Marketplace から Connector を起動する</block>
   <block id="c8f9fcb2d5c182f76e53507a00efe037" category="inline-link">Linux ホストへの Connector ソフトウェアのインストール</block>
-  <block id="80ff3e3b4817bcd801ad60d27676fed7" category="summary">Amazon FSX for NetApp ONTAP は、 ONTAP の全機能を AWS のネイティブマネージドサービスに提供し、一貫したハイブリッドクラウドエクスペリエンスを実現します。このドキュメントでは、 NetApp Cloud Manager を使用して ONTAP の FSX を管理する方法について説明しています。</block>
   <block id="e7d8c0779e86c7c2edb0791a45906d17" category="doc">Amazon FSX for ONTAP のドキュメント</block>
   <block id="69f7f21f4fc680b59f6e889bf9547523" category="sidebar">ONTAP ドキュメント： Amazon FSX</block>
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">リリースノート</block>
@@ -420,9 +375,6 @@
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">クラウドに関する Web セミナー</block>
   <block id="2aeb3bf14f4c88c233b9054f0d5f9f46" category="list-text">アクティブです<block ref="f8ec938ce1f3506a828c9f7802c63902" category="inline-link-rx"></block>。</block>
   <block id="3d3e910b68a6f9dc68d007376e0dae47" category="list-text"><block ref="3d3e910b68a6f9dc68d007376e0dae47" category="inline-link-rx"></block></block>
-  <block id="0f9f43c114be6c5746b95fa092ad10b2" category="list-text"><block ref="0f9f43c114be6c5746b95fa092ad10b2" category="inline-link-rx"></block></block>
-  <block id="885bf112deac8aef76c696fd4369622f" category="paragraph">を用意しておく必要があります<block ref="ee4793145cbadfb90a826d44d7b7a098" category="inline-link-rx"></block> FSX for ONTAP 作業環境を開くには、ボリュームを作成するか、その他の操作を実行します。コネクタが必要な場合、 Cloud Manager はまだ追加されていないかどうかを尋ねます。</block>
-  <block id="300de2fff5e8bf53f93ce557eb141f27" category="list-text"><block ref="300de2fff5e8bf53f93ce557eb141f27" category="inline-link-rx"></block></block>
   <block id="f184c656bf02dee61743212967601db4" category="list-text"><block ref="f184c656bf02dee61743212967601db4" category="inline-link-rx"></block></block>
   <block id="86a342f075ca5d85dc5033d1092f71cd" category="list-text"><block ref="86a342f075ca5d85dc5033d1092f71cd" category="inline-link-rx"></block></block>
   <block id="85f610955384d6c0dcae09552c4508e0" category="paragraph"><block ref="121317bac1802e026b9ea68cbe410489" category="inline-link-macro-rx"></block>。</block>
@@ -432,11 +384,6 @@
   <block id="b84e3c9bb4ac9216f14349e3b5be8ec3" category="paragraph"><block ref="173ddc048bd16ccfb71d77420d7581cb" category="inline-link-macro-rx"></block>。</block>
   <block id="b7dd73bfb5bbb0ec2884525999924384" category="paragraph"><block ref="e85a369c316ea87dc3d5da27638bd157" category="inline-link-macro-rx"></block>。</block>
   <block id="d35e6fa404873b4a616b1313e98cf3d9" category="paragraph"><block ref="6e3374d20d69610b03c5ed3fa5af9a08" category="inline-link-macro-rx"></block>。</block>
-  <block id="69bfbe4affa79598268226d5fa65599d" category="list-text">Cloud Manager に ONTAP 作業環境用の FSX の作成に必要な権限を付与する IAM ロールの ARN 。を参照してください <block ref="e74b530483dfdc11dbf81674fda787f8" category="inline-link-macro-rx"></block> を参照してください。</block>
-  <block id="20b3b63ea7f8892dc0d3f3b25bea6c49" category="list-text">アカウントに IAM ロールがない場合は、 * クレデンシャルページ * をクリックし、ウィザードの手順に従って、 ONTAP クレデンシャル用の FSX を使用して AWS IAM ロールの ARN を追加します。を参照してください <block ref="e74b530483dfdc11dbf81674fda787f8" category="inline-link-macro-rx"></block> を参照してください。</block>
-  <block id="b2e8050cf49252f7b06bd379448c5e15" category="paragraph">Cloud Manager を使用して、ストレージ環境間でデータをレプリケートできます。ONTAP レプリケーション用に FSX を構成するには、を参照してください<block ref="063d7001b249d0164d3c6e7cd82a78db" category="inline-link-rx"></block>。</block>
-  <block id="12fc3818f5e3f781c2bf4eb8b8d50ffc" category="paragraph">Cloud Manager の Cloud Sync を使用して、同期関係を作成できます。同期関係を設定するには、を参照してください<block ref="3bb02b9d4fba268ff940f67f5abfe3eb" category="inline-link-rx"></block>。</block>
-  <block id="9d662ce44c324aa67c253be893864c71" category="paragraph">ボリュームを追加する前に、 ONTAP 作業環境用の Amazon FSX を作成する必要があります。する必要があります <block ref="afb5d18769390df2b32a585a478c27d2" category="inline-link-macro-rx"></block>。</block>
   <block id="a4f557d4dc5603464fae9d733ed96263" category="paragraph">FSX for ONTAP セキュリティグループには、インバウンドとアウトバウンドの両方のルールが必要です。この図は、 ONTAP ネットワーク構成およびセキュリティグループ要件の FSX を示しています。</block>
   <block id="804e1541ef4556a247ad9499202fb6e2" category="inline-image-macro">ONTAP セキュリティグループ構成の FSX の図。</block>
   <block id="bca6ab005ba14ce4d09f6862e9acbd0d" category="paragraph"><block ref="bca6ab005ba14ce4d09f6862e9acbd0d" category="inline-image-macro-rx" type="image"></block></block>
@@ -461,28 +408,21 @@
   <block id="fc248f74f5e36542f7f5627b8610e9a3" category="paragraph"><block ref="fc248f74f5e36542f7f5627b8610e9a3" category="inline-link-rx"></block></block>
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">オープンソース</block>
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">通知ファイルには、ネットアップソフトウェアで使用されるサードパーティの著作権およびライセンスに関する情報が記載されています。</block>
-  <block id="0046efb3377274ff3215d4b30269809e" category="list-text">Cloud Manager コンソールの右上にあるヘルプアイコンをクリックし、 * Support * を選択します。</block>
   <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">[ ヘルプ ] メニューのスクリーンショット。サポートは最初に表示されるオプションです</block>
   <block id="868d9aa88f16ea923af1d15eac5d2647" category="paragraph"><block ref="868d9aa88f16ea923af1d15eac5d2647" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d17d6b5dafebab6b7659da8850737e70" category="list-text">[*NSS Management] &gt; [Add NSS Account*] をクリックします。</block>
   <block id="8aaf101e623c543c7eef3c65f6233366" category="list-text">メッセージが表示されたら、 [* Continue （続行） ] をクリックして Microsoft ログインページにリダイレクトします。</block>
   <block id="19d089db572ee6a1e154a0c9c9e57bfd" category="paragraph">ネットアップは、サポートとライセンスに固有の認証サービスのアイデンティティプロバイダとして Microsoft Azure Active Directory を使用しています。</block>
   <block id="465ec6d5eafa3524c948c99d8bfcd306" category="list-text">ログインページで、ネットアップサポートサイトの登録 E メールアドレスとパスワードを入力して認証プロセスを実行します。</block>
-  <block id="51719eefc68685ac0e2a11057a44b8be" category="paragraph">ネットアップでは、 Cloud Manager とその クラウド サービス をさまざまな方法でサポートしています。ナレッジベース（ KB ）記事やコミュニティフォーラムなど、 24 時間 365 日利用可能な幅広いセルフサポートオプションをご用意しています。サポート登録には、 Web チケット処理によるリモートテクニカルサポートが含まれます。</block>
   <block id="07d41912a6ab6b97216f8cf89e93205c" category="section-title">セルフサポート</block>
   <block id="5e4b821a1a82558dead1ef6961e90666" category="paragraph">次のオプションは、 1 日 24 時間、週 7 日間無料でご利用いただけます。</block>
   <block id="19111351b69b6b15668130b38b7f6038" category="inline-link">ナレッジベース</block>
   <block id="fd6bb4fa1ad0caeedd6782d92cc54ea3" category="list-text"><block ref="fd6bb4fa1ad0caeedd6782d92cc54ea3" category="inline-link-rx"></block></block>
-  <block id="76b571fb5edea1c1994fa0ff01f7b1e2" category="paragraph">Cloud Manager のナレッジベースで問題のトラブルシューティングに役立つ記事を検索してください。</block>
   <block id="14526abd8bda5af347775025cd5342cf" category="inline-link">コミュニティ</block>
   <block id="410fdb9caa9c64da2ff3f88f4836960d" category="list-text"><block ref="410fdb9caa9c64da2ff3f88f4836960d" category="inline-link-rx"></block></block>
-  <block id="7f3490343cad8dc3bfdb72dd5d957e8d" category="paragraph">Cloud Manager コミュニティに参加して、進行中のディスカッションに参加したり、新しいコミュニティを作成したりできます。</block>
   <block id="5b6cf869265c13af8566f192b4ab3d2a" category="list-text">ドキュメント</block>
-  <block id="3c313458d6e15dd2c4336e47118d0a8f" category="paragraph">現在表示している Cloud Manager のドキュメント。</block>
   <block id="80b1b0d2b1ebf2b3cba2d25759801afd" category="list-text">mailto ： ng-cloudmanager-feedback@netapp.com [ フィードバックメール ]</block>
-  <block id="bff60abbc46aceed0f73a3a4f6cfb123" category="paragraph">お客様のご意見をお考えください。Cloud Manager の改善に役立つフィードバックを送信します。</block>
   <block id="0659d428df833a806e29e65e632d380a" category="section-title">ネットアップサポート</block>
-  <block id="6c08c57e382a25a778455184cd9b1a4a" category="list-text">Cloud Manager で、 * Help &gt; Support * の順にクリックします。</block>
   <block id="f5052c65917d7341726235d4d4941461" category="list-text">テクニカルサポートで利用可能なオプションのいずれかを選択します。</block>
   <block id="9a11eb5da5d06e3593dc6b41553d97e5" category="sidebar">権限を設定します</block>
   <block id="390a3dfacd9551e05363b9eb09a0464c" category="sidebar">セキュリティグループのルール</block>
@@ -501,32 +441,20 @@
   <block id="501a818c591eeaa056b0d623f83dba40" category="paragraph"><block ref="501a818c591eeaa056b0d623f83dba40" category="inline-image-macro-rx" type="image"></block></block>
   <block id="604034876d198af3f8d6cece2f09d984" category="list-text">リージョンとVPCを選択します。</block>
   <block id="d7387928ac1cfa971f35a613cd81907c" category="paragraph">複数のアベイラビリティゾーンについては、各ノードが専用のアベイラビリティゾーンになるように、少なくとも2つのアベイラビリティゾーンのサブネットを選択してください。</block>
-  <block id="32d764103d092c07b147433d048bb586" category="paragraph">Cloud Managerにロールを引き継ぐことができるようにIAMロールを設定します。</block>
-  <block id="97b63fa093616f832ba5318ba00447ce" category="list-text">別のAWSアカウント*を選択し、Cloud ManagerのIDを入力します。</block>
-  <block id="81d51fac54904448b89f95abe2f40178" category="list-text">Cloud Manager SaaSの場合：952013314444</block>
-  <block id="4aaa495471a5ae62d8384762205bf782" category="inline-link-macro">Cloud Manager Policies ページ</block>
-  <block id="c8a9420eac272cc5ace307e15c1a05cc" category="paragraph">から Connector 展開ポリシーを表示します <block ref="890ffa37b9e517890ec4308e2dc353ce" category="inline-link-macro-rx"></block>。</block>
   <block id="a7cf2ac8ff4dd10d1e304f0abd7fe0bd" category="list-text">AWS GovCloud（US）アカウントを使用している場合は、* AWS GovCloud（US）アカウントを使用している*を確認します。</block>
   <block id="045e30d9d567e729274d9202eee4ff62" category="inline-image-macro">GovCloud（US）アカウントのチェックボックスのスクリーンショット。</block>
   <block id="c03a6ecd27b7a5ea40ee52d99c7a247a" category="paragraph"><block ref="c03a6ecd27b7a5ea40ee52d99c7a247a" category="inline-image-macro-rx" type="image"></block></block>
   <block id="a9891de406800116bd9cb8226be9beb9" category="list-text">AWS GovCloudを使用して認証すると、SaaSプラットフォームが無効になります。これはお客様のアカウントへの永続的な変更であり、元に戻すことはできません。</block>
   <block id="319c3fdfa37c6b0ae4e91a351706489b" category="list-text">AWS GovCloud（US）の場合：033442085313</block>
-  <block id="c3948e9af2286480c185296c8233504b" category="summary">Cloud Managerを使用すると、ボリュームや追加のデータサービスを追加および管理するためのFSX for ONTAP 作業環境を作成または検出できます。</block>
   <block id="56741382a48f0ad5efb57a6532876317" category="doc">Amazon FSX for ONTAP の作業環境を作成または検出します</block>
-  <block id="ce077de6f3a969e5aa4cd26e1b3b5793" category="paragraph">Cloud Managerを使用すると、ボリュームや追加のデータサービスを追加および管理するためのFSX for ONTAP 作業環境を作成または検出できます。</block>
   <block id="a856a2e7ff7a861c3124938689a66a62" category="paragraph">ONTAP 管理コンソールを使用してFSX forファイルシステムを作成した場合、または以前に削除した作業環境をリストアする場合は、**My Opportunities **を使用して検出するか、手動で検出できます。</block>
   <block id="1b52b643a7dc88400af8fd712fed3d12" category="section-title">Opportunityを使って発見する</block>
-  <block id="2727507bf62cbd85fbf2b9c615630c53" category="paragraph">以前にCloud ManagerにAWSクレデンシャルを提供していた場合、* My Opportunities *は、ONTAP ファイルシステム用のFSXを自動的に検出して、Cloud Managerを使用して追加および管理することを提案します。使用可能なデータサービスを確認することもできます。</block>
-  <block id="748e7605a5624d9bdbf81964bc29f2e4" category="list-text">Cloud Managerで、* My Opportunities *タブをクリックします。</block>
   <block id="e9ba45e021b291739ba996c9cde18a78" category="list-text">ONTAP ファイルシステムで検出されたFSXの数が表示されます。[* Discover（検出）]をクリックします</block>
   <block id="7208d8184b0d0e6e3c7bcf475c8f9bd2" category="inline-image-macro">FSX for ONTAP のMy Opportunitiesページのスクリーンショット。</block>
   <block id="9e4da126e3095f89c00bb676d98195d8" category="paragraph"><block ref="9e4da126e3095f89c00bb676d98195d8" category="inline-image-macro-rx" type="image"></block></block>
   <block id="9b4a4c841d4545b117e4104be254a0e8" category="list-text">1つ以上のファイルシステムを選択し、*検出*をクリックしてキャンバスに追加します。</block>
   <block id="0187b41b8a735f30cc0556afd7387b9d" category="list-text">名前が指定されていないクラスタを選択すると、クラスタの名前を入力するよう求めるプロンプトが表示されます。</block>
-  <block id="288a9d1552741aacac0fe590629b3a7e" category="list-text">Cloud ManagerでONTAP ファイルシステムのFSXを管理するために必要なクレデンシャルがないクラスタを選択すると、必要な権限が設定されたクレデンシャルを選択するように求められます。</block>
   <block id="1d064916590560310250a3e94aec4539" category="section-title">手動で検出</block>
-  <block id="93961f8d67912180ee53e84885a6e38b" category="paragraph">AWS管理コンソールを使用して追加したFSX for ONTAP ファイルシステムや、Cloud Managerから以前に削除したFSX for Cloudファイルシステムを手動で検出することができます。</block>
-  <block id="9ac28c312ffcaefaeb68547b62383018" category="paragraph">Cloud Managerでは、FSX for ONTAP 作業環境からNFS、CIFS、およびiSCSIのボリュームを作成および管理できます。ONTAP CLI を使用して作成したボリュームは、 FSX for ONTAP の作業環境にも表示されます。</block>
   <block id="c0beac119c78b8228ca36d4b93ef1bc7" category="list-text">*プロトコル*：NFS、CIFS、またはiSCSIボリューム・プロトコルを選択します。</block>
   <block id="7a641f2010297c1d06c28aad18308a5b" category="list-text">iSCSIの場合：既存のイニシエータグループを使用するか、新しいイニシエータグループを作成して、LUNに接続できます。既存のイニシエータグループをマッピングするには、オペレーティングシステムおよび1つ以上のイニシエータグループを選択します。</block>
   <block id="7d7217d548e427bd0d76f5081e4b4cb5" category="paragraph">新しいイニシエータグループを作成します。</block>
@@ -558,7 +486,6 @@
   <block id="f7ba76d5c9beab0576f118a6254843e9" category="section-title">2022年9月18日</block>
   <block id="3abe9a67eae0ad33b1c96ff4ae8b1eaa" category="inline-link-macro">ストレージ容量とIOPSを変更します</block>
   <block id="0e36458fd86c678ff613e05396096775" category="paragraph">次の操作を実行できます。 <block ref="0fb4d5e2ef1238fe0c2ee898e859399c" category="inline-link-macro-rx"></block> ONTAP 作業環境用のFSXを作成した後であれば、いつでも作成できます。</block>
-  <block id="af1b15a700df7234e9ad68515cde3f5b" category="summary">Cloud Managerを使用すると、FSX for ONTAP の作業環境を管理できます。スループットとストレージ容量およびIOPSを変更し、作業環境を削除することができます。</block>
   <block id="f5d07457c4656e60fff8f3663f422965" category="list-text">概要*（Overview *）タブで、*フィーチャー*（* Features *）を選択します。</block>
   <block id="2498d03a4261c0c377ff9aa14f08a01b" category="list-text">鉛筆のアイコン（<block ref="a3ce23dbf8ced4424507771e4b6881ae" category="inline-image-macro-rx" type="image"></block>）をクリックして、* Throughput Capacity *編集ページを開きます。</block>
   <block id="87b240f45f566a73d19136ab81e90ad1" category="inline-image-macro">スループット容量変更メニューの場所のスクリーンショット。</block>
@@ -577,12 +504,9 @@
   <block id="d179171b709f127d6b88e332ad5ac396" category="list-text">チェックボックスをオンにすると、ストレージ容量の変更がONTAP サービスのFSXのコストに影響し、さらに6時間変更できないことがわかります。</block>
   <block id="1f25673463b8f906d801bd291ad45315" category="list-text">「* Update *」を選択して変更を確定します。</block>
   <block id="4fe33f0977f17b0718840c634bb48345" category="list-text">ページの右上にあるアクションメニューを選択し、*ワークスペースから削除*を選択します。</block>
-  <block id="695c6322f28397cda2ea2ea4d49f33fc" category="list-text">Cloud ManagerからONTAP のFSXを削除するには、「* Remove *」を選択します。</block>
   <block id="3767b7b1dbf8b0f59d82eb46c294df83" category="list-text">ページの右上にあるアクションメニューを選択し、*削除*を選択します。</block>
   <block id="e19eec57ec1908f25e4a753fbf9d1bf5" category="list-text">作業環境の名前を入力し、*削除*を選択します。</block>
   <block id="d33ef5be6071ae5e3d7d930d8977e41a" category="list-text">スループット、容量、単位を選択します。スループットとストレージ容量の値はいつでも変更することができます。</block>
-  <block id="7f234f33b9862c892e7c8dbf9dd91bc5" category="list-text">必要に応じて、 IOPS 値を指定できます。IOPS の値を指定しない場合、 Cloud Manager は、入力した合計容量の 1GiB あたりの 3 IOPS に基づいてデフォルト値を設定します。たとえば、合計容量に 2 、 000GiB と入力した場合、 IOPS の値が指定されていなければ、有効な IOPS の値は 6 、 000 に設定されます。IOPSの値はいつでも変更できます。</block>
-  <block id="c39def9377c6bd394b8633558a53f581" category="paragraph">Cloud Managerを使用して、ONTAP のボリューム、クローン、Snapshotの表示と管理、およびFSX forの階層化ポリシーの変更を行うことができます。</block>
   <block id="ec4fc4cb1b37373b785aaee6062cfec7" category="section-title">ボリュームの詳細を表示します</block>
   <block id="217a2eee444fb09dda70bb076071f17e" category="paragraph">ボリュームを作成したら、設定の詳細を確認できます。</block>
   <block id="45dddf924938e17bccdd6a467352bfa0" category="admonition">ボリューム名にカーソルを合わせると、ボリュームタイプを表示できます。</block>
@@ -604,14 +528,10 @@
   <block id="35f5a704747f7e6644a0bbedc33a0c2e" category="paragraph">これで、ボリュームがホストにマウントされました。</block>
   <block id="82812db645b6ff5e9c2a24ddfb66c8d6" category="paragraph">上記のセルフサポートオプションに加え、サポートを有効にしたあとで問題が発生した場合は、ネットアップサポートの担当者と相談して解決できます。</block>
   <block id="e2a733504c4088b809813bbb35a3ddfd" category="inline-link-macro">サポートに登録する方法について説明します</block>
-  <block id="09651e14b46d7e8697d32de90d0deacb" category="paragraph">ケースの作成*機能を使用するには、まずCloud ManagerアカウントIDのシリアル番号（例960xxxx）にネットアップが付属 <block ref="3349e4b3d05f646f2f1421bee7c2ad26" category="inline-link-macro-rx"></block>。</block>
   <block id="383133cb6f7207b1c65c3ace94aa5e95" category="list-text">電話の相手と話したい場合は、「*お電話」をクリックしてください。netapp.comのページに移動し、電話番号が表示されます。</block>
   <block id="bf5bc6ab0f95f17f4e98c9d766b8c11d" category="list-text">[*ケースの作成*]をクリックして、ネットアップサポートスペシャリストのチケットを開きます。</block>
   <block id="b53e0a259f4a0c8e7da80d6c94e26c84" category="list-text">* NetApp Support Site アカウント*：サポートケースをオープンしたユーザーに関連付けられている該当のNSSアカウントを選択します。この担当者は、以下に記載する追加のEメールに加えて、ネットアップから連絡を受け取る主要担当者となります。</block>
-  <block id="ec65cc87efda54741062da1fce99ff76" category="paragraph">NSSアカウントが表示されない場合は、Cloud Managerのサポートセクションにある* NSS Management *タブに移動して追加できます。</block>
-  <block id="b3144caf7d928b7954447c757b3ed77b" category="list-text">*Service*:問題 が関連付けられているサービスを選択します。たとえば、サービス内のワークフローや機能を使用して、テクニカルサポートの問題 に固有のCloud Managerなどです。</block>
   <block id="2e50c5f85523f0aba9ff2db10f18279c" category="list-text">*作業環境*：ストレージに該当する場合は、* Cloud Volumes ONTAP *または*オンプレミス*を選択し、関連する作業環境を選択します。</block>
-  <block id="1e38219c106fb9d07d173c027b8911c7" category="paragraph">作業環境のリストは、サービスの上部バナーで選択したCloud Managerアカウント、ワークスペース、コネクタの範囲内にあります。</block>
   <block id="e6f29fb3c7636dc0040600dd0e84bb79" category="list-text">*ケース優先度*：ケースの優先度を選択します。優先度は、[低]、[中]、[高]、[クリティカル]のいずれかになります。</block>
   <block id="835eb4008e97c2a7f69bbb2725285e34" category="paragraph">これらの優先度の詳細を確認するには、フィールド名の横にある情報アイコンの上にマウスポインタを合わせます。</block>
   <block id="0f7d9319c95a8be1492e74601c4b3259" category="list-text">*事象の説明 *：実行したエラーメッセージやトラブルシューティング手順など、問題の詳細な概要 を入力します。</block>
@@ -622,36 +542,22 @@
   <block id="04e15da1deae9568b4dcda64fbb0c8d5" category="paragraph">サポートケースの履歴を確認するには、[*設定]、[タイムライン*]の順にクリックして、[サポートケースの作成]という名前のアクションを探します。 右端のボタンをクリックすると、アクションを展開して詳細を表示できます。</block>
   <block id="5c56753585e89a84941bb3a78bc681af" category="paragraph">ケースを作成しようとすると、次のエラーメッセージが表示される場合があります。</block>
   <block id="a30f69ab0ec85d427a3e8835713525bd" category="paragraph">"選択したサービスに対してケースを作成する権限がありません"</block>
-  <block id="148f13242c3e296dc276821cdc574921" category="paragraph">このエラーは、NSSアカウントとそれに関連付けられているレコードの会社が、Cloud Managerアカウントのシリアル番号（例960xxxx）または動作環境のシリアル番号。[ケースの作成]フォームの上部にあるNSSアカウントの一覧を確認して、適切な一致を見つけることができます。または、次のいずれかのオプションを使用してサポートを依頼することもできます。</block>
   <block id="e01df0b4dfd95eba2c59333419e4fac6" category="list-text">製品内のチャットを使用します</block>
   <block id="639be990cfca56ab4b63685d8bacd437" category="list-text">テクニカル以外のケースをに送信します<block ref="2298f47e4dad19a3156da7ce6116d9b1" category="inline-link-rx"></block></block>
   <block id="5a2ebfb8baa378cfcfcba58bbb1380c2" category="sidebar">要件</block>
   <block id="74e5a199ea27b8b415c0c77d75229e79" category="sidebar">NVMeとiSCSIホストの構成</block>
-  <block id="7ff191df90fac0fa94ab5c2b5101a5e9" category="sidebar">Cloud Manager のすべてのドキュメント</block>
-  <block id="d14a27b37d19411318313c75f11baf13" category="inline-link">Cloud Managerに関する通知</block>
-  <block id="8f4eecef1c8abf547a153a1486d48ab2" category="list-text"><block ref="8f4eecef1c8abf547a153a1486d48ab2" category="inline-link-rx"></block></block>
-  <block id="d1a9582568e79d0f7df77bf8db0c78c2" category="paragraph">ネットアップテクニカルサポートでサポートケースをオープンするには、NetApp Support Site （NSS）アカウントをCloud Managerに追加し、サポートに登録する必要があります。</block>
   <block id="0b0e252af8897fbe981ec6682d2aa33b" category="section-title">サポート登録の概要</block>
   <block id="192054ad7601240a3e8be54cc5cc548e" category="paragraph">サポート資格を有効にする登録には、次の2つの形式があります。</block>
-  <block id="e84e72c56ec69ee05b16bee368f2f4cb" category="list-text">Cloud ManagerアカウントIDサポートサブスクリプションを登録します（Cloud Managerのサポートリソースのページにある20桁の960xxxxxxxxxシリアル番号）。</block>
-  <block id="86d34aa6dedf863c0a4ff5e293c1ec79" category="paragraph">これは、Cloud Manager内のすべてのサービスの単一のサポートサブスクリプションIDとして機能します。Cloud Managerのアカウントレベルのサポートサブスクリプションがそれぞれ登録されている必要があります。</block>
   <block id="55ff64467cd508971910145ab5d6b3b8" category="list-text">クラウドプロバイダのマーケットプレイスでのサブスクリプションに関連付けられているCloud Volumes ONTAP のシリアル番号を登録している（909201xxxxxxxxのシリアル番号）。</block>
-  <block id="dbea8abd63832b9ce98fbfac8dbb8c15" category="paragraph">これらのシリアル番号は、一般にPAY_GOと呼ばれ、Cloud Volumes ONTAP の導入時にCloud Managerによって生成されます。</block>
-  <block id="a9e835b028baaab9d917fafc714e25a5" category="paragraph">両方のタイプのシリアル番号を登録することで、サポートチケットの発行、自動ケース生成、Active IQ などの機能を利用できます。</block>
   <block id="98bc603dcb6d5a57d540b13b541fa41a" category="paragraph">登録方法は、新規のお客様か既存のお客様かパートナーかによって異なります。</block>
   <block id="e5646198d2e01aab2cec9ef946f9c53a" category="list-text">既存のお客様またはパートナー</block>
-  <block id="60791d56f45a3f9f1287510b65d323df" category="paragraph">ネットアップの既存のお客様またはパートナー様は、NetApp Support Site （NSS）SSOアカウントを使用して上記の登録を実行することができます。サポートダッシュボードには、Cloud Managerの* NSS Management *ページでNSSアカウントを追加することができます。NSSアカウントを追加すると、Cloud Managerで自動的にこれらのシリアル番号が登録されます。</block>
   <block id="4e6af37fb81d50483d832d4de6e2b26a" category="inline-xref">NSSアカウントを追加する方法について説明します</block>
-  <block id="32e82838df6d3ab4de32d996ebbe98cd" category="paragraph"><block ref="27c44e31a17502f2e9a25a83f2f37696" category="inline-xref-macro-rx"></block>。</block>
   <block id="1c91f3adc957364cb01d33e100ee1ea3" category="list-text">初めて導入する場合は</block>
-  <block id="bcce750f51c727121c6fa1fb7d2c91f8" category="paragraph">ネットアップ製品を初めてご利用になる場合は、ネットアップのサポート登録サイトで、Cloud Managerアカウントのシリアル番号の登録を1回だけ完了してください。この登録を完了して新しいNSSアカウントを作成したら、Cloud Managerのこのアカウントを使用して自動で登録することができます。</block>
   <block id="00fc9d0c515c69ea2c368521453d982e" category="inline-xref">ネットアップへの登録方法をご確認ください</block>
   <block id="97454ce87333f7ebd50ee38b8126fb39" category="paragraph"><block ref="37544f11913357c4e8c8a4ec607ae247" category="inline-xref-macro-rx"></block>。</block>
-  <block id="f6c4c1e9625a13b1b4d06a8f53f2ccfd" category="section-title">Cloud ManagerにNSSアカウントを追加します</block>
   <block id="77bdda0b5be7d2725f2b5941d74db0e2" category="paragraph">サポートダッシュボードを使用すると、NetApp Support Site アカウントを追加して管理し、Cloud Managerで使用できます。</block>
   <block id="328a2c1e7778e9edaf79d90c51409ac4" category="list-text">お客様レベルのアカウントをお持ちの場合は、1つ以上のNSSアカウントを追加することもできます。</block>
   <block id="4fde72c535fd0cd463dbeb49347cdfae" category="list-text">パートナーアカウントまたはリセラーアカウントをお持ちの場合は、1つ以上のNSSアカウントを追加できますが、お客様レベルのアカウントと一緒に追加することはできません。</block>
-  <block id="0bfa39d13bc65474a81520ace129413d" category="paragraph">これらの操作を実行すると、Cloud ManagerはNSSアカウントを使用して、ライセンスのダウンロード、ソフトウェアアップグレードの検証、以降のサポートの登録などを実行できます。</block>
   <block id="cf3a2d2c139bf5c9cc87fe714bfff3b1" category="paragraph">次の点に注意してください。</block>
   <block id="0f0a0d646a020cf3a65ce82ada4cfb01" category="list-text">お客様レベルのアカウントである必要があります（ゲストや一時アカウントは使用できません）。</block>
   <block id="1dcb63fd55c4d22e87cb32275b8cc808" category="inline-image-macro">3つの水平ドットのアイコン</block>
@@ -660,8 +566,6 @@
   <block id="ad56c7289bc13dcf4f78c285f7f03878" category="section-title">ネットアップに登録してください</block>
   <block id="f1bac79c2c71fbd93863b9fbd718094c" category="paragraph">ネットアップサポートへの登録方法は、NetApp Support Site （NSS）アカウントがあるかどうかによって異なります。</block>
   <block id="bf4c731c0ee7f60c8018ad8f96828dda" category="section-title">NSSアカウントをお持ちの既存のお客様</block>
-  <block id="d4b6092976537c153c496a428098980c" category="paragraph">NSSアカウントをお持ちのネットアップのお客様は、Cloud Managerからサポートに登録するだけで済みます。</block>
-  <block id="c9d4df035d54072bb393bd27f6769cc7" category="list-text">NSSアカウントをCloud Managerに追加していない場合は、</block>
   <block id="819aff12752b7e6a1828e755c7664de7" category="list-text">[*リソース]ページで、[*サポートに登録*]をクリックします。</block>
   <block id="e8a3d9970b8fc1d92caaf33d9e116bd4" category="inline-image-macro">アカウントのシリアル番号と[サポートに登録]オプションを示すスクリーンショット</block>
   <block id="113f9cd7bac6f4faa6b8d58e3e099a8e" category="paragraph"><block ref="113f9cd7bac6f4faa6b8d58e3e099a8e" category="inline-image-macro-rx" type="image"></block></block>
@@ -684,5 +588,103 @@
   <block id="03413baeca1ff7222737d8ce299bd4e8" category="list-text">Eメールからアクションを確認します。</block>
   <block id="201080500e946070a2e4873042507c77" category="paragraph">確認ではネットアップにリクエストが送信され、NetApp Support Site アカウントを作成することを推奨します。</block>
   <block id="684375e279a289295b72a006d93e2c4c" category="paragraph">このプロセスについては、ネットアップからご連絡ください。これは、新規ユーザ向けの1回限りのオンボーディング演習です。</block>
-  <block id="cc7175a084ebd6e004cb2c751c162569" category="paragraph">NetApp Support Site アカウントを作成したら、Cloud Managerに移動してこのNSSアカウントを追加して以降の登録を行うことができます。</block>
+  <block id="ca9f06fa1a00f01b3d6a92ff7e6556ff" category="summary">Amazon FSX for NetApp ONTAP は、 ONTAP の全機能を AWS のネイティブマネージドサービスに提供し、一貫したハイブリッドクラウドエクスペリエンスを実現します。このドキュメントでは、ONTAP BlueXPを使用してFSX forを管理する方法について説明します。</block>
+  <block id="6a7ebeee8a870484e91de7ed605595e5" category="section-title">BlueXPのその他の機能</block>
+  <block id="61d1931826c6b4bafae8f3e532759004" category="list-text">AWSとBlueXP（旧称Cloud Manager）のコネクタを使用すると、ボリュームの作成と管理、データのレプリケート、ONTAP 向けFSXとData SenseやCloud Sync などのNetAppクラウド サービス との統合が可能になります。</block>
+  <block id="2e1fca4dcaae8d35c81661aec02958b2" category="paragraph">FSX for ONTAP アカウントは、BlueXPではなくAWSによって管理されています。<block ref="8ceb48ebb1fa83d69a24f299e3fde40a" category="inline-link-rx"></block></block>
+  <block id="c38a4c52c19f29b55ed16af8a145fb57" category="paragraph">BlueXPやBlueXPのマイクロサービスに関する一般的な質問については'オンラインのBlueXPチャットから始めることができます</block>
+  <block id="8ae3d71a6e8ab23cdfe061900ab42a08" category="paragraph">でのBlueXPまたはマイクロサービスに固有のテクニカルサポートの問題については、BlueXPアカウントレベルのシリアル番号を使用してネットアップサポートチケットを開くことができます。サポートを有効にするには、BlueXPのシリアル番号を登録する必要があります。</block>
+  <block id="d2f0ad44b51fbd3850fad8307ea16aa3" category="inline-link-macro">BlueXP SaaSが役割を引き受けることを可能にするIAM役割を設定します</block>
+  <block id="0120a6985fd9a638c32bf88c75ec0802" category="paragraph">ボリュームを追加する前に、 ONTAP 作業環境用の Amazon FSX を作成する必要があります。する必要があります <block ref="29f60f4dfe0d122f0f86f855f5d0bde2" category="inline-link-macro-rx"></block>。</block>
+  <block id="d7d767395bf3ee01260b8e372bdc033a" category="paragraph">を用意しておく必要があります<block ref="ee4793145cbadfb90a826d44d7b7a098" category="inline-link-rx"></block> FSX for ONTAP 作業環境を開くには、ボリュームを作成するか、その他の操作を実行します。コネクタが必要な場合は、まだ追加されていない場合は、BlueXPからプロンプトが表示されます。</block>
+  <block id="17a1b5c516ad7934395e8ea2d41f50ed" category="paragraph">BlueXPを使用すると、ONTAP ボリューム用にFSXを作成できます。</block>
+  <block id="a4f149004152f60637fdf95cdc81a47d" category="paragraph">BlueXPを使用してボリュームを管理し、レプリケーション、Cloud Sync 、データセンスなどの追加サービスを構成します。</block>
+  <block id="9c51d38f64e8c1335e2502c05f118401" category="inline-link">BlueXPからコネクタを作成しています</block>
+  <block id="0d5f53ba40b365132e5ed55aeb13bafc" category="list-text"><block ref="0d5f53ba40b365132e5ed55aeb13bafc" category="inline-link-rx"></block></block>
+  <block id="9936779ebe4e0ac089fa89c319d5473b" category="summary">BlueXPでは、BlueXPおよびFSX for ONTAP が正常に動作するために必要なインバウンドとアウトバウンドのルールを含むAWSセキュリティグループが作成されます。テスト目的または独自のポートを使用する必要がある場合には、ポートを参照してください。</block>
+  <block id="ecd87ae03b07f0712964d94eb75683a5" category="cell">BlueXPによるDNS解決に使用されます</block>
+  <block id="f7690c21dcdeafa719d4764552e4d2d7" category="paragraph">ONTAP 作業環境でAmazon FSXを作成または管理するには、ONTAP 作業環境でFSXを作成するために必要な権限をBlueXPに与えるIAMロールのARNを提供して、AWSクレデンシャルをBlueXPに追加する必要があります。</block>
+  <block id="1db8d07619da1f12a7b920676f6769ae" category="paragraph">BlueXPが役割を引き受けることを可能にするIAMロールを設定します。</block>
+  <block id="c29858d9450fbef0a082acaa54d1bc6d" category="list-text">別のAWSアカウント*を選択して、BlueXPのIDを入力します。</block>
+  <block id="edcfddcfff54621c47b01eddd968a5b0" category="list-text">BlueXP SaaSの場合：952013314444</block>
+  <block id="7ac66cbf6468d4b2ac580b0142eb7f7b" category="inline-link-macro">BlueXP Policiesページ</block>
+  <block id="a4b479a41ed7a914d0dd394ff19733d2" category="paragraph">から Connector 展開ポリシーを表示します <block ref="6bc39dc7152091d002dd49afe75c9615" category="inline-link-macro-rx"></block>。</block>
+  <block id="fa9df323148192800073dd2a78c81f73" category="list-text">次の手順で、IAMロールのロールARNをコピーしてBlueXPに貼り付けることができます。</block>
+  <block id="d5dc64744da4d60a47aa835877d08194" category="paragraph">IAMロールに必要な権限を付与したら、BlueXPにARNロールを追加します。</block>
+  <block id="6d9d6baff2479ce7a87bf705f93f1641" category="paragraph">IAM ロールを作成したばかりの場合は、使用できるようになるまで数分かかることがあります。数分待ってから、BlueXPに資格情報を追加します。</block>
+  <block id="b019ab068deba8494415cbd226ca0c4e" category="list-text">BlueXPコンソールの右上にある[設定]アイコンをクリックし、[資格情報*]を選択します。</block>
+  <block id="be9d7b7687f0c55f7e65f14cd2b0f530" category="inline-image-macro">BlueXPコンソールの右上にある設定アイコンを示すスクリーンショット。</block>
+  <block id="cb9e3791dcb67c8a699c104be6a1c49c" category="paragraph"><block ref="cb9e3791dcb67c8a699c104be6a1c49c" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="469d6f26b0e14d75fc0c834eeac72311" category="list-text">*資格情報の場所*：「* Amazon Web Services &gt; BlueXP *」を選択します。</block>
+  <block id="193ad4e55afb9be5b67589ce2fc9b33d" category="inline-link">BlueXP用のAWS資格情報の管理</block>
+  <block id="f9a91bf42987bf0077570f294d5077a4" category="list-text"><block ref="f9a91bf42987bf0077570f294d5077a4" category="inline-link-rx"></block></block>
+  <block id="243263104c829e77835d632f591230d5" category="summary">ネットアップテクニカルサポートでサポートケースをオープンするには、まずNetApp Support Site アカウントをBlueXPに追加し、サポートに登録する必要があります。</block>
+  <block id="8bf30fadf784022b073adb9233678a71" category="paragraph">ネットアップテクニカルサポートでサポートケースをオープンするには、まずNetApp Support Site （NSS）アカウントをBlueXPに追加し、サポートに登録する必要があります。</block>
+  <block id="2322ca552c2b0ebe090c8485519246a8" category="list-text">BlueXPアカウントIDサポートサブスクリプションの登録(BlueXPの[サポートリソース]ページにある20桁の960xxxxxxxxxシリアル番号)。</block>
+  <block id="23fdcbefa6d9cd877be7ceb7a18bb936" category="paragraph">これは、BlueXP内のすべてのサービスのシングルサポートサブスクリプションIDとして機能します。各BlueXPアカウントレベルのサポート契約が登録されている必要があります。</block>
+  <block id="67dbdeb11e22ea7def810bade59ce818" category="paragraph">これらのシリアル番号は、通常PAY_GOシリアル番号と呼ばれ、Cloud Volumes ONTAP の導入時にBlueXPによって生成されます。</block>
+  <block id="9d4125dc88bb9db6eb4be939905761ce" category="paragraph">両方のタイプのシリアル番号を登録することで、サポートチケットのオープンやケースの自動生成などの機能を利用できます。</block>
+  <block id="76928f97884b4332b83c5be9b99d93d3" category="paragraph">ネットアップの既存のお客様またはパートナー様は、NetApp Support Site （NSS）SSOアカウントを使用して上記の登録を実行することができます。サポートダッシュボードでは、BlueXPには、NSSアカウントを追加できる*NSS Management*ページがあります。NSSアカウントを追加すると、これらのシリアル番号が自動的に登録されます。</block>
+  <block id="8d80298f51b7ff2da78e26e60195c7a3" category="paragraph"><block ref="cbec7c1a4a2acff5e84457dd449ac01d" category="inline-xref-macro-rx"></block>。</block>
+  <block id="679f2cae4657f177cc89458d49c97e5f" category="paragraph">ネットアップを初めてご利用になる場合は、ネットアップのサポート登録サイトで、BlueXPアカウントのシリアル番号の登録を1回だけ完了する必要があります。この登録を完了し、新しいNSSアカウントを作成したら、BlueXPでこのアカウントを使用して自動登録を行うことができます。</block>
+  <block id="a92ec860f505b318fd0f0eba6165d607" category="section-title">NSSアカウントをBlueXPに追加します</block>
+  <block id="1afe19576f77bb0073c93359ed2cbb18" category="list-text">BlueXPコンソールの右上にある[ヘルプ]アイコンをクリックし、[*Support*]を選択します。</block>
+  <block id="cbc6cc3bb022583403171b447b2a962c" category="paragraph">これらのアクションにより、BlueXPはライセンスのダウンロード、ソフトウェアのアップグレード検証、および将来のサポート登録などの目的でNSSアカウントを使用できます。</block>
+  <block id="7e177185e7eddff33dd8f3aeb7551132" category="paragraph">NSSアカウントをお持ちのネットアップのお客様は、BlueXPからサポートに登録するだけで済みます。</block>
+  <block id="25b94e7b58140f12be91fa8fd935fa59" category="list-text">NSSアカウントをまだ追加していない場合は、BlueXPに追加します。</block>
+  <block id="5226d4ec1f4f81b740cbbd27635b441f" category="list-text">必ず、上記のシリアル番号フィールドに使用されているBlueXPアカウントのシリアル番号(960xxxx)をコピーしてください。これにより、アカウント処理が高速化されます。</block>
+  <block id="1c0e45ef07d0dbc13ca2394d5e285fd7" category="paragraph">NetApp Support Site アカウントを作成したら、BlueXPに移動して、このNSSアカウントを追加して今後の登録を行うことができます。</block>
+  <block id="c9df4195a305212ffd7b56d24f67129d" category="summary">ネットアップでは、さまざまな方法でBlueXPをサポートしています。ナレッジベース（ KB ）記事やコミュニティフォーラムなど、 24 時間 365 日利用可能な幅広いセルフサポートオプションをご用意しています。サポート登録には、 Web チケット処理によるリモートテクニカルサポートが含まれます。</block>
+  <block id="7c5661ab6b39ee901cea00a6e7020a49" category="paragraph">ネットアップでは、BlueXPとその クラウド サービス をさまざまな方法でサポートしています。ナレッジベース（ KB ）記事やコミュニティフォーラムなど、 24 時間 365 日利用可能な幅広いセルフサポートオプションをご用意しています。サポート登録には、 Web チケット処理によるリモートテクニカルサポートが含まれます。</block>
+  <block id="9a3db1abe5491d0eb9bb5d125981356c" category="paragraph">BlueXPナレッジベースで問題のトラブルシューティングに役立つ記事を検索します。</block>
+  <block id="00c5fef3bb9d593ae96bf5d2ee60354a" category="paragraph">BlueXPコミュニティに参加して、進行中のディスカッションをフォローしたり、新しいディスカッションを作成したりできます。</block>
+  <block id="a4a6c2ea0078252eac2d74ef3e6c917c" category="paragraph">現在表示しているBlueXPのマニュアル。</block>
+  <block id="6702efec14563f45f1ee2f8c613b8ad8" category="paragraph">お客様のご意見をお考えください。フィードバックを送信して、BlueXPの改善に役立ててください。</block>
+  <block id="1012a287397c66025d7748edf06a36e2" category="paragraph">[ケースの作成]機能を使用するには、まず、BlueXPアカウントIDのシリアル番号(例960xxxx）にネットアップが付属 <block ref="3349e4b3d05f646f2f1421bee7c2ad26" category="inline-link-macro-rx"></block>。</block>
+  <block id="6254a4afeeb76765a127fe74d31c1b3d" category="list-text">BlueXPで、[ヘルプ]、[サポート]の順にクリックします。</block>
+  <block id="d950fb930d7f7e6bfdda1b91b4639a02" category="paragraph">NSSアカウントが表示されない場合は、BlueXPのサポートセクションにある*NSS Management*タブに移動して追加できます。</block>
+  <block id="d63bf50426f4c712554faec55b30c548" category="list-text">*Service*:問題 が関連付けられているサービスを選択します。たとえば、サービス内のワークフローまたは機能を備えたテクニカルサポート問題 に固有のBlueXPなどです。</block>
+  <block id="aa996e20900197b0ea41485ada083d8c" category="paragraph">作業環境のリストは、サービスの上部バナーで選択したBlueXPアカウント、ワークスペース、コネクタの範囲内にあります。</block>
+  <block id="fa6b601b2fb4e3e5c7b466ecb8bd70ac" category="paragraph">このエラーは、NSSアカウントとそれに関連付けられているレコードの会社が、BlueXPアカウントのシリアル番号(例960xxxx）または動作環境のシリアル番号。[ケースの作成]フォームの上部にあるNSSアカウントの一覧を確認して、適切な一致を見つけることができます。または、次のいずれかのオプションを使用してサポートを依頼することもできます。</block>
+  <block id="0f845867deaf035383ffc217279b9c7f" category="paragraph">BlueXPのFSX for ONTAP 作業環境から'NFS'CIFS'iSCSIボリュームを作成および管理できますONTAP CLI を使用して作成したボリュームは、 FSX for ONTAP の作業環境にも表示されます。</block>
+  <block id="6f28647aed612b810bbd7e815e8adbef" category="inline-link">BlueXP自動化ドキュメント</block>
+  <block id="40093c43e131165eb7dd2a980ff78509" category="cell">Active Directory DNS を使用して NTP サーバを設定するには、 * NTP サーバ設定を有効にする * を選択します。別のアドレスを使用して NTP サーバを設定する必要がある場合は、 API を使用してください。を参照してください<block ref="cf06621be2a2bfce0ef0595deee16955" category="inline-link-rx"></block> を参照してください。</block>
+  <block id="cabcbbac4437e0dbf2eec9f1d07d973b" category="paragraph">ボリュームをホストにマウントできるように、BlueXPからマウント手順にアクセスします。</block>
+  <block id="0aab21b00fa6135e62b29e7f8bb6778e" category="summary">BlueXPを使用すると'FSX for ONTAP の作業環境を管理できますスループットとストレージ容量およびIOPSを変更し、作業環境を削除することができます。</block>
+  <block id="78b85142b4840670f82bc1e876164d5a" category="paragraph">FSX for ONTAP をBlueXPから削除する場合は、ONTAP アカウントまたはボリュームのFSXを削除する必要はありません。FSX for ONTAP の作業環境はいつでもBlueXPに戻すことができます。</block>
+  <block id="2bded8459b9098e5f464123fa54a7a84" category="inline-image-macro">BlueXPインターフェイスからのFSX for ONTAP の削除オプションのスクリーンショット</block>
+  <block id="00e44395dfa88719cfdde0d3aafb0b4c" category="paragraph"><block ref="00e44395dfa88719cfdde0d3aafb0b4c" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="39c686ea51a2e3f3412988ea98942824" category="list-text">ONTAP 用FSXをBlueXPから削除するには、「*削除」を選択します。</block>
+  <block id="6835d2c119b318a48de9e93b2e641517" category="paragraph">BlueXPからFSX for ONTAP を削除できます。</block>
+  <block id="84aebfd9255ade9edf5ed1e04d2d7983" category="inline-image-macro">BlueXPインターフェイスからのFSX for ONTAP の削除オプションのスクリーンショット。</block>
+  <block id="fa1673decfda6b90d421cf8b1ec087b0" category="paragraph"><block ref="fa1673decfda6b90d421cf8b1ec087b0" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="b1c694fb2ebede3c4d4ab22be547bed9" category="summary">BlueXPを使用すると'FSX for ONTAP の作業環境を作成または検出して'ボリュームや追加のデータサービスを追加および管理できます</block>
+  <block id="adb79c4b4ae467a33d5b66931e4b3a81" category="paragraph">BlueXPを使用すると'FSX for ONTAP 作業環境を作成または検出して'ボリュームや追加のデータサービスを追加および管理できます</block>
+  <block id="a32ac0ad801a437e03bc65b1bb97d7bd" category="inline-link-macro">BlueXPを使用して発見します</block>
+  <block id="3e9f0002f52ffb27118b0d0540159148" category="paragraph">最初のステップは、 ONTAP 作業環境用の FSX を作成することです。AWS 管理コンソールですでに ONTAP ファイルシステム用の FSX を作成している場合は、次の操作を実行できます <block ref="f0e62c6abb102491f5e44c803b014bee" category="inline-link-macro-rx"></block>。</block>
+  <block id="7a1088b800573a1bba3b00786182133b" category="paragraph">BlueXPでFSX for ONTAP の作業環境を作成する前に、次のものが必要です。</block>
+  <block id="74e0ba9ea27cef4d0c11560e135b281e" category="inline-link-macro">BlueXPにAWSクレデンシャルを追加しています</block>
+  <block id="02e21891e6a4d87f518207b9609ebed1" category="list-text">BlueXPにONTAP 作業環境用のFSXを作成するために必要な権限を与えるIAMロールのARN。を参照してください <block ref="1bf7f389ad2ba65976eab24c818e174c" category="inline-link-macro-rx"></block> を参照してください。</block>
+  <block id="6b13ffee707f25ae8bcd9dc0e4d7b4d6" category="list-text">BlueXPで、新しい作業環境を追加し、場所* Amazon Web Services *を選択し、* Next *をクリックします。</block>
+  <block id="07c0b2e93427e88c842be765301e4e63" category="list-text">BlueXPでONTAP のFSXを認証します</block>
+  <block id="b7a36240333d2de8502faca756504977" category="list-text">アカウントに IAM ロールがない場合は、 * クレデンシャルページ * をクリックし、ウィザードの手順に従って、 ONTAP クレデンシャル用の FSX を使用して AWS IAM ロールの ARN を追加します。を参照してください <block ref="1bf7f389ad2ba65976eab24c818e174c" category="inline-link-macro-rx"></block> を参照してください。</block>
+  <block id="274f0b3b024e5cbf45b403266b2d8e00" category="list-text">フローティング IP アドレスへのルートを含むルーティングテーブルを選択します。VPC内のサブネット用のルーティングテーブルが1つだけの場合（メインルーティングテーブル）、BlueXPは自動的にそのルーティングテーブルにフローティングIPアドレスを追加します。「 * 次へ * 」をクリックして続行します。</block>
+  <block id="c43f98768b6bade26ae94ab84f81134f" category="list-text">必要に応じて、 IOPS 値を指定できます。IOPSの値を指定しない場合は、入力した合計容量の1GiBあたりのIOPSが3つに基づいてデフォルト値が設定されます。たとえば、合計容量に 2 、 000GiB と入力した場合、 IOPS の値が指定されていなければ、有効な IOPS の値は 6 、 000 に設定されます。IOPSの値はいつでも変更できます。</block>
+  <block id="69a6a9ad9378e16228ecd670e9d167c8" category="paragraph">ONTAP 用のFSX設定がキャンバスページに表示されます。</block>
+  <block id="9e35167248d4118a73a969017acba1d8" category="paragraph">BlueXPを使用して'FSX for ONTAP 作業環境にボリュームを追加できるようになりました</block>
+  <block id="decbe5e805a0a9516184b64d9bad01c3" category="paragraph">以前にBlueXPにAWSの資格情報を提供していた場合、*My Opportunities *は、ONTAP ファイルシステム用のFSXを自動的に検出し、BlueXPを使用して追加および管理することを提案できます。使用可能なデータサービスを確認することもできます。</block>
+  <block id="b74bb93cbb66b60fd6c91eba3c535cb2" category="list-text">BlueXPで、[* My Opportunities *]タブをクリックします。</block>
+  <block id="547dba06b4fcfe3fa41996e831e9fb1c" category="list-text">BlueXPでONTAP ファイルシステム用のFSXを管理するために必要な資格情報を持たないクラスタを選択すると、必要な権限を持つ資格情報を選択するように求めるプロンプトが表示されます。</block>
+  <block id="494021d1d3a9a769ede7819e9cf10cf6" category="paragraph">AWS管理コンソールを使用して追加したFSX for ONTAP ファイルシステム、または以前にBlueXPから削除したFSX for BlueXPを手動で検出できます。</block>
+  <block id="c13815d75af2d8f4f6b97743a5731dae" category="list-text">BlueXPで、*作業環境の追加*をクリックし、* Amazon Web Services *を選択します。</block>
+  <block id="02ebf3de367dc7096d28e785a65d8c78" category="paragraph">検出されたFSX for ONTAP ファイルシステムがBlueXPに表示されます。</block>
+  <block id="4e853a8ef076b82d13f35807a2dfe93b" category="summary">BlueXPを使用して'FSX for ONTAP のボリューム'クローン'スナップショットの管理'階層化ポリシーの変更を行うことができます</block>
+  <block id="669f767086bf3b89606658facb29605a" category="paragraph">BlueXPを使用すると'FSX for ONTAP のボリューム'クローン'スナップショットの表示と管理'階層化ポリシーの変更を行うことができます</block>
+  <block id="060dde3ca9c7d4e73cf9b65b84114028" category="paragraph">BlueXPを使用すると'ストレージ環境間でデータをレプリケートできますONTAP レプリケーション用に FSX を構成するには、を参照してください<block ref="063d7001b249d0164d3c6e7cd82a78db" category="inline-link-rx"></block>。</block>
+  <block id="6b91242d31fee1e3576ce594b08573b5" category="paragraph">BlueXPのCloud Sync を使用して同期関係を作成できます。同期関係を設定するには、を参照してください<block ref="3bb02b9d4fba268ff940f67f5abfe3eb" category="inline-link-rx"></block>。</block>
+  <block id="f257be535aca4e5a3655fc2dd2887500" category="paragraph">以前にBlueXPを使用してSnapMirror関係に含まれていたボリュームは削除できません。SnapMirror ボリュームは、 AWS 管理コンソールまたは CLI を使用して削除する必要があります。</block>
+  <block id="56f7e1cad5439f90ac8bd08115c74e4a" category="list-text">作業環境の名前を入力し、ボリュームを削除することを確認します。ボリュームがBlueXPから完全に削除されるまでに、最大1時間かかる場合があります。</block>
+  <block id="c95623cd0395d5a6bb6105b9d32f197b" category="inline-link">BlueXPに関する注意事項</block>
+  <block id="e8a6d0f19a957eac14b9917a6c92899b" category="list-text"><block ref="e8a6d0f19a957eac14b9917a6c92899b" category="inline-link-rx"></block></block>
+  <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">BlueXPのすべてのマニュアル</block>
 </blocks>

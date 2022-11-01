@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: use/task-manage-fsx-volumes.html 
 keywords: fsx for ontap, fsx, aws, delete volumes, delete nfs volumes, delete cifs volumes, tiering policy, mount path, get mount path, mount volume, delete volumes, snapshots, edit volume, clone volume, clone 
-summary: Cloud Manager を使用して、 ONTAP のボリューム、クローン、 Snapshot の管理、および FSX for の階層化ポリシーの変更を行うことができます。 
+summary: 'BlueXPを使用して"FSX for ONTAP のボリューム"クローン"スナップショットの管理"階層化ポリシーの変更を行うことができます' 
 ---
 = Amazon FSX for ONTAP のボリュームを管理します
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: Cloud Manager を使用して、 ONTAP のボリューム、クロー�
 
 
 [role="lead"]
-Cloud Managerを使用して、ONTAP のボリューム、クローン、Snapshotの表示と管理、およびFSX forの階層化ポリシーの変更を行うことができます。
+BlueXPを使用すると'FSX for ONTAP のボリューム'クローン'スナップショットの表示と管理'階層化ポリシーの変更を行うことができます
 
 
 
@@ -98,9 +98,9 @@ Snapshot コピーは、ボリュームのポイントインタイムコピー�
 
 == データをレプリケートして同期
 
-Cloud Manager を使用して、ストレージ環境間でデータをレプリケートできます。ONTAP レプリケーション用に FSX を構成するには、を参照してください https://docs.netapp.com/us-en/cloud-manager-replication/task-replicating-data.html["システム間でのデータのレプリケーション"^]。
+BlueXPを使用すると'ストレージ環境間でデータをレプリケートできますONTAP レプリケーション用に FSX を構成するには、を参照してください https://docs.netapp.com/us-en/cloud-manager-replication/task-replicating-data.html["システム間でのデータのレプリケーション"^]。
 
-Cloud Manager の Cloud Sync を使用して、同期関係を作成できます。同期関係を設定するには、を参照してください https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html["同期関係を作成する"^]。
+BlueXPのCloud Sync を使用して同期関係を作成できます。同期関係を設定するには、を参照してください https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html["同期関係を作成する"^]。
 
 
 
@@ -108,13 +108,13 @@ Cloud Manager の Cloud Sync を使用して、同期関係を作成できます
 
 不要になったボリュームを削除します。
 
-以前に SnapMirror 関係に含まれていたボリュームは、 Cloud Manager を使用して削除することはできません。SnapMirror ボリュームは、 AWS 管理コンソールまたは CLI を使用して削除する必要があります。
+以前にBlueXPを使用してSnapMirror関係に含まれていたボリュームは削除できません。SnapMirror ボリュームは、 AWS 管理コンソールまたは CLI を使用して削除する必要があります。
 
 .手順
 . 作業環境を開きます。
 . 音量タブを開き、*音量管理*を選択して*音量操作*メニューを開きます。
 . 「*ボリュームの削除*」を選択します。
-. 作業環境の名前を入力し、ボリュームを削除することを確認します。ボリュームが Cloud Manager から完全に削除されるまでに最大 1 時間かかることがあります。
+. 作業環境の名前を入力し、ボリュームを削除することを確認します。ボリュームがBlueXPから完全に削除されるまでに、最大1時間かかる場合があります。
 
 
 

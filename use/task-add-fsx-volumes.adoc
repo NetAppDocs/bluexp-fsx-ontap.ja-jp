@@ -20,7 +20,7 @@ summary: 作業環境のセットアップ後、 ONTAP ボリューム、クロ�
 
 == ボリュームを作成します
 
-Cloud Managerでは、FSX for ONTAP 作業環境からNFS、CIFS、およびiSCSIのボリュームを作成および管理できます。ONTAP CLI を使用して作成したボリュームは、 FSX for ONTAP の作業環境にも表示されます。
+BlueXPのFSX for ONTAP 作業環境から'NFS'CIFS'iSCSIボリュームを作成および管理できますONTAP CLI を使用して作成したボリュームは、 FSX for ONTAP の作業環境にも表示されます。
 
 必要なもの：
 
@@ -100,7 +100,7 @@ TIP: この作業環境で最初に CIFS ボリュームを使用する場合は
 | DNS ドメイン | Storage Virtual Machine （ SVM ）の DNS ドメインです。ほとんどの場合、ドメインは AD ドメインと同じです。 
 
 
-| NTP サーバ | Active Directory DNS を使用して NTP サーバを設定するには、 * NTP サーバ設定を有効にする * を選択します。別のアドレスを使用して NTP サーバを設定する必要がある場合は、 API を使用してください。を参照してください https://docs.netapp.com/us-en/cloud-manager-automation/index.html["Cloud Manager 自動化に関するドキュメント"^] を参照してください。 
+| NTP サーバ | Active Directory DNS を使用して NTP サーバを設定するには、 * NTP サーバ設定を有効にする * を選択します。別のアドレスを使用して NTP サーバを設定する必要がある場合は、 API を使用してください。を参照してください https://docs.netapp.com/us-en/cloud-manager-automation/index.html["BlueXP自動化ドキュメント"^] を参照してください。 
 |===
 *** ワークグループセットアップを選択した場合は、 CIFS 用に設定されているワークグループのサーバとワークグループ名を入力します。
 
@@ -141,7 +141,7 @@ image:screenshot_fsx_volume_usage_tiering.png["ONTAP ボリューム作成用の
 
 == ボリュームをマウント
 
-Cloud Manager でのマウント手順を参照して、ホストにボリュームをマウントできるようにします。
+ボリュームをホストにマウントできるように、BlueXPからマウント手順にアクセスします。
 
 .手順
 . 作業環境を開きます。

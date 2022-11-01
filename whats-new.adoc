@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: whats-new.html 
-keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes' 
+keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes, cloud manager' 
 summary: Amazon FSX for ONTAP の新機能をご確認ください。 
 ---
 = Amazon FSX for ONTAP の新機能
