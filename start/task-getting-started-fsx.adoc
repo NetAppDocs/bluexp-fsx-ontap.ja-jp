@@ -16,7 +16,11 @@ summary: Amazon FSX for ONTAP の導入を開始するには、いくつかの�
 [role="lead"]
 Amazon FSX for ONTAP の導入を開始するには、いくつかの手順を実行します。
 
-FSX for ONTAP は、ほんの数ステップで開始できます。
+
+
+== クイックステップ
+
+を使用します link:https://docs.netapp.com/us-en/cloud-manager-family/["BlueXP"^]FSX for ONTAP は、ほんの数ステップで開始できます。
 
 [role="quick-margin-para"]
 ボリュームを追加する前に、 ONTAP 作業環境用の Amazon FSX を作成する必要があります。する必要があります link:../requirements/task-setting-up-permissions-fsx.html["BlueXP SaaSが役割を引き受けることを可能にするIAM役割を設定します"]。

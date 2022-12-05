@@ -355,7 +355,6 @@
   <block id="adae5e92a515a3174e9058a6b8179a41" category="paragraph">Amazon FSX for ONTAP は、 AWS ファーストパーティの解決策です。AWS FSX ファイルシステム、インフラ、またはこのサービスを使用する AWS 解決策に関連する質問やテクニカルサポートの問題については、 AWS コンソールのサポートセンターを使用して AWS へのサポートケースをオープンしてください。「 FSX for ONTAP 」サービスと該当するカテゴリを選択します。AWS サポートケースの作成に必要な残りの情報を指定します。</block>
   <block id="7a8c8dd27a87bf665545ae7d6521b93a" category="summary">Amazon FSX for ONTAP の導入を開始するには、いくつかの手順を実行します。</block>
   <block id="bf7ec532103402eaed4653738655f6ad" category="doc">Amazon FSX for ONTAP の利用を開始しましょう</block>
-  <block id="fbda414afc779c9e1e46c45b74091adb" category="paragraph">FSX for ONTAP は、ほんの数ステップで開始できます。</block>
   <block id="fdf5c0db5e25841d90a9737c63c9172a" category="inline-link">AWS 用コネクタ</block>
   <block id="de737ba84e61f1a8380fd351112b7183" category="inline-link">AWS Marketplace から Connector を起動する</block>
   <block id="c8f9fcb2d5c182f76e53507a00efe037" category="inline-link">Linux ホストへの Connector ソフトウェアのインストール</block>
@@ -555,9 +554,7 @@
   <block id="1c91f3adc957364cb01d33e100ee1ea3" category="list-text">初めて導入する場合は</block>
   <block id="00fc9d0c515c69ea2c368521453d982e" category="inline-xref">ネットアップへの登録方法をご確認ください</block>
   <block id="97454ce87333f7ebd50ee38b8126fb39" category="paragraph"><block ref="37544f11913357c4e8c8a4ec607ae247" category="inline-xref-macro-rx"></block>。</block>
-  <block id="77bdda0b5be7d2725f2b5941d74db0e2" category="paragraph">サポートダッシュボードを使用すると、NetApp Support Site アカウントを追加して管理し、Cloud Managerで使用できます。</block>
   <block id="328a2c1e7778e9edaf79d90c51409ac4" category="list-text">お客様レベルのアカウントをお持ちの場合は、1つ以上のNSSアカウントを追加することもできます。</block>
-  <block id="4fde72c535fd0cd463dbeb49347cdfae" category="list-text">パートナーアカウントまたはリセラーアカウントをお持ちの場合は、1つ以上のNSSアカウントを追加できますが、お客様レベルのアカウントと一緒に追加することはできません。</block>
   <block id="cf3a2d2c139bf5c9cc87fe714bfff3b1" category="paragraph">次の点に注意してください。</block>
   <block id="0f0a0d646a020cf3a65ce82ada4cfb01" category="list-text">お客様レベルのアカウントである必要があります（ゲストや一時アカウントは使用できません）。</block>
   <block id="1dcb63fd55c4d22e87cb32275b8cc808" category="inline-image-macro">3つの水平ドットのアイコン</block>
@@ -574,24 +571,19 @@
   <block id="5b2b7f628f804bcb786a097c7e45aa41" category="inline-link">NetApp Support Site ユーザー登録フォーム</block>
   <block id="0c4a8b62da9473fbd5401273c4f85ee0" category="list-text">を実行してNetApp Support Site アカウントを作成します<block ref="041bcb6d9bdf91f7d6ac92ae3a196e12" category="inline-link-rx"></block></block>
   <block id="d61c9f72493817776f392db42ac446a2" category="list-text">適切なユーザレベルを選択してください。通常は*ネットアップのお客様/エンドユーザ*がこれに該当します。</block>
-  <block id="d6cb31c22f8f843a781cccec33157281" category="list-text">シリアル番号のフィールドには、上記のCloud Managerアカウントのシリアル番号（960xxxx）を必ずコピーしてください。これにより、アカウント処理が高速化されます。</block>
   <block id="e9b1f53d6cabb3394833a4e102eb6a69" category="section-title">ネットアップのソリューションを初めて導入する場合は</block>
   <block id="c20c107d0d4eef6351660f3590324232" category="paragraph">ネットアップ製品を初めてご利用になり、NSSアカウントをお持ちでない場合は、以下の手順に従ってください。</block>
-  <block id="59dd2a274c2c6a3cc5b3dce08109019d" category="list-text">Support Registrationのページで、Cloud ManagerアカウントIDのシリアル番号を確認します。</block>
   <block id="ef5e63bb6b6827440a13cc2ec7e9cf56" category="paragraph"><block ref="ef5e63bb6b6827440a13cc2ec7e9cf56" category="inline-image-macro-rx" type="image"></block></block>
   <block id="dd50e314c18933734174c1156dd9237f" category="inline-link">ネットアップサポート登録サイト</block>
   <block id="78f94e749b89d69dcbf3baff21ccb958" category="list-text">に移動します<block ref="e1c4be66250fd76d5c52bfe2cb7daee2" category="inline-link-rx"></block> 「*ネットアップ登録のお客様ではありません*」を選択します。</block>
   <block id="d4f633ef130727b2776fa7f45024ca7d" category="list-text">必須フィールドに入力します（赤いアスタリスクのフィールド）。</block>
   <block id="1128fc8d5ec64880f4d49337ed798d31" category="list-text">[*製品ライン*（Product Line *）]フィールドで、[* Cloud Manager *]を選択し、該当する課金プロバイダーを選択します。</block>
-  <block id="1192dec4cc2b923397748a651cef178f" category="list-text">前述の手順2からCloud Managerアカウントのシリアル番号をコピーし、セキュリティチェックを完了して、ネットアップのグローバルデータプライバシーポリシーを読み、確認します。</block>
   <block id="3a24c87c9971d2011b4df223718f84b4" category="paragraph">この安全なトランザクションを完了するために、メールボックスに電子メールがすぐに送信されます。確認メールが数分で届かない場合は、必ずスパムフォルダを確認してください。</block>
   <block id="03413baeca1ff7222737d8ce299bd4e8" category="list-text">Eメールからアクションを確認します。</block>
   <block id="201080500e946070a2e4873042507c77" category="paragraph">確認ではネットアップにリクエストが送信され、NetApp Support Site アカウントを作成することを推奨します。</block>
   <block id="684375e279a289295b72a006d93e2c4c" category="paragraph">このプロセスについては、ネットアップからご連絡ください。これは、新規ユーザ向けの1回限りのオンボーディング演習です。</block>
   <block id="ca9f06fa1a00f01b3d6a92ff7e6556ff" category="summary">Amazon FSX for NetApp ONTAP は、 ONTAP の全機能を AWS のネイティブマネージドサービスに提供し、一貫したハイブリッドクラウドエクスペリエンスを実現します。このドキュメントでは、ONTAP BlueXPを使用してFSX forを管理する方法について説明します。</block>
   <block id="6a7ebeee8a870484e91de7ed605595e5" category="section-title">BlueXPのその他の機能</block>
-  <block id="61d1931826c6b4bafae8f3e532759004" category="list-text">AWSとBlueXP（旧称Cloud Manager）のコネクタを使用すると、ボリュームの作成と管理、データのレプリケート、ONTAP 向けFSXとData SenseやCloud Sync などのNetAppクラウド サービス との統合が可能になります。</block>
-  <block id="2e1fca4dcaae8d35c81661aec02958b2" category="paragraph">FSX for ONTAP アカウントは、BlueXPではなくAWSによって管理されています。<block ref="8ceb48ebb1fa83d69a24f299e3fde40a" category="inline-link-rx"></block></block>
   <block id="c38a4c52c19f29b55ed16af8a145fb57" category="paragraph">BlueXPやBlueXPのマイクロサービスに関する一般的な質問については'オンラインのBlueXPチャットから始めることができます</block>
   <block id="8ae3d71a6e8ab23cdfe061900ab42a08" category="paragraph">でのBlueXPまたはマイクロサービスに固有のテクニカルサポートの問題については、BlueXPアカウントレベルのシリアル番号を使用してネットアップサポートチケットを開くことができます。サポートを有効にするには、BlueXPのシリアル番号を登録する必要があります。</block>
   <block id="d2f0ad44b51fbd3850fad8307ea16aa3" category="inline-link-macro">BlueXP SaaSが役割を引き受けることを可能にするIAM役割を設定します</block>
@@ -687,4 +679,14 @@
   <block id="c95623cd0395d5a6bb6105b9d32f197b" category="inline-link">BlueXPに関する注意事項</block>
   <block id="e8a6d0f19a957eac14b9917a6c92899b" category="list-text"><block ref="e8a6d0f19a957eac14b9917a6c92899b" category="inline-link-rx"></block></block>
   <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">BlueXPのすべてのマニュアル</block>
+  <block id="8ea62d632a69911dcf193e9803b1195a" category="section-title">クイックステップ</block>
+  <block id="9b9477e579c3b44dd623d5a6e1ea8d78" category="inline-link-macro">BlueXP</block>
+  <block id="a9272148ddd8493b835b5b0ed973a495" category="paragraph">を使用します <block ref="ac523c62451e38c65aafdd45e2bf5230" category="inline-link-macro-rx"></block>FSX for ONTAP は、ほんの数ステップで開始できます。</block>
+  <block id="c8e7a79b3e62d2a377fbadb534f60c42" category="list-text">を使用します <block ref="ac523c62451e38c65aafdd45e2bf5230" category="inline-link-macro-rx"></block> （旧称Cloud Manager）とAWSのコネクタを使用すると、ボリュームの作成と管理、データのレプリケート、データセンスやCloud Sync など、ONTAP 向けFSXとNetAppクラウド サービス の統合を行うことができます。</block>
+  <block id="962c08f0916b80f5a1a7aec1e657dbe8" category="paragraph">FSX for ONTAP アカウントは、BlueXPではなくAWSによって管理されています。を参照してください<block ref="8ceb48ebb1fa83d69a24f299e3fde40a" category="inline-link-rx"></block>。</block>
+  <block id="f2575f6d19024f7288cf78d7dc5b3db9" category="paragraph">サポートダッシュボードを使用すると、NetApp Support Site アカウントを追加して管理し、BlueXPで使用できます。</block>
+  <block id="e3cd99e4aa330ae6bdfb3754d83ae962" category="list-text">パートナーアカウントまたはリセラーアカウントをお持ちの場合は、1つ以上のNSSアカウントを追加することはできますが、お客様レベルのアカウントと一緒に追加することはできません。</block>
+  <block id="2974170a8b1b5b4a2ac69aacd4c1c9c3" category="list-text">サポート登録ページでアカウントIDのシリアル番号を確認します。</block>
+  <block id="50a1dc01b7312307c34a888071586955" category="list-text">上記の手順2からアカウントのシリアル番号をコピーし、セキュリティチェックを完了して、ネットアップのグローバルデータプライバシーポリシーを確認します。</block>
+  <block id="cc8b0535948da368f832027c19b7f853" category="list-text">シリアル番号フィールドには、上記のアカウントのシリアル番号（960xxxx）を必ずコピーしてください。これにより、アカウント処理が高速化されます。</block>
 </blocks>

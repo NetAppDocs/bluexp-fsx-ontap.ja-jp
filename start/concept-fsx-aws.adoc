@@ -31,7 +31,7 @@ link:https://docs.aws.amazon.com/fsx/latest/ONTAPGuide/what-is-fsx-ontap.html["O
 
 == BlueXPのその他の機能
 
-* AWSとBlueXP（旧称Cloud Manager）のコネクタを使用すると、ボリュームの作成と管理、データのレプリケート、ONTAP 向けFSXとData SenseやCloud Sync などのNetAppクラウド サービス との統合が可能になります。
+* を使用します link:https://docs.netapp.com/us-en/cloud-manager-family/["BlueXP"^] （旧称Cloud Manager）とAWSのコネクタを使用すると、ボリュームの作成と管理、データのレプリケート、データセンスやCloud Sync など、ONTAP 向けFSXとNetAppクラウド サービス の統合を行うことができます。
 * 人工知能（ AI ）ベースのテクノロジを使用したクラウドデータセンスは、データコンテキストを理解し、 FSX for ONTAP アカウントに存在する機密データを識別するのに役立ちます。 https://docs.netapp.com/us-en/cloud-manager-data-sense/concept-cloud-compliance.html["詳細はこちら。"^]。
 * NetApp Cloud Sync を使用すると、クラウド内やオンプレミス内のあらゆるターゲットへのデータ移行を自動化できます。 https://docs.netapp.com/us-en/cloud-manager-sync/concept-cloud-sync.html["詳細はこちら。"^]
 
@@ -40,7 +40,7 @@ link:https://docs.aws.amazon.com/fsx/latest/ONTAPGuide/what-is-fsx-ontap.html["O
 
 == コスト
 
-FSX for ONTAP アカウントは、BlueXPではなくAWSによって管理されています。 https://docs.aws.amazon.com/fsx/latest/ONTAPGuide/what-is-fsx-ontap.html["『 Amazon FSX for ONTAP Getting Started Guide 』"^]
+FSX for ONTAP アカウントは、BlueXPではなくAWSによって管理されています。を参照してください https://docs.aws.amazon.com/fsx/latest/ONTAPGuide/what-is-fsx-ontap.html["『 Amazon FSX for ONTAP Getting Started Guide 』"^]。
 
 AWS でコネクタを使用する場合、および Cloud Sync や Data Sense などのオプションのデータサービスを使用する場合は、追加コストが発生します。
 
