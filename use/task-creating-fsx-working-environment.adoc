@@ -22,6 +22,7 @@ BlueXPを使用すると'FSX for ONTAP 作業環境を作成または検出し�
 
 最初のステップは、 ONTAP 作業環境用の FSX を作成することです。AWS 管理コンソールですでに ONTAP ファイルシステム用の FSX を作成している場合は、次の操作を実行できます link:task-creating-fsx-working-environment.html#discover-an-existing-fsx-for-ontap-file-system["BlueXPを使用して発見します"]。
 
+.作業を開始する前に
 BlueXPでFSX for ONTAP の作業環境を作成する前に、次のものが必要です。
 
 * BlueXPにONTAP 作業環境用のFSXを作成するために必要な権限を与えるIAMロールのARN。を参照してください link:../requirements/task-setting-up-permissions-fsx.html["BlueXPにAWSクレデンシャルを追加しています"] を参照してください。
@@ -112,6 +113,7 @@ image:screenshot_add_fsx_review.png["ONTAP の FSX の設定を確認するス�
 
 
 
+.結果
 ONTAP 用のFSX設定がキャンバスページに表示されます。
 
 image:screenshot_add_fsx_cloud.png["作業環境のページに表示される、 ONTAP 用の Amazon FSX のスクリーンショット。"]
@@ -163,6 +165,7 @@ image:screenshot_fsx_working_environment_discover.png["Amazon FSX for ONTAP の�
 . [ 追加（ Add ） ] をクリックします。
 
 
+.結果
 検出されたFSX for ONTAP ファイルシステムがBlueXPに表示されます。
 
 image:screenshot_fsx_working_environment_select.png["AWS リージョンと作業環境を選択する際のスクリーンショット"]

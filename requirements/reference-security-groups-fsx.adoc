@@ -24,6 +24,7 @@ FSX for ONTAP セキュリティグループには、インバウンドとアウ
 
 image:diagram-fsx-security-groups.png["ONTAP セキュリティグループ構成の FSX の図。"]
 
+.作業を開始する前に
 AWS 管理コンソールを使用して、 ENI に関連付けられたセキュリティグループを見つける必要があります。
 
 .手順

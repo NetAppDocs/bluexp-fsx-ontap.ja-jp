@@ -22,6 +22,7 @@ BlueXPを使用すると'FSX for ONTAP の作業環境を管理できますス�
 
 スループット容量は、ONTAP 作業環境でFSXを作成したあとにいつでも変更できます。
 
+.作業を開始する前に
 アクティブなが必要です https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-aws.html["AWS のコネクタ"^]。
 
 .手順
@@ -40,6 +41,7 @@ image:screenshot-change-thruput.png["スループット容量変更メニュー�
 
 ストレージ容量とIOPSは、ONTAP 作業環境でFSXを作成した後、いつでも変更できます。
 
+.作業を開始する前に
 アクティブなが必要です https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-aws.html["AWS のコネクタ"^]。
 
 .手順

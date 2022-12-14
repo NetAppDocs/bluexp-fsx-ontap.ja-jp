@@ -22,6 +22,7 @@ summary: 作業環境のセットアップ後、 ONTAP ボリューム、クロ�
 
 BlueXPのFSX for ONTAP 作業環境から'NFS'CIFS'iSCSIボリュームを作成および管理できますONTAP CLI を使用して作成したボリュームは、 FSX for ONTAP の作業環境にも表示されます。
 
+.作業を開始する前に
 必要なもの：
 
 * アクティブです https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-aws.html["AWS のコネクタ"^]。
@@ -135,6 +136,7 @@ image:screenshot_fsx_volume_usage_tiering.png["ONTAP ボリューム作成用の
 . * 確認 * ：ボリューム構成を確認します。設定を変更するには * 戻る * をクリックし、ボリュームを作成するには * 追加 * をクリックします。
 
 
+.結果
 新しいボリュームが作業環境に追加されます。
 
 
@@ -152,4 +154,5 @@ image:screenshot_fsx_volume_actions.png["[ボリューム操作]メニューの�
 . マウントコマンド*を選択し、指示に従ってボリュームをマウントします。
 
 
+.結果
 これで、ボリュームがホストにマウントされました。
