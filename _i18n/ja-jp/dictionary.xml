@@ -22,7 +22,6 @@
   <block id="d798cbf5a08fbeb9fdd3652e5b00bb4c" category="section-title">2021 年 9 月 2 日</block>
   <block id="6c88f9e17d9019e00177d64f9db55d2e" category="section-title">Amazon FSX for ONTAP のサポート</block>
   <block id="18cf072964a583150dd247485ba75b92" category="inline-link-macro">ONTAP 対応の Amazon FSX</block>
-  <block id="a0e08ea7f36fd675a07b353350648fbe" category="list-text"><block ref="040983c31c5d3aff2795da28b0ee5564" category="inline-link-macro-rx"></block> は、 NetApp ONTAP ストレージ・オペレーティング・システムを搭載したファイル・システムの起動と実行を可能にするフルマネージド・サービスです。FSX for ONTAP は、ネットアップのお客様がオンプレミスで使用しているのと同じ機能、パフォーマンス、管理機能を、ネイティブの AWS サービスの簡易性、即応性、セキュリティ、拡張性で提供します。</block>
   <block id="43ece0944414298a29b4d72bc56373f1" category="inline-link-macro">Amazon FSX for ONTAP の詳細をご覧ください</block>
   <block id="9d2704a937df8ec429bf2446953b2687" category="list-text">ONTAP 作業環境用に Cloud Manager で FSX を設定できます。</block>
   <block id="64c9a9d3cd7c3ca76cf19b78a96c9b79" category="inline-link-macro">ONTAP 作業環境用の Amazon FSX を作成します</block>
@@ -323,7 +322,6 @@
   <block id="d8a56d983b91f097e5ba55dd03a18509" category="section-title">IAM ロールを設定します</block>
   <block id="44030f19e52b4a03b050525f287bbc15" category="list-text">ターゲットアカウントの IAM コンソールに移動します。</block>
   <block id="7f4640b00b5df83a54d4aaaa51f7d6ab" category="list-text">[ アクセス管理 ] で、 [ 役割 ] 、 [ 役割の作成 *] の順にクリックし、手順に従って役割を作成します。</block>
-  <block id="e1a3d580d5cb42904b96dc05c0e0903d" category="paragraph">必ず次の手順を実行してください。</block>
   <block id="e506de832b98c2693eb3f400ef0722c0" category="list-text">信頼されるエンティティのタイプ * で、 * AWS アカウント * を選択します。</block>
   <block id="30c558b7179a7e55ad7f3ae5ca262466" category="list-text">次の権限を含むポリシーを作成します。</block>
   <block id="d47c23803528fa45fad33a3f83dfcf54" category="paragraph">IAM ロールに必要な権限が割り当てられます。</block>
@@ -370,12 +368,6 @@
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">クラウドに関する Web セミナー</block>
   <block id="2aeb3bf14f4c88c233b9054f0d5f9f46" category="list-text">アクティブです<block ref="f8ec938ce1f3506a828c9f7802c63902" category="inline-link-rx"></block>。</block>
   <block id="3d3e910b68a6f9dc68d007376e0dae47" category="list-text"><block ref="3d3e910b68a6f9dc68d007376e0dae47" category="inline-link-rx"></block></block>
-  <block id="85f610955384d6c0dcae09552c4508e0" category="paragraph"><block ref="121317bac1802e026b9ea68cbe410489" category="inline-link-macro-rx"></block>。</block>
-  <block id="bdc6d93b4370ea76238df491d9d141c4" category="paragraph">可能です <block ref="88fc27d29fd6019ad989d255373b75d1" category="inline-link-macro-rx"></block> FSX for ONTAP の場合。</block>
-  <block id="8cb898147f5ef32e49709138a0ee48c6" category="paragraph">できるようになりました。 <block ref="98c695f1949c26a2dd10f3c98347e43b" category="inline-link-macro-rx"></block>。</block>
-  <block id="b233fccd6a0e80b0628c8b760f808f80" category="paragraph">できるようになりました。 <block ref="4f9c429b7c1519954500e41db7985c1c" category="inline-link-macro-rx"></block>。</block>
-  <block id="b84e3c9bb4ac9216f14349e3b5be8ec3" category="paragraph"><block ref="173ddc048bd16ccfb71d77420d7581cb" category="inline-link-macro-rx"></block>。</block>
-  <block id="b7dd73bfb5bbb0ec2884525999924384" category="paragraph"><block ref="e85a369c316ea87dc3d5da27638bd157" category="inline-link-macro-rx"></block>。</block>
   <block id="d35e6fa404873b4a616b1313e98cf3d9" category="paragraph"><block ref="6e3374d20d69610b03c5ed3fa5af9a08" category="inline-link-macro-rx"></block>。</block>
   <block id="a4f557d4dc5603464fae9d733ed96263" category="paragraph">FSX for ONTAP セキュリティグループには、インバウンドとアウトバウンドの両方のルールが必要です。この図は、 ONTAP ネットワーク構成およびセキュリティグループ要件の FSX を示しています。</block>
   <block id="804e1541ef4556a247ad9499202fb6e2" category="inline-image-macro">ONTAP セキュリティグループ構成の FSX の図。</block>
@@ -426,9 +418,7 @@
   <block id="1511b856d0328cfba458b8f83c2e94e3" category="section-title">2022年7月3日</block>
   <block id="f0e3a414b681f7ab90a3f742f40c9365" category="list-text">単一または複数のアベイラビリティゾーンHA導入モデルを選択できるようになりました。</block>
   <block id="324197c492971b6abe6108b6ed0e2722" category="inline-link-macro">ONTAP 作業環境用の FSX を作成します</block>
-  <block id="28d4a8073a683a018eec6bfdec63098f" category="paragraph"><block ref="28d4a8073a683a018eec6bfdec63098f" category="inline-link-macro-rx"></block></block>
   <block id="1d83e69fc7f9ed326713517b984b155b" category="list-text">AWS GovCloudアカウント認証はCloud Managerでサポートされるようになりました。</block>
-  <block id="9c2f60af941e19d70429b4a59debeeb9" category="paragraph"><block ref="9c2f60af941e19d70429b4a59debeeb9" category="inline-link-macro-rx"></block></block>
   <block id="f84135b2c550b8d738093a4346ac024d" category="list-text">単一アベイラビリティゾーン*または*複数のアベイラビリティゾーン* HA配置モデルを選択します。</block>
   <block id="2be7f08200a1fe8660c0e3b215446b33" category="inline-image-macro">単一または複数のアベイラビリティゾーン導入モデルの選択オプションボタンのスクリーンショット。</block>
   <block id="501a818c591eeaa056b0d623f83dba40" category="paragraph"><block ref="501a818c591eeaa056b0d623f83dba40" category="inline-image-macro-rx" type="image"></block></block>
@@ -466,19 +456,14 @@
   <block id="3f10ba55f7b5ee2ce092504fcea72477" category="section-title">2022年7月31日</block>
   <block id="dd15e63d013ad6e70302caae66b83f6d" category="list-text">以前にCloud ManagerにAWSクレデンシャルを指定していた場合、新しい* My Opportunities *機能によって、Cloud Managerを使用して追加および管理するONTAP ファイルシステムのFSXが自動的に検出されて提案されます。また、［* My Opportunities *］タブで、利用可能なデータサービスを確認することもできます。</block>
   <block id="6ebe96f0162b363fd765e000afd1c4f0" category="inline-link-macro">「My Opportunities（機会）」を使用して、FSX for ONTAP を検出</block>
-  <block id="9480b8170649423ab940807a0b920da2" category="paragraph"><block ref="9480b8170649423ab940807a0b920da2" category="inline-link-macro-rx"></block></block>
   <block id="e2399171d04de4904bc9ceb3e1c97260" category="inline-link-macro">スループット容量を変更します</block>
-  <block id="c9937dd2be3306177e54f23d06f05522" category="list-text">次の操作を実行できます。 <block ref="506ff771d5601b67d5eec9e79bc3848f" category="inline-link-macro-rx"></block> ONTAP 作業環境用のFSXを作成した後であれば、いつでも作成できます。</block>
   <block id="7699be7c50b8640b313d71cce9004797" category="inline-link-macro">データをレプリケートして同期</block>
-  <block id="2e54b9a897181c7862d708807a350694" category="list-text">次の操作を実行できます。 <block ref="8a24fd2682d2561e3f75043a6b0c8221" category="inline-link-macro-rx"></block> FSX for ONTAP をソースとして使用する、ONTAP システム用のオンプレミスおよびその他のFSXへの移行。</block>
   <block id="42c82b44ceecde8407f75a70409e2aec" category="inline-link-macro">Cloud Managerを使用して、FSX for ONTAP にiSCSIボリュームを作成します</block>
-  <block id="d6d2f19a8b69e681e2faa33500bbff6c" category="list-text">次の操作を実行できます。 <block ref="7bd2232976707f7841c519f0d4d2c5a6" category="inline-link-macro-rx"></block>。</block>
   <block id="4654b99a0535f374a8ff766873df50a6" category="sidebar">作業環境を作成または検出します</block>
   <block id="6faf2fd9ba5b0e89a953f43cd89d6c46" category="sidebar">作業環境の管理</block>
   <block id="3109e49414b9edf951cefa41b4e6edeb" category="sidebar">作業環境を管理します</block>
   <block id="f7ba76d5c9beab0576f118a6254843e9" category="section-title">2022年9月18日</block>
   <block id="3abe9a67eae0ad33b1c96ff4ae8b1eaa" category="inline-link-macro">ストレージ容量とIOPSを変更します</block>
-  <block id="0e36458fd86c678ff613e05396096775" category="paragraph">次の操作を実行できます。 <block ref="0fb4d5e2ef1238fe0c2ee898e859399c" category="inline-link-macro-rx"></block> ONTAP 作業環境用のFSXを作成した後であれば、いつでも作成できます。</block>
   <block id="f5d07457c4656e60fff8f3663f422965" category="list-text">概要*（Overview *）タブで、*フィーチャー*（* Features *）を選択します。</block>
   <block id="2498d03a4261c0c377ff9aa14f08a01b" category="list-text">鉛筆のアイコン（<block ref="a3ce23dbf8ced4424507771e4b6881ae" category="inline-image-macro-rx" type="image"></block>）をクリックして、* Throughput Capacity *編集ページを開きます。</block>
   <block id="87b240f45f566a73d19136ab81e90ad1" category="inline-image-macro">スループット容量変更メニューの場所のスクリーンショット。</block>
@@ -587,8 +572,6 @@
   <block id="1db8d07619da1f12a7b920676f6769ae" category="paragraph">BlueXPが役割を引き受けることを可能にするIAMロールを設定します。</block>
   <block id="c29858d9450fbef0a082acaa54d1bc6d" category="list-text">別のAWSアカウント*を選択して、BlueXPのIDを入力します。</block>
   <block id="edcfddcfff54621c47b01eddd968a5b0" category="list-text">BlueXP SaaSの場合：952013314444</block>
-  <block id="7ac66cbf6468d4b2ac580b0142eb7f7b" category="inline-link-macro">BlueXP Policiesページ</block>
-  <block id="a4b479a41ed7a914d0dd394ff19733d2" category="paragraph">から Connector 展開ポリシーを表示します <block ref="6bc39dc7152091d002dd49afe75c9615" category="inline-link-macro-rx"></block>。</block>
   <block id="fa9df323148192800073dd2a78c81f73" category="list-text">次の手順で、IAMロールのロールARNをコピーしてBlueXPに貼り付けることができます。</block>
   <block id="d5dc64744da4d60a47aa835877d08194" category="paragraph">IAMロールに必要な権限を付与したら、BlueXPにARNロールを追加します。</block>
   <block id="6d9d6baff2479ce7a87bf705f93f1641" category="paragraph">IAM ロールを作成したばかりの場合は、使用できるようになるまで数分かかることがあります。数分待ってから、BlueXPに資格情報を追加します。</block>
@@ -630,7 +613,6 @@
   <block id="6f28647aed612b810bbd7e815e8adbef" category="inline-link">BlueXP自動化ドキュメント</block>
   <block id="40093c43e131165eb7dd2a980ff78509" category="cell">Active Directory DNS を使用して NTP サーバを設定するには、 * NTP サーバ設定を有効にする * を選択します。別のアドレスを使用して NTP サーバを設定する必要がある場合は、 API を使用してください。を参照してください<block ref="cf06621be2a2bfce0ef0595deee16955" category="inline-link-rx"></block> を参照してください。</block>
   <block id="cabcbbac4437e0dbf2eec9f1d07d973b" category="paragraph">ボリュームをホストにマウントできるように、BlueXPからマウント手順にアクセスします。</block>
-  <block id="0aab21b00fa6135e62b29e7f8bb6778e" category="summary">BlueXPを使用すると'FSX for ONTAP の作業環境を管理できますスループットとストレージ容量およびIOPSを変更し、作業環境を削除することができます。</block>
   <block id="78b85142b4840670f82bc1e876164d5a" category="paragraph">FSX for ONTAP をBlueXPから削除する場合は、ONTAP アカウントまたはボリュームのFSXを削除する必要はありません。FSX for ONTAP の作業環境はいつでもBlueXPに戻すことができます。</block>
   <block id="2bded8459b9098e5f464123fa54a7a84" category="inline-image-macro">BlueXPインターフェイスからのFSX for ONTAP の削除オプションのスクリーンショット</block>
   <block id="00e44395dfa88719cfdde0d3aafb0b4c" category="paragraph"><block ref="00e44395dfa88719cfdde0d3aafb0b4c" category="inline-image-macro-rx" type="image"></block></block>
@@ -697,4 +679,39 @@
   <block id="3a994a785ff4b046a381ab2afb6d0e17" category="paragraph">可能です <block ref="c98786904f437c4c5be9aec70a11cbb2" category="inline-link-macro-rx"></block> BlueXPを使用している。</block>
   <block id="01e12de62fa77fda2815719aed8ff892" category="paragraph-title">次のステップ</block>
   <block id="dae3b13fec3bf110f92a7547c071e053" category="paragraph">BlueXPを使用してボリュームを管理し、レプリケーション、Cloud Sync 、データセンスなどの追加サービスを構成できるようになりました。</block>
+  <block id="5a0c953dba56aa463b4468d70bfc3feb" category="section-title">2023年1月1日</block>
+  <block id="f99ecd5cff9b18879fcd5ee404af256f" category="inline-link-macro">容量の自動管理</block>
+  <block id="380fe7c3627610af34c9936f46325923" category="paragraph">これで、を有効にすることができます <block ref="79658b4a46346ad9aa23a5f92d57dfaa" category="inline-link-macro-rx"></block> 必要に応じて差分ストレージを追加自動容量管理では、要求を評価するためにクラスタを定期的にポーリングし、クラスタの最大容量の10%までの割合でストレージ容量を自動的に拡張します。</block>
+  <block id="4054992d1ab241cf4542bc8cd502d679" category="paragraph">次の操作を実行できます。 <block ref="57fbdd5ba152894391c55cce5d9fe8f8" category="inline-link-macro-rx"></block> ONTAP 作業環境用のFSXを作成した後であれば、いつでも作成できます。</block>
+  <block id="a83471208430f7fbd0630757d97c5142" category="paragraph"><block ref="a83471208430f7fbd0630757d97c5142" category="inline-link-macro-rx"></block></block>
+  <block id="6cd901297cf29a4b459f2cc11e68c6d6" category="list-text">次の操作を実行できます。 <block ref="697a0d5ee189fb6da3b3bef50626dd94" category="inline-link-macro-rx"></block> ONTAP 作業環境用のFSXを作成した後であれば、いつでも作成できます。</block>
+  <block id="897d994d4d024883042e664eba152417" category="list-text">次の操作を実行できます。 <block ref="df556429a26e71fbf9e095a790447f2b" category="inline-link-macro-rx"></block> FSX for ONTAP をソースとして使用する、ONTAP システム用のオンプレミスおよびその他のFSXへの移行。</block>
+  <block id="cf648eb1e2c8b4986628f39a529b68f1" category="list-text">次の操作を実行できます。 <block ref="7c9b88630e88eb3d402b9bbec2515bca" category="inline-link-macro-rx"></block>。</block>
+  <block id="bee52cc88c0a721fa21705e43f975a38" category="paragraph"><block ref="bee52cc88c0a721fa21705e43f975a38" category="inline-link-macro-rx"></block></block>
+  <block id="68b4888c90bad97d83573c204e39d4f6" category="paragraph"><block ref="68b4888c90bad97d83573c204e39d4f6" category="inline-link-macro-rx"></block></block>
+  <block id="1a457abce740f74637d89636cb4bf465" category="paragraph"><block ref="b41a9efd67b5cf55cf548e8762fd5391" category="inline-link-macro-rx"></block>。</block>
+  <block id="878635d00100085ed9c73c84b23923a8" category="paragraph">可能です <block ref="7efe0bba09b9697b63e1ec0f00c0d9bb" category="inline-link-macro-rx"></block> FSX for ONTAP の場合。</block>
+  <block id="b957b3c2b45d171475a7589df8173510" category="paragraph">できるようになりました。 <block ref="e1e8315fc20ff9071c786150bb6a8fd4" category="inline-link-macro-rx"></block>。</block>
+  <block id="c3e1ff7fb2dc6fd7c64f15c4ce7d34e3" category="paragraph">できるようになりました。 <block ref="1546ddd4150be40b2e31760299f6633d" category="inline-link-macro-rx"></block>。</block>
+  <block id="1deb64c5b7d1fce612c4ca0466dfa255" category="paragraph"><block ref="fdd32d934c03692704574175344c207a" category="inline-link-macro-rx"></block>。</block>
+  <block id="7a2732ff05563f251f1ac93ae2d0c9d5" category="paragraph"><block ref="22cb2c9bc18ba713f3606939a029b986" category="inline-link-macro-rx"></block>。</block>
+  <block id="6ba425a78c17896d93d28f52eaadb6f2" category="admonition"><block ref="350df107c59fa79663916b7955bbe306" prefix="" category="inline-code"></block> および<block ref="db68eaa323cf27d3f429647b32e5d91b" prefix=" " category="inline-code"></block> を有効にするには必須です <block ref="1cea652ab03a953c6704c3bb96fcb9b7" category="inline-link-macro-rx"></block>。</block>
+  <block id="9e6871113ad24ed3830e2e58ce51dfc4" category="summary">BlueXPを使用すると'FSX for ONTAP の作業環境を管理できます容量の自動管理を有効にしたり、スループットとストレージ容量およびIOPSを変更したり、作業環境を削除したりできます。</block>
+  <block id="9123b1a896e43bd47ae8708d015514ba" category="section-title">容量の自動管理</block>
+  <block id="1c05e31e27d15b210cdcb01d01331c36" category="paragraph">容量の自動管理を有効にして、必要に応じて増分ストレージを追加することができます。自動容量管理では、クラスタを定期的にポーリングして、需要を評価し、クラスタの最大容量の10%までの割合でストレージ容量を自動的に拡張します。</block>
+  <block id="0b77a63f8ac25e1cd8509e906523f459" category="inline-link-macro">作業環境を作成</block>
+  <block id="0185df25abbf3744285dd03ec2704b86" category="admonition">作業環境の作成時にIOPS値を手動で指定しなかった場合、BlueXPは新しい合計容量の1GiBあたり3 IOPS増加します。IOPS値を指定した場合、IOPSは調整されません。IOPSの設定の詳細については、を参照してください <block ref="54a688b79e41730a76924297f5ac42a6" category="inline-link-macro-rx"></block>。</block>
+  <block id="baf936091e5717d22f9c2b2ccee10188" category="paragraph">容量の自動管理は、デフォルトでは無効になっています。AWSでは、アクティブなコネクタの有無に関係なく、容量の自動割り当てを管理できます。</block>
+  <block id="2ccb2d581067f0eac436a078317d136d" category="section-title">アクティブなコネクタなしで自動容量を管理します</block>
+  <block id="13c4ac4dcec1decf7e36eed04316808f" category="paragraph">AWSではアクティブなコネクタなしで容量の自動管理が可能です。</block>
+  <block id="0550d13a80e42471343b954ee5c015ec" category="inline-image-macro">3つのドットメニューアイコンの画像。</block>
+  <block id="aaf6fdbd2f99b44b18a3501978c7e4b5" category="list-text">メニューアイコン（<block ref="166f5e453125f8a771e7eb7abd5877c7" category="inline-image-macro-rx" type="image"></block>）をクリックし、* Manage Automatic Capacity *を選択します。</block>
+  <block id="eae78abc1ac9b9443e78946ea0ac6f62" category="inline-image-macro">Manage Automatic Capacity（自動容量の管理）メニューのスクリーンショット。</block>
+  <block id="8568f4aa8725b5fac6d8be22b191626f" category="paragraph"><block ref="8568f4aa8725b5fac6d8be22b191626f" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="7c48e42b8eb4f773ff1ba4e512f8d941" category="list-text">[容量の自動管理*]ページで、次の操作を行います。</block>
+  <block id="fc3a15f119ad5decc28ff415b2538e29" category="list-text">ボックスを選択して、容量の自動管理を有効にします。</block>
+  <block id="b7e02100f637951d6f90e4991487480c" category="list-text">容量の自動管理を以前に有効にしていた場合は、このチェックボックスをオフにします。</block>
+  <block id="d9299eb7664af835098dc63cf4cfa0a9" category="section-title">アクティブなコネクタで自動容量を管理します</block>
+  <block id="24eab999bc6be3c2241c58c7aee7ae10" category="paragraph">AWSのアクティブなコネクタを使用して自動容量を管理できます。</block>
+  <block id="938b92d62e3cd9d5d18b4db5abd32cfa" category="list-text">鉛筆のアイコン（<block ref="a3ce23dbf8ced4424507771e4b6881ae" category="inline-image-macro-rx" type="image"></block>）をクリックして、*容量の自動管理*ページを開きます。</block>
 </blocks>

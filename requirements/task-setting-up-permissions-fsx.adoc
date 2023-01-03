@@ -26,9 +26,6 @@ BlueXPが役割を引き受けることを可能にするIAMロールを設定�
 . ターゲットアカウントの IAM コンソールに移動します。
 . [ アクセス管理 ] で、 [ 役割 ] 、 [ 役割の作成 *] の順にクリックし、手順に従って役割を作成します。
 +
-必ず次の手順を実行してください。
-
-+
 ** 信頼されるエンティティのタイプ * で、 * AWS アカウント * を選択します。
 ** 別のAWSアカウント*を選択して、BlueXPのIDを入力します。
 +
@@ -50,10 +47,12 @@ BlueXPが役割を引き受けることを可能にするIAMロールを設定�
                 "fsx:*",
                 "ec2:Describe*",
                 "ec2:CreateTags",
+                "iam:CreateServiceLinkedRole",
                 "kms:Describe*",
                 "kms:List*",
                 "kms:CreateGrant",
-                "iam:CreateServiceLinkedRole"
+                "cloudwatch:GetMetricData",
+                "cloudwatch:GetMetricStatistics"
             ],
             "Resource": "*"
         }
@@ -61,7 +60,8 @@ BlueXPが役割を引き受けることを可能にするIAMロールを設定�
 }
 ----
 +
-から Connector 展開ポリシーを表示します link:https://mysupport.netapp.com/site/info/cloud-manager-policies["BlueXP Policiesページ"]。
+
+NOTE: `"cloudwatch:GetMetricData"` および `"cloudwatch:GetMetricStatistics"` を有効にするには必須です link:../use/task-manage-working-environment.html["容量の自動管理"]。
 
 
 
