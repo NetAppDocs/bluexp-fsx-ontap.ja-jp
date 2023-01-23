@@ -13,7 +13,7 @@ summary: Amazon FSX for ONTAP の新機能をご確認ください。
 :imagesdir: ./media/
 
 
-[role="lead^"]
+[role="lead"]
 Amazon FSX for ONTAP の新機能をご確認ください。
 
 
