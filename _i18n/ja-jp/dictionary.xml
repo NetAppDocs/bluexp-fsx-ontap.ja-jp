@@ -350,7 +350,6 @@
   <block id="d5b1044cbc510048a5dac270bde89ed5" category="inline-link">サポート対象の Amazon リージョンを表示します。</block>
   <block id="ee9b3af8630059982f4d1dd2fd3834a3" category="paragraph"><block ref="ee9b3af8630059982f4d1dd2fd3834a3" category="inline-link-rx"></block></block>
   <block id="20c404f3ca0633629eee9b1b4ccd6737" category="section-title">サポートを受ける</block>
-  <block id="adae5e92a515a3174e9058a6b8179a41" category="paragraph">Amazon FSX for ONTAP は、 AWS ファーストパーティの解決策です。AWS FSX ファイルシステム、インフラ、またはこのサービスを使用する AWS 解決策に関連する質問やテクニカルサポートの問題については、 AWS コンソールのサポートセンターを使用して AWS へのサポートケースをオープンしてください。「 FSX for ONTAP 」サービスと該当するカテゴリを選択します。AWS サポートケースの作成に必要な残りの情報を指定します。</block>
   <block id="fdf5c0db5e25841d90a9737c63c9172a" category="inline-link">AWS 用コネクタ</block>
   <block id="e7d8c0779e86c7c2edb0791a45906d17" category="doc">Amazon FSX for ONTAP のドキュメント</block>
   <block id="69f7f21f4fc680b59f6e889bf9547523" category="sidebar">ONTAP ドキュメント： Amazon FSX</block>
@@ -563,8 +562,6 @@
   <block id="684375e279a289295b72a006d93e2c4c" category="paragraph">このプロセスについては、ネットアップからご連絡ください。これは、新規ユーザ向けの1回限りのオンボーディング演習です。</block>
   <block id="ca9f06fa1a00f01b3d6a92ff7e6556ff" category="summary">Amazon FSX for NetApp ONTAP は、 ONTAP の全機能を AWS のネイティブマネージドサービスに提供し、一貫したハイブリッドクラウドエクスペリエンスを実現します。このドキュメントでは、ONTAP BlueXPを使用してFSX forを管理する方法について説明します。</block>
   <block id="6a7ebeee8a870484e91de7ed605595e5" category="section-title">BlueXPのその他の機能</block>
-  <block id="c38a4c52c19f29b55ed16af8a145fb57" category="paragraph">BlueXPやBlueXPのマイクロサービスに関する一般的な質問については'オンラインのBlueXPチャットから始めることができます</block>
-  <block id="8ae3d71a6e8ab23cdfe061900ab42a08" category="paragraph">でのBlueXPまたはマイクロサービスに固有のテクニカルサポートの問題については、BlueXPアカウントレベルのシリアル番号を使用してネットアップサポートチケットを開くことができます。サポートを有効にするには、BlueXPのシリアル番号を登録する必要があります。</block>
   <block id="d2f0ad44b51fbd3850fad8307ea16aa3" category="inline-link-macro">BlueXP SaaSが役割を引き受けることを可能にするIAM役割を設定します</block>
   <block id="9936779ebe4e0ac089fa89c319d5473b" category="summary">BlueXPでは、BlueXPおよびFSX for ONTAP が正常に動作するために必要なインバウンドとアウトバウンドのルールを含むAWSセキュリティグループが作成されます。テスト目的または独自のポートを使用する必要がある場合には、ポートを参照してください。</block>
   <block id="ecd87ae03b07f0712964d94eb75683a5" category="cell">BlueXPによるDNS解決に使用されます</block>
@@ -714,4 +711,15 @@
   <block id="d9299eb7664af835098dc63cf4cfa0a9" category="section-title">アクティブなコネクタで自動容量を管理します</block>
   <block id="24eab999bc6be3c2241c58c7aee7ae10" category="paragraph">AWSのアクティブなコネクタを使用して自動容量を管理できます。</block>
   <block id="938b92d62e3cd9d5d18b4db5abd32cfa" category="list-text">鉛筆のアイコン（<block ref="a3ce23dbf8ced4424507771e4b6881ae" category="inline-image-macro-rx" type="image"></block>）をクリックして、*容量の自動管理*ページを開きます。</block>
+  <block id="c6a640d3ad983820aec62cd7b77b9b54" category="paragraph">Amazon FSX for ONTAP は、 AWS ファーストパーティの解決策です。Amazon FSX for ONTAP ファイルシステム、インフラ、またはこのサービスを使用する解決策 に関連する質問やテクニカルサポートの問題については、AWSコンソールのサポートセンターを使用してAWSでサポートケースをオープンしてください。「 FSX for ONTAP 」サービスと該当するカテゴリを選択します。AWS サポートケースの作成に必要な残りの情報を指定します。</block>
+  <block id="f1018077b1703f5d0801e8cd07c23fb9" category="paragraph">BlueXPやBlueXPのマイクロサービスに関する一般的な質問については'オンラインのBlueXPチャットから始めることができます</block>
+  <block id="41fa05171eb08b9478abe51f41110a5f" category="inline-link-macro">BlueXPアカウントを登録します</block>
+  <block id="97bc2947e30223870f8c99f41ffe970b" category="paragraph">でのBlueXPまたはマイクロサービスに固有のテクニカルサポートの問題については、BlueXPアカウントレベルのシリアル番号を使用してネットアップサポートチケットを開くことができます。する必要があります <block ref="1da17bacda87cc6ccc7a9f1f44b5e325" category="inline-link-macro-rx"></block> をクリックしてサポートを有効にし</block>
+  <block id="0375f4855be072c7d856a0233cc21de9" category="section-title">クラウドプロバイダソリューションのサポート</block>
+  <block id="58cbf70b5dfbc206d1d9c6559ae58d1b" category="paragraph">クラウドプロバイダソリューションのテクニカルサポートについては、お使いの製品のBlueXPマニュアルの「困ったときは」を参照してください。</block>
+  <block id="5bf5309465f91318228a7f956b826348" category="list-text"><block ref="5bf5309465f91318228a7f956b826348" category="inline-link-macro-rx"></block></block>
+  <block id="7450cfde7058dc5e1f7909d0280fd7ae" category="inline-link-macro">Azure NetApp Files の特長</block>
+  <block id="0e2bc9c853e0af52ead12823c025e58b" category="list-text"><block ref="0e2bc9c853e0af52ead12823c025e58b" category="inline-link-macro-rx"></block></block>
+  <block id="b0cee72642f5457a71ddd0b49efb6d93" category="inline-link-macro">Cloud Volumes Service for Google Cloud</block>
+  <block id="02efcbea18b9485a78a41871dce1e64d" category="list-text"><block ref="02efcbea18b9485a78a41871dce1e64d" category="inline-link-macro-rx"></block></block>
 </blocks>
