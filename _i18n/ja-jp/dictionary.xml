@@ -714,7 +714,6 @@
   <block id="c6a640d3ad983820aec62cd7b77b9b54" category="paragraph">Amazon FSX for ONTAP は、 AWS ファーストパーティの解決策です。Amazon FSX for ONTAP ファイルシステム、インフラ、またはこのサービスを使用する解決策 に関連する質問やテクニカルサポートの問題については、AWSコンソールのサポートセンターを使用してAWSでサポートケースをオープンしてください。「 FSX for ONTAP 」サービスと該当するカテゴリを選択します。AWS サポートケースの作成に必要な残りの情報を指定します。</block>
   <block id="41fa05171eb08b9478abe51f41110a5f" category="inline-link-macro">BlueXPアカウントを登録します</block>
   <block id="0375f4855be072c7d856a0233cc21de9" category="section-title">クラウドプロバイダソリューションのサポート</block>
-  <block id="58cbf70b5dfbc206d1d9c6559ae58d1b" category="paragraph">クラウドプロバイダソリューションのテクニカルサポートについては、お使いの製品のBlueXPマニュアルの「困ったときは」を参照してください。</block>
   <block id="5bf5309465f91318228a7f956b826348" category="list-text"><block ref="5bf5309465f91318228a7f956b826348" category="inline-link-macro-rx"></block></block>
   <block id="7450cfde7058dc5e1f7909d0280fd7ae" category="inline-link-macro">Azure NetApp Files の特長</block>
   <block id="0e2bc9c853e0af52ead12823c025e58b" category="list-text"><block ref="0e2bc9c853e0af52ead12823c025e58b" category="inline-link-macro-rx"></block></block>
@@ -722,4 +721,5 @@
   <block id="02efcbea18b9485a78a41871dce1e64d" category="list-text"><block ref="02efcbea18b9485a78a41871dce1e64d" category="inline-link-macro-rx"></block></block>
   <block id="b284ee716f958658a642a656a79699dc" category="paragraph">BlueXPまたはBlueXPストレージソリューションとサービスに関する一般的な質問については'オンラインのBlueXPチャットから始めることができます</block>
   <block id="3daaa300f491b3dcb99896f1ebc0a277" category="paragraph">BlueXPまたはBlueXPのストレージソリューションとサービスに固有のテクニカルサポートの問題については、BlueXPアカウントレベルのシリアル番号を使用してネットアップサポートチケットを開くことができます。する必要があります <block ref="1da17bacda87cc6ccc7a9f1f44b5e325" category="inline-link-macro-rx"></block> をクリックしてサポートを有効にし</block>
+  <block id="be845c219bb74b14349ffa6e27e7aef3" category="paragraph">BlueXPに統合した次のクラウドプロバイダソリューションのテクニカルサポートについては、その製品のBlueXPマニュアルの「困ったときは」を参照してください。</block>
 </blocks>

@@ -16,7 +16,7 @@ summary: ネットアップテクニカルサポートでサポートケース�
 
 == クラウドプロバイダソリューションのサポート
 
-クラウドプロバイダソリューションのテクニカルサポートについては、お使いの製品のBlueXPマニュアルの「困ったときは」を参照してください。
+BlueXPに統合した次のクラウドプロバイダソリューションのテクニカルサポートについては、その製品のBlueXPマニュアルの「困ったときは」を参照してください。
 
 * link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/start/concept-fsx-aws.html#getting-help["ONTAP 対応の Amazon FSX"^]
 * link:https://docs.netapp.com/us-en/cloud-manager-azure-netapp-files/concept-azure-netapp-files.html#getting-help["Azure NetApp Files の特長"^]
