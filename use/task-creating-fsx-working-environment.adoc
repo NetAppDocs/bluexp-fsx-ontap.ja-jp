@@ -22,7 +22,7 @@ BlueXPを使用すると'FSX for ONTAP 作業環境を作成または検出し�
 
 最初のステップは、 ONTAP 作業環境用の FSX を作成することです。AWS 管理コンソールですでに ONTAP ファイルシステム用の FSX を作成している場合は、次の操作を実行できます link:task-creating-fsx-working-environment.html#discover-an-existing-fsx-for-ontap-file-system["BlueXPを使用して発見します"]。
 
-.作業を開始する前に
+.必要なもの
 BlueXPでFSX for ONTAP の作業環境を作成する前に、次のものが必要です。
 
 * BlueXPにONTAP 作業環境用のFSXを作成するために必要な権限を与えるIAMロールのARN。を参照してください link:../requirements/task-setting-up-permissions-fsx.html["BlueXPにAWSクレデンシャルを追加しています"] を参照してください。
@@ -30,107 +30,79 @@ BlueXPでFSX for ONTAP の作業環境を作成する前に、次のものが必
 
 
 .手順
-. BlueXPで、新しい作業環境を追加し、場所* Amazon Web Services *を選択し、* Next *をクリックします。
-. Amazon FSX for ONTAP * を選択し、 * Next * をクリックします。
+. BlueXPで、新しい作業環境を追加し、*[Amazon Web Services]*を選択して*[Add new]* for Amazon FSx for ONTAP をクリックします。
 +
 image:screenshot_add_fsx_working_env.png["Amazon FSX for ONTAP の作業環境を追加するスクリーンショット"]
 
-. BlueXPでONTAP のFSXを認証します
+. * FSx for ONTAP 認証*
 +
 .. ご使用のアカウントに、 FSX for ONTAP に対する適切な AWS 権限を持つ既存の IAM ロールがある場合は、ドロップダウンからそのロールを選択します。
-+
-image:screenshot-fsx-assume-role-present.png["AWS のロールのドロップダウンを示すスクリーンショット"]
-
-.. アカウントに IAM ロールがない場合は、 * クレデンシャルページ * をクリックし、ウィザードの手順に従って、 ONTAP クレデンシャル用の FSX を使用して AWS IAM ロールの ARN を追加します。を参照してください link:../requirements/task-setting-up-permissions-fsx.html["BlueXPにAWSクレデンシャルを追加しています"] を参照してください。
-+
-image:screenshot-fsx-assume-role-not-present.png["ONTAP 権限用に FSX を使用して AWS IAM ロールの ARN を追加する手順のスクリーンショット。"]
+.. アカウントにIAMロールがない場合は、*[Credentials]*をクリックし、ウィザードの手順に従ってAWS IAMロールのARNとFSx for ONTAP クレデンシャルを追加します。を参照してください link:../requirements/task-setting-up-permissions-fsx.html["BlueXPにAWSクレデンシャルを追加しています"] を参照してください。
 
 
-
-. ONTAP インスタンスの FSX に関する情報を入力します。
+. *詳細と資格情報*
 +
 .. 使用する作業環境名を入力します。
 .. 必要に応じて、プラス記号をクリックし、タグの名前と値を入力してタグを作成できます。
 .. 使用する ONTAP クラスタのパスワードを入力し、確認のためにもう一度入力します。
-.. SVM ユーザに同じパスワードを使用するか、別のパスワードを設定するかを選択します。
-.. 「 * 次へ * 」をクリックします。
+.. 必要に応じて、SVMユーザに同じパスワードを使用するオプションの選択を解除し、別のパスワードを設定します。
+
+
+. *リージョンとVPC *
 +
-image:screenshot_add_fsx_credentials.png["FSX for ONTAP のクレデンシャルを追加するスクリーンショット"]
-
-
-
-. リージョンと VPC の情報を指定します。
+.. 単一アベイラビリティゾーン*または*複数のアベイラビリティゾーン* HA配置モデルを選択します。複数のアベイラビリティゾーンについては、各ノードが専用のアベイラビリティゾーンになるように、少なくとも2つのアベイラビリティゾーンのサブネットを選択してください。
 +
-.. 単一アベイラビリティゾーン*または*複数のアベイラビリティゾーン* HA配置モデルを選択します。
-+
-image:screenshot-ha-deployment-models.png["単一または複数のアベイラビリティゾーン導入モデルの選択オプションボタンのスクリーンショット。"]
-
-.. リージョンとVPCを選択します。
-+
-[NOTE]
-====
-複数のアベイラビリティゾーンについては、各ノードが専用のアベイラビリティゾーンになるように、少なくとも2つのアベイラビリティゾーンのサブネットを選択してください。
-
 image:screenshot_add_fsx_region.png["ONTAP 向け FSX にリージョンと VPC を追加するスクリーンショット"]
 
-====
 .. デフォルトのセキュリティグループをそのまま使用するか、別のセキュリティグループを選択します。 link:https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/security-group-rules.html["AWS セキュリティグループ"^] インバウンドおよびアウトバウンドトラフィックを制御します。これらの情報は AWS 管理者が設定し、に関連付けます link:https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-eni.html["AWS Elastic Network Interface （ ENI ）"^]。
-.. 「 * 次へ * 」をクリックします。
 
 
-. _cidr Range_Empty を選択し、 * Next * をクリックすると、使用可能な範囲が自動的に設定されます。必要に応じて、を使用できます https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-setting-up-transit-gateway.html["AWS 転送ゲートウェイ"^] 範囲を手動で設定します。
+. *フローティングIP *（複数のアベイラビリティゾーンのみ）
 +
-image:screenshot_add_fsx_floatingIP.png["ONTAP 向け FSX にリージョンと VPC を追加するスクリーンショット"]
+使用可能な範囲を自動的に設定するには、[Leave_CIDR Range_Empty]を選択します。必要に応じて、を使用できます https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-setting-up-transit-gateway.html["AWS 転送ゲートウェイ"^] 範囲を手動で設定します。
 
-. フローティング IP アドレスへのルートを含むルーティングテーブルを選択します。VPC内のサブネット用のルーティングテーブルが1つだけの場合（メインルーティングテーブル）、BlueXPは自動的にそのルーティングテーブルにフローティングIPアドレスを追加します。「 * 次へ * 」をクリックして続行します。
+. *ルートテーブル*（複数のアベイラビリティゾーンのみ）
 +
-image:screenshot_add_fsx_route_table.png["FSX for ONTAP のルートテーブルを選択するスクリーンショット"]
+フローティング IP アドレスへのルートを含むルーティングテーブルを選択します。VPC内のサブネット用のルーティングテーブルが1つだけの場合（メインルーティングテーブル）、BlueXPは自動的にそのルーティングテーブルにフローティングIPアドレスを追加します。
 
-. デフォルトの AWS マスターキーを使用するか、 * キーの変更 * をクリックして別の AWS カスタマーマスターキー（ CMK ）を選択します。CMK の詳細については、を参照してください https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/https://docs.netapp.com/us-en/occm/task-setting-up-kms.html["AWS KMS のセットアップ"^]。「 * 次へ * 」をクリックして続行します。
+. *データ暗号化*
 +
-image:screenshot_add_fsx_encryption.png["ONTAP の FSX のデフォルトのマスターキーを設定するスクリーンショット"]
+デフォルトの AWS マスターキーを使用するか、 * キーの変更 * をクリックして別の AWS カスタマーマスターキー（ CMK ）を選択します。CMK の詳細については、を参照してください https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/https://docs.netapp.com/us-en/occm/task-setting-up-kms.html["AWS KMS のセットアップ"^]。
 
-. ストレージを設定します。
+. *ストレージ構成*
 +
-.. スループット、容量、単位を選択します。スループットとストレージ容量の値はいつでも変更することができます。
+.. スループット、容量、単位を選択します。スループット、ストレージ容量、IOPSはいつでも変更できます。
 .. 必要に応じて、 IOPS 値を指定できます。IOPSの値を指定しない場合は、入力した合計容量の1GiBあたりのIOPSが3つに基づいてデフォルト値が設定されます。たとえば、合計容量に 2 、 000GiB と入力した場合、 IOPS の値が指定されていなければ、有効な IOPS の値は 6 、 000 に設定されます。IOPSの値はいつでも変更できます。
 +
+image:screenshot-storage-config.png["FSX for ONTAP のストレージ構成の設定のスクリーンショット"]
 
-WARNING: 最小要件を満たしていない IOPS 値を指定すると、作業環境の追加時にエラーが発生します。image:screenshot_fsx_working_environment_failed_iops.png["誤った IOPS 値が設定されている場合のエラーメッセージのスクリーンショット。"]
++
 
-.. 「 * 次へ * 」をクリックします。image:screenshot_add_fsx_storage_config.png["FSX for ONTAP のストレージ構成の設定のスクリーンショット"]
+NOTE: 最小要件を満たしていないIOPS値を指定すると、作業環境を追加するときにエラーが表示されます。
 
 
-. 構成を確認します。
+
+. *レビュー*
 +
 .. タブをクリックして、 ONTAP のプロパティ、プロバイダのプロパティ、およびネットワーク構成を確認します。
-.. 任意の設定を変更するには、 * 戻る * をクリックします。
-.. [ * 追加（ Add ） ] をクリックして設定を確定し、作業環境を作成します。
-+
-image:screenshot_add_fsx_review.png["ONTAP の FSX の設定を確認するスクリーンショット"]
-
+.. 設定を変更する場合は*[前へ]*をクリックし、設定を受け入れて作業環境を作成する場合は*[追加]*をクリックします。
 
 
 
 
 .結果
-ONTAP 用のFSX設定がキャンバスページに表示されます。
+FSx for ONTAP の構成がキャンバスに表示されます。BlueXPを使用して'FSX for ONTAP 作業環境にボリュームを追加できるようになりました
 
 image:screenshot_add_fsx_cloud.png["作業環境のページに表示される、 ONTAP 用の Amazon FSX のスクリーンショット。"]
-
-BlueXPを使用して'FSX for ONTAP 作業環境にボリュームを追加できるようになりました
 
 
 
 == 既存の FSX for ONTAP ファイルシステムを検出します
 
-ONTAP 管理コンソールを使用してFSX forファイルシステムを作成した場合、または以前に削除した作業環境をリストアする場合は、**My Opportunities **を使用して検出するか、手動で検出できます。
-
-
-
-=== Opportunityを使って発見する
-
 以前にBlueXPにAWSの資格情報を提供していた場合、*My Opportunities *は、ONTAP ファイルシステム用のFSXを自動的に検出し、BlueXPを使用して追加および管理することを提案できます。使用可能なデータサービスを確認することもできます。
+
+.このタスクについて
+FSx for ONTAP ファイルシステムはで検出できます link:/task-creating-fsx-working-environment.html#create-an-amazon-fsx-for-ontap-working-environment["新しい作業環境の作成"] または、* My Opportunities *ページを使用します。このタスクでは、* My Opportunities *を使用した検出について説明します
 
 .手順
 . BlueXPで、[* My Opportunities *]タブをクリックします。
@@ -148,24 +120,7 @@ image:screenshot-opportunities.png["FSX for ONTAP のMy Opportunitiesページ�
 
 
 ====
-
-
-=== 手動で検出
-
-AWS管理コンソールを使用して追加したFSX for ONTAP ファイルシステム、または以前にBlueXPから削除したFSX for BlueXPを手動で検出できます。
-
-.手順
-. BlueXPで、*作業環境の追加*をクリックし、* Amazon Web Services *を選択します。
-. Amazon FSX for ONTAP * を選択し、 * ここをクリック * します。
-+
-image:screenshot_fsx_working_environment_discover.png["Amazon FSX for ONTAP の作業環境を検出するスクリーンショット"]
-
-. 既存のクレデンシャルを選択するか、新しいクレデンシャルを「 * 次へ * 」をクリックします。
-. 追加する AWS リージョンと作業環境を選択します。
-. [ 追加（ Add ） ] をクリックします。
-
-
 .結果
-検出されたFSX for ONTAP ファイルシステムがBlueXPに表示されます。
+検出されたFSx for ONTAP ファイルシステムがキャンバスに表示されます。BlueXPを使用して'FSX for ONTAP 作業環境にボリュームを追加できるようになりました
 
 image:screenshot_fsx_working_environment_select.png["AWS リージョンと作業環境を選択する際のスクリーンショット"]

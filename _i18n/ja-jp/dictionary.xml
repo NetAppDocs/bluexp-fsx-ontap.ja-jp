@@ -31,34 +31,20 @@
   <block id="0b0c82859f18c5cf1bcb10330fab56bd" category="doc">ONTAP 用の Amazon FSX ボリュームを作成します</block>
   <block id="d950ccfec30779e51b9fd6a8aecbb558" category="paragraph">作業環境をセットアップしたら、 ONTAP ボリュームの FSX を作成してマウントできます。</block>
   <block id="1c27e11c5e65b93611e6f5ce640f8184" category="section-title">ボリュームを作成します</block>
-  <block id="36ee27bc3fc7c617977b35534609c979" category="paragraph">必要なもの：</block>
   <block id="ad7e5366eeeef80a0cca58ed2f228e69" category="inline-link">AWS のコネクタ</block>
   <block id="5465e73e9a93dbf3732ca4677b294afe" category="inline-link-macro">AWS ：自己管理型の Microsoft AD を使用するための前提条件</block>
   <block id="9e9d8417e8c186ec6d679c589ea0e388" category="list-text">SMB を使用する場合は、 DNS と Active Directory を設定しておく必要があります。DNS と Active Directory のネットワーク設定の詳細については、を参照してください <block ref="d929f7299259db2194621c6c3cd97ea7" category="inline-link-macro-rx"></block>。</block>
   <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">手順</block>
   <block id="5f1502c18596a814041ff3a5f4953b39" category="list-text">FSX for ONTAP 作業環境を開きます。</block>
-  <block id="8bb933964e44d095412ffc5c20dc6cd4" category="list-text">有効になっているコネクタがない場合は、コネクタを追加するように求められます。</block>
-  <block id="e5269a85a2cb3cf98fc7a82c3a558211" category="inline-image-macro">FSX for ONTAP Connector のプロンプトのスクリーンショット。</block>
-  <block id="5890e0ca1f9df3cd1ea6270dc6c67d05" category="paragraph"><block ref="5890e0ca1f9df3cd1ea6270dc6c67d05" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="811f08ec14bddf12bb95cd5465790a18" category="list-text">[* Volumes （ボリューム） ] タブをクリックします</block>
-  <block id="5e65e2e51d0d291499a42f54730e645c" category="list-text">[ ボリュームの追加 ] をクリックします。</block>
-  <block id="e76e0d2c6703e75c3666c67d2b185919" category="inline-image-macro">ONTAP ボリュームタブの FSX のスクリーンショット。</block>
-  <block id="638a4176be76c6cf595776403405ef92" category="paragraph"><block ref="638a4176be76c6cf595776403405ef92" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="77c018c319fffd489ece68e7e9f933e3" category="list-text">* ボリュームの詳細と保護 * ：</block>
   <block id="2165a478df3c7cdbb020957742f7a396" category="list-text">新しいボリュームの名前を入力します。</block>
   <block id="8a7a21842c95be5ef7cf8fb45e457fbb" category="list-text">Storage VM （ SVM ）のフィールドには、作業環境の名前に基づいて SVM が自動的に設定されます。</block>
   <block id="09d72555d9ef793670cfd52c3b29a5a9" category="list-text">ボリュームサイズを入力して単位（ GiB または TiB ）を選択します。ボリュームサイズは使用量とともに増加することに注意してください。</block>
   <block id="67cab8c7d29423fd822eaba3b1d1ad3e" category="list-text">Snapshot ポリシーを選択します。デフォルトでは、 Snapshot は 1 時間ごと（最新の 6 つのコピーを保持）、 1 日ごと（最新の 2 つのコピーを保持）、および 1 週間ごと（最新の 2 つのコピーを保持）に作成されます。</block>
-  <block id="5a378b18f7bf0c4cabc6c655cd2f535e" category="list-text">「 * 次へ * 」をクリックします。</block>
-  <block id="4b1ceb73f69790897d4632ba712c7659" category="inline-image-macro">ONTAP ボリューム作成の FSX のボリュームの詳細フィールドと保護フィールドのスクリーンショット。</block>
-  <block id="5d40ada61a97a98ef6bc45b298d20ee3" category="paragraph"><block ref="5d40ada61a97a98ef6bc45b298d20ee3" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="547a5c5cf72eabae707b477139de2cdd" category="list-text">NFS の場合：</block>
   <block id="2f13041935e5c3174ee293d608dc78fb" category="list-text">アクセス制御ポリシーを選択します。</block>
   <block id="b07a5c1cd32beac9e88c78df72edc8ec" category="list-text">NFS バージョンを選択します。</block>
   <block id="fc103acdd0c976c704dfea17981b4304" category="list-text">カスタムエクスポートポリシーを選択します。有効な値条件の情報アイコンをクリックします。</block>
   <block id="f2ee46b3a1c0e7f976a1164a6ca75f9e" category="inline-image-macro">ONTAP ボリューム作成用の NFS 構成 FSX のスクリーンショット。</block>
   <block id="7eeb0d62ee9d4c7e8cd6d54885fbb0fe" category="paragraph"><block ref="7eeb0d62ee9d4c7e8cd6d54885fbb0fe" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="83b83892341426df7b542344aa75ca76" category="list-text">CIFS の場合：</block>
   <block id="2ab8185476c6aa2340579384597cb230" category="list-text">共有名を入力します。</block>
   <block id="e5de5245ec2c46e9d548be02749c8dc0" category="list-text">ユーザまたはグループをセミコロンで区切って入力します。</block>
   <block id="4b84f0c5fc5c7b04da02e0f060ce5ce5" category="list-text">ボリュームの権限レベルを選択します。</block>
@@ -81,76 +67,38 @@
   <block id="314c2b52f53238e133233b60949a6d36" category="cell">Storage Virtual Machine （ SVM ）の DNS ドメインです。ほとんどの場合、ドメインは AD ドメインと同じです。</block>
   <block id="225f0204cd2ca87530c681aeae9b7f3e" category="cell">NTP サーバ</block>
   <block id="c806fc6088504aece33ec1078f7edf13" category="list-text">ワークグループセットアップを選択した場合は、 CIFS 用に設定されているワークグループのサーバとワークグループ名を入力します。</block>
-  <block id="77329b4991542c66635b8dd3f7a6f518" category="list-text">* 使用状況プロファイルと階層化 * ：</block>
   <block id="0458d209a53113bf4e745280c9316fc5" category="list-text">デフォルトでは、 * Storage Efficiency * は無効になっています。この設定を変更して、重複排除と圧縮を有効にすることができます。</block>
   <block id="ecc7b94568d033b8afa5f95b89b20136" category="list-text">デフォルトでは、 * 階層化ポリシー * は * Snapshot のみ * に設定されています。ニーズに応じて別の階層化ポリシーを選択できます。</block>
   <block id="7721c2bc1a46653d2fe31df04b1f1d7b" category="inline-image-macro">ONTAP ボリューム作成用の FSX の使用プロファイルと階層化設定のスクリーンショット。</block>
   <block id="d92dc17a178426d4916acd66998be69b" category="paragraph"><block ref="d92dc17a178426d4916acd66998be69b" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="f3a303dc17c6a2c91073ff0eb515587f" category="list-text">* 確認 * ：ボリューム構成を確認します。設定を変更するには * 戻る * をクリックし、ボリュームを作成するには * 追加 * をクリックします。</block>
   <block id="45dbe3c136df615d693b80183c277a3b" category="paragraph">新しいボリュームが作業環境に追加されます。</block>
   <block id="2a4a19d3d732c5f7aa35fa729ac0d8ac" category="section-title">ボリュームをマウント</block>
   <block id="6c970f68c7cf5a446d127ac3ab6d72f7" category="list-text">作業環境を開きます。</block>
   <block id="122aefb3c8684a0e38fb50d87247ad18" category="list-text">ONTAP インスタンスの FSX を作成する場所のリージョンおよび VPN 情報。</block>
-  <block id="b270ee1d45588367ac774fa0f727fc7b" category="list-text">Amazon FSX for ONTAP * を選択し、 * Next * をクリックします。</block>
   <block id="f8b92939989132d828cfc3eea521a293" category="inline-image-macro">Amazon FSX for ONTAP の作業環境を追加するスクリーンショット</block>
   <block id="61a727936c57251e32cb54d629e03313" category="paragraph"><block ref="61a727936c57251e32cb54d629e03313" category="inline-image-macro-rx" type="image"></block></block>
   <block id="ecda29eb0e0827e3bc560f177dcde537" category="list-text">ご使用のアカウントに、 FSX for ONTAP に対する適切な AWS 権限を持つ既存の IAM ロールがある場合は、ドロップダウンからそのロールを選択します。</block>
-  <block id="bc7877d082a71bb780b2cfe54a2f56db" category="inline-image-macro">AWS のロールのドロップダウンを示すスクリーンショット</block>
-  <block id="88c29361a495a558e8e94ba0f1787827" category="paragraph"><block ref="88c29361a495a558e8e94ba0f1787827" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="49727167f9c15ab5bfa0422395e72a31" category="inline-image-macro">ONTAP 権限用に FSX を使用して AWS IAM ロールの ARN を追加する手順のスクリーンショット。</block>
-  <block id="32e8c427ff9ed76c4f8f6c5425c12c82" category="paragraph"><block ref="32e8c427ff9ed76c4f8f6c5425c12c82" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="2d2a9afadbb6d43ee9c21ef6dc9d315f" category="list-text">ONTAP インスタンスの FSX に関する情報を入力します。</block>
   <block id="620a619e5abf90904f8bd9148673563f" category="list-text">使用する作業環境名を入力します。</block>
   <block id="d99cba7d7f71be21b06a8ed7b3cead82" category="list-text">必要に応じて、プラス記号をクリックし、タグの名前と値を入力してタグを作成できます。</block>
   <block id="be5962a1bf7a843353b57734848a4297" category="list-text">使用する ONTAP クラスタのパスワードを入力し、確認のためにもう一度入力します。</block>
-  <block id="5e3355d70ab52073cbbd53548a916969" category="list-text">SVM ユーザに同じパスワードを使用するか、別のパスワードを設定するかを選択します。</block>
-  <block id="d0b2e405325c02e50ba6ff1e7a0bfdeb" category="inline-image-macro">FSX for ONTAP のクレデンシャルを追加するスクリーンショット</block>
-  <block id="0c59eb935a218de10968d2478d3839c5" category="paragraph"><block ref="0c59eb935a218de10968d2478d3839c5" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="282e8cadc54623677e7bc13447fcac29" category="list-text">リージョンと VPC の情報を指定します。</block>
   <block id="d234e32cc579256f2dc2b1c0f46bf8ed" category="inline-link-macro">AWS セキュリティグループ</block>
   <block id="c0a56d37b9a744bb980fb63714ff853a" category="inline-link-macro">AWS Elastic Network Interface （ ENI ）</block>
   <block id="70f807aec183b4123fd9e27691b549ae" category="list-text">デフォルトのセキュリティグループをそのまま使用するか、別のセキュリティグループを選択します。 <block ref="35ef09e7b222c17f67a4a66af73d7196" category="inline-link-macro-rx"></block> インバウンドおよびアウトバウンドトラフィックを制御します。これらの情報は AWS 管理者が設定し、に関連付けます <block ref="122c50f10f9ced3dc765944ec92b3531" category="inline-link-macro-rx"></block>。</block>
   <block id="02b7327efc840726659c50bf482440ba" category="inline-image-macro">ONTAP 向け FSX にリージョンと VPC を追加するスクリーンショット</block>
   <block id="e856b8b85c22d45ac9df09b76538baf0" category="paragraph"><block ref="e856b8b85c22d45ac9df09b76538baf0" category="inline-image-macro-rx" type="image"></block></block>
   <block id="8acea1c4fcca87631ca127e2bc757f13" category="inline-link">AWS 転送ゲートウェイ</block>
-  <block id="98cd8d548fd2fa5186e8dc1c1123f9f6" category="list-text">_cidr Range_Empty を選択し、 * Next * をクリックすると、使用可能な範囲が自動的に設定されます。必要に応じて、を使用できます<block ref="ca64804883d6ae6ee4c5f1f5610fe766" category="inline-link-rx"></block> 範囲を手動で設定します。</block>
-  <block id="7cc0a94cd1ccce02b23807753272d589" category="paragraph"><block ref="7cc0a94cd1ccce02b23807753272d589" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="efae399de597884ba9e25be68c488178" category="inline-image-macro">FSX for ONTAP のルートテーブルを選択するスクリーンショット</block>
-  <block id="9e3037d0c83106b66f9113f03ee4fb10" category="paragraph"><block ref="9e3037d0c83106b66f9113f03ee4fb10" category="inline-image-macro-rx" type="image"></block></block>
   <block id="e9993ec838a8efa5cfb29506f884deca" category="inline-link">AWS KMS のセットアップ</block>
-  <block id="ba7f6c9c6d14f28bb8898cb79c05a77b" category="list-text">デフォルトの AWS マスターキーを使用するか、 * キーの変更 * をクリックして別の AWS カスタマーマスターキー（ CMK ）を選択します。CMK の詳細については、を参照してください<block ref="e519e39311516455306db28fa7daaed2" category="inline-link-rx"></block>。「 * 次へ * 」をクリックして続行します。</block>
-  <block id="5f7b5a6773d6263d66627f6153905a67" category="inline-image-macro">ONTAP の FSX のデフォルトのマスターキーを設定するスクリーンショット</block>
-  <block id="18ee551ad9864bd46a8f5c35b900c641" category="paragraph"><block ref="18ee551ad9864bd46a8f5c35b900c641" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="8c4dc6a5ccac057271e4a3a6b3213037" category="list-text">ストレージを設定します。</block>
-  <block id="72c6f5d2cfeaf6fab82a1ddb12885786" category="inline-image-macro">誤った IOPS 値が設定されている場合のエラーメッセージのスクリーンショット。</block>
-  <block id="6885d04a0fda617d746b2123b3620e51" category="admonition">最小要件を満たしていない IOPS 値を指定すると、作業環境の追加時にエラーが発生します。<block ref="302f4fa129241cdd96ffd6dc709561e6" category="inline-image-macro-rx" type="image"></block></block>
   <block id="8088a4fa7d414a887d0eb3f19623bc06" category="inline-image-macro">FSX for ONTAP のストレージ構成の設定のスクリーンショット</block>
-  <block id="43135e6fbb293afbc21ffcb9200cd5ea" category="list-text">「 * 次へ * 」をクリックします。<block ref="acedc649b329bc2fa4856a424e9ac8f3" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="c9a1d71e742483b14e29f7c2e43e1c64" category="list-text">構成を確認します。</block>
   <block id="0308fb9d7cca24bdc3f9928245f79119" category="list-text">タブをクリックして、 ONTAP のプロパティ、プロバイダのプロパティ、およびネットワーク構成を確認します。</block>
-  <block id="fded4515ce29ea3fdc954faa2784fe7f" category="list-text">任意の設定を変更するには、 * 戻る * をクリックします。</block>
-  <block id="b5bd94a09b2ad1fd2dba6c4a902a9fd3" category="list-text">[ * 追加（ Add ） ] をクリックして設定を確定し、作業環境を作成します。</block>
-  <block id="ef80142d18e6c5a6d15e4724ab6810b8" category="inline-image-macro">ONTAP の FSX の設定を確認するスクリーンショット</block>
-  <block id="e8b9477d45071756ecb4a2cc5082344a" category="paragraph"><block ref="e8b9477d45071756ecb4a2cc5082344a" category="inline-image-macro-rx" type="image"></block></block>
   <block id="45d8e5da7753a5571797f6a81a9c4e3c" category="inline-image-macro">作業環境のページに表示される、 ONTAP 用の Amazon FSX のスクリーンショット。</block>
   <block id="26682ff9a292960b61e97b937520b135" category="paragraph"><block ref="26682ff9a292960b61e97b937520b135" category="inline-image-macro-rx" type="image"></block></block>
   <block id="e69624fa729e14e6bbcae0cf7889e100" category="section-title">既存の FSX for ONTAP ファイルシステムを検出します</block>
-  <block id="6800849898be1086bb69e4658dd59629" category="list-text">Amazon FSX for ONTAP * を選択し、 * ここをクリック * します。</block>
-  <block id="e574e1da19f282b48ebb67c362fbc5cc" category="inline-image-macro">Amazon FSX for ONTAP の作業環境を検出するスクリーンショット</block>
-  <block id="72e0dd6fd0d4009c79805d8504e7e490" category="paragraph"><block ref="72e0dd6fd0d4009c79805d8504e7e490" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="92362ba030c73cd6e20f4b4da71b26c3" category="list-text">既存のクレデンシャルを選択するか、新しいクレデンシャルを「 * 次へ * 」をクリックします。</block>
-  <block id="4dc9c1030aab459d22cbeca85a77bd17" category="list-text">追加する AWS リージョンと作業環境を選択します。</block>
   <block id="4d40b97424368fd2dcfa3beb51eac192" category="inline-image-macro">AWS リージョンと作業環境を選択する際のスクリーンショット</block>
   <block id="daf8847714f7e326bcf10553bdbffa28" category="paragraph"><block ref="daf8847714f7e326bcf10553bdbffa28" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="7dee7e783d13b6d5d415926ce0bfc306" category="list-text">[ 追加（ Add ） ] をクリックします。</block>
   <block id="b3fee7abcfd59e1f7a4b591d94eea26b" category="section-title">ワークスペースから ONTAP の FSX を削除します</block>
   <block id="9ddaae0edb615f2995d27bd6e00976ce" category="list-text">作業環境を開きます。AWS にコネクタがない場合は、プロンプト画面が表示されます。これは無視して作業環境の削除に進んでください。</block>
   <block id="2167c28c0f5b01d9e01bb4084f44d791" category="section-title">ONTAP 作業環境の FSX を削除します</block>
   <block id="135b308ed83c53f1516b7c754566d1c4" category="list-title">作業を開始する前に</block>
-  <block id="b917a1d8451423450873eef39565dca3" category="inline-link-macro">すべてのボリュームを削除します</block>
-  <block id="7b41e03b81e97660913781a8239006df" category="list-text">実行する必要があります <block ref="54cc4f96ff154d8637a706e7f5511434" category="inline-link-macro-rx"></block> ファイルシステムに関連付けられています。</block>
-  <block id="88b66180df4e558c94db0e4418e28d50" category="admonition">ボリュームを削除または削除するには、 AWS でアクティブなコネクタが必要になります。</block>
-  <block id="ef91377d933625cd5679a41980e84a7d" category="list-text">障害ボリュームが含まれている作業環境は削除できません。ONTAP ファイルシステムの FSX を削除する前に、 AWS 管理コンソールまたは CLI を使用して障害ボリュームを削除する必要があります。</block>
   <block id="264e33787c94efb543f65228a9b52512" category="admonition">この操作を実行すると、作業環境に関連付けられているすべてのリソースが削除されます。この操作を元に戻すことはできません。</block>
   <block id="759e9950bbe6d95f5d993751a21090d8" category="list-text">作業環境を開きます。AWS にコネクタがない場合は、プロンプト画面が表示されます。これは無視して作業環境の削除に進んでください。</block>
   <block id="7e8d943ffd901385b9eef24cb61b44b9" category="doc">Amazon FSX for ONTAP のボリュームを管理します</block>
@@ -398,7 +346,6 @@
   <block id="8aaf101e623c543c7eef3c65f6233366" category="list-text">メッセージが表示されたら、 [* Continue （続行） ] をクリックして Microsoft ログインページにリダイレクトします。</block>
   <block id="19d089db572ee6a1e154a0c9c9e57bfd" category="paragraph">ネットアップは、サポートとライセンスに固有の認証サービスのアイデンティティプロバイダとして Microsoft Azure Active Directory を使用しています。</block>
   <block id="465ec6d5eafa3524c948c99d8bfcd306" category="list-text">ログインページで、ネットアップサポートサイトの登録 E メールアドレスとパスワードを入力して認証プロセスを実行します。</block>
-  <block id="07d41912a6ab6b97216f8cf89e93205c" category="section-title">セルフサポート</block>
   <block id="5e4b821a1a82558dead1ef6961e90666" category="paragraph">次のオプションは、 1 日 24 時間、週 7 日間無料でご利用いただけます。</block>
   <block id="19111351b69b6b15668130b38b7f6038" category="inline-link">ナレッジベース</block>
   <block id="fd6bb4fa1ad0caeedd6782d92cc54ea3" category="list-text"><block ref="fd6bb4fa1ad0caeedd6782d92cc54ea3" category="inline-link-rx"></block></block>
@@ -406,8 +353,6 @@
   <block id="410fdb9caa9c64da2ff3f88f4836960d" category="list-text"><block ref="410fdb9caa9c64da2ff3f88f4836960d" category="inline-link-rx"></block></block>
   <block id="5b6cf869265c13af8566f192b4ab3d2a" category="list-text">ドキュメント</block>
   <block id="80b1b0d2b1ebf2b3cba2d25759801afd" category="list-text">mailto ： ng-cloudmanager-feedback@netapp.com [ フィードバックメール ]</block>
-  <block id="0659d428df833a806e29e65e632d380a" category="section-title">ネットアップサポート</block>
-  <block id="f5052c65917d7341726235d4d4941461" category="list-text">テクニカルサポートで利用可能なオプションのいずれかを選択します。</block>
   <block id="9a11eb5da5d06e3593dc6b41553d97e5" category="sidebar">権限を設定します</block>
   <block id="390a3dfacd9551e05363b9eb09a0464c" category="sidebar">セキュリティグループのルール</block>
   <block id="1960d6022dcb5a2b9a687d1f6cbd8931" category="cell">fsxadmin管理LIFへのコネクタからアクセスし、API呼び出しをFSXに送信します</block>
@@ -418,27 +363,17 @@
   <block id="f0e3a414b681f7ab90a3f742f40c9365" category="list-text">単一または複数のアベイラビリティゾーンHA導入モデルを選択できるようになりました。</block>
   <block id="324197c492971b6abe6108b6ed0e2722" category="inline-link-macro">ONTAP 作業環境用の FSX を作成します</block>
   <block id="1d83e69fc7f9ed326713517b984b155b" category="list-text">AWS GovCloudアカウント認証はCloud Managerでサポートされるようになりました。</block>
-  <block id="f84135b2c550b8d738093a4346ac024d" category="list-text">単一アベイラビリティゾーン*または*複数のアベイラビリティゾーン* HA配置モデルを選択します。</block>
-  <block id="2be7f08200a1fe8660c0e3b215446b33" category="inline-image-macro">単一または複数のアベイラビリティゾーン導入モデルの選択オプションボタンのスクリーンショット。</block>
-  <block id="501a818c591eeaa056b0d623f83dba40" category="paragraph"><block ref="501a818c591eeaa056b0d623f83dba40" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="604034876d198af3f8d6cece2f09d984" category="list-text">リージョンとVPCを選択します。</block>
-  <block id="d7387928ac1cfa971f35a613cd81907c" category="paragraph">複数のアベイラビリティゾーンについては、各ノードが専用のアベイラビリティゾーンになるように、少なくとも2つのアベイラビリティゾーンのサブネットを選択してください。</block>
   <block id="a7cf2ac8ff4dd10d1e304f0abd7fe0bd" category="list-text">AWS GovCloud（US）アカウントを使用している場合は、* AWS GovCloud（US）アカウントを使用している*を確認します。</block>
   <block id="045e30d9d567e729274d9202eee4ff62" category="inline-image-macro">GovCloud（US）アカウントのチェックボックスのスクリーンショット。</block>
   <block id="c03a6ecd27b7a5ea40ee52d99c7a247a" category="paragraph"><block ref="c03a6ecd27b7a5ea40ee52d99c7a247a" category="inline-image-macro-rx" type="image"></block></block>
   <block id="a9891de406800116bd9cb8226be9beb9" category="list-text">AWS GovCloudを使用して認証すると、SaaSプラットフォームが無効になります。これはお客様のアカウントへの永続的な変更であり、元に戻すことはできません。</block>
   <block id="319c3fdfa37c6b0ae4e91a351706489b" category="list-text">AWS GovCloud（US）の場合：033442085313</block>
   <block id="56741382a48f0ad5efb57a6532876317" category="doc">Amazon FSX for ONTAP の作業環境を作成または検出します</block>
-  <block id="a856a2e7ff7a861c3124938689a66a62" category="paragraph">ONTAP 管理コンソールを使用してFSX forファイルシステムを作成した場合、または以前に削除した作業環境をリストアする場合は、**My Opportunities **を使用して検出するか、手動で検出できます。</block>
-  <block id="1b52b643a7dc88400af8fd712fed3d12" category="section-title">Opportunityを使って発見する</block>
   <block id="e9ba45e021b291739ba996c9cde18a78" category="list-text">ONTAP ファイルシステムで検出されたFSXの数が表示されます。[* Discover（検出）]をクリックします</block>
   <block id="7208d8184b0d0e6e3c7bcf475c8f9bd2" category="inline-image-macro">FSX for ONTAP のMy Opportunitiesページのスクリーンショット。</block>
   <block id="9e4da126e3095f89c00bb676d98195d8" category="paragraph"><block ref="9e4da126e3095f89c00bb676d98195d8" category="inline-image-macro-rx" type="image"></block></block>
   <block id="9b4a4c841d4545b117e4104be254a0e8" category="list-text">1つ以上のファイルシステムを選択し、*検出*をクリックしてキャンバスに追加します。</block>
   <block id="0187b41b8a735f30cc0556afd7387b9d" category="list-text">名前が指定されていないクラスタを選択すると、クラスタの名前を入力するよう求めるプロンプトが表示されます。</block>
-  <block id="1d064916590560310250a3e94aec4539" category="section-title">手動で検出</block>
-  <block id="c0beac119c78b8228ca36d4b93ef1bc7" category="list-text">*プロトコル*：NFS、CIFS、またはiSCSIボリューム・プロトコルを選択します。</block>
-  <block id="7a641f2010297c1d06c28aad18308a5b" category="list-text">iSCSIの場合：既存のイニシエータグループを使用するか、新しいイニシエータグループを作成して、LUNに接続できます。既存のイニシエータグループをマッピングするには、オペレーティングシステムおよび1つ以上のイニシエータグループを選択します。</block>
   <block id="7d7217d548e427bd0d76f5081e4b4cb5" category="paragraph">新しいイニシエータグループを作成します。</block>
   <block id="6ae6d068572461cadd78494cd3954770" category="list-text">[**新規作成**]を選択します。</block>
   <block id="6439f651e3ce60a787666dc41a8ca17f" category="list-text">使用しているオペレーティングシステムを選択します。</block>
@@ -460,7 +395,6 @@
   <block id="42c82b44ceecde8407f75a70409e2aec" category="inline-link-macro">Cloud Managerを使用して、FSX for ONTAP にiSCSIボリュームを作成します</block>
   <block id="4654b99a0535f374a8ff766873df50a6" category="sidebar">作業環境を作成または検出します</block>
   <block id="6faf2fd9ba5b0e89a953f43cd89d6c46" category="sidebar">作業環境の管理</block>
-  <block id="3109e49414b9edf951cefa41b4e6edeb" category="sidebar">作業環境を管理します</block>
   <block id="f7ba76d5c9beab0576f118a6254843e9" category="section-title">2022年9月18日</block>
   <block id="3abe9a67eae0ad33b1c96ff4ae8b1eaa" category="inline-link-macro">ストレージ容量とIOPSを変更します</block>
   <block id="f5d07457c4656e60fff8f3663f422965" category="list-text">概要*（Overview *）タブで、*フィーチャー*（* Features *）を選択します。</block>
@@ -483,7 +417,6 @@
   <block id="4fe33f0977f17b0718840c634bb48345" category="list-text">ページの右上にあるアクションメニューを選択し、*ワークスペースから削除*を選択します。</block>
   <block id="3767b7b1dbf8b0f59d82eb46c294df83" category="list-text">ページの右上にあるアクションメニューを選択し、*削除*を選択します。</block>
   <block id="e19eec57ec1908f25e4a753fbf9d1bf5" category="list-text">作業環境の名前を入力し、*削除*を選択します。</block>
-  <block id="d33ef5be6071ae5e3d7d930d8977e41a" category="list-text">スループット、容量、単位を選択します。スループットとストレージ容量の値はいつでも変更することができます。</block>
   <block id="ec4fc4cb1b37373b785aaee6062cfec7" category="section-title">ボリュームの詳細を表示します</block>
   <block id="217a2eee444fb09dda70bb076071f17e" category="paragraph">ボリュームを作成したら、設定の詳細を確認できます。</block>
   <block id="45dddf924938e17bccdd6a467352bfa0" category="admonition">ボリューム名にカーソルを合わせると、ボリュームタイプを表示できます。</block>
@@ -498,15 +431,11 @@
   <block id="f879ed761f1ca2475598c0bea304d10d" category="list-text">音量タブを開き、*音量の管理*を選択して、*詳細アクション*メニューを開きます。</block>
   <block id="dedc9eb7ac0cb065a0b90f9f63104b01" category="list-text">「*階層化ポリシーの変更*」を選択します。</block>
   <block id="f596a753aac59df7e240140c2eb96e99" category="list-text">「*ボリュームの削除*」を選択します。</block>
-  <block id="87ab0ddecc6298e066c5bf52a6e57341" category="list-text">「*音量*」タブと「*音量管理*」を選択して、「*音量操作*」メニューを開きます。</block>
   <block id="1cffe537ba60b23c60608f4b7ec02e43" category="inline-image-macro">[ボリューム操作]メニューの開き方のスクリーンショット。</block>
-  <block id="b43e642ae439f1f795292eb5df5f84d3" category="paragraph"><block ref="b43e642ae439f1f795292eb5df5f84d3" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="78c27b88e2a8142906bb69594e5b22a6" category="list-text">マウントコマンド*を選択し、指示に従ってボリュームをマウントします。</block>
   <block id="35f5a704747f7e6644a0bbedc33a0c2e" category="paragraph">これで、ボリュームがホストにマウントされました。</block>
   <block id="82812db645b6ff5e9c2a24ddfb66c8d6" category="paragraph">上記のセルフサポートオプションに加え、サポートを有効にしたあとで問題が発生した場合は、ネットアップサポートの担当者と相談して解決できます。</block>
   <block id="e2a733504c4088b809813bbb35a3ddfd" category="inline-link-macro">サポートに登録する方法について説明します</block>
   <block id="383133cb6f7207b1c65c3ace94aa5e95" category="list-text">電話の相手と話したい場合は、「*お電話」をクリックしてください。netapp.comのページに移動し、電話番号が表示されます。</block>
-  <block id="bf5bc6ab0f95f17f4e98c9d766b8c11d" category="list-text">[*ケースの作成*]をクリックして、ネットアップサポートスペシャリストのチケットを開きます。</block>
   <block id="b53e0a259f4a0c8e7da80d6c94e26c84" category="list-text">* NetApp Support Site アカウント*：サポートケースをオープンしたユーザーに関連付けられている該当のNSSアカウントを選択します。この担当者は、以下に記載する追加のEメールに加えて、ネットアップから連絡を受け取る主要担当者となります。</block>
   <block id="2e50c5f85523f0aba9ff2db10f18279c" category="list-text">*作業環境*：ストレージに該当する場合は、* Cloud Volumes ONTAP *または*オンプレミス*を選択し、関連する作業環境を選択します。</block>
   <block id="e6f29fb3c7636dc0040600dd0e84bb79" category="list-text">*ケース優先度*：ケースの優先度を選択します。優先度は、[低]、[中]、[高]、[クリティカル]のいずれかになります。</block>
@@ -624,19 +553,10 @@
   <block id="7a1088b800573a1bba3b00786182133b" category="paragraph">BlueXPでFSX for ONTAP の作業環境を作成する前に、次のものが必要です。</block>
   <block id="74e0ba9ea27cef4d0c11560e135b281e" category="inline-link-macro">BlueXPにAWSクレデンシャルを追加しています</block>
   <block id="02e21891e6a4d87f518207b9609ebed1" category="list-text">BlueXPにONTAP 作業環境用のFSXを作成するために必要な権限を与えるIAMロールのARN。を参照してください <block ref="1bf7f389ad2ba65976eab24c818e174c" category="inline-link-macro-rx"></block> を参照してください。</block>
-  <block id="6b13ffee707f25ae8bcd9dc0e4d7b4d6" category="list-text">BlueXPで、新しい作業環境を追加し、場所* Amazon Web Services *を選択し、* Next *をクリックします。</block>
-  <block id="07c0b2e93427e88c842be765301e4e63" category="list-text">BlueXPでONTAP のFSXを認証します</block>
-  <block id="b7a36240333d2de8502faca756504977" category="list-text">アカウントに IAM ロールがない場合は、 * クレデンシャルページ * をクリックし、ウィザードの手順に従って、 ONTAP クレデンシャル用の FSX を使用して AWS IAM ロールの ARN を追加します。を参照してください <block ref="1bf7f389ad2ba65976eab24c818e174c" category="inline-link-macro-rx"></block> を参照してください。</block>
-  <block id="274f0b3b024e5cbf45b403266b2d8e00" category="list-text">フローティング IP アドレスへのルートを含むルーティングテーブルを選択します。VPC内のサブネット用のルーティングテーブルが1つだけの場合（メインルーティングテーブル）、BlueXPは自動的にそのルーティングテーブルにフローティングIPアドレスを追加します。「 * 次へ * 」をクリックして続行します。</block>
   <block id="c43f98768b6bade26ae94ab84f81134f" category="list-text">必要に応じて、 IOPS 値を指定できます。IOPSの値を指定しない場合は、入力した合計容量の1GiBあたりのIOPSが3つに基づいてデフォルト値が設定されます。たとえば、合計容量に 2 、 000GiB と入力した場合、 IOPS の値が指定されていなければ、有効な IOPS の値は 6 、 000 に設定されます。IOPSの値はいつでも変更できます。</block>
-  <block id="69a6a9ad9378e16228ecd670e9d167c8" category="paragraph">ONTAP 用のFSX設定がキャンバスページに表示されます。</block>
-  <block id="9e35167248d4118a73a969017acba1d8" category="paragraph">BlueXPを使用して'FSX for ONTAP 作業環境にボリュームを追加できるようになりました</block>
   <block id="decbe5e805a0a9516184b64d9bad01c3" category="paragraph">以前にBlueXPにAWSの資格情報を提供していた場合、*My Opportunities *は、ONTAP ファイルシステム用のFSXを自動的に検出し、BlueXPを使用して追加および管理することを提案できます。使用可能なデータサービスを確認することもできます。</block>
   <block id="b74bb93cbb66b60fd6c91eba3c535cb2" category="list-text">BlueXPで、[* My Opportunities *]タブをクリックします。</block>
   <block id="547dba06b4fcfe3fa41996e831e9fb1c" category="list-text">BlueXPでONTAP ファイルシステム用のFSXを管理するために必要な資格情報を持たないクラスタを選択すると、必要な権限を持つ資格情報を選択するように求めるプロンプトが表示されます。</block>
-  <block id="494021d1d3a9a769ede7819e9cf10cf6" category="paragraph">AWS管理コンソールを使用して追加したFSX for ONTAP ファイルシステム、または以前にBlueXPから削除したFSX for BlueXPを手動で検出できます。</block>
-  <block id="c13815d75af2d8f4f6b97743a5731dae" category="list-text">BlueXPで、*作業環境の追加*をクリックし、* Amazon Web Services *を選択します。</block>
-  <block id="02ebf3de367dc7096d28e785a65d8c78" category="paragraph">検出されたFSX for ONTAP ファイルシステムがBlueXPに表示されます。</block>
   <block id="4e853a8ef076b82d13f35807a2dfe93b" category="summary">BlueXPを使用して'FSX for ONTAP のボリューム'クローン'スナップショットの管理'階層化ポリシーの変更を行うことができます</block>
   <block id="669f767086bf3b89606658facb29605a" category="paragraph">BlueXPを使用すると'FSX for ONTAP のボリューム'クローン'スナップショットの表示と管理'階層化ポリシーの変更を行うことができます</block>
   <block id="060dde3ca9c7d4e73cf9b65b84114028" category="paragraph">BlueXPを使用すると'ストレージ環境間でデータをレプリケートできますONTAP レプリケーション用に FSX を構成するには、を参照してください<block ref="063d7001b249d0164d3c6e7cd82a78db" category="inline-link-rx"></block>。</block>
@@ -701,8 +621,6 @@
   <block id="baf936091e5717d22f9c2b2ccee10188" category="paragraph">容量の自動管理は、デフォルトでは無効になっています。AWSでは、アクティブなコネクタの有無に関係なく、容量の自動割り当てを管理できます。</block>
   <block id="2ccb2d581067f0eac436a078317d136d" category="section-title">アクティブなコネクタなしで自動容量を管理します</block>
   <block id="13c4ac4dcec1decf7e36eed04316808f" category="paragraph">AWSではアクティブなコネクタなしで容量の自動管理が可能です。</block>
-  <block id="0550d13a80e42471343b954ee5c015ec" category="inline-image-macro">3つのドットメニューアイコンの画像。</block>
-  <block id="aaf6fdbd2f99b44b18a3501978c7e4b5" category="list-text">メニューアイコン（<block ref="166f5e453125f8a771e7eb7abd5877c7" category="inline-image-macro-rx" type="image"></block>）をクリックし、* Manage Automatic Capacity *を選択します。</block>
   <block id="eae78abc1ac9b9443e78946ea0ac6f62" category="inline-image-macro">Manage Automatic Capacity（自動容量の管理）メニューのスクリーンショット。</block>
   <block id="8568f4aa8725b5fac6d8be22b191626f" category="paragraph"><block ref="8568f4aa8725b5fac6d8be22b191626f" category="inline-image-macro-rx" type="image"></block></block>
   <block id="7c48e42b8eb4f773ff1ba4e512f8d941" category="list-text">[容量の自動管理*]ページで、次の操作を行います。</block>
@@ -722,4 +640,64 @@
   <block id="b284ee716f958658a642a656a79699dc" category="paragraph">BlueXPまたはBlueXPストレージソリューションとサービスに関する一般的な質問については'オンラインのBlueXPチャットから始めることができます</block>
   <block id="3daaa300f491b3dcb99896f1ebc0a277" category="paragraph">BlueXPまたはBlueXPのストレージソリューションとサービスに固有のテクニカルサポートの問題については、BlueXPアカウントレベルのシリアル番号を使用してネットアップサポートチケットを開くことができます。する必要があります <block ref="1da17bacda87cc6ccc7a9f1f44b5e325" category="inline-link-macro-rx"></block> をクリックしてサポートを有効にし</block>
   <block id="be845c219bb74b14349ffa6e27e7aef3" category="paragraph">BlueXPに統合した次のクラウドプロバイダソリューションのテクニカルサポートについては、その製品のBlueXPマニュアルの「困ったときは」を参照してください。</block>
+  <block id="d59db7846bd10b6d60d21543df9faa9e" category="paragraph-title">必要なもの</block>
+  <block id="aaf2f9eb33227134e101525e33ad19c2" category="list-text">BlueXPで、新しい作業環境を追加し、*[Amazon Web Services]*を選択して*[Add new]* for Amazon FSx for ONTAP をクリックします。</block>
+  <block id="bc1fbeca04a0bc47b1dd85e467f87ffc" category="list-text">* FSx for ONTAP 認証*</block>
+  <block id="2bc897b30b2df26c531635a145af68ae" category="list-text">アカウントにIAMロールがない場合は、*[Credentials]*をクリックし、ウィザードの手順に従ってAWS IAMロールのARNとFSx for ONTAP クレデンシャルを追加します。を参照してください <block ref="1bf7f389ad2ba65976eab24c818e174c" category="inline-link-macro-rx"></block> を参照してください。</block>
+  <block id="acffd96d264a8bd18e75d6d6ce0aac12" category="list-text">*詳細と資格情報*</block>
+  <block id="b3decd3dc6245a45a816d81cc94eb4be" category="list-text">必要に応じて、SVMユーザに同じパスワードを使用するオプションの選択を解除し、別のパスワードを設定します。</block>
+  <block id="f0b48aa240ffb99007210ba5d55e0fd3" category="list-text">*リージョンとVPC *</block>
+  <block id="15ef2ed90c27f9867f7383d8f200ba6b" category="list-text">単一アベイラビリティゾーン*または*複数のアベイラビリティゾーン* HA配置モデルを選択します。複数のアベイラビリティゾーンについては、各ノードが専用のアベイラビリティゾーンになるように、少なくとも2つのアベイラビリティゾーンのサブネットを選択してください。</block>
+  <block id="3f589588a5e2b50cf827ef7f979de432" category="list-text">*フローティングIP *（複数のアベイラビリティゾーンのみ）</block>
+  <block id="5b1a0e567c07875980cb98cbf8a0fc60" category="paragraph">使用可能な範囲を自動的に設定するには、[Leave_CIDR Range_Empty]を選択します。必要に応じて、を使用できます<block ref="ca64804883d6ae6ee4c5f1f5610fe766" category="inline-link-rx"></block> 範囲を手動で設定します。</block>
+  <block id="b04e1903e3de2fffa52c1c517b8fed45" category="list-text">*ルートテーブル*（複数のアベイラビリティゾーンのみ）</block>
+  <block id="f884e9a3951c5c6df696ce1faeecf517" category="paragraph">フローティング IP アドレスへのルートを含むルーティングテーブルを選択します。VPC内のサブネット用のルーティングテーブルが1つだけの場合（メインルーティングテーブル）、BlueXPは自動的にそのルーティングテーブルにフローティングIPアドレスを追加します。</block>
+  <block id="a150e060bd138eb9dd07f260966de37f" category="list-text">*データ暗号化*</block>
+  <block id="9ecf502b4c55c670661584e0a2866004" category="paragraph">デフォルトの AWS マスターキーを使用するか、 * キーの変更 * をクリックして別の AWS カスタマーマスターキー（ CMK ）を選択します。CMK の詳細については、を参照してください<block ref="e519e39311516455306db28fa7daaed2" category="inline-link-rx"></block>。</block>
+  <block id="a1ab9258bbeb31ecc1e35b1adc9465dc" category="list-text">*ストレージ構成*</block>
+  <block id="e38fe475552b433630789034542b28de" category="list-text">スループット、容量、単位を選択します。スループット、ストレージ容量、IOPSはいつでも変更できます。</block>
+  <block id="704b454e0a67ad9d30229aad055c4456" category="paragraph"><block ref="704b454e0a67ad9d30229aad055c4456" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="966c244dc2aee9efc1c62796b0ab5cc8" category="admonition">最小要件を満たしていないIOPS値を指定すると、作業環境を追加するときにエラーが表示されます。</block>
+  <block id="12799e1af0745585e0f5800e7ab5ac0d" category="list-text">*レビュー*</block>
+  <block id="a434ec7166240525e1136a9caf043a5e" category="list-text">設定を変更する場合は*[前へ]*をクリックし、設定を受け入れて作業環境を作成する場合は*[追加]*をクリックします。</block>
+  <block id="1f56efe328efe9c20f590e659125509a" category="paragraph">FSx for ONTAP の構成がキャンバスに表示されます。BlueXPを使用して'FSX for ONTAP 作業環境にボリュームを追加できるようになりました</block>
+  <block id="bbe48fb854ea022537208eeeff822f91" category="paragraph-title">このタスクについて</block>
+  <block id="3c98e2bfe156ca99fa37e38b1eb68d0d" category="inline-link-macro">新しい作業環境の作成</block>
+  <block id="e3ed7d241946f79ddb205b1bcc1095b7" category="paragraph">FSx for ONTAP ファイルシステムはで検出できます <block ref="7605911292967addd7ea4683855fa385" category="inline-link-macro-rx"></block> または、* My Opportunities *ページを使用します。このタスクでは、* My Opportunities *を使用した検出について説明します</block>
+  <block id="190d60175b0eacbdfa304b7842dfdbeb" category="paragraph">検出されたFSx for ONTAP ファイルシステムがキャンバスに表示されます。BlueXPを使用して'FSX for ONTAP 作業環境にボリュームを追加できるようになりました</block>
+  <block id="7ed3f8d43ed4db5c9e5058ffd0629f8e" category="list-text">キャンバスでFSx for ONTAP 作業環境を選択します。</block>
+  <block id="ecfec57afc8858c85d63541a36a09dab" category="inline-image-macro">3つの点のアイコン</block>
+  <block id="c0f7f08571189db02e2d550c230d6abf" category="list-text">[詳細]パネルで、3つのドットアイコン（<block ref="4d658ec40ed039406a8a891871de0f3d" category="inline-image-macro-rx" type="image"></block>)をクリックしてオプションメニューを開きます。[自動容量の管理]*をクリックします。</block>
+  <block id="0cf6b9b81deec54f9429260623e85e8b" category="paragraph">作業環境を削除する前に、次の作業を行う必要があります。</block>
+  <block id="23419c7b0a3275446ffc7e82955443ad" category="list-text">この作業環境とのレプリケーション関係をすべて解除します。</block>
+  <block id="1cf37f8bb2a45b0eb43d008c81e06383" category="inline-link-macro">すべてのボリュームを削除します</block>
+  <block id="6d4ce18513137c910112525e9f50214e" category="list-text"><block ref="a924ac5b9b50eb423be94dfd57ea531f" category="inline-link-macro-rx"></block> ファイルシステムに関連付けられています。ボリュームを削除または削除するには、 AWS でアクティブなコネクタが必要になります。</block>
+  <block id="46ca10c4f1fa35ffe73fb3970a6f5e46" category="admonition">障害ボリュームは、AWS管理コンソールまたはCLIを使用して削除する必要があります。</block>
+  <block id="fd4322d61d27e0bae17659af1929fafa" category="paragraph">ボリュームを追加するには、作業環境を開いて*[ボリューム]*タブを選択するか、キャンバスから作業環境*[詳細]*パネルを使用します。このタスクでは、*[詳細]*パネルを使用してボリュームを追加する方法について説明します。</block>
+  <block id="393e4f2cf3f681c80417a200fd375c32" category="list-text">キャンバスでFSx for ONTAP 作業環境を選択します。有効になっているコネクタがない場合は、コネクタを追加するように求められます。</block>
+  <block id="ada6c4a93e7b96d58f35712af7225f16" category="list-text">[詳細]パネルで、3つのドット（<block ref="4d658ec40ed039406a8a891871de0f3d" category="inline-image-macro-rx" type="image"></block>)をクリックしてオプションメニューを開きます。[ ボリュームの追加 ] をクリックします。</block>
+  <block id="cb29a37b5b733fa09b9f5235c1a2f7e1" category="inline-image-macro">[詳細]パネルの[ボリュームの追加]オプションのスクリーンショット。</block>
+  <block id="08d8ba93d0c829ce154f2f67f8a7a548" category="paragraph"><block ref="08d8ba93d0c829ce154f2f67f8a7a548" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="76e8c4dc9b4691280948a11959dd6d53" category="list-text">*ボリュームの詳細と保護*</block>
+  <block id="0e71045ffb2c142e38f192348939d657" category="list-text">*ボリュームプロトコル*：</block>
+  <block id="763a3be303d8f075b28b4fb47257840f" category="list-text">NFS、CIFS、またはiSCSIボリュームプロトコルを選択します。</block>
+  <block id="1d1a594959ec615f56516f5d0f5e8ddb" category="open-title">NFS</block>
+  <block id="c6546b53840ec8245dd4d4d70fcdbc26" category="open-title">CIFS</block>
+  <block id="e4e1c13bb0b14f6cb7608cbecea948ef" category="open-title">iSCSI</block>
+  <block id="fcfb20c7ce7597f54040eb6305c3786d" category="paragraph">LUNは、既存のイニシエータグループを使用するか、新しいイニシエータグループを作成して接続できます。既存のイニシエータグループをマッピングするには、オペレーティングシステムおよび1つ以上のイニシエータグループを選択します。</block>
+  <block id="271ff3c405f1d0bf77f44dca1ae889d7" category="list-text">*使用プロファイルと階層化*</block>
+  <block id="2f9631107b29a4c26b665771a82d9f56" category="list-text">* 確認 * ：ボリューム構成を確認します。設定を変更する場合は*[前へ]*をクリックし、ボリュームを作成する場合は*[追加]*をクリックします。</block>
+  <block id="6df90ef93bacadad99949e91d9939685" category="paragraph">ボリュームをマウントするには、作業環境を開いて*[ボリューム]*タブを選択するか、キャンバスから作業環境*[詳細]*パネルを使用します。このタスクでは、*[詳細]*パネルを使用してボリュームを追加する方法について説明します。</block>
+  <block id="429ff694ee7c975d6a18e64d444cfe54" category="list-text">[詳細]パネルで、3つのドットアイコン（<block ref="4d658ec40ed039406a8a891871de0f3d" category="inline-image-macro-rx" type="image"></block>)をクリックしてオプションメニューを開きます。[ボリュームの表示]*をクリックします。</block>
+  <block id="6810d2b262e251b8e971d641214ac623" category="paragraph"><block ref="6810d2b262e251b8e971d641214ac623" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="f823db4e216ccdaa9739419e7047d6cd" category="list-text">[ボリュームの管理]*を使用して*[ボリューム操作]*メニューを開きます。[マウントコマンド]*をクリックし、指示に従ってボリュームをマウントします。</block>
+  <block id="3adf166446cff07c619f4ced2b63a230" category="inline-image-macro">mount volumeコマンドのスクリーンショット。</block>
+  <block id="dd4a0887863004c5f1787efbc9f44761" category="paragraph"><block ref="dd4a0887863004c5f1787efbc9f44761" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="eea1e3b9ecdd5e32692761a0a78b9463" category="section-title">2023年3月5日</block>
+  <block id="3aea41413b60d0894823e739f01efcbb" category="paragraph">ユーザインターフェイスが改善され、ドキュメントのスクリーンショットが更新されました。</block>
+  <block id="edd15fbeb7b2dffa163336ecd4f3e80c" category="section-title">セルフサポートオプションを使用します</block>
+  <block id="d88bacf2a9fdcbbc844edcba97c34e30" category="section-title">ネットアップサポートと一緒にケースを作成します</block>
+  <block id="08d96fdd1a845d80db99e6e1dffb8bc7" category="list-text">[*Resources*]ページで、[Technical Support]で次のいずれかのオプションを選択します。</block>
+  <block id="5be2e1dfe4bf215289731df45ec8157b" category="list-text">[ケースの作成]*をクリックして、ネットアップサポートスペシャリストとのチケットをオープンします。</block>
+  <block id="cde704f6035294578016569ea9508122" category="sidebar">作業環境の管理</block>
 </blocks>
