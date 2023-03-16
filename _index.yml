@@ -7,7 +7,7 @@ indexpage:
     links:
     - title: リリースノート
       url: "/whats-new.html"
-    - title: Amazon FSX for ONTAP の詳細をご覧ください
+    - title: Amazon FSx for NetApp ONTAP の詳細をご確認ください
       url: "/start/concept-fsx-aws.html"
     - title: クイックスタート
       url: "/start/task-getting-started-fsx.html"
@@ -17,7 +17,7 @@ indexpage:
       url: "/requirements/task-setting-up-permissions-fsx.html"
     - title: セキュリティグループのルール
       url: "/requirements/reference-security-groups-fsx.html"
-  - title: ONTAP には Amazon FSX を使用します
+  - title: Amazon FSx for NetApp ONTAP を使用します
     links:
     - title: 作業環境を作成または検出します
       url: "/use/task-creating-fsx-working-environment.html"

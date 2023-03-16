@@ -4,7 +4,7 @@ sidebar: sidebar
 permalink: index.html 
 summary: Amazon FSX for NetApp ONTAP は、 ONTAP の全機能を AWS のネイティブマネージドサービスに提供し、一貫したハイブリッドクラウドエクスペリエンスを実現します。このドキュメントでは、ONTAP BlueXPを使用してFSX forを管理する方法について説明します。 
 ---
-= Amazon FSX for ONTAP のドキュメント
+= Amazon FSX for NetApp ONTAP のドキュメント
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

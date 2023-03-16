@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
 permalink: use/task-creating-fsx-working-environment.html 
-keywords: amazon fsx for ontap, fsx, volumes, create working environment, delete working environment, access key, secret key, region, working environment, availability zones, discover, storage capacity, iops, throughput 
+keywords: Amazon FSx for NetApp ONTAP, fsx, volumes, create working environment, delete working environment, access key, secret key, region, working environment, availability zones, discover, storage capacity, iops, throughput 
 summary: 'BlueXPを使用すると"FSX for ONTAP の作業環境を作成または検出して"ボリュームや追加のデータサービスを追加および管理できます' 
 ---
-= Amazon FSX for ONTAP の作業環境を作成または検出します
+= Amazon FSx for NetApp ONTAP 作業環境を作成または検出します
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -18,7 +18,7 @@ BlueXPを使用すると'FSX for ONTAP 作業環境を作成または検出し�
 
 
 
-== ONTAP 作業環境用の Amazon FSX を作成します
+== Amazon FSx for NetApp ONTAP 作業環境を作成します
 
 最初のステップは、 ONTAP 作業環境用の FSX を作成することです。AWS 管理コンソールですでに ONTAP ファイルシステム用の FSX を作成している場合は、次の操作を実行できます link:task-creating-fsx-working-environment.html#discover-an-existing-fsx-for-ontap-file-system["BlueXPを使用して発見します"]。
 
@@ -30,9 +30,9 @@ BlueXPでFSX for ONTAP の作業環境を作成する前に、次のものが必
 
 
 .手順
-. BlueXPで、新しい作業環境を追加し、*[Amazon Web Services]*を選択して*[Add new]* for Amazon FSx for ONTAP をクリックします。
+. BlueXPで、新しい作業環境を追加し、*[Amazon Web Services]*を選択して*[Add new]* for Amazon FSx for NetApp ONTAP をクリックします。
 +
-image:screenshot_add_fsx_working_env.png["Amazon FSX for ONTAP の作業環境を追加するスクリーンショット"]
+image:screenshot_add_fsx_working_env.png["Amazon FSx for NetApp ONTAP の作業環境を追加するスクリーンショット"]
 
 . * FSx for ONTAP 認証*
 +
@@ -93,7 +93,7 @@ NOTE: 最小要件を満たしていないIOPS値を指定すると、作業環�
 .結果
 FSx for ONTAP の構成がキャンバスに表示されます。BlueXPを使用して'FSX for ONTAP 作業環境にボリュームを追加できるようになりました
 
-image:screenshot_add_fsx_cloud.png["作業環境のページに表示される、 ONTAP 用の Amazon FSX のスクリーンショット。"]
+image:screenshot_add_fsx_cloud.png["[Working Environments]ページにあるAmazon FSx for NetApp ONTAP のスクリーンショット。"]
 
 
 

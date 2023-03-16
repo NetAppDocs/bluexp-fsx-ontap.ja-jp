@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: requirements/task-setting-up-permissions-fsx.html 
 keywords: fsx for ontap, iam, user role, permissions, aws govcloud, govcloud, credentials 
-summary: Amazon FSX for ONTAP の作業環境を作成または管理するには、 FSX for ONTAP 権限を持つ IAM ユーザロール用の AWS アクセスキーとシークレットキーが必要です。 
+summary: Amazon FSx for NetApp ONTAP 作業環境を作成または管理するには、FSx for ONTAP 権限を持つIAMユーザロール用のAWSアクセスキーとシークレットキーが必要です。 
 ---
 = ONTAP の FSX のアクセス許可を設定します
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: Amazon FSX for ONTAP の作業環境を作成または管理するに�
 
 
 [role="lead"]
-ONTAP 作業環境でAmazon FSXを作成または管理するには、ONTAP 作業環境でFSXを作成するために必要な権限をBlueXPに与えるIAMロールのARNを提供して、AWSクレデンシャルをBlueXPに追加する必要があります。
+Amazon FSx for NetApp ONTAP 作業環境を作成または管理するには、FSx for ONTAP 作業環境の作成に必要な権限をBlueXPに付与するIAMロールのARNを指定して、AWSクレデンシャルをBlueXPに追加する必要があります。
 
 
 
