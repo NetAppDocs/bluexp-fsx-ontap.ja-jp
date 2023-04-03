@@ -388,7 +388,6 @@
   <block id="e67f7cfa37e5dcd4f3836e76f5301a68" category="inline-image-macro">ストレージ容量とIOPSの値を変更するページのスクリーンショット。</block>
   <block id="f5aa006a4894acbba121bdb32f513ead" category="paragraph"><block ref="f5aa006a4894acbba121bdb32f513ead" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1c17ed8503d69fa2ad1c61b6c92a2255" category="list-text">データ階層化のパフォーマンスを維持し、追加のデータ用の容量を確保するために、推奨されるストレージ容量の最大利用率は80%です。</block>
-  <block id="e8036e0ac9189e05af8ebeb943ee3fd3" category="list-text">Automatic * IOPSを選択すると、プライマリストレージのGiBあたりのプロビジョニング済みSSD IOPSが最大80、000回維持されます。80、000以上のIOPS値を手動でプロビジョニングすることはできません。</block>
   <block id="d179171b709f127d6b88e332ad5ac396" category="list-text">チェックボックスをオンにすると、ストレージ容量の変更がONTAP サービスのFSXのコストに影響し、さらに6時間変更できないことがわかります。</block>
   <block id="1f25673463b8f906d801bd291ad45315" category="list-text">「* Update *」を選択して変更を確定します。</block>
   <block id="4fe33f0977f17b0718840c634bb48345" category="list-text">ページの右上にあるアクションメニューを選択し、*ワークスペースから削除*を選択します。</block>
@@ -692,7 +691,6 @@
   <block id="ad0ae9ea1f2e8d973a9a0f6bb169f494" category="inline-image-macro">テーブルの最後の列に表示される3つの点を持つアイコン</block>
   <block id="98efef1c8a47ed5791b41944e8ff4ec2" category="list-text">をクリックして既存のケースを管理します <block ref="a0b152b50a56901a75affebabc26ed61" category="inline-image-macro-rx" type="image"></block> 使用可能なオプションのいずれかを選択します。</block>
   <block id="6d9dd74e7709ef802d299966f7898f6b" category="list-text">*ケースの表示*:特定のケースの詳細を表示します。</block>
-  <block id="482429810c2b00a4fa04f9900c560232" category="list-text">*ケースノートの更新*：問題の詳細を入力します。</block>
   <block id="f791bc685c526af8296381acff10f6a0" category="list-text">*ケースをクローズ*：ケースをクローズする理由の詳細を入力し、*ケースをクローズ*をクリックします。</block>
   <block id="e93217b2f709a398ce3c0fb753beb05f" category="inline-image-macro">テーブルの最後の列でメニューを選択した後に実行できる操作を示すスクリーンショット。</block>
   <block id="e9a5c374fb47ed2ae5cc6108fb36d829" category="paragraph"><block ref="e9a5c374fb47ed2ae5cc6108fb36d829" category="inline-image-macro-rx" type="image"></block></block>
@@ -737,4 +735,17 @@
   <block id="39eff6a0e62a9e3eafb92d6d0dc18004" category="doc">Amazon FSx for NetApp ONTAP 用のボリュームを作成</block>
   <block id="7aa1575aeeddba65d55707b41584cd4a" category="sidebar">Amazon FSx for NetApp ONTAP を使用します</block>
   <block id="c82c15e6d66564201da1f424b2fb9bf4" category="sidebar">Amazon FSx for NetApp ONTAP のドキュメント</block>
+  <block id="a3ef479db7087d8c91c8e7225a427426" category="list-text">[Automatic]*[IOPS]を選択すると、プライマリストレージのGiBあたり3つのプロビジョニング済みSSD IOPSの比率が維持され、最大16、000になります。160、000を超えるIOPS値を手動でプロビジョニングすることはできません。</block>
+  <block id="ee7de532c8affb3659d9d80ec396fef5" category="list-text">必要に応じて、最適化オプションを選択してFlexGroup を作成し、ボリュームデータをクラスタ全体に分散します。</block>
+  <block id="d22ff9012fce506ed1f2c7ba6e00a0e6" category="admonition">FlexGroup ディストリビューションは、NFSとCIFSのボリュームプロトコルでのみ使用できます。</block>
+  <block id="953d80d6f5efbc162c05017004c6791a" category="list-text">最適化（FlexGroup ）を選択した場合は、ボリュームデータを分散するコンスティチュエントの数を指定する必要があります。データが均等に分散されるように、偶数個のコンスティチュエントを使用することを強く推奨します。ベストプラクティスは8コンスティチュエントです。</block>
+  <block id="2447632b449c054d670473aa08500256" category="inline-image-macro">フィールドのスクリーンショット。ボリュームデータを分散するコンスティチュエントの数を指定します。</block>
+  <block id="e8a33687845a8222ff0797ef7fa10d6a" category="paragraph"><block ref="e8a33687845a8222ff0797ef7fa10d6a" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="88c49608e723add593f5becc8bd9a968" category="section-title">2023年4月2日</block>
+  <block id="cabf1912632a0d24145c02f00dc7d6b2" category="inline-link-macro">FSx for ONTAP でFlexGroup を構築</block>
+  <block id="9a2a26c33c1a0f6b14b7bb3a214dbaf0" category="list-text">次の操作を実行できます。 <block ref="5e895283a25d01b135da63bdfcfdf72e" category="inline-link-macro-rx"></block> ボリューム：ボリュームデータをクラスタ全体に分散します。</block>
+  <block id="9af9b754c1d16f271c1e6f4b1b2c4f4d" category="list-text">IOPS制限が引き上げられ、手動または自動で最大160、000のプロビジョニングが可能になりました。</block>
+  <block id="c7f5c1a75acc58c6f004efc0ce1eba09" category="list-text">*添付ファイル（オプション）*：一度に1つずつ、最大5つの添付ファイルをアップロードできます。</block>
+  <block id="bfa80e7aaad6da353b431bff3a0e12d6" category="paragraph">添付ファイルはファイルあたり25 MBに制限されています。サポートされているファイル拡張子は、txt、log、pdf、jpg/jpeg、rtf、 doc/docx、xls/xlsx、およびcsv。</block>
+  <block id="8e6b52a532a4fbbfc98dca3ebfa5f1e6" category="list-text">*ケースノートの更新*：問題の詳細を入力するか、*ファイルのアップロード*を選択して最大5つのファイルを添付します。</block>
 </blocks>
