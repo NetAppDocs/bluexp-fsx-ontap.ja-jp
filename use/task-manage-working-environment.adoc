@@ -34,12 +34,12 @@ NOTE: 作業環境の作成時にIOPS値を手動で指定しなかった場合�
 AWSではアクティブなコネクタなしで容量の自動管理が可能です。
 
 .手順
-. キャンバスでFSx for ONTAP 作業環境を選択します。
-. [詳細]パネルで、3つのドットアイコン（image:icon-three-dots.png["3つの点のアイコン"])をクリックしてオプションメニューを開きます。[自動容量の管理]*をクリックします。
+. キャンバスで作業環境を選択し、*[Enter Working Environment]*を選択します。
+. 鉛筆のアイコン（image:icon-pencil.png["鉛筆の編集アイコンの画像。"]）をクリックして、*容量の自動管理*ページを開きます。
 +
-image:screenshot-auto-capacity-no-connector.png["Manage Automatic Capacity（自動容量の管理）メニューのスクリーンショット。"]
 
-. [容量の自動管理*]ページで、次の操作を行います。
+NOTE: 他のすべてのオプションにはコネクタが必要であり、無効になっています。
+
 +
 ** ボックスを選択して、容量の自動管理を有効にします。
 ** 容量の自動管理を以前に有効にしていた場合は、このチェックボックスをオフにします。
@@ -80,9 +80,6 @@ AWSのアクティブなコネクタを使用して自動容量を管理でき�
 . FSX for ONTAP 作業環境を開きます。
 . 概要*（Overview *）タブで、*フィーチャー*（* Features *）を選択します。
 . 鉛筆のアイコン（image:icon-pencil.png["鉛筆の編集アイコンの画像。"]）をクリックして、* Throughput Capacity *編集ページを開きます。
-+
-image:screenshot-change-thruput.png["スループット容量変更メニューの場所のスクリーンショット。"]
-
 . ドロップダウンから新しいスループット容量を選択し、「* Update *」を選択します。この変更が反映されるまでに最大25分かかることがあり、データアクセスが中断されることはありません。
 
 
@@ -99,9 +96,6 @@ image:screenshot-change-thruput.png["スループット容量変更メニュー�
 . FSX for ONTAP 作業環境を開きます。
 . 概要*（Overview *）タブで、*フィーチャー*（* Features *）を選択します。
 . 鉛筆のアイコン（image:icon-pencil.png["鉛筆の編集アイコンの画像。"]）をクリックして、* Storage Capacity & IOPS *編集ページを開きます。
-+
-image:screenshot-change-iops.png["ストレージ容量およびIOPSの変更メニューの場所のスクリーンショット。"]
-
 . ストレージ容量とIOPSは6時間に1回変更可能です。頻繁に変更しようとすると、エラーが表示されます。
 +
 image:screenshot-configure-iops.png["ストレージ容量とIOPSの値を変更するページのスクリーンショット。"]
