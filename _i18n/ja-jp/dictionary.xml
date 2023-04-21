@@ -609,7 +609,6 @@
   <block id="b04e1903e3de2fffa52c1c517b8fed45" category="list-text">*ルートテーブル*（複数のアベイラビリティゾーンのみ）</block>
   <block id="f884e9a3951c5c6df696ce1faeecf517" category="paragraph">フローティング IP アドレスへのルートを含むルーティングテーブルを選択します。VPC内のサブネット用のルーティングテーブルが1つだけの場合（メインルーティングテーブル）、BlueXPは自動的にそのルーティングテーブルにフローティングIPアドレスを追加します。</block>
   <block id="a150e060bd138eb9dd07f260966de37f" category="list-text">*データ暗号化*</block>
-  <block id="9ecf502b4c55c670661584e0a2866004" category="paragraph">デフォルトの AWS マスターキーを使用するか、 * キーの変更 * をクリックして別の AWS カスタマーマスターキー（ CMK ）を選択します。CMK の詳細については、を参照してください<block ref="e519e39311516455306db28fa7daaed2" category="inline-link-rx"></block>。</block>
   <block id="a1ab9258bbeb31ecc1e35b1adc9465dc" category="list-text">*ストレージ構成*</block>
   <block id="e38fe475552b433630789034542b28de" category="list-text">スループット、容量、単位を選択します。スループット、ストレージ容量、IOPSはいつでも変更できます。</block>
   <block id="704b454e0a67ad9d30229aad055c4456" category="paragraph"><block ref="704b454e0a67ad9d30229aad055c4456" category="inline-image-macro-rx" type="image"></block></block>
@@ -618,8 +617,6 @@
   <block id="a434ec7166240525e1136a9caf043a5e" category="list-text">設定を変更する場合は*[前へ]*をクリックし、設定を受け入れて作業環境を作成する場合は*[追加]*をクリックします。</block>
   <block id="1f56efe328efe9c20f590e659125509a" category="paragraph">FSx for ONTAP の構成がキャンバスに表示されます。BlueXPを使用して'FSX for ONTAP 作業環境にボリュームを追加できるようになりました</block>
   <block id="bbe48fb854ea022537208eeeff822f91" category="paragraph-title">このタスクについて</block>
-  <block id="3c98e2bfe156ca99fa37e38b1eb68d0d" category="inline-link-macro">新しい作業環境の作成</block>
-  <block id="e3ed7d241946f79ddb205b1bcc1095b7" category="paragraph">FSx for ONTAP ファイルシステムはで検出できます <block ref="7605911292967addd7ea4683855fa385" category="inline-link-macro-rx"></block> または、* My Opportunities *ページを使用します。このタスクでは、* My Opportunities *を使用した検出について説明します</block>
   <block id="190d60175b0eacbdfa304b7842dfdbeb" category="paragraph">検出されたFSx for ONTAP ファイルシステムがキャンバスに表示されます。BlueXPを使用して'FSX for ONTAP 作業環境にボリュームを追加できるようになりました</block>
   <block id="7ed3f8d43ed4db5c9e5058ffd0629f8e" category="list-text">キャンバスでFSx for ONTAP 作業環境を選択します。</block>
   <block id="ecfec57afc8858c85d63541a36a09dab" category="inline-image-macro">3つの点のアイコン</block>
@@ -743,4 +740,6 @@
   <block id="942c9249796cf6b78c981ebf15195809" category="list-text"><block ref="942c9249796cf6b78c981ebf15195809" category="inline-link-rx"></block></block>
   <block id="857256e1923ea05bf18e14bc2411a2f6" category="list-text">キャンバスで作業環境を選択し、*[Enter Working Environment]*を選択します。</block>
   <block id="015abe149b937f218b783e72c81c3e66" category="admonition">他のすべてのオプションにはコネクタが必要であり、無効になっています。</block>
+  <block id="5f7a63a809602fb324d9cb35527588c3" category="paragraph">デフォルトの AWS マスターキーを使用するか、 * キーの変更 * をクリックして別の AWS カスタマーマスターキー（ CMK ）を選択します。CMK の詳細については、を参照してください <block ref="1dc4ebcb4490720ee959d2e943d1421f" category="inline-link-macro-rx"></block>。</block>
+  <block id="a5444638448a3ec03827da5d57eb445b" category="paragraph">FSx for ONTAP ファイルシステムは、必要に応じて検出できます <block ref="7d3d3d003158d818e356e6a619082003" category="inline-xref-macro-rx"></block> または、* My Opportunities *ページを使用します。このタスクでは、* My Opportunities *を使用した検出について説明します</block>
 </blocks>

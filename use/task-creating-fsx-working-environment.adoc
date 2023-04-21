@@ -67,7 +67,7 @@ image:screenshot_add_fsx_region.png["ONTAP 向け FSX にリージョンと VPC 
 
 . *データ暗号化*
 +
-デフォルトの AWS マスターキーを使用するか、 * キーの変更 * をクリックして別の AWS カスタマーマスターキー（ CMK ）を選択します。CMK の詳細については、を参照してください https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/https://docs.netapp.com/us-en/occm/task-setting-up-kms.html["AWS KMS のセットアップ"^]。
+デフォルトの AWS マスターキーを使用するか、 * キーの変更 * をクリックして別の AWS カスタマーマスターキー（ CMK ）を選択します。CMK の詳細については、を参照してください link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-setting-up-kms.html["AWS KMS のセットアップ"^]。
 
 . *ストレージ構成*
 +
@@ -102,7 +102,7 @@ image:screenshot_add_fsx_cloud.png["[Working Environments]ページにあるAmaz
 以前にBlueXPにAWSの資格情報を提供していた場合、*My Opportunities *は、ONTAP ファイルシステム用のFSXを自動的に検出し、BlueXPを使用して追加および管理することを提案できます。使用可能なデータサービスを確認することもできます。
 
 .このタスクについて
-FSx for ONTAP ファイルシステムはで検出できます link:/task-creating-fsx-working-environment.html#create-an-amazon-fsx-for-ontap-working-environment["新しい作業環境の作成"] または、* My Opportunities *ページを使用します。このタスクでは、* My Opportunities *を使用した検出について説明します
+FSx for ONTAP ファイルシステムは、必要に応じて検出できます <<Amazon FSx for NetApp ONTAP 作業環境を作成します>> または、* My Opportunities *ページを使用します。このタスクでは、* My Opportunities *を使用した検出について説明します
 
 .手順
 . BlueXPで、[* My Opportunities *]タブをクリックします。
