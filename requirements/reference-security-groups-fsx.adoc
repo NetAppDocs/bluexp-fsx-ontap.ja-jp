@@ -268,13 +268,13 @@ NOTE: ソースは、 ONTAP システムの FSX 上のインターフェイス�
 | SSH | 22 | コネクタホストへの SSH アクセスを提供します 
 
 
-| HTTP | 80 | クライアント Web ブラウザからローカルユーザインターフェイスへの HTTP アクセス、および Cloud Data Sense からの接続を提供します 
+| HTTP | 80 | クライアントWebブラウザからローカルユーザインターフェイスへのHTTPアクセス、およびBlueXP分類インスタンスからの接続を提供します 
 
 
 | HTTPS | 443 | クライアント Web ブラウザからローカルへの HTTPS アクセスを提供します ユーザインターフェイス 
 
 
-| TCP | 3128 | AWS ネットワークで NAT やプロキシを使用していない場合に、 Cloud Data Sense インスタンスにインターネットアクセスを提供します 
+| TCP | 3128 | AWSネットワークでNATやプロキシを使用していない場合に、BlueXP分類インスタンスにインターネットアクセスを提供します 
 |===
 
 
@@ -348,5 +348,5 @@ NOTE: 送信元 IP アドレスは、コネクタホストです。
 | DNS | UDP | 53 | DNS | BlueXPによるDNS解決に使用されます 
 
 
-| クラウドデータの意味 | HTTP | 80 | Cloud Data Sense インスタンス | Cloud Volumes ONTAP に最適なクラウドデータ 
+| BlueXPの分類 | HTTP | 80 | BlueXPの分類 | Cloud Volumes ONTAPではBlueXPに分類されます 
 |===

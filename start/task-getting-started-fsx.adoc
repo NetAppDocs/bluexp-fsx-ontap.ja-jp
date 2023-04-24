@@ -33,4 +33,4 @@ Amazon FSx for NetApp ONTAP 作業環境を作成または管理するには、F
 可能です link:../use/task-add-fsx-volumes.html["ONTAP ボリュームのFSXを作成してマウントします"] BlueXPを使用している。
 
 .次のステップ
-BlueXPを使用してボリュームを管理し、レプリケーション、Cloud Sync 、データセンスなどの追加サービスを構成できるようになりました。
+BlueXPを使用してボリュームを管理し、レプリケーション、コピーと同期、分類などの追加サービスを設定できるようになりました。

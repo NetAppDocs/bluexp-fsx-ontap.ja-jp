@@ -234,10 +234,8 @@
   <block id="75fb76c71939b7f9f3ee363c4aec2044" category="section-title">コネクタのルール</block>
   <block id="0fbb894005047753551829b93d408eac" category="paragraph">コネクタのセキュリティグループには、インバウンドとアウトバウンドの両方のルールが必要です。</block>
   <block id="7dca630291dc35d5447daa0c9abf8da4" category="cell">コネクタホストへの SSH アクセスを提供します</block>
-  <block id="e41468f89241b53dc9a8cebeff010b25" category="cell">クライアント Web ブラウザからローカルユーザインターフェイスへの HTTP アクセス、および Cloud Data Sense からの接続を提供します</block>
   <block id="2f0c197eb73a7c6da10b03384f241025" category="cell">クライアント Web ブラウザからローカルへの HTTPS アクセスを提供します ユーザインターフェイス</block>
   <block id="dff8e9c2ac33381546d96deea9922999" category="cell">3128</block>
-  <block id="187604dd1244abc6ff03471775e9f32d" category="cell">AWS ネットワークで NAT やプロキシを使用していない場合に、 Cloud Data Sense インスタンスにインターネットアクセスを提供します</block>
   <block id="f27967c4c8769094dfb727988a22cbfa" category="paragraph">コネクタの事前定義されたセキュリティグループは、すべての発信トラフィックを開きます。これが可能な場合は、基本的なアウトバウンドルールに従います。より厳格なルールが必要な場合は、高度なアウトバウンドルールを使用します。</block>
   <block id="422c84262f431352e9da45084016a52c" category="paragraph">コネクタの事前定義されたセキュリティグループには、次のアウトバウンドルールが含まれています。</block>
   <block id="4c7e4350b2ac4e79ecdf1d8f33b2d41e" category="paragraph">発信トラフィックに固定ルールが必要な場合は、次の情報を使用して、コネクタによる発信通信に必要なポートだけを開くことができます。</block>
@@ -249,9 +247,6 @@
   <block id="22043367a89ddcf3eb99eec509a967ba" category="cell">API コール</block>
   <block id="172ef5a94b4dd0aa120c6878fc29f70c" category="cell">8088</block>
   <block id="168342a53455f99d5b1d8d7d95e99567" category="cell">S3 へのバックアップを API で呼び出します</block>
-  <block id="d882bf73cd5caf1e5aa39edbf893ad74" category="cell">クラウドデータの意味</block>
-  <block id="6cf25d0dcbf586ed6aff3b930e4d8019" category="cell">Cloud Data Sense インスタンス</block>
-  <block id="059ace13ef3980df592dafb754ef8883" category="cell">Cloud Volumes ONTAP に最適なクラウドデータ</block>
   <block id="8fad3d94a3385eeb6406613f49896cdd" category="doc">ONTAP の FSX のアクセス許可を設定します</block>
   <block id="d8a56d983b91f097e5ba55dd03a18509" category="section-title">IAM ロールを設定します</block>
   <block id="44030f19e52b4a03b050525f287bbc15" category="list-text">ターゲットアカウントの IAM コンソールに移動します。</block>
@@ -273,10 +268,7 @@
   <block id="3c36508c8697f7ec7a94803545518d69" category="list-text">Oracle RAC を含むレイテンシの影響を受けやすいアプリケーションでの実行が保証されています。</block>
   <block id="6c2a9ed4ea140413912e894a10672e01" category="list-text">バンドル価格と従量課金制のいずれかを選択できます</block>
   <block id="d59048f21fd887ad520398ce677be586" category="inline-link">詳細はこちら。</block>
-  <block id="d9bf9116e04a89e455600416ad7872f3" category="list-text">人工知能（ AI ）ベースのテクノロジを使用したクラウドデータセンスは、データコンテキストを理解し、 FSX for ONTAP アカウントに存在する機密データを識別するのに役立ちます。<block ref="ff015941fa4b0cfada66f8159ed80c63" category="inline-link-rx"></block>。</block>
-  <block id="1f944a9ec2785c18a692aeedf9839548" category="list-text">NetApp Cloud Sync を使用すると、クラウド内やオンプレミス内のあらゆるターゲットへのデータ移行を自動化できます。<block ref="0d960aec46349f597fec0ba1ad479bc2" category="inline-link-rx"></block></block>
   <block id="20b4f77bd00b4f63a49ec8e08f3bf6a6" category="section-title">コスト</block>
-  <block id="bcde5e61b57c391c5832e7ea9a5bf2b1" category="paragraph">AWS でコネクタを使用する場合、および Cloud Sync や Data Sense などのオプションのデータサービスを使用する場合は、追加コストが発生します。</block>
   <block id="8c4b25218155a1fdb972f4169855d04f" category="section-title">サポートされている地域</block>
   <block id="d5b1044cbc510048a5dac270bde89ed5" category="inline-link">サポート対象の Amazon リージョンを表示します。</block>
   <block id="ee9b3af8630059982f4d1dd2fd3834a3" category="paragraph"><block ref="ee9b3af8630059982f4d1dd2fd3834a3" category="inline-link-rx"></block></block>
@@ -527,7 +519,6 @@
   <block id="4e853a8ef076b82d13f35807a2dfe93b" category="summary">BlueXPを使用して'FSX for ONTAP のボリューム'クローン'スナップショットの管理'階層化ポリシーの変更を行うことができます</block>
   <block id="669f767086bf3b89606658facb29605a" category="paragraph">BlueXPを使用すると'FSX for ONTAP のボリューム'クローン'スナップショットの表示と管理'階層化ポリシーの変更を行うことができます</block>
   <block id="060dde3ca9c7d4e73cf9b65b84114028" category="paragraph">BlueXPを使用すると'ストレージ環境間でデータをレプリケートできますONTAP レプリケーション用に FSX を構成するには、を参照してください<block ref="063d7001b249d0164d3c6e7cd82a78db" category="inline-link-rx"></block>。</block>
-  <block id="6b91242d31fee1e3576ce594b08573b5" category="paragraph">BlueXPのCloud Sync を使用して同期関係を作成できます。同期関係を設定するには、を参照してください<block ref="3bb02b9d4fba268ff940f67f5abfe3eb" category="inline-link-rx"></block>。</block>
   <block id="f257be535aca4e5a3655fc2dd2887500" category="paragraph">以前にBlueXPを使用してSnapMirror関係に含まれていたボリュームは削除できません。SnapMirror ボリュームは、 AWS 管理コンソールまたは CLI を使用して削除する必要があります。</block>
   <block id="56f7e1cad5439f90ac8bd08115c74e4a" category="list-text">作業環境の名前を入力し、ボリュームを削除することを確認します。ボリュームがBlueXPから完全に削除されるまでに、最大1時間かかる場合があります。</block>
   <block id="c95623cd0395d5a6bb6105b9d32f197b" category="inline-link">BlueXPに関する注意事項</block>
@@ -535,7 +526,6 @@
   <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">BlueXPのすべてのマニュアル</block>
   <block id="9b9477e579c3b44dd623d5a6e1ea8d78" category="inline-link-macro">BlueXP</block>
   <block id="a9272148ddd8493b835b5b0ed973a495" category="paragraph">を使用します <block ref="ac523c62451e38c65aafdd45e2bf5230" category="inline-link-macro-rx"></block>FSX for ONTAP は、ほんの数ステップで開始できます。</block>
-  <block id="c8e7a79b3e62d2a377fbadb534f60c42" category="list-text">を使用します <block ref="ac523c62451e38c65aafdd45e2bf5230" category="inline-link-macro-rx"></block> （旧称Cloud Manager）とAWSのコネクタを使用すると、ボリュームの作成と管理、データのレプリケート、データセンスやCloud Sync など、ONTAP 向けFSXとNetAppクラウド サービス の統合を行うことができます。</block>
   <block id="f2575f6d19024f7288cf78d7dc5b3db9" category="paragraph">サポートダッシュボードを使用すると、NetApp Support Site アカウントを追加して管理し、BlueXPで使用できます。</block>
   <block id="e3cd99e4aa330ae6bdfb3754d83ae962" category="list-text">パートナーアカウントまたはリセラーアカウントをお持ちの場合は、1つ以上のNSSアカウントを追加することはできますが、お客様レベルのアカウントと一緒に追加することはできません。</block>
   <block id="2974170a8b1b5b4a2ac69aacd4c1c9c3" category="list-text">サポート登録ページでアカウントIDのシリアル番号を確認します。</block>
@@ -557,7 +547,6 @@
   <block id="4bd8fd698bf66b76447369f6d59d7e0f" category="inline-link-macro">ONTAP ボリュームのFSXを作成してマウントします</block>
   <block id="3a994a785ff4b046a381ab2afb6d0e17" category="paragraph">可能です <block ref="c98786904f437c4c5be9aec70a11cbb2" category="inline-link-macro-rx"></block> BlueXPを使用している。</block>
   <block id="01e12de62fa77fda2815719aed8ff892" category="paragraph-title">次のステップ</block>
-  <block id="dae3b13fec3bf110f92a7547c071e053" category="paragraph">BlueXPを使用してボリュームを管理し、レプリケーション、Cloud Sync 、データセンスなどの追加サービスを構成できるようになりました。</block>
   <block id="5a0c953dba56aa463b4468d70bfc3feb" category="section-title">2023年1月1日</block>
   <block id="f99ecd5cff9b18879fcd5ee404af256f" category="inline-link-macro">容量の自動管理</block>
   <block id="380fe7c3627610af34c9936f46325923" category="paragraph">これで、を有効にすることができます <block ref="79658b4a46346ad9aa23a5f92d57dfaa" category="inline-link-macro-rx"></block> 必要に応じて差分ストレージを追加自動容量管理では、要求を評価するためにクラスタを定期的にポーリングし、クラスタの最大容量の10%までの割合でストレージ容量を自動的に拡張します。</block>
@@ -742,4 +731,14 @@
   <block id="015abe149b937f218b783e72c81c3e66" category="admonition">他のすべてのオプションにはコネクタが必要であり、無効になっています。</block>
   <block id="5f7a63a809602fb324d9cb35527588c3" category="paragraph">デフォルトの AWS マスターキーを使用するか、 * キーの変更 * をクリックして別の AWS カスタマーマスターキー（ CMK ）を選択します。CMK の詳細については、を参照してください <block ref="1dc4ebcb4490720ee959d2e943d1421f" category="inline-link-macro-rx"></block>。</block>
   <block id="a5444638448a3ec03827da5d57eb445b" category="paragraph">FSx for ONTAP ファイルシステムは、必要に応じて検出できます <block ref="7d3d3d003158d818e356e6a619082003" category="inline-xref-macro-rx"></block> または、* My Opportunities *ページを使用します。このタスクでは、* My Opportunities *を使用した検出について説明します</block>
+  <block id="b8bb58c0dcb24fd404f0afdb514812dd" category="paragraph">BlueXPを使用してボリュームを管理し、レプリケーション、コピーと同期、分類などの追加サービスを設定できるようになりました。</block>
+  <block id="8f5824ab39555c09f787c12e2a079d11" category="list-text">を使用します <block ref="ac523c62451e38c65aafdd45e2bf5230" category="inline-link-macro-rx"></block> （Cloud Manager）とAWSのコネクタを使用して、ボリュームの作成と管理、データのレプリケート、FSx for ONTAPとネットアップのクラウドサービス（BlueXPの分類やBlueXPのコピーと同期（Cloud Sync）など）の統合を行うことができます。</block>
+  <block id="421285ceb2b9d53d23a60802835cfe70" category="list-text">BlueXPの分類機能（Cloud Data Sense）は、人工知能（AI）ベースのテクノロジを使用して、データのコンテキストを把握し、FSx for ONTAPアカウントに存在する機密データを特定するのに役立ちます。<block ref="ff015941fa4b0cfada66f8159ed80c63" category="inline-link-rx"></block>。</block>
+  <block id="e0a61971650c75e6c98840f20042d128" category="list-text">BlueXPのコピーと同期を使用すると、クラウドやオンプレミスの任意のターゲットへのデータ移行を自動化できます。<block ref="0d960aec46349f597fec0ba1ad479bc2" category="inline-link-rx"></block></block>
+  <block id="ad9a464e359af0e32ba4423fbe150c59" category="paragraph">AWSでのコネクタの使用と、オプションのデータサービス（BlueXPのコピーと同期、BlueXPの分類など）の使用に関連する追加コストが発生します。</block>
+  <block id="2457d874eb9fc3fb2b8e5f23618c1c7f" category="cell">クライアントWebブラウザからローカルユーザインターフェイスへのHTTPアクセス、およびBlueXP分類インスタンスからの接続を提供します</block>
+  <block id="02499ddfc19d9b80567e19eb3f97deb0" category="cell">AWSネットワークでNATやプロキシを使用していない場合に、BlueXP分類インスタンスにインターネットアクセスを提供します</block>
+  <block id="4cc849f381058f76f6b72a1c4279393d" category="cell">BlueXPの分類</block>
+  <block id="a7f8c8869966601b4670aae0a070ba31" category="cell">Cloud Volumes ONTAPではBlueXPに分類されます</block>
+  <block id="a13fe54147eef01f0ae918612d6a4216" category="paragraph">BlueXPのコピーと同期を使用して同期関係を作成できます。同期関係を設定するには、を参照してください<block ref="3bb02b9d4fba268ff940f67f5abfe3eb" category="inline-link-rx"></block>。</block>
 </blocks>
