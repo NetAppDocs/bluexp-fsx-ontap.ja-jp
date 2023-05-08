@@ -22,10 +22,10 @@ summary: 作業環境のセットアップが完了したら、Amazon FSx for Ne
 
 BlueXPのFSX for ONTAP 作業環境から'NFS'CIFS'iSCSIボリュームを作成および管理できますONTAP CLI を使用して作成したボリュームは、 FSX for ONTAP の作業環境にも表示されます。
 
-.必要なもの
-* アクティブです https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-aws.html["AWS のコネクタ"^]。
-* SMB を使用する場合は、 DNS と Active Directory を設定しておく必要があります。DNS と Active Directory のネットワーク設定の詳細については、を参照してください link:https://docs.aws.amazon.com/fsx/latest/ONTAPGuide/self-manage-prereqs.html["AWS ：自己管理型の Microsoft AD を使用するための前提条件"^]。
+.作業を開始する前に
+新しいボリュームを作成する前に、アクティブなボリュームが必要です https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-aws.html["AWS のコネクタ"^]。
 
+SMB を使用する場合は、 DNS と Active Directory を設定しておく必要があります。DNS と Active Directory のネットワーク設定の詳細については、を参照してください link:https://docs.aws.amazon.com/fsx/latest/ONTAPGuide/self-manage-prereqs.html["AWS ：自己管理型の Microsoft AD を使用するための前提条件"^]。
 
 .このタスクについて
 ボリュームを追加するには、作業環境を開いて*[ボリューム]*タブを選択するか、キャンバスから作業環境*[詳細]*パネルを使用します。このタスクでは、*[詳細]*パネルを使用してボリュームを追加する方法について説明します。
@@ -36,12 +36,13 @@ BlueXPのFSX for ONTAP 作業環境から'NFS'CIFS'iSCSIボリュームを作成
 +
 image:screenshot-add-volume.png["[詳細]パネルの[ボリュームの追加]オプションのスクリーンショット。"]
 
-. *ボリュームの詳細と保護*
+. *ボリュームの詳細、保護、タグ*
 +
 .. 新しいボリュームの名前を入力します。
-.. Storage VM （ SVM ）のフィールドには、作業環境の名前に基づいて SVM が自動的に設定されます。
+.. [Storage VM（SVM）]フィールドには、作業環境の名前に基づいてSVMが自動的に入力されます。
 .. ボリュームサイズを入力して単位（ GiB または TiB ）を選択します。ボリュームサイズは使用量とともに増加することに注意してください。
 .. Snapshot ポリシーを選択します。デフォルトでは、 Snapshot は 1 時間ごと（最新の 6 つのコピーを保持）、 1 日ごと（最新の 2 つのコピーを保持）、および 1 週間ごと（最新の 2 つのコピーを保持）に作成されます。
+.. 必要に応じて、プラス記号をクリックしてタグの名前と値を入力することで、ボリュームを分類するタグを作成できます。
 
 
 . *ボリュームプロトコル*：

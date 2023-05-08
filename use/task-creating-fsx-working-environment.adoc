@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: use/task-creating-fsx-working-environment.html 
-keywords: Amazon FSx for NetApp ONTAP, fsx, volumes, create working environment, delete working environment, access key, secret key, region, working environment, availability zones, discover, storage capacity, iops, throughput 
+keywords: Amazon FSx for NetApp ONTAP, fsx, volumes, create working environment, delete working environment, access key, secret key, region, working environment, availability zones, discover, storage capacity, iops, throughput, security group, security 
 summary: 'BlueXPを使用すると"FSX for ONTAP の作業環境を作成または検出して"ボリュームや追加のデータサービスを追加および管理できます' 
 ---
 = Amazon FSx for NetApp ONTAP 作業環境を作成または検出します
@@ -22,7 +22,7 @@ BlueXPを使用すると'FSX for ONTAP 作業環境を作成または検出し�
 
 最初のステップは、 ONTAP 作業環境用の FSX を作成することです。AWS 管理コンソールですでに ONTAP ファイルシステム用の FSX を作成している場合は、次の操作を実行できます link:task-creating-fsx-working-environment.html#discover-an-existing-fsx-for-ontap-file-system["BlueXPを使用して発見します"]。
 
-.必要なもの
+.作業を開始する前に
 BlueXPでFSX for ONTAP の作業環境を作成する前に、次のものが必要です。
 
 * BlueXPにONTAP 作業環境用のFSXを作成するために必要な権限を与えるIAMロールのARN。を参照してください link:../requirements/task-setting-up-permissions-fsx.html["BlueXPにAWSクレデンシャルを追加しています"] を参照してください。
@@ -43,18 +43,20 @@ image:screenshot_add_fsx_working_env.png["Amazon FSx for NetApp ONTAP の作業�
 . *詳細と資格情報*
 +
 .. 使用する作業環境名を入力します。
-.. 必要に応じて、プラス記号をクリックし、タグの名前と値を入力してタグを作成できます。
+.. 必要に応じて、プラス記号をクリックしてタグの名前と値を入力することで、作業環境を分類するタグを作成できます。
 .. 使用する ONTAP クラスタのパスワードを入力し、確認のためにもう一度入力します。
 .. 必要に応じて、SVMユーザに同じパスワードを使用するオプションの選択を解除し、別のパスワードを設定します。
 
 
-. *リージョンとVPC *
+. * HA導入モデル*
 +
 .. 単一アベイラビリティゾーン*または*複数のアベイラビリティゾーン* HA配置モデルを選択します。複数のアベイラビリティゾーンについては、各ノードが専用のアベイラビリティゾーンになるように、少なくとも2つのアベイラビリティゾーンのサブネットを選択してください。
+.. ファイルシステムに関連付けるVirtual Private Cloud（VPC）を選択します。
+.. 既存のセキュリティグループを使用するか、*[生成されたセキュリティグループ]*を選択して、選択したVPC内のトラフィックのみを許可するセキュリティグループをBlueXPで生成できるようにします。
 +
-image:screenshot_add_fsx_region.png["ONTAP 向け FSX にリージョンと VPC を追加するスクリーンショット"]
 
-.. デフォルトのセキュリティグループをそのまま使用するか、別のセキュリティグループを選択します。 link:https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/security-group-rules.html["AWS セキュリティグループ"^] インバウンドおよびアウトバウンドトラフィックを制御します。これらの情報は AWS 管理者が設定し、に関連付けます link:https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-eni.html["AWS Elastic Network Interface （ ENI ）"^]。
+NOTE: link:https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/security-group-rules.html["AWS セキュリティグループ"^] インバウンドおよびアウトバウンドトラフィックを制御します。これらの情報は AWS 管理者が設定し、に関連付けます link:https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-eni.html["AWS Elastic Network Interface （ ENI ）"^]。
+
 
 
 . *フローティングIP *（複数のアベイラビリティゾーンのみ）
@@ -73,9 +75,6 @@ image:screenshot_add_fsx_region.png["ONTAP 向け FSX にリージョンと VPC 
 +
 .. スループット、容量、単位を選択します。スループット、ストレージ容量、IOPSはいつでも変更できます。
 .. 必要に応じて、 IOPS 値を指定できます。IOPSの値を指定しない場合は、入力した合計容量の1GiBあたりのIOPSが3つに基づいてデフォルト値が設定されます。たとえば、合計容量に 2 、 000GiB と入力した場合、 IOPS の値が指定されていなければ、有効な IOPS の値は 6 、 000 に設定されます。IOPSの値はいつでも変更できます。
-+
-image:screenshot-storage-config.png["FSX for ONTAP のストレージ構成の設定のスクリーンショット"]
-
 +
 
 NOTE: 最小要件を満たしていないIOPS値を指定すると、作業環境を追加するときにエラーが表示されます。

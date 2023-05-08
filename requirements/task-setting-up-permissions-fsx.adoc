@@ -33,8 +33,14 @@ BlueXPが役割を引き受けることを可能にするIAMロールを設定�
 *** AWS GovCloud（US）の場合：033442085313
 
 
-** 次の権限を含むポリシーを作成します。
+** 必要に応じて、次の必須最小権限とオプションの権限を含むポリシーを作成します。
 +
+[role="tabbed-block"]
+====
+.必要な権限
+--
+FSx for NetApp ONTAP ファイルシステムを作成するには、BlueXPで最小限の権限が必要です。
+
 [source, json]
 ----
 {
@@ -50,19 +56,43 @@ BlueXPが役割を引き受けることを可能にするIAMロールを設定�
                 "iam:CreateServiceLinkedRole",
                 "kms:Describe*",
                 "kms:List*",
-                "kms:CreateGrant",
-                "cloudwatch:GetMetricData",
-                "cloudwatch:GetMetricStatistics"
+                "kms:CreateGrant"
             ],
             "Resource": "*"
         }
     ]
 }
 ----
-+
+--
+.自動容量
+--
+を有効にするには、さらに次の権限が必要です link:../use/task-manage-fsx-working-environment.html["容量の自動管理"]。
 
-NOTE: `"cloudwatch:GetMetricData"` および `"cloudwatch:GetMetricStatistics"` を有効にするには必須です link:../use/task-manage-working-environment.html["容量の自動管理"]。
+[source, json]
+----
+"cloudwatch:GetMetricData",
+"cloudwatch:GetMetricStatistics"
+----
+--
+.セキュリティグループ
+--
+BlueXPでを許可するには、次の追加権限が必要です link:../use/task-creating-fsx-working-environment.html["セキュリティグループを生成します"]。
 
+[source, json]
+----
+"ec2:AuthorizeSecurityGroupEgress",
+"ec2:AuthorizeSecurityGroupIngress",
+"ec2:RevokeSecurityGroupEgress",
+"ec2:RevokeSecurityGroupIngress",
+"ec2:CreateSecurityGroup",
+"ec2:DeleteSecurityGroup"
+"cloudformation:CreateStack",
+"cloudformation:ValidateTemplate",
+"cloudformation:DescribeStacks",
+"cloudformation:DescribeStackEvents"
+----
+--
+====
 
 
 . 次の手順で、IAMロールのロールARNをコピーしてBlueXPに貼り付けることができます。
