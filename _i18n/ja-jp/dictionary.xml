@@ -345,7 +345,6 @@
   <block id="f157bba0d98c84b6de3aaefa71426f09" category="paragraph"><block ref="f157bba0d98c84b6de3aaefa71426f09" category="inline-image-macro-rx" type="image"></block></block>
   <block id="8539ab4c6f55c58d2fab4f2b3261bde9" category="section-title">スループット容量を変更します</block>
   <block id="4b1f2fea7e8048c8ccd3036ead1c2a76" category="paragraph">スループット容量は、ONTAP 作業環境でFSXを作成したあとにいつでも変更できます。</block>
-  <block id="e85b82fa898245e765ecb2eab8ee886e" category="paragraph">アクティブなが必要です<block ref="f8ec938ce1f3506a828c9f7802c63902" category="inline-link-rx"></block>。</block>
   <block id="7ccd7b62d91207f4ba83029de9cebfce" category="inline-image-macro">鉛筆の編集アイコンの画像。</block>
   <block id="3f10ba55f7b5ee2ce092504fcea72477" category="section-title">2022年7月31日</block>
   <block id="dd15e63d013ad6e70302caae66b83f6d" category="list-text">以前にCloud ManagerにAWSクレデンシャルを指定していた場合、新しい* My Opportunities *機能によって、Cloud Managerを使用して追加および管理するONTAP ファイルシステムのFSXが自動的に検出されて提案されます。また、［* My Opportunities *］タブで、利用可能なデータサービスを確認することもできます。</block>
@@ -749,4 +748,10 @@
   <block id="9175bb34d0aede26315b313b9432bcbb" category="open-title">セキュリティグループ</block>
   <block id="42c16fd45375c160089e29d754f16e36" category="inline-link-macro">セキュリティグループを生成します</block>
   <block id="78004ed8e8658d85d8a3d99a1a533922" category="paragraph">BlueXPでを許可するには、次の追加権限が必要です <block ref="37425afe2ceb1de25205a180b5a14074" category="inline-link-macro-rx"></block>。</block>
+  <block id="25ee158968a50cfd221a03cd5c35714d" category="list-text">Amazon FSx for NetApp ONTAPは、BlueXPを_standard_or_restricted_modeで使用する場合にサポートされます。</block>
+  <block id="3cb5845101cca1d3632756ad505df41c" category="list-text">Standardモードでは、BlueXPのSaaSレイヤを活用してすべての機能を提供します。</block>
+  <block id="8515864aee35dd4c309a887dc85ffb7f" category="list-text">制限モードは、接続が制限されている組織で使用できます。</block>
+  <block id="2579d10862aa7770a64b058fb84ce858" category="inline-link-macro">BlueXPの導入モード</block>
+  <block id="4fc602d8b048690865d920b6e5c24b3c" category="paragraph">を参照してください <block ref="4bc49635495ab7c2db508b6d63907d47" category="inline-link-macro-rx"></block> を参照してください。</block>
+  <block id="b6b3f8e91334c4e2b9135fdcdc27fdb6" category="paragraph">アクティブなが必要です<block ref="3cb2ea74cf184f32793e529e96915ba2" category="inline-link-rx"></block>。</block>
 </blocks>
