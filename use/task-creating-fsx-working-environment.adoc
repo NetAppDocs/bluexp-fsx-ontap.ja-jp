@@ -61,7 +61,7 @@ NOTE: link:https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/security-group-ru
 
 . *フローティングIP *（複数のアベイラビリティゾーンのみ）
 +
-使用可能な範囲を自動的に設定するには、[Leave_CIDR Range_Empty]を選択します。必要に応じて、を使用できます https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-setting-up-transit-gateway.html["AWS 転送ゲートウェイ"^] 範囲を手動で設定します。
+使用可能な範囲を自動的に設定するには、[Leave_CIDR Range_Empty]を選択します。必要に応じて、を使用できます https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-setting-up-transit-gateway.html["AWS 転送ゲートウェイ"^] 範囲を手動で設定します。
 
 . *ルートテーブル*（複数のアベイラビリティゾーンのみ）
 +
@@ -69,7 +69,7 @@ NOTE: link:https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/security-group-ru
 
 . *データ暗号化*
 +
-デフォルトの AWS マスターキーを使用するか、 * キーの変更 * をクリックして別の AWS カスタマーマスターキー（ CMK ）を選択します。CMK の詳細については、を参照してください link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-setting-up-kms.html["AWS KMS のセットアップ"^]。
+デフォルトの AWS マスターキーを使用するか、 * キーの変更 * をクリックして別の AWS カスタマーマスターキー（ CMK ）を選択します。CMK の詳細については、を参照してください link:https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-setting-up-kms.html["AWS KMS のセットアップ"^]。
 
 . *ストレージ構成*
 +

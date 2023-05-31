@@ -23,7 +23,7 @@ summary: 作業環境のセットアップが完了したら、Amazon FSx for Ne
 BlueXPのFSX for ONTAP 作業環境から'NFS'CIFS'iSCSIボリュームを作成および管理できますONTAP CLI を使用して作成したボリュームは、 FSX for ONTAP の作業環境にも表示されます。
 
 .作業を開始する前に
-新しいボリュームを作成する前に、アクティブなボリュームが必要です https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-aws.html["AWS のコネクタ"^]。
+新しいボリュームを作成する前に、アクティブなボリュームが必要です https://docs.netapp.com/us-en/bluexp-setup-admin/task-creating-connectors-aws.html["AWS のコネクタ"^]。
 
 SMB を使用する場合は、 DNS と Active Directory を設定しておく必要があります。DNS と Active Directory のネットワーク設定の詳細については、を参照してください link:https://docs.aws.amazon.com/fsx/latest/ONTAPGuide/self-manage-prereqs.html["AWS ：自己管理型の Microsoft AD を使用するための前提条件"^]。
 
@@ -98,7 +98,7 @@ image:screenshot_fsx_volume_protocol_cifs.png["ONTAP ボリューム作成用の
 | DNS ドメイン | Storage Virtual Machine （ SVM ）の DNS ドメインです。ほとんどの場合、ドメインは AD ドメインと同じです。 
 
 
-| NTP サーバ | Active Directory DNS を使用して NTP サーバを設定するには、 * NTP サーバ設定を有効にする * を選択します。別のアドレスを使用して NTP サーバを設定する必要がある場合は、 API を使用してください。を参照してください https://docs.netapp.com/us-en/cloud-manager-automation/index.html["BlueXP自動化ドキュメント"^] を参照してください。 
+| NTP サーバ | Active Directory DNS を使用して NTP サーバを設定するには、 * NTP サーバ設定を有効にする * を選択します。別のアドレスを使用して NTP サーバを設定する必要がある場合は、 API を使用してください。を参照してください https://docs.netapp.com/us-en/bluexp-automation/index.html["BlueXP自動化ドキュメント"^] を参照してください。 
 |===
 
 
@@ -113,7 +113,7 @@ LUNは、既存のイニシエータグループを使用するか、新しい�
 
 ... [**新規作成**]を選択します。
 ... 使用しているオペレーティングシステムを選択します。
-... をクリックして、1つ以上のホストiSCSI修飾名（IQN）を追加します。既存のIQNを選択するか、新しいIQNを追加できます。ボリュームのIQNを確認する方法については、を参照してください link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-connect-lun.html["ホストをLUNに接続します"^]。
+... をクリックして、1つ以上のホストiSCSI修飾名（IQN）を追加します。既存のIQNを選択するか、新しいIQNを追加できます。ボリュームのIQNを確認する方法については、を参照してください link:https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-connect-lun.html["ホストをLUNに接続します"^]。
 ... **イニシエータグループ名**を入力してください。
 +
 image:screenshot-volume-protocol-iscsi.png["ONTAP ボリューム作成用のiSCSI構成FSXのスクリーンショット。"]

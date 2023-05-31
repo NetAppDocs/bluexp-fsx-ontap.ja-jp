@@ -14,7 +14,7 @@ summary: BlueXPを使用すると、FSX for ONTAP をほんの数ステップで
 
 
 [role="lead"]
-を使用します link:https://docs.netapp.com/us-en/cloud-manager-family/["BlueXP"^]FSX for ONTAP は、ほんの数ステップで開始できます。
+を使用します link:https://docs.netapp.com/us-en/bluexp-family/["BlueXP"^]FSX for ONTAP は、ほんの数ステップで開始できます。
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1つ"] AWSでIAMロールを設定します
 [role="quick-margin-para"]
@@ -26,7 +26,7 @@ Amazon FSx for NetApp ONTAP 作業環境を作成または管理するには、F
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["3つ"] AWSのコネクタを作成します
 [role="quick-margin-para"]
-を用意しておく必要があります https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html#how-to-create-a-connector["AWS 用コネクタ"^] FSX for ONTAP 作業環境を開くには、ボリュームを作成するか、その他の操作を実行します。コネクタが必要な場合は、アクティブでない場合にブルーXPからプロンプトが表示されます。
+を用意しておく必要があります https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html#how-to-create-a-connector["AWS 用コネクタ"^] FSX for ONTAP 作業環境を開くには、ボリュームを作成するか、その他の操作を実行します。コネクタが必要な場合は、アクティブでない場合にブルーXPからプロンプトが表示されます。
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["4."] ボリュームを追加してマウント
 [role="quick-margin-para"]

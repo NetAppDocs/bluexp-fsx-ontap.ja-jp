@@ -105,14 +105,6 @@
   <block id="9497c556620605c0441cf034ff68a527" category="paragraph">不要になったボリュームを削除します。</block>
   <block id="590368745da00a61c492e4b834d9568e" category="admonition">クローンボリュームを削除しようとするとエラーが表示されます。</block>
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">法的通知</block>
-  <block id="72999cd653b12474752fb77bab9691e3" category="inline-link-macro">Cloud Backup に関する通知です</block>
-  <block id="75be9a02506771b87be972c89707f0d4" category="list-text"><block ref="75be9a02506771b87be972c89707f0d4" category="inline-link-macro-rx"></block></block>
-  <block id="bf6a36d1f8c7b0ef48e5a5b01357f720" category="inline-link-macro">クラウドの同期に関する注意事項</block>
-  <block id="c9c82aba1257ee6c6ebbade2353f0b0d" category="list-text"><block ref="c9c82aba1257ee6c6ebbade2353f0b0d" category="inline-link-macro-rx"></block></block>
-  <block id="a5e8ac089fe7eb702f683ce020dc2a2a" category="inline-link-macro">Cloud Tiering への通知</block>
-  <block id="3754b5e44654d3dc7bfaa36f213a8795" category="list-text"><block ref="3754b5e44654d3dc7bfaa36f213a8795" category="inline-link-macro-rx"></block></block>
-  <block id="73f420c03909a74fdc36f2bebeb15d52" category="inline-link-macro">Cloud Data Sense の通知</block>
-  <block id="ef4a4eef354631d5e99b3e1ea91d46d7" category="list-text"><block ref="ef4a4eef354631d5e99b3e1ea91d46d7" category="inline-link-macro-rx"></block></block>
   <block id="e87d6ed459b274ad7c388e0797013c9f" category="doc">ONTAP の FSX のセキュリティグループルール</block>
   <block id="9f415057e43c73d4e37a0068a0ca9486" category="section-title">ONTAP の FSX のルール</block>
   <block id="1b3884b38c271fe13c8142e1355e4523" category="section-title">インバウンドルール</block>
@@ -278,7 +270,6 @@
   <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">ネットアップコミュニティ</block>
   <block id="ff6c37cbc252e306a6b4e390ec13cbc1" category="sidebar">Cloud Central のブログです</block>
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">クラウドに関する Web セミナー</block>
-  <block id="3d3e910b68a6f9dc68d007376e0dae47" category="list-text"><block ref="3d3e910b68a6f9dc68d007376e0dae47" category="inline-link-rx"></block></block>
   <block id="a4f557d4dc5603464fae9d733ed96263" category="paragraph">FSX for ONTAP セキュリティグループには、インバウンドとアウトバウンドの両方のルールが必要です。この図は、 ONTAP ネットワーク構成およびセキュリティグループ要件の FSX を示しています。</block>
   <block id="804e1541ef4556a247ad9499202fb6e2" category="inline-image-macro">ONTAP セキュリティグループ構成の FSX の図。</block>
   <block id="bca6ab005ba14ce4d09f6862e9acbd0d" category="paragraph"><block ref="bca6ab005ba14ce4d09f6862e9acbd0d" category="inline-image-macro-rx" type="image"></block></block>
@@ -304,7 +295,6 @@
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">オープンソース</block>
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">通知ファイルには、ネットアップソフトウェアで使用されるサードパーティの著作権およびライセンスに関する情報が記載されています。</block>
   <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">[ ヘルプ ] メニューのスクリーンショット。サポートは最初に表示されるオプションです</block>
-  <block id="868d9aa88f16ea923af1d15eac5d2647" category="paragraph"><block ref="868d9aa88f16ea923af1d15eac5d2647" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d17d6b5dafebab6b7659da8850737e70" category="list-text">[*NSS Management] &gt; [Add NSS Account*] をクリックします。</block>
   <block id="8aaf101e623c543c7eef3c65f6233366" category="list-text">メッセージが表示されたら、 [* Continue （続行） ] をクリックして Microsoft ログインページにリダイレクトします。</block>
   <block id="19d089db572ee6a1e154a0c9c9e57bfd" category="paragraph">ネットアップは、サポートとライセンスに固有の認証サービスのアイデンティティプロバイダとして Microsoft Azure Active Directory を使用しています。</block>
@@ -339,7 +329,6 @@
   <block id="6ae6d068572461cadd78494cd3954770" category="list-text">[**新規作成**]を選択します。</block>
   <block id="6439f651e3ce60a787666dc41a8ca17f" category="list-text">使用しているオペレーティングシステムを選択します。</block>
   <block id="16125dd1e69c3f67387e091dfbdb0104" category="inline-link-macro">ホストをLUNに接続します</block>
-  <block id="4829537a55a4319514ecedacd16c615c" category="list-text">をクリックして、1つ以上のホストiSCSI修飾名（IQN）を追加します。既存のIQNを選択するか、新しいIQNを追加できます。ボリュームのIQNを確認する方法については、を参照してください <block ref="ea6aa66bd7959c06552c511c78fe80e4" category="inline-link-macro-rx"></block>。</block>
   <block id="ecfc70ae41156684ed148266abaf3a62" category="list-text">**イニシエータグループ名**を入力してください。</block>
   <block id="ccb9a070caab16c4e464e89fd6afe362" category="inline-image-macro">ONTAP ボリューム作成用のiSCSI構成FSXのスクリーンショット。</block>
   <block id="f157bba0d98c84b6de3aaefa71426f09" category="paragraph"><block ref="f157bba0d98c84b6de3aaefa71426f09" category="inline-image-macro-rx" type="image"></block></block>
@@ -397,7 +386,6 @@
   <block id="0f7d9319c95a8be1492e74601c4b3259" category="list-text">*事象の説明 *：実行したエラーメッセージやトラブルシューティング手順など、問題の詳細な概要 を入力します。</block>
   <block id="002c6f26fb01affb37b8cf3cef7a1fb0" category="list-text">*その他のメールアドレス*：この問題 を他のユーザーに知らせる場合は、追加のメールアドレスを入力します。</block>
   <block id="baaf0e61add7d12cf8d12e023d5aef18" category="inline-image-macro">ネットアップサポートでケースを作成できるケースの作成フォームのスクリーンショット。</block>
-  <block id="a2ff30886e1baf1e7d5045b5fc24f5b9" category="paragraph"><block ref="a2ff30886e1baf1e7d5045b5fc24f5b9" category="inline-image-macro-rx" type="image"></block></block>
   <block id="18f487556417bb6d9721a7005ae097c9" category="paragraph">ポップアップにサポートケース番号が表示されます。ネットアップのサポート担当者がケースを確認し、すぐに対応させていただきます。</block>
   <block id="04e15da1deae9568b4dcda64fbb0c8d5" category="paragraph">サポートケースの履歴を確認するには、[*設定]、[タイムライン*]の順にクリックして、[サポートケースの作成]という名前のアクションを探します。 右端のボタンをクリックすると、アクションを展開して詳細を表示できます。</block>
   <block id="5c56753585e89a84941bb3a78bc681af" category="paragraph">ケースを作成しようとすると、次のエラーメッセージが表示される場合があります。</block>
@@ -423,7 +411,6 @@
   <block id="bf4c731c0ee7f60c8018ad8f96828dda" category="section-title">NSSアカウントをお持ちの既存のお客様</block>
   <block id="819aff12752b7e6a1828e755c7664de7" category="list-text">[*リソース]ページで、[*サポートに登録*]をクリックします。</block>
   <block id="e8a3d9970b8fc1d92caaf33d9e116bd4" category="inline-image-macro">アカウントのシリアル番号と[サポートに登録]オプションを示すスクリーンショット</block>
-  <block id="113f9cd7bac6f4faa6b8d58e3e099a8e" category="paragraph"><block ref="113f9cd7bac6f4faa6b8d58e3e099a8e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1ff5aefce774ec72a211f2b3bb10b950" category="section-title">NSSアカウントを持たない既存のお客様</block>
   <block id="cc1d3c161bcf25e6445c2fc771647849" category="paragraph">既存のライセンスとシリアル番号をお持ちで、_no-NSSアカウントをお持ちのネットアップのお客様は、NSSアカウントを作成するだけで十分です。</block>
   <block id="5b2b7f628f804bcb786a097c7e45aa41" category="inline-link">NetApp Support Site ユーザー登録フォーム</block>
@@ -431,7 +418,6 @@
   <block id="d61c9f72493817776f392db42ac446a2" category="list-text">適切なユーザレベルを選択してください。通常は*ネットアップのお客様/エンドユーザ*がこれに該当します。</block>
   <block id="e9b1f53d6cabb3394833a4e102eb6a69" category="section-title">ネットアップのソリューションを初めて導入する場合は</block>
   <block id="c20c107d0d4eef6351660f3590324232" category="paragraph">ネットアップ製品を初めてご利用になり、NSSアカウントをお持ちでない場合は、以下の手順に従ってください。</block>
-  <block id="ef5e63bb6b6827440a13cc2ec7e9cf56" category="paragraph"><block ref="ef5e63bb6b6827440a13cc2ec7e9cf56" category="inline-image-macro-rx" type="image"></block></block>
   <block id="dd50e314c18933734174c1156dd9237f" category="inline-link">ネットアップサポート登録サイト</block>
   <block id="78f94e749b89d69dcbf3baff21ccb958" category="list-text">に移動します<block ref="e1c4be66250fd76d5c52bfe2cb7daee2" category="inline-link-rx"></block> 「*ネットアップ登録のお客様ではありません*」を選択します。</block>
   <block id="d4f633ef130727b2776fa7f45024ca7d" category="list-text">必須フィールドに入力します（赤いアスタリスクのフィールド）。</block>
@@ -456,7 +442,6 @@
   <block id="cb9e3791dcb67c8a699c104be6a1c49c" category="paragraph"><block ref="cb9e3791dcb67c8a699c104be6a1c49c" category="inline-image-macro-rx" type="image"></block></block>
   <block id="469d6f26b0e14d75fc0c834eeac72311" category="list-text">*資格情報の場所*：「* Amazon Web Services &gt; BlueXP *」を選択します。</block>
   <block id="193ad4e55afb9be5b67589ce2fc9b33d" category="inline-link">BlueXP用のAWS資格情報の管理</block>
-  <block id="f9a91bf42987bf0077570f294d5077a4" category="list-text"><block ref="f9a91bf42987bf0077570f294d5077a4" category="inline-link-rx"></block></block>
   <block id="243263104c829e77835d632f591230d5" category="summary">ネットアップテクニカルサポートでサポートケースをオープンするには、まずNetApp Support Site アカウントをBlueXPに追加し、サポートに登録する必要があります。</block>
   <block id="8bf30fadf784022b073adb9233678a71" category="paragraph">ネットアップテクニカルサポートでサポートケースをオープンするには、まずNetApp Support Site （NSS）アカウントをBlueXPに追加し、サポートに登録する必要があります。</block>
   <block id="2322ca552c2b0ebe090c8485519246a8" category="list-text">BlueXPアカウントIDサポートサブスクリプションの登録(BlueXPの[サポートリソース]ページにある20桁の960xxxxxxxxxシリアル番号)。</block>
@@ -487,7 +472,6 @@
   <block id="fa6b601b2fb4e3e5c7b466ecb8bd70ac" category="paragraph">このエラーは、NSSアカウントとそれに関連付けられているレコードの会社が、BlueXPアカウントのシリアル番号(例960xxxx）または動作環境のシリアル番号。[ケースの作成]フォームの上部にあるNSSアカウントの一覧を確認して、適切な一致を見つけることができます。または、次のいずれかのオプションを使用してサポートを依頼することもできます。</block>
   <block id="0f845867deaf035383ffc217279b9c7f" category="paragraph">BlueXPのFSX for ONTAP 作業環境から'NFS'CIFS'iSCSIボリュームを作成および管理できますONTAP CLI を使用して作成したボリュームは、 FSX for ONTAP の作業環境にも表示されます。</block>
   <block id="6f28647aed612b810bbd7e815e8adbef" category="inline-link">BlueXP自動化ドキュメント</block>
-  <block id="40093c43e131165eb7dd2a980ff78509" category="cell">Active Directory DNS を使用して NTP サーバを設定するには、 * NTP サーバ設定を有効にする * を選択します。別のアドレスを使用して NTP サーバを設定する必要がある場合は、 API を使用してください。を参照してください<block ref="cf06621be2a2bfce0ef0595deee16955" category="inline-link-rx"></block> を参照してください。</block>
   <block id="cabcbbac4437e0dbf2eec9f1d07d973b" category="paragraph">ボリュームをホストにマウントできるように、BlueXPからマウント手順にアクセスします。</block>
   <block id="78b85142b4840670f82bc1e876164d5a" category="paragraph">FSX for ONTAP をBlueXPから削除する場合は、ONTAP アカウントまたはボリュームのFSXを削除する必要はありません。FSX for ONTAP の作業環境はいつでもBlueXPに戻すことができます。</block>
   <block id="2bded8459b9098e5f464123fa54a7a84" category="inline-image-macro">BlueXPインターフェイスからのFSX for ONTAP の削除オプションのスクリーンショット</block>
@@ -509,14 +493,11 @@
   <block id="547dba06b4fcfe3fa41996e831e9fb1c" category="list-text">BlueXPでONTAP ファイルシステム用のFSXを管理するために必要な資格情報を持たないクラスタを選択すると、必要な権限を持つ資格情報を選択するように求めるプロンプトが表示されます。</block>
   <block id="4e853a8ef076b82d13f35807a2dfe93b" category="summary">BlueXPを使用して'FSX for ONTAP のボリューム'クローン'スナップショットの管理'階層化ポリシーの変更を行うことができます</block>
   <block id="669f767086bf3b89606658facb29605a" category="paragraph">BlueXPを使用すると'FSX for ONTAP のボリューム'クローン'スナップショットの表示と管理'階層化ポリシーの変更を行うことができます</block>
-  <block id="060dde3ca9c7d4e73cf9b65b84114028" category="paragraph">BlueXPを使用すると'ストレージ環境間でデータをレプリケートできますONTAP レプリケーション用に FSX を構成するには、を参照してください<block ref="063d7001b249d0164d3c6e7cd82a78db" category="inline-link-rx"></block>。</block>
   <block id="f257be535aca4e5a3655fc2dd2887500" category="paragraph">以前にBlueXPを使用してSnapMirror関係に含まれていたボリュームは削除できません。SnapMirror ボリュームは、 AWS 管理コンソールまたは CLI を使用して削除する必要があります。</block>
   <block id="56f7e1cad5439f90ac8bd08115c74e4a" category="list-text">作業環境の名前を入力し、ボリュームを削除することを確認します。ボリュームがBlueXPから完全に削除されるまでに、最大1時間かかる場合があります。</block>
   <block id="c95623cd0395d5a6bb6105b9d32f197b" category="inline-link">BlueXPに関する注意事項</block>
-  <block id="e8a6d0f19a957eac14b9917a6c92899b" category="list-text"><block ref="e8a6d0f19a957eac14b9917a6c92899b" category="inline-link-rx"></block></block>
   <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">BlueXPのすべてのマニュアル</block>
   <block id="9b9477e579c3b44dd623d5a6e1ea8d78" category="inline-link-macro">BlueXP</block>
-  <block id="a9272148ddd8493b835b5b0ed973a495" category="paragraph">を使用します <block ref="ac523c62451e38c65aafdd45e2bf5230" category="inline-link-macro-rx"></block>FSX for ONTAP は、ほんの数ステップで開始できます。</block>
   <block id="f2575f6d19024f7288cf78d7dc5b3db9" category="paragraph">サポートダッシュボードを使用すると、NetApp Support Site アカウントを追加して管理し、BlueXPで使用できます。</block>
   <block id="e3cd99e4aa330ae6bdfb3754d83ae962" category="list-text">パートナーアカウントまたはリセラーアカウントをお持ちの場合は、1つ以上のNSSアカウントを追加することはできますが、お客様レベルのアカウントと一緒に追加することはできません。</block>
   <block id="2974170a8b1b5b4a2ac69aacd4c1c9c3" category="list-text">サポート登録ページでアカウントIDのシリアル番号を確認します。</block>
@@ -533,25 +514,12 @@
   <block id="ff521b94ba57a25e6c791317a4a7c7b8" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> AWSでIAMロールを設定します</block>
   <block id="f95c74952c0b72133feb54c45db4c89a" category="paragraph-title"><block ref="54f425ce8d89f4ed6b8a546561af5d60" category="inline-image-macro-rx" type="image"></block> ONTAP 作業環境用の FSX を作成します</block>
   <block id="08668d46aa9ce2b52e7c349499a9f0a0" category="paragraph-title"><block ref="05b2444faffd66d76e88602ea7dd353f" category="inline-image-macro-rx" type="image"></block> AWSのコネクタを作成します</block>
-  <block id="0e2c71dee315ea3ae0b3e253b0bb13c0" category="paragraph">を用意しておく必要があります<block ref="06b487e1dd2b2618860abb4a038fd471" category="inline-link-rx"></block> FSX for ONTAP 作業環境を開くには、ボリュームを作成するか、その他の操作を実行します。コネクタが必要な場合は、アクティブでない場合にブルーXPからプロンプトが表示されます。</block>
   <block id="b681838283484e0b94906567a577ad47" category="paragraph-title"><block ref="beadfa85a2fdca06b91edc1131c603e6" category="inline-image-macro-rx" type="image"></block> ボリュームを追加してマウント</block>
   <block id="4bd8fd698bf66b76447369f6d59d7e0f" category="inline-link-macro">ONTAP ボリュームのFSXを作成してマウントします</block>
   <block id="3a994a785ff4b046a381ab2afb6d0e17" category="paragraph">可能です <block ref="c98786904f437c4c5be9aec70a11cbb2" category="inline-link-macro-rx"></block> BlueXPを使用している。</block>
   <block id="01e12de62fa77fda2815719aed8ff892" category="paragraph-title">次のステップ</block>
   <block id="5a0c953dba56aa463b4468d70bfc3feb" category="section-title">2023年1月1日</block>
   <block id="f99ecd5cff9b18879fcd5ee404af256f" category="inline-link-macro">容量の自動管理</block>
-  <block id="380fe7c3627610af34c9936f46325923" category="paragraph">これで、を有効にすることができます <block ref="79658b4a46346ad9aa23a5f92d57dfaa" category="inline-link-macro-rx"></block> 必要に応じて差分ストレージを追加自動容量管理では、要求を評価するためにクラスタを定期的にポーリングし、クラスタの最大容量の10%までの割合でストレージ容量を自動的に拡張します。</block>
-  <block id="4054992d1ab241cf4542bc8cd502d679" category="paragraph">次の操作を実行できます。 <block ref="57fbdd5ba152894391c55cce5d9fe8f8" category="inline-link-macro-rx"></block> ONTAP 作業環境用のFSXを作成した後であれば、いつでも作成できます。</block>
-  <block id="a83471208430f7fbd0630757d97c5142" category="paragraph"><block ref="a83471208430f7fbd0630757d97c5142" category="inline-link-macro-rx"></block></block>
-  <block id="6cd901297cf29a4b459f2cc11e68c6d6" category="list-text">次の操作を実行できます。 <block ref="697a0d5ee189fb6da3b3bef50626dd94" category="inline-link-macro-rx"></block> ONTAP 作業環境用のFSXを作成した後であれば、いつでも作成できます。</block>
-  <block id="897d994d4d024883042e664eba152417" category="list-text">次の操作を実行できます。 <block ref="df556429a26e71fbf9e095a790447f2b" category="inline-link-macro-rx"></block> FSX for ONTAP をソースとして使用する、ONTAP システム用のオンプレミスおよびその他のFSXへの移行。</block>
-  <block id="cf648eb1e2c8b4986628f39a529b68f1" category="list-text">次の操作を実行できます。 <block ref="7c9b88630e88eb3d402b9bbec2515bca" category="inline-link-macro-rx"></block>。</block>
-  <block id="bee52cc88c0a721fa21705e43f975a38" category="paragraph"><block ref="bee52cc88c0a721fa21705e43f975a38" category="inline-link-macro-rx"></block></block>
-  <block id="68b4888c90bad97d83573c204e39d4f6" category="paragraph"><block ref="68b4888c90bad97d83573c204e39d4f6" category="inline-link-macro-rx"></block></block>
-  <block id="1a457abce740f74637d89636cb4bf465" category="paragraph"><block ref="b41a9efd67b5cf55cf548e8762fd5391" category="inline-link-macro-rx"></block>。</block>
-  <block id="878635d00100085ed9c73c84b23923a8" category="paragraph">可能です <block ref="7efe0bba09b9697b63e1ec0f00c0d9bb" category="inline-link-macro-rx"></block> FSX for ONTAP の場合。</block>
-  <block id="b957b3c2b45d171475a7589df8173510" category="paragraph">できるようになりました。 <block ref="e1e8315fc20ff9071c786150bb6a8fd4" category="inline-link-macro-rx"></block>。</block>
-  <block id="c3e1ff7fb2dc6fd7c64f15c4ce7d34e3" category="paragraph">できるようになりました。 <block ref="1546ddd4150be40b2e31760299f6633d" category="inline-link-macro-rx"></block>。</block>
   <block id="9e6871113ad24ed3830e2e58ce51dfc4" category="summary">BlueXPを使用すると'FSX for ONTAP の作業環境を管理できます容量の自動管理を有効にしたり、スループットとストレージ容量およびIOPSを変更したり、作業環境を削除したりできます。</block>
   <block id="9123b1a896e43bd47ae8708d015514ba" category="section-title">容量の自動管理</block>
   <block id="1c05e31e27d15b210cdcb01d01331c36" category="paragraph">容量の自動管理を有効にして、必要に応じて増分ストレージを追加することができます。自動容量管理では、クラスタを定期的にポーリングして、需要を評価し、クラスタの最大容量の10%までの割合でストレージ容量を自動的に拡張します。</block>
@@ -568,13 +536,9 @@
   <block id="938b92d62e3cd9d5d18b4db5abd32cfa" category="list-text">鉛筆のアイコン（<block ref="a3ce23dbf8ced4424507771e4b6881ae" category="inline-image-macro-rx" type="image"></block>）をクリックして、*容量の自動管理*ページを開きます。</block>
   <block id="41fa05171eb08b9478abe51f41110a5f" category="inline-link-macro">BlueXPアカウントを登録します</block>
   <block id="0375f4855be072c7d856a0233cc21de9" category="section-title">クラウドプロバイダソリューションのサポート</block>
-  <block id="5bf5309465f91318228a7f956b826348" category="list-text"><block ref="5bf5309465f91318228a7f956b826348" category="inline-link-macro-rx"></block></block>
   <block id="7450cfde7058dc5e1f7909d0280fd7ae" category="inline-link-macro">Azure NetApp Files の特長</block>
-  <block id="0e2bc9c853e0af52ead12823c025e58b" category="list-text"><block ref="0e2bc9c853e0af52ead12823c025e58b" category="inline-link-macro-rx"></block></block>
   <block id="b0cee72642f5457a71ddd0b49efb6d93" category="inline-link-macro">Cloud Volumes Service for Google Cloud</block>
-  <block id="02efcbea18b9485a78a41871dce1e64d" category="list-text"><block ref="02efcbea18b9485a78a41871dce1e64d" category="inline-link-macro-rx"></block></block>
   <block id="b284ee716f958658a642a656a79699dc" category="paragraph">BlueXPまたはBlueXPストレージソリューションとサービスに関する一般的な質問については'オンラインのBlueXPチャットから始めることができます</block>
-  <block id="3daaa300f491b3dcb99896f1ebc0a277" category="paragraph">BlueXPまたはBlueXPのストレージソリューションとサービスに固有のテクニカルサポートの問題については、BlueXPアカウントレベルのシリアル番号を使用してネットアップサポートチケットを開くことができます。する必要があります <block ref="1da17bacda87cc6ccc7a9f1f44b5e325" category="inline-link-macro-rx"></block> をクリックしてサポートを有効にし</block>
   <block id="be845c219bb74b14349ffa6e27e7aef3" category="paragraph">BlueXPに統合した次のクラウドプロバイダソリューションのテクニカルサポートについては、その製品のBlueXPマニュアルの「困ったときは」を参照してください。</block>
   <block id="bc1fbeca04a0bc47b1dd85e467f87ffc" category="list-text">* FSx for ONTAP 認証*</block>
   <block id="2bc897b30b2df26c531635a145af68ae" category="list-text">アカウントにIAMロールがない場合は、*[Credentials]*をクリックし、ウィザードの手順に従ってAWS IAMロールのARNとFSx for ONTAP クレデンシャルを追加します。を参照してください <block ref="1bf7f389ad2ba65976eab24c818e174c" category="inline-link-macro-rx"></block> を参照してください。</block>
@@ -582,7 +546,6 @@
   <block id="b3decd3dc6245a45a816d81cc94eb4be" category="list-text">必要に応じて、SVMユーザに同じパスワードを使用するオプションの選択を解除し、別のパスワードを設定します。</block>
   <block id="15ef2ed90c27f9867f7383d8f200ba6b" category="list-text">単一アベイラビリティゾーン*または*複数のアベイラビリティゾーン* HA配置モデルを選択します。複数のアベイラビリティゾーンについては、各ノードが専用のアベイラビリティゾーンになるように、少なくとも2つのアベイラビリティゾーンのサブネットを選択してください。</block>
   <block id="3f589588a5e2b50cf827ef7f979de432" category="list-text">*フローティングIP *（複数のアベイラビリティゾーンのみ）</block>
-  <block id="5b1a0e567c07875980cb98cbf8a0fc60" category="paragraph">使用可能な範囲を自動的に設定するには、[Leave_CIDR Range_Empty]を選択します。必要に応じて、を使用できます<block ref="ca64804883d6ae6ee4c5f1f5610fe766" category="inline-link-rx"></block> 範囲を手動で設定します。</block>
   <block id="b04e1903e3de2fffa52c1c517b8fed45" category="list-text">*ルートテーブル*（複数のアベイラビリティゾーンのみ）</block>
   <block id="f884e9a3951c5c6df696ce1faeecf517" category="paragraph">フローティング IP アドレスへのルートを含むルーティングテーブルを選択します。VPC内のサブネット用のルーティングテーブルが1つだけの場合（メインルーティングテーブル）、BlueXPは自動的にそのルーティングテーブルにフローティングIPアドレスを追加します。</block>
   <block id="a150e060bd138eb9dd07f260966de37f" category="list-text">*データ暗号化*</block>
@@ -644,27 +607,19 @@
   <block id="27635a52fe4c34c39ffc6430f4244ec6" category="list-text">[Organization's Cases]*で[View]*をクリックすると、会社に関連付けられているすべてのケースが表示されます。</block>
   <block id="059e856250b59be3069246887b74a23c" category="list-text">正確な日付範囲を選択するか、別の期間を選択して、日付範囲を変更します。</block>
   <block id="dfb3764bce2548df4e06357403f9c7d0" category="inline-image-macro">[Case Management]ページのテーブルの上にあるオプションのスクリーンショット。正確な日付範囲、または過去7日、30日、または3カ月を選択できます。</block>
-  <block id="7fcba8aeefa9960d3fc3fa08b360ba2e" category="paragraph"><block ref="7fcba8aeefa9960d3fc3fa08b360ba2e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="a1bb576be9e5a356290f231efb51b3f5" category="list-text">列の内容をフィルタリングします。</block>
   <block id="3753f10a59e21f58b30e3e67d416453e" category="inline-image-macro">[Status]列のフィルタオプションのスクリーンショット。[Active]や[Closed]など、特定のステータスに一致するケースを除外できます。</block>
-  <block id="37709be3a43df07d5975287545d0ba12" category="paragraph"><block ref="37709be3a43df07d5975287545d0ba12" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1c6ea5ef583389e18e7d7bda70beaa71" category="inline-image-macro">テーブルに表示されるプラスアイコン</block>
-  <block id="1614dc8e47c0492434152c990d6c1040" category="list-text">をクリックして、テーブルに表示される列を変更します <block ref="effeab06130cddc8360822b2b706805b" category="inline-image-macro-rx" type="image"></block> 次に、表示する列を選択します。</block>
   <block id="370b44009f1b82d0b6b178bb80cc62fa" category="inline-image-macro">表に表示できる列を示すスクリーンショット。</block>
-  <block id="5de408d7cbad49634fb25f9047498132" category="paragraph"><block ref="5de408d7cbad49634fb25f9047498132" category="inline-image-macro-rx" type="image"></block></block>
   <block id="ad0ae9ea1f2e8d973a9a0f6bb169f494" category="inline-image-macro">テーブルの最後の列に表示される3つの点を持つアイコン</block>
-  <block id="98efef1c8a47ed5791b41944e8ff4ec2" category="list-text">をクリックして既存のケースを管理します <block ref="a0b152b50a56901a75affebabc26ed61" category="inline-image-macro-rx" type="image"></block> 使用可能なオプションのいずれかを選択します。</block>
   <block id="6d9dd74e7709ef802d299966f7898f6b" category="list-text">*ケースの表示*:特定のケースの詳細を表示します。</block>
   <block id="f791bc685c526af8296381acff10f6a0" category="list-text">*ケースをクローズ*：ケースをクローズする理由の詳細を入力し、*ケースをクローズ*をクリックします。</block>
   <block id="e93217b2f709a398ce3c0fb753beb05f" category="inline-image-macro">テーブルの最後の列でメニューを選択した後に実行できる操作を示すスクリーンショット。</block>
-  <block id="e9a5c374fb47ed2ae5cc6108fb36d829" category="paragraph"><block ref="e9a5c374fb47ed2ae5cc6108fb36d829" category="inline-image-macro-rx" type="image"></block></block>
   <block id="ec084bb25ed5b934c09b361069c246b2" category="list-text">NSSアカウントは、お客様レベルのアカウントである必要があります（ゲストアカウントや一時アカウントではありません）。複数のお客様レベルのNSSアカウントを設定できます。</block>
   <block id="27387009488fe78dcc7cb7e3e432792f" category="list-text">NSSアカウントがパートナーレベルのアカウントの場合、作成できるNSSアカウントは1つだけです。お客様レベルのNSSアカウントを追加しようとすると、パートナーレベルのアカウントが存在する場合は、次のエラーメッセージが表示されます。</block>
   <block id="d926847e4634e19a1aa7358becc0fa27" category="paragraph">「別のタイプのNSSユーザーがすでに存在するため、このアカウントではNSS顧客タイプは許可されていません。」</block>
   <block id="a04a3a5322782e8c18d0d64be7e1ccbc" category="paragraph">既存のお客様レベルのNSSアカウントがあり、パートナーレベルのアカウントを追加しようとする場合も同様です。</block>
   <block id="1afe8a81cfddc9fa9559e272bb6b9496" category="list-text">ログインに成功すると、ネットアップはNSSのユーザ名を保存します。</block>
-  <block id="452cd4df7b0d5eb1156519a2f3b0206b" category="paragraph">これはシステムによって生成されたIDで、電子メールにマッピングされます。[*NSS Management*]ページで、から電子メールを表示できます <block ref="0d0843f26c0819e5369f690fefbf68b7" category="inline-image-macro-rx" type="image"></block> メニュー。</block>
-  <block id="fd02e84624a2fdfd58787131aa2820b5" category="list-text">ログイン認証情報トークンを更新する必要がある場合は、の[認証情報の更新*]オプションも使用できます <block ref="0d0843f26c0819e5369f690fefbf68b7" category="inline-image-macro-rx" type="image"></block> メニュー。</block>
   <block id="b14d512a3c64fb5df16f6721b0603c63" category="paragraph">このオプションを使用すると、再度ログインするように求められます。これらのアカウントのトークンは90日後に期限切れになります。このことを通知する通知が投稿されます。</block>
   <block id="c2ca61cdaafcad548af5836df039fcb3" category="doc">Amazon FSx for NetApp ONTAP のクイックスタートガイド</block>
   <block id="f0f0fb7949dd435ae874e688628798e3" category="paragraph">Amazon FSx for NetApp ONTAP 作業環境を作成または管理するには、FSx for ONTAP 作業環境の作成に必要な権限をBlueXPに付与するIAMロールのARNを指定して、AWSクレデンシャルをBlueXPに追加する必要があります。これを行うには、が必要です <block ref="29f60f4dfe0d122f0f86f855f5d0bde2" category="inline-link-macro-rx"></block>。</block>
@@ -682,11 +637,8 @@
   <block id="af78a60c1f50cf81e4812897a751efa4" category="summary">Amazon FSx for NetApp ONTAP の新機能をご確認ください。</block>
   <block id="1bab530ca9dd117d24aa1c1510692003" category="doc">Amazon FSx for NetApp ONTAP の最新情報</block>
   <block id="f65bfe10577ea64b648eddd04f107545" category="section-title">Amazon FSx for NetApp ONTAP をサポートします</block>
-  <block id="1385cf1e7d29fd1798df788aa42c8b74" category="paragraph"><block ref="fd7dfb8b205259c356b93928031de897" category="inline-link-macro-rx"></block>。</block>
   <block id="154f5271f725905c77563d2d1d8b3a0a" category="inline-link-macro">Amazon FSx for NetApp ONTAP 作業環境を作成します</block>
-  <block id="d3be51f291f03daae4a578c9e175d12f" category="paragraph"><block ref="2d691155b6be24c94d675d869467be5f" category="inline-link-macro-rx"></block>。</block>
   <block id="c8b596b90101edd9745fcaebc95d3b53" category="inline-link-macro">Cloud Data Sense for Amazon FSx for NetApp ONTAP の利用を開始しましょう</block>
-  <block id="bc538ecf902d31a2e2d5da896a568d39" category="paragraph"><block ref="d1fc625724d03640e125c3e4f8b63f1b" category="inline-link-macro-rx"></block>。</block>
   <block id="ff8f76810bdaf3c806b24b4f8d990230" category="doc">Amazon FSx for NetApp ONTAP 作業環境を作成または検出します</block>
   <block id="8d75ffd71230b9a1b93e34cb2e11aa86" category="list-text">BlueXPで、新しい作業環境を追加し、*[Amazon Web Services]*を選択して*[Add new]* for Amazon FSx for NetApp ONTAP をクリックします。</block>
   <block id="0c701eedf5e7b93c745db83a71466be1" category="inline-image-macro">Amazon FSx for NetApp ONTAP の作業環境を追加するスクリーンショット</block>
@@ -708,23 +660,17 @@
   <block id="942c9249796cf6b78c981ebf15195809" category="list-text"><block ref="942c9249796cf6b78c981ebf15195809" category="inline-link-rx"></block></block>
   <block id="857256e1923ea05bf18e14bc2411a2f6" category="list-text">キャンバスで作業環境を選択し、*[Enter Working Environment]*を選択します。</block>
   <block id="015abe149b937f218b783e72c81c3e66" category="admonition">他のすべてのオプションにはコネクタが必要であり、無効になっています。</block>
-  <block id="5f7a63a809602fb324d9cb35527588c3" category="paragraph">デフォルトの AWS マスターキーを使用するか、 * キーの変更 * をクリックして別の AWS カスタマーマスターキー（ CMK ）を選択します。CMK の詳細については、を参照してください <block ref="1dc4ebcb4490720ee959d2e943d1421f" category="inline-link-macro-rx"></block>。</block>
   <block id="a5444638448a3ec03827da5d57eb445b" category="paragraph">FSx for ONTAP ファイルシステムは、必要に応じて検出できます <block ref="7d3d3d003158d818e356e6a619082003" category="inline-xref-macro-rx"></block> または、* My Opportunities *ページを使用します。このタスクでは、* My Opportunities *を使用した検出について説明します</block>
   <block id="b8bb58c0dcb24fd404f0afdb514812dd" category="paragraph">BlueXPを使用してボリュームを管理し、レプリケーション、コピーと同期、分類などの追加サービスを設定できるようになりました。</block>
-  <block id="8f5824ab39555c09f787c12e2a079d11" category="list-text">を使用します <block ref="ac523c62451e38c65aafdd45e2bf5230" category="inline-link-macro-rx"></block> （Cloud Manager）とAWSのコネクタを使用して、ボリュームの作成と管理、データのレプリケート、FSx for ONTAPとネットアップのクラウドサービス（BlueXPの分類やBlueXPのコピーと同期（Cloud Sync）など）の統合を行うことができます。</block>
-  <block id="421285ceb2b9d53d23a60802835cfe70" category="list-text">BlueXPの分類機能（Cloud Data Sense）は、人工知能（AI）ベースのテクノロジを使用して、データのコンテキストを把握し、FSx for ONTAPアカウントに存在する機密データを特定するのに役立ちます。<block ref="ff015941fa4b0cfada66f8159ed80c63" category="inline-link-rx"></block>。</block>
-  <block id="e0a61971650c75e6c98840f20042d128" category="list-text">BlueXPのコピーと同期を使用すると、クラウドやオンプレミスの任意のターゲットへのデータ移行を自動化できます。<block ref="0d960aec46349f597fec0ba1ad479bc2" category="inline-link-rx"></block></block>
   <block id="ad9a464e359af0e32ba4423fbe150c59" category="paragraph">AWSでのコネクタの使用と、オプションのデータサービス（BlueXPのコピーと同期、BlueXPの分類など）の使用に関連する追加コストが発生します。</block>
   <block id="2457d874eb9fc3fb2b8e5f23618c1c7f" category="cell">クライアントWebブラウザからローカルユーザインターフェイスへのHTTPアクセス、およびBlueXP分類インスタンスからの接続を提供します</block>
   <block id="02499ddfc19d9b80567e19eb3f97deb0" category="cell">AWSネットワークでNATやプロキシを使用していない場合に、BlueXP分類インスタンスにインターネットアクセスを提供します</block>
   <block id="4cc849f381058f76f6b72a1c4279393d" category="cell">BlueXPの分類</block>
   <block id="a7f8c8869966601b4670aae0a070ba31" category="cell">Cloud Volumes ONTAPではBlueXPに分類されます</block>
-  <block id="a13fe54147eef01f0ae918612d6a4216" category="paragraph">BlueXPのコピーと同期を使用して同期関係を作成できます。同期関係を設定するには、を参照してください<block ref="3bb02b9d4fba268ff940f67f5abfe3eb" category="inline-link-rx"></block>。</block>
   <block id="d151342d67a639e871ca8c57524ca7f8" category="section-title">ボリュームタグを管理します</block>
   <block id="1edd4a3142e92621938f60a5002ee3b3" category="paragraph">ボリュームタグを追加、変更、または削除できます。BlueXPで追加されたタグはAWSコンソールに反映されます。タグをAWSコンソールと同期するのに最大1時間かかることがあります。</block>
   <block id="4c01e02944d90f20b1f75ee4b1e9c16c" category="list-text">[ボリュームタグの管理]*を選択します。</block>
   <block id="030c2a7dd0a2a850c39eb85018a90937" category="list-text">[保存]*を選択して変更を適用します。</block>
-  <block id="683e9ad715450e3853ea313118022403" category="paragraph">新しいボリュームを作成する前に、アクティブなボリュームが必要です<block ref="f8ec938ce1f3506a828c9f7802c63902" category="inline-link-rx"></block>。</block>
   <block id="4cf58ab90a8b9b744f512ffebcdbebb3" category="list-text">*ボリュームの詳細、保護、タグ*</block>
   <block id="7862905bf13e1d709d0da68a16f6b48a" category="list-text">[Storage VM（SVM）]フィールドには、作業環境の名前に基づいてSVMが自動的に入力されます。</block>
   <block id="bf3b5a85e403c1246dbbd111a2122f1b" category="list-text">必要に応じて、プラス記号をクリックしてタグの名前と値を入力することで、ボリュームを分類するタグを作成できます。</block>
@@ -736,10 +682,8 @@
   <block id="a018fc35c6be59c0e9c90d4bd464dc47" category="section-title">2023年5月7日</block>
   <block id="b3aad9775f9ce61fe67c9745594b96f0" category="inline-link-macro">セキュリティグループを生成します</block>
   <block id="beee5e54063eb4d710db752896c928c8" category="inline-link-macro">追加の権限が必要です</block>
-  <block id="85613cc2934a1e3d40c91656c94e331a" category="list-text">作業環境の作成時にBlueXPを使用できるようになりました <block ref="c4e69423da06cd62564882d11bcec12a" category="inline-link-macro-rx"></block> これにより、選択したVPC内のトラフィックのみが許可されます。この機能 <block ref="55b057d10246173e2440d2eae51abd9a" category="inline-link-macro-rx"></block>。</block>
   <block id="34ec78fcc91ffb1e54cd85e4a0924332" category="inline-link-macro">追加（ Add ）</block>
   <block id="8f45a2644508b5282f57fe129f62d19a" category="inline-link-macro">変更</block>
-  <block id="158f074c96189eb946118a12a17762b5" category="list-text">オプションで、を選択できます <block ref="09047edca5075ad1c71cf5035a98ddf9" category="inline-link-macro-rx"></block> および <block ref="d0baf23f6aa987908b3cb85b94241056" category="inline-link-macro-rx"></block> ボリュームを分類するためのタグ。</block>
   <block id="4671b76d583d3e68a446878a3342d736" category="list-text">必要に応じて、次の必須最小権限とオプションの権限を含むポリシーを作成します。</block>
   <block id="5ad10cfb674234136c181d096cb59522" category="open-title">必要な権限</block>
   <block id="7b36ef7355ac702b97a1f4f36816d08c" category="paragraph">FSx for NetApp ONTAP ファイルシステムを作成するには、BlueXPで最小限の権限が必要です。</block>
@@ -752,6 +696,54 @@
   <block id="3cb5845101cca1d3632756ad505df41c" category="list-text">Standardモードでは、BlueXPのSaaSレイヤを活用してすべての機能を提供します。</block>
   <block id="8515864aee35dd4c309a887dc85ffb7f" category="list-text">制限モードは、接続が制限されている組織で使用できます。</block>
   <block id="2579d10862aa7770a64b058fb84ce858" category="inline-link-macro">BlueXPの導入モード</block>
-  <block id="4fc602d8b048690865d920b6e5c24b3c" category="paragraph">を参照してください <block ref="4bc49635495ab7c2db508b6d63907d47" category="inline-link-macro-rx"></block> を参照してください。</block>
-  <block id="b6b3f8e91334c4e2b9135fdcdc27fdb6" category="paragraph">アクティブなが必要です<block ref="3cb2ea74cf184f32793e529e96915ba2" category="inline-link-rx"></block>。</block>
+  <block id="9d06990508d25d367d9158c6558eb9c8" category="list-text"><block ref="9d06990508d25d367d9158c6558eb9c8" category="inline-link-macro-rx"></block></block>
+  <block id="2e0c742f4616eb27b5b7646aa790edfe" category="list-text"><block ref="2e0c742f4616eb27b5b7646aa790edfe" category="inline-link-macro-rx"></block></block>
+  <block id="cf14bff66a8b72d3675db8ffe0f02ee3" category="list-text"><block ref="cf14bff66a8b72d3675db8ffe0f02ee3" category="inline-link-macro-rx"></block></block>
+  <block id="e8d4092baef6680c6a35d5228ae31de2" category="paragraph"><block ref="e8d4092baef6680c6a35d5228ae31de2" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0dfcbbbe02d3e96f8ad78782e8772587" category="paragraph">これはシステムによって生成されたIDで、電子メールにマッピングされます。[*NSS Management*]ページで、から電子メールを表示できます <block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block> メニュー。</block>
+  <block id="fc79de85a483938f72fbcb9822ec0ae3" category="list-text">ログイン認証情報トークンを更新する必要がある場合は、の[認証情報の更新*]オプションも使用できます <block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block> メニュー。</block>
+  <block id="1bb5620ed3998fd776980cad36e22c9a" category="paragraph"><block ref="1bb5620ed3998fd776980cad36e22c9a" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="379f9cd57d97013f3f7fdd24f692a0b1" category="paragraph"><block ref="379f9cd57d97013f3f7fdd24f692a0b1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="509259be6d5e15d8959f705cbe0cbcc1" category="paragraph"><block ref="509259be6d5e15d8959f705cbe0cbcc1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0972db30d942fdb65d1732e6e84bde99" category="paragraph"><block ref="0972db30d942fdb65d1732e6e84bde99" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="cb6a777dd3c6e43b0dc441d38519d219" category="paragraph"><block ref="cb6a777dd3c6e43b0dc441d38519d219" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0f6cac2f77150840994f84044fc1b12b" category="list-text">をクリックして、テーブルに表示される列を変更します <block ref="b574dd55d604ddb721d869a0fc302007" category="inline-image-macro-rx" type="image"></block> 次に、表示する列を選択します。</block>
+  <block id="e65065c4fd326b9f3a1eeb9453c30d73" category="paragraph"><block ref="e65065c4fd326b9f3a1eeb9453c30d73" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="6ba7d68d8b3ef0f3398afb9d3ea96172" category="list-text">をクリックして既存のケースを管理します <block ref="566c029d89e7d5421080767a37bf443e" category="inline-image-macro-rx" type="image"></block> 使用可能なオプションのいずれかを選択します。</block>
+  <block id="2ea260929e27ffcb623c8aa35689bd18" category="paragraph"><block ref="2ea260929e27ffcb623c8aa35689bd18" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="52ba8ac12050d2494572b940a0d65b25" category="paragraph"><block ref="52ba8ac12050d2494572b940a0d65b25" category="inline-link-rx"></block></block>
+  <block id="55f3cecb4f2e2fb5d00cb8e857fb6eee" category="paragraph">を参照してください <block ref="499541103fc78774e429d818f457ca15" category="inline-link-macro-rx"></block> を参照してください。</block>
+  <block id="13781b4ae41e7418f77ba4822fc32c49" category="list-text">を使用します <block ref="22fc26cf6eb0c7b721364c48d2d0a99b" category="inline-link-macro-rx"></block> AWSのコネクタとして、ボリュームの作成と管理、データのレプリケート、FSx for ONTAPとNetAppクラウドサービス（BlueXP分類、BlueXPのコピーと同期など）の統合が可能です。</block>
+  <block id="59fe7db193a00d48463a8179e319bc94" category="list-text">BlueXPは、人工知能（AI）ベースのテクノロジを使用して分類されるため、データのコンテキストを把握し、FSx for ONTAPアカウントに存在する機密データを特定するのに役立ちます。<block ref="bfbb8228662c42f84be0f3c329d7d1b1" category="inline-link-rx"></block>。</block>
+  <block id="5569f2aa218203754a9e5c9134bae1d2" category="list-text">BlueXPのコピーと同期を使用すると、クラウドやオンプレミスの任意のターゲットへのデータ移行を自動化できます。<block ref="e1c6f4eb1848937ca1b5c90d49af3ebb" category="inline-link-rx"></block></block>
+  <block id="4a0c58afa0cf8e6e215c2321f73e0970" category="paragraph">BlueXPまたはBlueXPストレージのソリューションやサービスに固有のテクニカルサポートの問題については、アカウントレベルのシリアル番号を使用してNetAppサポートチケットを発行できます。する必要があります <block ref="0c02d88e10dc9d33a3c6d90fb8336a90" category="inline-link-macro-rx"></block> をクリックしてサポートを有効にし</block>
+  <block id="52f0d52ceec121b410112b2a5dba2d7a" category="paragraph">を使用します <block ref="22fc26cf6eb0c7b721364c48d2d0a99b" category="inline-link-macro-rx"></block>FSX for ONTAP は、ほんの数ステップで開始できます。</block>
+  <block id="c252661fa67fb818de00d332271e5952" category="paragraph">を用意しておく必要があります<block ref="752bdc7b6cc8b206a39bceaddedfafff" category="inline-link-rx"></block> FSX for ONTAP 作業環境を開くには、ボリュームを作成するか、その他の操作を実行します。コネクタが必要な場合は、アクティブでない場合にブルーXPからプロンプトが表示されます。</block>
+  <block id="f8073e9488e1efc9a72bfd8549bdfe65" category="paragraph">使用可能な範囲を自動的に設定するには、[Leave_CIDR Range_Empty]を選択します。必要に応じて、を使用できます<block ref="908a038b6698bef05553dc237966486c" category="inline-link-rx"></block> 範囲を手動で設定します。</block>
+  <block id="fed3b58ee53350fc679af9313a452f78" category="paragraph">デフォルトの AWS マスターキーを使用するか、 * キーの変更 * をクリックして別の AWS カスタマーマスターキー（ CMK ）を選択します。CMK の詳細については、を参照してください <block ref="8fe12519351ca8a607a9a9e011c48c01" category="inline-link-macro-rx"></block>。</block>
+  <block id="598ac5ec4509a5fa7d37ccc4259276e2" category="paragraph">BlueXPを使用すると'ストレージ環境間でデータをレプリケートできますONTAP レプリケーション用に FSX を構成するには、を参照してください<block ref="b3f9ef9ab8e2f6f80ef424579ec0a2be" category="inline-link-rx"></block>。</block>
+  <block id="4fe2848eb7d4a0d2def783dfbceaf41d" category="paragraph">BlueXPのコピーと同期を使用して同期関係を作成できます。同期関係を設定するには、を参照してください<block ref="ebda92a6c5428de5c74cf0458cae3b5e" category="inline-link-rx"></block>。</block>
+  <block id="8d757dbdc7fa419adfd2d9b20629a645" category="paragraph">アクティブなが必要です<block ref="36a4e36eea867c3f44362f37d4545eda" category="inline-link-rx"></block>。</block>
+  <block id="3d21cd9a1f8be881b83afe344443ea88" category="paragraph">新しいボリュームを作成する前に、アクティブなボリュームが必要です<block ref="7c63a28be6cb831de5033d7fc716e2b5" category="inline-link-rx"></block>。</block>
+  <block id="b344b4701c7bc470b4d413e98ef9c9f9" category="cell">Active Directory DNS を使用して NTP サーバを設定するには、 * NTP サーバ設定を有効にする * を選択します。別のアドレスを使用して NTP サーバを設定する必要がある場合は、 API を使用してください。を参照してください<block ref="7665d9260dd9d6a287f2bbc0560d523f" category="inline-link-rx"></block> を参照してください。</block>
+  <block id="82fec6d31b25a5ecb50c02e473be2188" category="list-text">をクリックして、1つ以上のホストiSCSI修飾名（IQN）を追加します。既存のIQNを選択するか、新しいIQNを追加できます。ボリュームのIQNを確認する方法については、を参照してください <block ref="bb4247f1c80c630362ed25b8c41eed59" category="inline-link-macro-rx"></block>。</block>
+  <block id="b6f1ebb155eaf4c6e07d7a105b1d5a53" category="list-text">作業環境の作成時にBlueXPを使用できるようになりました <block ref="3ba2cfc3ef2a3c163fc4910682cfb7d6" category="inline-link-macro-rx"></block> これにより、選択したVPC内のトラフィックのみが許可されます。この機能 <block ref="097f8dd60847dad6062ac7ea2bd09c06" category="inline-link-macro-rx"></block>。</block>
+  <block id="46ce6a634ad58fa667690e7f5c151b26" category="list-text">オプションで、を選択できます <block ref="2af1713063b9a7e50c1f5e13c7671bae" category="inline-link-macro-rx"></block> および <block ref="013335dc35ce07c311c673e8a99c88f9" category="inline-link-macro-rx"></block> ボリュームを分類するためのタグ。</block>
+  <block id="7a1efada084b28a5a54db20f07f2e373" category="paragraph">これで、を有効にすることができます <block ref="798ae2d54008eb1f5d42a000af614a06" category="inline-link-macro-rx"></block> 必要に応じて差分ストレージを追加自動容量管理では、要求を評価するためにクラスタを定期的にポーリングし、クラスタの最大容量の10%までの割合でストレージ容量を自動的に拡張します。</block>
+  <block id="8b5edcd6e9d4ab9285ee3664af7ea2a9" category="paragraph">次の操作を実行できます。 <block ref="9b7f213d695f8dd25ea908078792fd69" category="inline-link-macro-rx"></block> ONTAP 作業環境用のFSXを作成した後であれば、いつでも作成できます。</block>
+  <block id="466d6bdc4ee1f71dd893e6c99f71163b" category="paragraph"><block ref="466d6bdc4ee1f71dd893e6c99f71163b" category="inline-link-macro-rx"></block></block>
+  <block id="733ef426ec092c634a1b7dbaf3373220" category="list-text">次の操作を実行できます。 <block ref="9152528a95687d317ab62dcde238fdef" category="inline-link-macro-rx"></block> ONTAP 作業環境用のFSXを作成した後であれば、いつでも作成できます。</block>
+  <block id="32417d8e9e3c82c4c5314062782575c9" category="list-text">次の操作を実行できます。 <block ref="f635c46f2cd088dcf1369f807e47e94f" category="inline-link-macro-rx"></block> FSX for ONTAP をソースとして使用する、ONTAP システム用のオンプレミスおよびその他のFSXへの移行。</block>
+  <block id="9f4e04fb3f0860f8350f8ebb5e3a6709" category="list-text">次の操作を実行できます。 <block ref="2e2cc205fa7502696c4503aa2708460c" category="inline-link-macro-rx"></block>。</block>
+  <block id="8fd7534d6aebbd882ef1960f77315b2f" category="paragraph"><block ref="8fd7534d6aebbd882ef1960f77315b2f" category="inline-link-macro-rx"></block></block>
+  <block id="e6d0f7e4f8ca7981e7941ccbbb8a1a64" category="paragraph"><block ref="e6d0f7e4f8ca7981e7941ccbbb8a1a64" category="inline-link-macro-rx"></block></block>
+  <block id="a192906bb862e862bbb53506559a844d" category="paragraph"><block ref="9516e987fbb53ba186cfd7cef3866a34" category="inline-link-macro-rx"></block>。</block>
+  <block id="a9736f093d873bda23fae5af0f2e59ad" category="paragraph">可能です <block ref="86859984b3fe2a3db500ca938508fd38" category="inline-link-macro-rx"></block> FSX for ONTAP の場合。</block>
+  <block id="7c0b6ff49cfe71493375c14aa404ca6c" category="paragraph">できるようになりました。 <block ref="52b661a6eadedcae5186a4ebf8b872ae" category="inline-link-macro-rx"></block>。</block>
+  <block id="9fb5d20591c6848f132647679c0da362" category="paragraph">できるようになりました。 <block ref="89079ccbf05a0fc2ea3954d0d79bc38f" category="inline-link-macro-rx"></block>。</block>
+  <block id="557b3fb1f758926ca04bd11d6807c299" category="paragraph"><block ref="834ff3a562756e0b7e56a13f4eb96013" category="inline-link-macro-rx"></block>。</block>
+  <block id="d08ad840d921084daab3eb8ec7ed95d0" category="paragraph"><block ref="1e975261e8c6330d82170a203547fafa" category="inline-link-macro-rx"></block>。</block>
+  <block id="9392a234f812a64a7add82bf3ea440ce" category="paragraph"><block ref="6c403399a6912b636ecf2c35a037d6c1" category="inline-link-macro-rx"></block>。</block>
+  <block id="6bc0d0afbcf301d393b1808f854ff30e" category="list-text"><block ref="6bc0d0afbcf301d393b1808f854ff30e" category="inline-link-rx"></block></block>
+  <block id="8fb5f344898fe922856ca069cb615707" category="list-text"><block ref="8fb5f344898fe922856ca069cb615707" category="inline-link-rx"></block></block>
 </blocks>

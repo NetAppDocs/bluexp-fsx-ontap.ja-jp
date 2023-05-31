@@ -74,7 +74,7 @@ AWSのアクティブなコネクタを使用して自動容量を管理でき�
 スループット容量は、ONTAP 作業環境でFSXを作成したあとにいつでも変更できます。
 
 .作業を開始する前に
-アクティブなが必要です https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-connector-aws.html["AWS のコネクタ"^]。
+アクティブなが必要です https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-aws.html["AWS のコネクタ"^]。
 
 .手順
 . FSX for ONTAP 作業環境を開きます。
@@ -90,7 +90,7 @@ AWSのアクティブなコネクタを使用して自動容量を管理でき�
 ストレージ容量とIOPSは、ONTAP 作業環境でFSXを作成した後、いつでも変更できます。
 
 .作業を開始する前に
-アクティブなが必要です https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-connector-aws.html["AWS のコネクタ"^]。
+アクティブなが必要です https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-aws.html["AWS のコネクタ"^]。
 
 .手順
 . FSX for ONTAP 作業環境を開きます。
