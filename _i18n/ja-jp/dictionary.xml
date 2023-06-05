@@ -569,7 +569,6 @@
   <block id="ada6c4a93e7b96d58f35712af7225f16" category="list-text">[詳細]パネルで、3つのドット（<block ref="4d658ec40ed039406a8a891871de0f3d" category="inline-image-macro-rx" type="image"></block>)をクリックしてオプションメニューを開きます。[ ボリュームの追加 ] をクリックします。</block>
   <block id="cb29a37b5b733fa09b9f5235c1a2f7e1" category="inline-image-macro">[詳細]パネルの[ボリュームの追加]オプションのスクリーンショット。</block>
   <block id="08d8ba93d0c829ce154f2f67f8a7a548" category="paragraph"><block ref="08d8ba93d0c829ce154f2f67f8a7a548" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="0e71045ffb2c142e38f192348939d657" category="list-text">*ボリュームプロトコル*：</block>
   <block id="763a3be303d8f075b28b4fb47257840f" category="list-text">NFS、CIFS、またはiSCSIボリュームプロトコルを選択します。</block>
   <block id="1d1a594959ec615f56516f5d0f5e8ddb" category="open-title">NFS</block>
   <block id="c6546b53840ec8245dd4d4d70fcdbc26" category="open-title">CIFS</block>
@@ -673,8 +672,6 @@
   <block id="030c2a7dd0a2a850c39eb85018a90937" category="list-text">[保存]*を選択して変更を適用します。</block>
   <block id="4cf58ab90a8b9b744f512ffebcdbebb3" category="list-text">*ボリュームの詳細、保護、タグ*</block>
   <block id="7862905bf13e1d709d0da68a16f6b48a" category="list-text">[Storage VM（SVM）]フィールドには、作業環境の名前に基づいてSVMが自動的に入力されます。</block>
-  <block id="bf3b5a85e403c1246dbbd111a2122f1b" category="list-text">必要に応じて、プラス記号をクリックしてタグの名前と値を入力することで、ボリュームを分類するタグを作成できます。</block>
-  <block id="217b3256c0d162e3d3a19443f01ca898" category="list-text">必要に応じて、プラス記号をクリックしてタグの名前と値を入力することで、作業環境を分類するタグを作成できます。</block>
   <block id="abe6a897030218d3203ab879ad4b1f44" category="list-text">* HA導入モデル*</block>
   <block id="5af4897c305da61f596431c2c0127080" category="list-text">ファイルシステムに関連付けるVirtual Private Cloud（VPC）を選択します。</block>
   <block id="2cbc2dc6a7e20b95c33bc032c1eaad70" category="list-text">既存のセキュリティグループを使用するか、*[生成されたセキュリティグループ]*を選択して、選択したVPC内のトラフィックのみを許可するセキュリティグループをBlueXPで生成できるようにします。</block>
@@ -719,7 +716,6 @@
   <block id="4a0c58afa0cf8e6e215c2321f73e0970" category="paragraph">BlueXPまたはBlueXPストレージのソリューションやサービスに固有のテクニカルサポートの問題については、アカウントレベルのシリアル番号を使用してNetAppサポートチケットを発行できます。する必要があります <block ref="0c02d88e10dc9d33a3c6d90fb8336a90" category="inline-link-macro-rx"></block> をクリックしてサポートを有効にし</block>
   <block id="52f0d52ceec121b410112b2a5dba2d7a" category="paragraph">を使用します <block ref="22fc26cf6eb0c7b721364c48d2d0a99b" category="inline-link-macro-rx"></block>FSX for ONTAP は、ほんの数ステップで開始できます。</block>
   <block id="c252661fa67fb818de00d332271e5952" category="paragraph">を用意しておく必要があります<block ref="752bdc7b6cc8b206a39bceaddedfafff" category="inline-link-rx"></block> FSX for ONTAP 作業環境を開くには、ボリュームを作成するか、その他の操作を実行します。コネクタが必要な場合は、アクティブでない場合にブルーXPからプロンプトが表示されます。</block>
-  <block id="f8073e9488e1efc9a72bfd8549bdfe65" category="paragraph">使用可能な範囲を自動的に設定するには、[Leave_CIDR Range_Empty]を選択します。必要に応じて、を使用できます<block ref="908a038b6698bef05553dc237966486c" category="inline-link-rx"></block> 範囲を手動で設定します。</block>
   <block id="fed3b58ee53350fc679af9313a452f78" category="paragraph">デフォルトの AWS マスターキーを使用するか、 * キーの変更 * をクリックして別の AWS カスタマーマスターキー（ CMK ）を選択します。CMK の詳細については、を参照してください <block ref="8fe12519351ca8a607a9a9e011c48c01" category="inline-link-macro-rx"></block>。</block>
   <block id="598ac5ec4509a5fa7d37ccc4259276e2" category="paragraph">BlueXPを使用すると'ストレージ環境間でデータをレプリケートできますONTAP レプリケーション用に FSX を構成するには、を参照してください<block ref="b3f9ef9ab8e2f6f80ef424579ec0a2be" category="inline-link-rx"></block>。</block>
   <block id="4fe2848eb7d4a0d2def783dfbceaf41d" category="paragraph">BlueXPのコピーと同期を使用して同期関係を作成できます。同期関係を設定するには、を参照してください<block ref="ebda92a6c5428de5c74cf0458cae3b5e" category="inline-link-rx"></block>。</block>
@@ -746,4 +742,24 @@
   <block id="9392a234f812a64a7add82bf3ea440ce" category="paragraph"><block ref="6c403399a6912b636ecf2c35a037d6c1" category="inline-link-macro-rx"></block>。</block>
   <block id="6bc0d0afbcf301d393b1808f854ff30e" category="list-text"><block ref="6bc0d0afbcf301d393b1808f854ff30e" category="inline-link-rx"></block></block>
   <block id="8fb5f344898fe922856ca069cb615707" category="list-text"><block ref="8fb5f344898fe922856ca069cb615707" category="inline-link-rx"></block></block>
+  <block id="c6e3378b0ee3c7cdb21a4cfdf78d729e" category="list-text">必要に応じて、プラス記号をクリックしてタグの名前と値を入力し、ボリュームを分類するタグを作成します。</block>
+  <block id="ee7de532c8affb3659d9d80ec396fef5" category="list-text">必要に応じて、最適化オプションを選択してFlexGroup を作成し、ボリュームデータをクラスタ全体に分散します。</block>
+  <block id="cb7d4e165ee98c4ee16be7a24245f5bc" category="admonition">FlexGroupディストリビューションは、NFSとCIFSのボリュームプロトコルでのみ使用できます。</block>
+  <block id="176d707d91233fad58f8673c1716a4f8" category="list-text">*ボリュームプロトコル*：</block>
+  <block id="21f43446afbc4a1acbf88a421b7a09dc" category="list-text">最適化（FlexGroup ）を選択した場合は、ボリュームデータを分散するコンスティチュエントの数を指定する必要があります。データが均等に分散されるように、偶数個のコンスティチュエントを使用することを強く推奨します。</block>
+  <block id="d99cba7d7f71be21b06a8ed7b3cead82" category="list-text">必要に応じて、プラス記号をクリックし、タグの名前と値を入力してタグを作成できます。</block>
+  <block id="c89439eb771335b64cacafd62be867f6" category="list-text">必要に応じて、Amazon FSx for NetApp ONTAPで週30分のメンテナンスを実行する開始時刻を指定できます。これは、メンテナンスが重要なビジネス活動と一致しないようにするために使用できます。* No preference *を選択すると、ランダムな開始時間が割り当てられます。これはいつでも変更できます。</block>
+  <block id="5b1a0e567c07875980cb98cbf8a0fc60" category="paragraph">使用可能な範囲を自動的に設定するには、[Leave_CIDR Range_Empty]を選択します。必要に応じて、を使用できます<block ref="ca64804883d6ae6ee4c5f1f5610fe766" category="inline-link-rx"></block> 範囲を手動で設定します。</block>
+  <block id="deafe98ece55cac6734aa3e0c94f89a1" category="list-title">次の範囲のIPSはサポートされていません。</block>
+  <block id="41744fea4be9d62829f8c470c2392ab1" category="list-text">0.0.0.0/8</block>
+  <block id="3e1fea8090ae1db8846841cc09d5aaf8" category="list-text">127.0.0.0/8</block>
+  <block id="848f6e8ee6fe43588f4416e654c34e48" category="list-text">198.19.0.0/20</block>
+  <block id="db9ba505138d8297c77f1ab14b6cdeec" category="list-text">224.0.0.0/4</block>
+  <block id="f4e8000f5b4b5143e798df0d90374b2a" category="list-text">240.0.0.0/4</block>
+  <block id="8ebeed61b9e364961ed847275d3138d4" category="list-text">255.255.255.255/32</block>
+  <block id="a6aef5e3bbd8b059764f33a4044e30d6" category="section-title">2023年6月4日</block>
+  <block id="b11363dc7ad08609dacf71adabc1e3d7" category="inline-link-macro">作業環境の作成</block>
+  <block id="c21d5cf174dc36531d6990b13fe89573" category="list-text">いつ <block ref="ad9408e39808bf9ea4b07fa95cac5798" category="inline-link-macro-rx"></block>では、毎週の30分のメンテナンス時間の開始時間を指定して、メンテナンスが重要なビジネスアクティビティと競合しないようにすることができます。</block>
+  <block id="e2ba73f0e5661996e4350de09efee512" category="inline-link-macro">ボリュームを作成しています</block>
+  <block id="fabdf5de30f7e7084ae6656930904d1d" category="list-text">いつ <block ref="1bfb452ce23fdd4301ee99a62317a7a6" category="inline-link-macro-rx"></block>では、ボリューム間でデータを分散するFlexGroupを作成することで、データの最適化を有効にすることができます。</block>
 </blocks>
