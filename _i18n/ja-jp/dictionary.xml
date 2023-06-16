@@ -659,7 +659,6 @@
   <block id="5ad10cfb674234136c181d096cb59522" category="open-title">必要な権限</block>
   <block id="7b36ef7355ac702b97a1f4f36816d08c" category="paragraph">FSx for NetApp ONTAP ファイルシステムを作成するには、BlueXPで最小限の権限が必要です。</block>
   <block id="79d6201c496cf246a16e25b2e725897a" category="open-title">自動容量</block>
-  <block id="762e3bf022059ba9b9cc06c0d2c9b00d" category="paragraph">を有効にするには、さらに次の権限が必要です <block ref="4d6056f5ae867fac15604e7d63efb082" category="inline-link-macro-rx"></block>。</block>
   <block id="9175bb34d0aede26315b313b9432bcbb" category="open-title">セキュリティグループ</block>
   <block id="42c16fd45375c160089e29d754f16e36" category="inline-link-macro">セキュリティグループを生成します</block>
   <block id="78004ed8e8658d85d8a3d99a1a533922" category="paragraph">BlueXPでを許可するには、次の追加権限が必要です <block ref="37425afe2ceb1de25205a180b5a14074" category="inline-link-macro-rx"></block>。</block>
@@ -763,4 +762,5 @@
   <block id="f5135b68b75a8404803a1eb438e40c5e" category="list-text">Cloud Volumes ONTAP ソフトウェアを最新リリースにアップグレードしています</block>
   <block id="39f382b97080640c75604b5890f3a5d3" category="paragraph">NSSクレデンシャルをBlueXPアカウントに関連付ける方法は、BlueXPユーザログインに関連付けられたNSSアカウントとは異なります。</block>
   <block id="e3bc6d35311568d55f1c8ea11984b964" category="paragraph">これらのNSSクレデンシャルは、特定のBlueXPアカウントIDに関連付けられています。BlueXPアカウントに属するユーザは、*[サポート]&gt;[NSS管理]*からこれらのクレデンシャルにアクセスできます。</block>
+  <block id="69ca45f3f7552de8b10ae32cba3897d2" category="paragraph">を有効にするには、さらに次の権限が必要です <block ref="1cea652ab03a953c6704c3bb96fcb9b7" category="inline-link-macro-rx"></block>。</block>
 </blocks>
