@@ -85,8 +85,6 @@
   <block id="759e9950bbe6d95f5d993751a21090d8" category="list-text">作業環境を開きます。AWS にコネクタがない場合は、プロンプト画面が表示されます。これは無視して作業環境の削除に進んでください。</block>
   <block id="b29f6e00261f220f9ca9601a3dbc09df" category="section-title">ボリュームを編集します</block>
   <block id="b609b522164fd601ccb14538b7074e4e" category="paragraph">作成したボリュームはいつでも変更できます。</block>
-  <block id="4ba141f8bd3c71509d32aaf3d8ae34d6" category="list-text">NFS の場合、サイズとタグを変更できます。</block>
-  <block id="ad348a3307068da0d1c8c03655a0d11e" category="list-text">CIFS の場合、共有名、ユーザ、権限、および Snapshot ポリシーを必要に応じて変更できます。</block>
   <block id="fee2a02b904d6d1f207e959dbd807a75" category="section-title">ボリュームをクローニングする</block>
   <block id="6b94d8d9a10c7d18376b9f389dba9855" category="paragraph">ボリュームを作成したら、新しい Snapshot から読み書き可能な新しいボリュームを作成できます。</block>
   <block id="5e5db467595563d87880b20fec615319" category="list-text">クローンボリュームの名前を入力します。</block>
@@ -763,4 +761,5 @@
   <block id="39f382b97080640c75604b5890f3a5d3" category="paragraph">NSSクレデンシャルをBlueXPアカウントに関連付ける方法は、BlueXPユーザログインに関連付けられたNSSアカウントとは異なります。</block>
   <block id="e3bc6d35311568d55f1c8ea11984b964" category="paragraph">これらのNSSクレデンシャルは、特定のBlueXPアカウントIDに関連付けられています。BlueXPアカウントに属するユーザは、*[サポート]&gt;[NSS管理]*からこれらのクレデンシャルにアクセスできます。</block>
   <block id="69ca45f3f7552de8b10ae32cba3897d2" category="paragraph">を有効にするには、さらに次の権限が必要です <block ref="1cea652ab03a953c6704c3bb96fcb9b7" category="inline-link-macro-rx"></block>。</block>
+  <block id="1a152437275e48cffd13b98c296a5e3f" category="admonition">BlueXPで作成したボリュームタグは、AWSと同期するまで編集できません。これには最大1時間かかることがあります。[Manage volume tags]*オプションがグレー表示されている場合は、AWSはまだボリュームタグを同期していません。</block>
 </blocks>
