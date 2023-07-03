@@ -22,13 +22,13 @@ summary: 作業環境のセットアップが完了したら、Amazon FSx for Ne
 
 BlueXPのFSX for ONTAP 作業環境から'NFS'CIFS'iSCSIボリュームを作成および管理できますONTAP CLI を使用して作成したボリュームは、 FSX for ONTAP の作業環境にも表示されます。
 
-.作業を開始する前に
-新しいボリュームを作成する前に、アクティブなボリュームが必要です https://docs.netapp.com/us-en/bluexp-setup-admin/task-creating-connectors-aws.html["AWS のコネクタ"^]。
-
-SMB を使用する場合は、 DNS と Active Directory を設定しておく必要があります。DNS と Active Directory のネットワーク設定の詳細については、を参照してください link:https://docs.aws.amazon.com/fsx/latest/ONTAPGuide/self-manage-prereqs.html["AWS ：自己管理型の Microsoft AD を使用するための前提条件"^]。
-
 .このタスクについて
 ボリュームを追加するには、作業環境を開いて*[ボリューム]*タブを選択するか、キャンバスから作業環境*[詳細]*パネルを使用します。このタスクでは、*[詳細]*パネルを使用してボリュームを追加する方法について説明します。
+
+.作業を開始する前に
+* アクティブなが必要です https://docs.netapp.com/us-en/bluexp-setup-admin/task-creating-connectors-aws.html["AWS のコネクタ"^]。
+* SMB を使用する場合は、 DNS と Active Directory を設定しておく必要があります。DNS と Active Directory のネットワーク設定の詳細については、を参照してください link:https://docs.aws.amazon.com/fsx/latest/ONTAPGuide/self-manage-prereqs.html["AWS ：自己管理型の Microsoft AD を使用するための前提条件"^]。
+
 
 .手順
 . キャンバスでFSx for ONTAP 作業環境を選択します。有効になっているコネクタがない場合は、コネクタを追加するように求められます。

@@ -18,15 +18,15 @@ sidebar:
     url: "/whats-new.html"
   - title: はじめに
     entries:
-    - title: FSX for ONTAP について説明します
+    - title: Amazon FSx for NetApp ONTAP の詳細をご確認ください
       url: "/start/concept-fsx-aws.html"
     - title: クイックスタート
       url: "/start/task-getting-started-fsx.html"
   - title: 要件
     entries:
-    - title: ONTAP の FSX のアクセス許可を設定します
+    - title: 権限を設定します
       url: "/requirements/task-setting-up-permissions-fsx.html"
-    - title: ONTAP の FSX のセキュリティグループルール
+    - title: セキュリティグループのルール
       url: "/requirements/reference-security-groups-fsx.html"
   - title: Amazon FSx for NetApp ONTAP を使用します
     entries:
@@ -34,10 +34,12 @@ sidebar:
       url: "/use/task-creating-fsx-working-environment.html"
     - title: 作業環境の管理
       url: "/use/task-manage-working-environment.html"
-    - title: ボリュームを作成してマウント
+    - title: ボリュームを作成してマウントします
       url: "/use/task-add-fsx-volumes.html"
-    - title: ボリュームとデータサービスを管理します
+    - title: ボリュームを管理します
       url: "/use/task-manage-fsx-volumes.html"
+    - title: Storage VMを追加および管理する
+      url: "/use/task-add-fsx-svm.html"
   - title: 知識とサポート
     entries:
     - title: サポートに登録します

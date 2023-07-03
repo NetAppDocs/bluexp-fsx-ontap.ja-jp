@@ -1,0 +1,116 @@
+---
+sidebar: sidebar 
+permalink: use/task-add-fsx-svm.html 
+keywords: fsx for ontap, fsx, aws, storage vm, storage virtual machine, svm, add svm, virtual machine, delete svm, tags, smb, cifs, delete 
+summary: 作業環境を作成したら、管理対象のAmazon FSx for NetApp ONTAPクラスタにStorage Virtual Machine（VM）を追加、表示、管理できます。 
+---
+= Amazon FSx for NetApp ONTAP用Storage VMを追加、管理します
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+作業環境を作成したら、管理対象のAmazon FSx for NetApp ONTAPクラスタにStorage Virtual Machine（VM）（_SVM_とも呼ばれます）を追加、表示、および管理できます。
+
+
+
+== Storage VMを追加してください
+
+BlueXPを使用すると、Amazon FSx for ONTAPファイルシステムに、許可されている最大数までStorage VMを追加できます。を参照してください link:https://docs.aws.amazon.com/fsx/latest/ONTAPGuide/managing-svms.html["AWS：FSx for ONTAP Storage Virtual Machineの管理"^] を参照してください。
+
+.このタスクについて
+Storage VMを追加するには、作業環境を開いて*[Storage VM]*タブを選択するか、作業環境*[概要]*パネルから選択します。このタスクでは、*[Storage VMs]*パネルを使用してStorage VMを追加する方法について説明します。
+
+.作業を開始する前に
+* アクティブなが必要です https://docs.netapp.com/us-en/bluexp-setup-admin/task-creating-connectors-aws.html["AWS のコネクタ"^]。
+* Storage VMを作成します。を参照してください link:https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-managing-svms.html["BlueXPでStorage VMを管理します"^] を参照してください。
+
+
+.手順
+. キャンバスでFSx for ONTAP 作業環境を選択します。有効になっているコネクタがない場合は、コネクタを追加するように求められます。
+. [Storage VMs]*パネルを選択します。既存のSVMが表示されます。新しいSVMを追加するには、[**SVMの追加*]を選択します。
++
+image:svm-add.png["[Storage VM]パネルのスクリーンショット。"]
+
+. * Storage Virtual Machineを追加*
++
+.. Storage VMの名前を入力してください。
+.. 設定されているStorage VMルートボリュームのセキュリティ形式を選択します。有効な値は、** UNIX**、** NTFS**、または** Mixed **です。
+.. 必要に応じて、Storage VM管理パスワードを指定します。
+.. 必要に応じて、プラス記号をクリックしてタグの名前と値を入力し、SVMを分類するタグを最大50個作成します。
+.. [**Add*]を選択してStorage VMを追加します。
+
+
+
+
+.結果
+新しいStorage VMが作業環境とAmazon FSx for NetApp ONTAPファイルシステムに追加されます。
+
+
+
+== Storage VMを管理する
+
+Storage VMの詳細の表示、タグの管理、SMB / CIFS接続のセットアップ、ストレージSVMの削除を行うことができます。
+
+.作業を開始する前に
+アクティブなが必要です https://docs.netapp.com/us-en/bluexp-setup-admin/task-creating-connectors-aws.html["AWS のコネクタ"^]。
+
+.手順
+. キャンバスでFSx for ONTAP 作業環境を選択します。有効になっているコネクタがない場合は、コネクタを追加するように求められます。
+. [Storage VMs]*パネルを選択します。
+. 3つのドット（image:icon-three-dots.png["3つの点のアイコン"]）をクリックしてStorage VMのオプションメニューを開きます。
++
+image:svm-manage.png["[Storage VM]パネルの[Manage Storage VM]オプションメニューのスクリーンショット。"]
+
+. Storage VMの設定を表示または管理するメニューオプションを選択します。
++
+** ** SVMの詳細を表示**：ルートボリューム、セキュリティ形式、許可されているプロトコル、Active Directoryドメイン、タグなどの詳細を確認できます。
+** ** SVMタグの管理**：Storage VMタグを追加、編集、削除できます。変更内容はAWSコンソールと同期されます。
+** ** SMB/CIFSのセットアップ**：この作業環境で初めてCIFS接続を行う場合は、_Active Directory_or_Workgroup_setupを使用してCIFS接続を設定するように求められます。
++
+*** ワークグループセットアップを選択した場合は、 CIFS 用に設定されているワークグループのサーバとワークグループ名を入力します。
+*** Active Directory の設定を選択した場合は、次の設定情報を入力する必要があります。
++
+.Active Directory の設定
+[%collapsible%open]
+====
+[cols="25,75"]
+|===
+| フィールド | 説明 
+
+
+| DNS プライマリ IP アドレス | CIFS サーバの名前解決を提供する DNS サーバの IP アドレスです。これらの DNS サーバには、 Active Directory の LDAP サーバと、 CIFS サーバが参加するドメインのドメインコントローラを見つけるために必要なサービスロケーションレコード（ SRV ）が含まれている必要があります。 
+
+
+| 参加する Active Directory ドメイン | CIFS サーバを参加させる Active Directory （ AD ）ドメインの FQDN 。 
+
+
+| ドメインへの参加を許可されたクレデンシャル | AD ドメイン内の指定した組織単位（ OU ）にコンピュータを追加するための十分な権限を持つ Windows アカウントの名前とパスワード。 
+
+
+| CIFS サーバの NetBIOS 名 | AD ドメイン内で一意の CIFS サーバ名。 
+
+
+| 組織単位 | CIFS サーバに関連付ける AD ドメイン内の組織単位。デフォルトは CN=Computers です。 
+
+
+| DNS ドメイン | Storage Virtual Machine （ SVM ）の DNS ドメインです。ほとんどの場合、ドメインは AD ドメインと同じです。 
+
+
+| NTP サーバ | Active Directory DNS を使用して NTP サーバを設定するには、 * NTP サーバ設定を有効にする * を選択します。別のアドレスを使用して NTP サーバを設定する必要がある場合は、 API を使用してください。を参照してください https://docs.netapp.com/us-en/bluexp-automation/index.html["BlueXP自動化ドキュメント"^] を参照してください。 
+|===
+====
+
+
+** ** SVMの削除**：Storage VMを削除できます。削除するStorage VMの名前を確認する必要があります。
++
+
+NOTE: Storage VMを削除する前に、Storage VM上のすべてのボリュームを削除する必要があります。
+
+
+
+

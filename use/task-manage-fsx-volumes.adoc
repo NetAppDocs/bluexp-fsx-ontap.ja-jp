@@ -107,14 +107,6 @@ Snapshot コピーは、ボリュームのポイントインタイムコピー�
 
 
 
-== データをレプリケートして同期
-
-BlueXPを使用すると'ストレージ環境間でデータをレプリケートできますONTAP レプリケーション用に FSX を構成するには、を参照してください https://docs.netapp.com/us-en/bluexp-replication/task-replicating-data.html["システム間でのデータのレプリケーション"^]。
-
-BlueXPのコピーと同期を使用して同期関係を作成できます。同期関係を設定するには、を参照してください https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html["同期関係を作成する"^]。
-
-
-
 == ボリュームを削除します
 
 不要になったボリュームを削除します。

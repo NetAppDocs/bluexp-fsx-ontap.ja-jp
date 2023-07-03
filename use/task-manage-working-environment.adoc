@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar 
 permalink: use/task-manage-working-environment.html 
-keywords: amazon fsx for netapp ontap, fsx, manage working environment, delete working environment, remove working environment, throughput capacity, change throughput, automatic capacity management, capacity management, storage capacity 
-summary: 'BlueXPを使用すると"FSX for ONTAP の作業環境を管理できます容量の自動管理を有効にしたり、スループットとストレージ容量およびIOPSを変更したり、作業環境を削除したりできます。' 
+keywords: amazon fsx for netapp ontap, fsx, manage working environment, delete working environment, remove working environment, throughput capacity, change throughput, automatic capacity management, capacity management, storage capacity, replication, classification, sync, backup, recovery 
+summary: 'BlueXPを使用すると"FSX for ONTAP の作業環境を管理できます容量の自動管理の有効化、スループットとストレージ容量とIOPSの変更、作業環境の削除と削除、バックアップとリカバリ、コピーと同期、分類、レプリケーション、ボリュームキャッシングなどのデータサービスの管理が可能です。' 
 ---
 = Amazon FSx for NetApp ONTAP の作業環境を管理します
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: 'BlueXPを使用すると"FSX for ONTAP の作業環境を管理でき�
 
 
 [role="lead"]
-BlueXPを使用すると'FSX for ONTAP の作業環境を管理できます容量の自動管理を有効にしたり、スループットとストレージ容量およびIOPSを変更したり、作業環境を削除したりできます。
+BlueXPを使用すると'FSX for ONTAP の作業環境を管理できます容量の自動管理の有効化、スループットとストレージ容量とIOPSの変更、作業環境の削除と削除、バックアップとリカバリ、コピーと同期、分類、レプリケーション、ボリュームキャッシングなどのデータサービスの管理が可能です。
 
 
 
@@ -154,4 +154,21 @@ NOTE: 障害ボリュームは、AWS管理コンソールまたはCLIを使用�
 image:screenshot_fsx_working_environment_delete.png["BlueXPインターフェイスからのFSX for ONTAP の削除オプションのスクリーンショット。"]
 
 . 作業環境の名前を入力し、*削除*を選択します。
+
+
+
+
+== データサービスを管理
+
+Amazon FSx for NetApp ONTAP作業環境から追加のデータサービスを管理できます。
+
+image:data-services.png["作業環境の[Data Services]タブのスクリーンショット"]
+
+データサービスの設定の詳細については、以下を参照してください。
+
+* link:https://docs.netapp.com/us-en/bluexp-replication/task-replicating-data.html["BlueXPのバックアップとリカバリ"^] オンプレミスとクラウドの両方で、NetApp ONTAPデータ、Kubernetesの永続的ボリューム、データベース、仮想マシンに、効率的でセキュアで対費用効果の高いデータ保護を提供します。
+* link:https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html["BlueXPのコピーと同期"^] は、オンプレミスとクラウドのオブジェクトストア間でNASデータを転送するためのクラウドレプリケーションおよび同期サービスです。
+* link:https://docs.netapp.com/us-en/bluexp-classification/index.html["BlueXPの分類"^] 組織のハイブリッドマルチクラウド全体にわたってデータをスキャンして分類できます。
+* link:https://docs.netapp.com/us-en/bluexp-replication/index.html["データのレプリケート"^] ONTAPストレージシステム間で、クラウドまたはクラウド間のバックアップとディザスタリカバリをサポートします。
+* link:https://docs.netapp.com/us-en/bluexp-volume-caching/index.html["ボリュームキャッシュ"^] 書き込み可能な永続ボリュームをリモートの場所に提供します。BlueXPのボリュームキャッシュを使用すると、データへのアクセスを高速化したり、アクセス頻度の高いボリュームのトラフィックをオフロードしたりできます。
 

@@ -21,12 +21,10 @@ indexpage:
     links:
     - title: 作業環境を作成または検出します
       url: "/use/task-creating-fsx-working-environment.html"
-    - title: 作業環境の管理
-      url: "/use/task-manage-working-environment.html"
-    - title: ボリュームを作成してマウント
+    - title: ボリュームを作成してマウントします
       url: "/use/task-add-fsx-volumes.html"
-    - title: ボリュームとデータサービスを管理します
-      url: "/use/task-manage-fsx-volumes.html"
+    - title: Storage VMを追加および管理する
+      url: "/use/task-add-fsx-svm.html"
     - title: NVMeとiSCSIホストの構成
       url: https://docs.netapp.com/us-en/ontap-sanhost/
   - title: 知識とサポート

@@ -112,16 +112,16 @@ image:screenshot_add_fsx_cloud.png["[Working Environments]ページにあるAmaz
 
 == 既存の FSX for ONTAP ファイルシステムを検出します
 
-以前にBlueXPにAWSの資格情報を提供していた場合、*My Opportunities *は、ONTAP ファイルシステム用のFSXを自動的に検出し、BlueXPを使用して追加および管理することを提案できます。使用可能なデータサービスを確認することもできます。
+以前にBlueXPにAWSのクレデンシャルを提供していた場合、* My estate *がBlueXPを使用して追加および管理するFSx for ONTAPファイルシステムを自動的に検出して提案します。使用可能なデータサービスを確認することもできます。
 
 .このタスクについて
-FSx for ONTAP ファイルシステムは、必要に応じて検出できます <<Amazon FSx for NetApp ONTAP 作業環境を作成します>> または、* My Opportunities *ページを使用します。このタスクでは、* My Opportunities *を使用した検出について説明します
+FSx for ONTAP ファイルシステムは、必要に応じて検出できます <<Amazon FSx for NetApp ONTAP 作業環境を作成します>> または*マイエステート*ページを使用します。このタスクでは、* My estate *を使用した検出について説明します
 
 .手順
-. BlueXPで、[* My Opportunities *]タブをクリックします。
+. BlueXPで、*[マイエステート]*タブをクリックします。
 . ONTAP ファイルシステムで検出されたFSXの数が表示されます。[* Discover（検出）]をクリックします
 +
-image:screenshot-opportunities.png["FSX for ONTAP のMy Opportunitiesページのスクリーンショット。"]
+image:screenshot-opportunities.png["FSx for ONTAPのマイエステートページのスクリーンショット。"]
 
 . 1つ以上のファイルシステムを選択し、*検出*をクリックしてキャンバスに追加します。
 
