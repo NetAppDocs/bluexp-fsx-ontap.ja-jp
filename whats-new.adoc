@@ -18,6 +18,14 @@ Amazon FSx for NetApp ONTAP の新機能をご確認ください。
 
 
 
+== 2023年7月30日
+
+Amazon FSx for NetApp ONTAPファイルシステムは、ヨーロッパ（チューリッヒ）、ヨーロッパ（スペイン）、アジア太平洋（ハイデラバード）の3つの新しいAWSリージョンで作成できるようになりました。
+
+を参照してください link:https://aws.amazon.com/about-aws/whats-new/2023/04/amazon-fsx-netapp-ontap-three-regions/#:~:text=Customers%20can%20now%20create%20Amazon,file%20systems%20in%20the%20cloud["Amazon FSx for NetApp ONTAPは、さらに3つのリージョンで提供が開始されました。"^] 詳細については、
+
+
+
 == 2023年7月2日
 
 * 次の操作を実行できます。 link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-add-fsx-svm.html["Storage VMを追加してください"] BlueXPを使用してAmazon FSx for NetApp ONTAPファイルシステムに移行できます。
