@@ -4,7 +4,7 @@ permalink: use/task-manage-fsx-volumes.html
 keywords: fsx for ontap, fsx, aws, delete volumes, delete nfs volumes, delete cifs volumes, tiering policy, mount path, get mount path, mount volume, delete volumes, snapshots, edit volume, clone volume, clone 
 summary: 'BlueXPを使用して"FSX for ONTAP のボリューム"クローン"スナップショットの管理"階層化ポリシーの変更を行うことができます' 
 ---
-= Amazon FSx for NetApp ONTAP のボリュームを管理
+= FSx for ONTAPのボリュームの管理
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -62,7 +62,7 @@ NOTE: ボリューム名にカーソルを合わせると、ボリュームタ�
 
 == ボリュームタグを管理します
 
-ボリュームタグを追加、変更、または削除できます。BlueXPで追加されたタグはAWSコンソールに反映されます。タグをAWSコンソールと同期するのに最大1時間かかることがあります。
+ボリュームタグを追加、変更、または削除できます。BlueXPで追加されたタグはAWS管理コンソールに反映されます。タグをAWS管理コンソールと同期するのに最大1時間かかることがあります。
 
 
 NOTE: BlueXPで作成したボリュームタグは、AWSと同期するまで編集できません。これには最大1時間かかることがあります。[Manage volume tags]*オプションがグレー表示されている場合は、AWSはまだボリュームタグを同期していません。

@@ -14,7 +14,7 @@ summary: Amazon FSx for NetApp ONTAP の新機能をご確認ください。
 
 
 [role="lead"]
-Amazon FSx for NetApp ONTAP の新機能をご確認ください。
+FSx for ONTAPの新機能をご確認ください。
 
 
 

@@ -4,7 +4,7 @@ permalink: use/task-manage-working-environment.html
 keywords: amazon fsx for netapp ontap, fsx, manage working environment, delete working environment, remove working environment, throughput capacity, change throughput, automatic capacity management, capacity management, storage capacity, replication, classification, sync, backup, recovery 
 summary: 'BlueXPを使用すると"FSX for ONTAP の作業環境を管理できます容量の自動管理の有効化、スループットとストレージ容量とIOPSの変更、作業環境の削除と削除、バックアップとリカバリ、コピーと同期、分類、レプリケーション、ボリュームキャッシングなどのデータサービスの管理が可能です。' 
 ---
-= Amazon FSx for NetApp ONTAP の作業環境を管理します
+= FSx for ONTAP作業環境の管理
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -116,7 +116,7 @@ image:screenshot-configure-iops.png["ストレージ容量とIOPSの値を変更
 
 == ワークスペースから ONTAP の FSX を削除します
 
-FSX for ONTAP をBlueXPから削除する場合は、ONTAP アカウントまたはボリュームのFSXを削除する必要はありません。FSX for ONTAP の作業環境はいつでもBlueXPに戻すことができます。
+アカウントやボリュームを削除することなく、FSx for ONTAPをBlueXPから削除できます。FSX for ONTAP の作業環境はいつでもBlueXPに戻すことができます。
 
 .手順
 . 作業環境を開きます。AWS にコネクタがない場合は、プロンプト画面が表示されます。これは無視して作業環境の削除に進んでください。
@@ -160,7 +160,7 @@ image:screenshot_fsx_working_environment_delete.png["BlueXPインターフェイ
 
 == データサービスを管理
 
-Amazon FSx for NetApp ONTAP作業環境から追加のデータサービスを管理できます。
+FSx for ONTAP作業環境から追加のデータサービスを管理できます。
 
 image:data-services.png["作業環境の[Data Services]タブのスクリーンショット"]
 

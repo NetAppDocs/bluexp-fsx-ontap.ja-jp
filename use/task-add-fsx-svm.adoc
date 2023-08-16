@@ -4,7 +4,7 @@ permalink: use/task-add-fsx-svm.html
 keywords: fsx for ontap, fsx, aws, storage vm, storage virtual machine, svm, add svm, virtual machine, delete svm, tags, smb, cifs, delete 
 summary: 作業環境を作成したら、管理対象のAmazon FSx for NetApp ONTAPクラスタにStorage Virtual Machine（VM）を追加、表示、管理できます。 
 ---
-= Amazon FSx for NetApp ONTAP用Storage VMを追加、管理します
+= FSx for ONTAP用Storage VMの追加と管理
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,13 +14,13 @@ summary: 作業環境を作成したら、管理対象のAmazon FSx for NetApp O
 
 
 [role="lead"]
-作業環境を作成したら、管理対象のAmazon FSx for NetApp ONTAPクラスタにStorage Virtual Machine（VM）（_SVM_とも呼ばれます）を追加、表示、および管理できます。
+作業環境を作成したら、管理対象のFSx for ONTAPクラスタにStorage Virtual Machine（VM）（_SVM_とも呼ばれます）を追加、表示、管理できます。
 
 
 
 == Storage VMを追加してください
 
-BlueXPを使用すると、Amazon FSx for ONTAPファイルシステムに、許可されている最大数までStorage VMを追加できます。を参照してください link:https://docs.aws.amazon.com/fsx/latest/ONTAPGuide/managing-svms.html["AWS：FSx for ONTAP Storage Virtual Machineの管理"^] を参照してください。
+BlueXPを使用すると、FSx for ONTAPファイルシステムに、許可されている最大数までStorage VMを追加できます。を参照してください link:https://docs.aws.amazon.com/fsx/latest/ONTAPGuide/managing-svms.html["AWS：FSx for ONTAP Storage Virtual Machineの管理"^] を参照してください。
 
 .このタスクについて
 Storage VMを追加するには、作業環境を開いて*[Storage VM]*タブを選択するか、作業環境*[概要]*パネルから選択します。このタスクでは、*[Storage VMs]*パネルを使用してStorage VMを追加する方法について説明します。
@@ -48,7 +48,7 @@ image:svm-add.png["[Storage VM]パネルのスクリーンショット。"]
 
 
 .結果
-新しいStorage VMが作業環境とAmazon FSx for NetApp ONTAPファイルシステムに追加されます。
+新しいStorage VMが作業環境とFSx for ONTAPファイルシステムに追加されます。
 
 
 
@@ -69,7 +69,7 @@ image:svm-manage.png["[Storage VM]パネルの[Manage Storage VM]オプション
 . Storage VMの設定を表示または管理するメニューオプションを選択します。
 +
 ** ** SVMの詳細を表示**：ルートボリューム、セキュリティ形式、許可されているプロトコル、Active Directoryドメイン、タグなどの詳細を確認できます。
-** ** SVMタグの管理**：Storage VMタグを追加、編集、削除できます。変更内容はAWSコンソールと同期されます。
+** ** SVMタグの管理**：Storage VMタグを追加、編集、削除できます。変更内容はAWS Management Consoleと同期されます。
 ** ** SMB/CIFSのセットアップ**：この作業環境で初めてCIFS接続を行う場合は、_Active Directory_or_Workgroup_setupを使用してCIFS接続を設定するように求められます。
 +
 *** ワークグループセットアップを選択した場合は、 CIFS 用に設定されているワークグループのサーバとワークグループ名を入力します。

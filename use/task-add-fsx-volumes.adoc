@@ -4,7 +4,7 @@ permalink: use/task-add-fsx-volumes.html
 keywords: fsx for ontap, fsx, aws, create volumes, create nfs volumes, delete nfs volumes, cifs volumes, iscsi, mount volume, delete working environment 
 summary: 作業環境のセットアップが完了したら、Amazon FSx for NetApp ONTAP のボリューム、クローン、Snapshotの作成と管理、階層化ポリシーの変更、FSx for ONTAP の削除を行うことができます。 
 ---
-= Amazon FSx for NetApp ONTAP 用のボリュームを作成
+= FSx for ONTAP用ボリュームの作成
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

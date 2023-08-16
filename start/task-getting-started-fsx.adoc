@@ -18,11 +18,11 @@ summary: BlueXPを使用すると、FSX for ONTAP をほんの数ステップで
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1つ"] AWSでIAMロールを設定します
 [role="quick-margin-para"]
-Amazon FSx for NetApp ONTAP 作業環境を作成または管理するには、FSx for ONTAP 作業環境の作成に必要な権限をBlueXPに付与するIAMロールのARNを指定して、AWSクレデンシャルをBlueXPに追加する必要があります。これを行うには、が必要です link:../requirements/task-setting-up-permissions-fsx.html["BlueXP SaaSが役割を引き受けることを可能にするIAM役割を設定します"]。
+FSx for ONTAP作業環境を作成または管理するには、FSx for ONTAP作業環境の作成に必要な権限をBlueXPに付与するIAMロールのARNを指定して、AWSクレデンシャルをBlueXPに追加する必要があります。これを行うには、が必要です link:../requirements/task-setting-up-permissions-fsx.html["BlueXP SaaSが役割を引き受けることを可能にするIAM役割を設定します"]。
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2 つ"] ONTAP 作業環境用の FSX を作成します
 [role="quick-margin-para"]
-実行する必要があります link:../use/task-creating-fsx-working-environment.html["Amazon FSx for NetApp ONTAP 作業環境を作成します"] ボリュームを追加する前に。
+実行する必要があります link:../use/task-creating-fsx-working-environment.html["FSx for ONTAP作業環境の作成"] ボリュームを追加する前に。
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["3つ"] AWSのコネクタを作成します
 [role="quick-margin-para"]
