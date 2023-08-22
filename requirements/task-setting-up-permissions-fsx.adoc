@@ -85,7 +85,7 @@ BlueXPでを許可するには、次の追加権限が必要です link:../use/t
 "ec2:RevokeSecurityGroupEgress",
 "ec2:RevokeSecurityGroupIngress",
 "ec2:CreateSecurityGroup",
-"ec2:DeleteSecurityGroup"
+"ec2:DeleteSecurityGroup",
 "cloudformation:CreateStack",
 "cloudformation:ValidateTemplate",
 "cloudformation:DescribeStacks",
