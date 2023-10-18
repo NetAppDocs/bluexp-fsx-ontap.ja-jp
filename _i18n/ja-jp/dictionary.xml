@@ -231,12 +231,10 @@
   <block id="8fad3d94a3385eeb6406613f49896cdd" category="doc">ONTAP の FSX のアクセス許可を設定します</block>
   <block id="d8a56d983b91f097e5ba55dd03a18509" category="section-title">IAM ロールを設定します</block>
   <block id="44030f19e52b4a03b050525f287bbc15" category="list-text">ターゲットアカウントの IAM コンソールに移動します。</block>
-  <block id="7f4640b00b5df83a54d4aaaa51f7d6ab" category="list-text">[ アクセス管理 ] で、 [ 役割 ] 、 [ 役割の作成 *] の順にクリックし、手順に従って役割を作成します。</block>
   <block id="e506de832b98c2693eb3f400ef0722c0" category="list-text">信頼されるエンティティのタイプ * で、 * AWS アカウント * を選択します。</block>
   <block id="d47c23803528fa45fad33a3f83dfcf54" category="paragraph">IAM ロールに必要な権限が割り当てられます。</block>
   <block id="36bc52aaebad43ec3e49ed9a0efacd43" category="section-title">クレデンシャルを追加します</block>
   <block id="11832df968cbb4cdb8e45984c11a77d0" category="list-text">[Add Credentials] をクリックし、ウィザードの手順に従います。</block>
-  <block id="8cf335d7d3b1dd5cdac30699d20489c0" category="list-text">* クレデンシャルの定義 * ： IAM ロールの ARN （ Amazon リソース名）を指定します。</block>
   <block id="cc993521b8909c4085841bf25067d9c0" category="list-text">* 確認 * ：新しいクレデンシャルの詳細を確認し、 * 追加 * をクリックします。</block>
   <block id="c0abab76d53e87b10c7a7de184fc0f53" category="paragraph">ONTAP 作業環境で FSX を作成するときに、資格情報を使用できるようになりました。</block>
   <block id="f6bd0d7447ff66cc6b859603a88fbde9" category="section-title">関連リンク</block>
@@ -399,11 +397,8 @@
   <block id="9936779ebe4e0ac089fa89c319d5473b" category="summary">BlueXPでは、BlueXPおよびFSX for ONTAP が正常に動作するために必要なインバウンドとアウトバウンドのルールを含むAWSセキュリティグループが作成されます。テスト目的または独自のポートを使用する必要がある場合には、ポートを参照してください。</block>
   <block id="ecd87ae03b07f0712964d94eb75683a5" category="cell">BlueXPによるDNS解決に使用されます</block>
   <block id="1db8d07619da1f12a7b920676f6769ae" category="paragraph">BlueXPが役割を引き受けることを可能にするIAMロールを設定します。</block>
-  <block id="c29858d9450fbef0a082acaa54d1bc6d" category="list-text">別のAWSアカウント*を選択して、BlueXPのIDを入力します。</block>
   <block id="edcfddcfff54621c47b01eddd968a5b0" category="list-text">BlueXP SaaSの場合：952013314444</block>
-  <block id="fa9df323148192800073dd2a78c81f73" category="list-text">次の手順で、IAMロールのロールARNをコピーしてBlueXPに貼り付けることができます。</block>
   <block id="d5dc64744da4d60a47aa835877d08194" category="paragraph">IAMロールに必要な権限を付与したら、BlueXPにARNロールを追加します。</block>
-  <block id="6d9d6baff2479ce7a87bf705f93f1641" category="paragraph">IAM ロールを作成したばかりの場合は、使用できるようになるまで数分かかることがあります。数分待ってから、BlueXPに資格情報を追加します。</block>
   <block id="b019ab068deba8494415cbd226ca0c4e" category="list-text">BlueXPコンソールの右上にある[設定]アイコンをクリックし、[資格情報*]を選択します。</block>
   <block id="be9d7b7687f0c55f7e65f14cd2b0f530" category="inline-image-macro">BlueXPコンソールの右上にある設定アイコンを示すスクリーンショット。</block>
   <block id="cb9e3791dcb67c8a699c104be6a1c49c" category="paragraph"><block ref="cb9e3791dcb67c8a699c104be6a1c49c" category="inline-image-macro-rx" type="image"></block></block>
@@ -819,4 +814,12 @@
   <block id="522cbb900314aeb84eb5a961c5f94672" category="section-title">クラウドプロバイダのファイルサービスのサポート</block>
   <block id="f6185bb12f5e53c800be8cda7fbca65b" category="paragraph">クラウドプロバイダのファイルサービスとそのインフラ、またはサービスを使用する解決策に関連するテクニカルサポートについては、該当する製品のBlueXPドキュメントの「困ったときは」を参照してください。</block>
   <block id="3880ae5df9fdc4d0fc4a6d00a2239530" category="paragraph">BlueXPおよびそのストレージソリューションとサービスに固有のテクニカルサポートを受けるには、以下に記載されているサポートオプションを使用してください。</block>
+  <block id="8e2d9036bdca41a47ed6a62d5c651b17" category="list-text">BlueXPにAWSアカウントへのアクセスを許可します。[ アクセス管理 ] で、 [ 役割 ] 、 [ 役割の作成 *] の順にクリックし、手順に従って役割を作成します。</block>
+  <block id="100857c2eecdae8b99b613fc837c4b77" category="list-text">別のAWSアカウント*を選択し、BlueXP *のアカウントID *を入力します。</block>
+  <block id="7705419552b80484a159f2d27d7cf57b" category="inline-link-macro">_外部ID_</block>
+  <block id="2ecdc21261ba583d893ec3e735f02292" category="inline-link-macro">混乱した副保安官問題</block>
+  <block id="a382deac7db7b733bc63619e401d8f45" category="admonition">セキュリティを強化するには、 <block ref="96b272eff9669a5b2b13cba8c25b9973" category="inline-link-macro-rx"></block>。AWSアカウントにアクセスするには、BlueXPでロールARN（Amazon Resource Name）と指定した外部IDを指定する必要があります。これにより、 <block ref="2847290d28a09952a637392df577ce64" category="inline-link-macro-rx"></block>。</block>
+  <block id="5490038d2be728c6d3679ab6915e87e3" category="list-text">IAMロールのARNをコピーして、次の手順でBlueXPに貼り付けられるようにします。</block>
+  <block id="1a913f679da8e614b14423480f9ce6be" category="paragraph">IAMロールを作成したばかりの場合は、新しいクレデンシャルが使用可能になるまで数分待ちます。</block>
+  <block id="a2841ca82f44794bf8912d92f8eaf4d6" category="list-text">*クレデンシャルの定義*：*クレデンシャル名*と*ロールARN *および*外部ID *（指定されている場合）を指定します。 <block ref="a1061025d6c6e25a2b8607068ce69197" category="inline-xref-macro-rx"></block>。</block>
 </blocks>
