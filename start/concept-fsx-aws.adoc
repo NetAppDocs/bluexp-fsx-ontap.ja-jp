@@ -21,7 +21,7 @@ link:https://docs.aws.amazon.com/fsx/latest/ONTAPGuide/what-is-fsx-ontap.html["N
 == の機能
 
 * ストレージ・デバイス ' ソフトウェア ' バックアップを構成または管理する必要はありません
-* CIFS 、 NFSv3 、 NFSv4.x 、 SMB v2.v3.1.1 のプロトコルがサポートされます。
+* CIFS、iSCSI、NFSv3、NFSv4.x、SMB v2.0-v3.1.1の各プロトコルをサポートしています。
 * 使用頻度の低い IA （ストレージ・ティア）を使用して ' 低コストで事実上無制限のデータ・ストレージ容量を実現します
 * Oracle RAC を含むレイテンシの影響を受けやすいアプリケーションでの実行が保証されています。
 * バンドル価格と従量課金制のいずれかを選択できます
