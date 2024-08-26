@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: start/concept-fsx-aws.html 
 keywords: Amazon FSx for NetApp ONTAP, volumes, aws, access key, secret key, cloud manager 
-summary: Amazon FSx for NetApp ONTAP は、ネットアップのONTAP ストレージオペレーティングシステムを搭載したファイルシステムを起動して実行できるフルマネージドサービスです。FSX for ONTAP は、ネットアップのお客様が現在オンプレミスで使用しているのと同じ機能、パフォーマンス、管理機能を、ネイティブの AWS サービスの簡易性、即応性、セキュリティ、拡張性で提供します。 
+summary: Amazon FSx for NetApp ONTAPは、NetAppのONTAPストレージオペレーティングシステムを搭載したファイルシステムを起動して実行できるフルマネージドサービスです。FSX for ONTAP は、ネットアップのお客様が現在オンプレミスで使用しているのと同じ機能、パフォーマンス、管理機能を、ネイティブの AWS サービスの簡易性、即応性、セキュリティ、拡張性で提供します。 
 ---
 = Amazon FSx for NetApp ONTAP の詳細をご確認ください
 :hardbreaks:
@@ -21,7 +21,7 @@ link:https://docs.aws.amazon.com/fsx/latest/ONTAPGuide/what-is-fsx-ontap.html["N
 == の機能
 
 * ストレージ・デバイス ' ソフトウェア ' バックアップを構成または管理する必要はありません
-* CIFS、iSCSI、NFSv3、NFSv4.x、SMB v2.0-v3.1.1の各プロトコルをサポートしています。
+* CIFS、iSCSI、NFSv3、NFSv4.x、 https://docs.netapp.com/us-en/ontap/s3-config/ontap-version-support-s3-concept.html["S3"^]およびSMB v2.0-v3.1.1の各プロトコルをサポートしています。
 * 使用頻度の低い IA （ストレージ・ティア）を使用して ' 低コストで事実上無制限のデータ・ストレージ容量を実現します
 * Oracle RAC を含むレイテンシの影響を受けやすいアプリケーションでの実行が保証されています。
 * バンドル価格と従量課金制のいずれかを選択できます
