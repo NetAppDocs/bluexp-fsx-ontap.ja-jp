@@ -67,4 +67,4 @@ Amazon FSx for NetApp ONTAP は、AWSファーストパーティの解決策 で
 
 BlueXPまたはBlueXPストレージソリューションとサービスに関する一般的な質問については'オンラインのBlueXPチャットから始めることができます
 
-BlueXPまたはBlueXPストレージのソリューションやサービスに固有のテクニカルサポートの問題については、アカウントレベルのシリアル番号を使用してNetAppサポートチケットを発行できます。する必要があります link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/support/task-support-registration.html["BlueXPアカウントを登録します"^] をクリックしてサポートを有効にし
+BlueXP  またはBlueXP  ストレージソリューションおよびサービスに固有のテクニカルサポートの問題については、BlueXP  組織レベルのシリアル番号を使用してNetAppサポートチケットを発行できます。サポートを有効にする必要がlink:https://docs.netapp.com/us-en/bluexp-fsx-ontap/support/task-support-registration.html["BlueXP  組織の登録"^]あります。

@@ -114,7 +114,7 @@ image:screenshot-configure-iops.png["ストレージ容量とIOPSの値を変更
 
 
 
-== ワークスペースから ONTAP の FSX を削除します
+== プロジェクトやワークスペースからFSx for ONTAPを削除
 
 アカウントやボリュームを削除することなく、FSx for ONTAPをBlueXPから削除できます。FSX for ONTAP の作業環境はいつでもBlueXPに戻すことができます。
 
