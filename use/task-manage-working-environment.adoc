@@ -23,7 +23,7 @@ BlueXPを使用すると'FSX for ONTAP の作業環境を管理できます容�
 容量の自動管理を有効にして、必要に応じて増分ストレージを追加することができます。自動容量管理では、クラスタを定期的にポーリングして、需要を評価し、クラスタの最大容量の10%までの割合でストレージ容量を自動的に拡張します。
 
 
-NOTE: 作業環境の作成時にIOPS値を手動で指定しなかった場合、BlueXPは新しい合計容量の1GiBあたり3 IOPS増加します。IOPS値を指定した場合、IOPSは調整されません。IOPSの設定の詳細については、を参照してください link:task-creating-fsx-working-environment.html#create-an-amazon-fsx-for-ontap-working-environment["作業環境を作成"]。
+NOTE: 作業環境の作成時にIOPS値を手動で指定しなかった場合、BlueXPは新しい合計容量の1GiBあたり3 IOPS増加します。IOPS値を指定した場合、IOPSは調整されません。IOPSの設定の詳細については、を参照してくださいlink:task-creating-fsx-working-environment.html["作業環境を作成"]。
 
 容量の自動管理は、デフォルトでは無効になっています。AWSでは、アクティブなコネクタの有無に関係なく、容量の自動割り当てを管理できます。
 

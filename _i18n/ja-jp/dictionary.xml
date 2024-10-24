@@ -459,7 +459,6 @@
   <block id="9123b1a896e43bd47ae8708d015514ba" category="section-title">容量の自動管理</block>
   <block id="1c05e31e27d15b210cdcb01d01331c36" category="paragraph">容量の自動管理を有効にして、必要に応じて増分ストレージを追加することができます。自動容量管理では、クラスタを定期的にポーリングして、需要を評価し、クラスタの最大容量の10%までの割合でストレージ容量を自動的に拡張します。</block>
   <block id="0b77a63f8ac25e1cd8509e906523f459" category="inline-link-macro">作業環境を作成</block>
-  <block id="0185df25abbf3744285dd03ec2704b86" category="admonition">作業環境の作成時にIOPS値を手動で指定しなかった場合、BlueXPは新しい合計容量の1GiBあたり3 IOPS増加します。IOPS値を指定した場合、IOPSは調整されません。IOPSの設定の詳細については、を参照してください <block ref="54a688b79e41730a76924297f5ac42a6" category="inline-link-macro-rx"></block>。</block>
   <block id="baf936091e5717d22f9c2b2ccee10188" category="paragraph">容量の自動管理は、デフォルトでは無効になっています。AWSでは、アクティブなコネクタの有無に関係なく、容量の自動割り当てを管理できます。</block>
   <block id="2ccb2d581067f0eac436a078317d136d" category="section-title">アクティブなコネクタなしで自動容量を管理します</block>
   <block id="13c4ac4dcec1decf7e36eed04316808f" category="paragraph">AWSではアクティブなコネクタなしで容量の自動管理が可能です。</block>
@@ -820,4 +819,5 @@
   <block id="c81c8e01f5d906ae1ab0c5c606f06b05" category="paragraph">NSSクレデンシャルとBlueXP  組織の関連付けは、BlueXP  ユーザログインに関連付けられたNSSアカウントとは異なります。</block>
   <block id="8166996cb4a59c147200d89a061bb49c" category="paragraph">これらのNSSクレデンシャルは、特定のBlueXP  組織IDに関連付けられています。BlueXP  組織に属するユーザは、*[サポート]&gt;[NSS管理]*からこれらのクレデンシャルにアクセスできます。</block>
   <block id="43bfe52d70c7aa3f5d364396cd6ec3fd" category="section-title">プロジェクトやワークスペースからFSx for ONTAPを削除</block>
+  <block id="6c6cfde7c92a73ae5e1266396d6657d9" category="admonition">作業環境の作成時にIOPS値を手動で指定しなかった場合、BlueXPは新しい合計容量の1GiBあたり3 IOPS増加します。IOPS値を指定した場合、IOPSは調整されません。IOPSの設定の詳細については、を参照してください<block ref="a0c1e5541590cfd29c35eef67f286e58" category="inline-link-macro-rx"></block>。</block>
 </blocks>
