@@ -1,0 +1,15 @@
+= Storage VMを追加してください
+:allow-uri-read: 
+
+
+
+
+=== Storage VMを追加してください
+
+次の操作を実行できます。 link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-add-fsx-svm.html["Storage VMを追加してください"] BlueXPを使用してAmazon FSx for NetApp ONTAPファイルシステムに移行できます。
+
+
+
+=== **［機会］**タブが［マイ資産］**になりました。
+
+** My Opportunities **タブが** My estate **になりました。ドキュメントが更新され、新しい名前が反映されます。
