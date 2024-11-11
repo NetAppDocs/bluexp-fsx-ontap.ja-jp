@@ -1,6 +1,6 @@
 ---
 indexpage:
-  title: Amazon FSX for NetApp ONTAP のドキュメント
+  title: BlueXP  を使用したAmazon FSx for NetApp ONTAPの管理
   lead: Amazon FSX for NetApp ONTAP は、 ONTAP の全機能を AWS のネイティブマネージドサービスに提供し、一貫したハイブリッドクラウドエクスペリエンスを実現します。このドキュメントでは、ONTAP
     BlueXPを使用してFSX forを管理する方法について説明します。
   tiles:
@@ -12,20 +12,12 @@ indexpage:
       url: "/start/concept-fsx-aws.html"
     - title: クイックスタート
       url: "/start/task-getting-started-fsx.html"
-  - title: 要件
-    links:
-    - title: 権限を設定します
-      url: "/requirements/task-setting-up-permissions-fsx.html"
-    - title: セキュリティグループのルール
-      url: "/requirements/reference-security-groups-fsx.html"
-  - title: FSx for ONTAPを使用
-    links:
     - title: 作業環境を作成または検出します
       url: "/use/task-creating-fsx-working-environment.html"
-    - title: ボリュームを作成してマウントします
-      url: "/use/task-add-fsx-volumes.html"
-    - title: Storage VMを追加および管理する
-      url: "/use/task-add-fsx-svm.html"
+  - title: FSx for ONTAPを使用
+    links:
+    - title: FSx for ONTAPファイルシステムの管理
+      url: "/use/task-manage-working-environment.html"
     - title: NVMeとiSCSIホストの構成
       url: https://docs.netapp.com/us-en/ontap-sanhost/
   - title: 知識とサポート

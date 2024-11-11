@@ -22,24 +22,12 @@ sidebar:
       url: "/start/concept-fsx-aws.html"
     - title: クイックスタート
       url: "/start/task-getting-started-fsx.html"
-  - title: 要件
-    entries:
     - title: 権限を設定します
       url: "/requirements/task-setting-up-permissions-fsx.html"
-    - title: セキュリティグループのルール
-      url: "/requirements/reference-security-groups-fsx.html"
-  - title: Amazon FSx for NetApp ONTAP を使用します
-    entries:
     - title: 作業環境を作成または検出します
       url: "/use/task-creating-fsx-working-environment.html"
-    - title: 作業環境の管理
-      url: "/use/task-manage-working-environment.html"
-    - title: ボリュームを作成してマウントします
-      url: "/use/task-add-fsx-volumes.html"
-    - title: ボリュームを管理します
-      url: "/use/task-manage-fsx-volumes.html"
-    - title: Storage VMを追加および管理する
-      url: "/use/task-add-fsx-svm.html"
+  - title: FSx for ONTAPファイルシステムの管理
+    url: "/use/task-manage-working-environment.html"
   - title: 知識とサポート
     entries:
     - title: サポートに登録します

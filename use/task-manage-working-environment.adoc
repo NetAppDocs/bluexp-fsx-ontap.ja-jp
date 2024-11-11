@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: use/task-manage-working-environment.html 
 keywords: amazon fsx for netapp ontap, fsx, manage working environment, delete working environment, remove working environment, throughput capacity, change throughput, automatic capacity management, capacity management, storage capacity, replication, classification, sync, backup, recovery 
-summary: 'BlueXPを使用すると"FSX for ONTAP の作業環境を管理できます容量の自動管理の有効化、スループットとストレージ容量とIOPSの変更、作業環境の削除と削除、バックアップとリカバリ、コピーと同期、分類、レプリケーション、ボリュームキャッシングなどのデータサービスの管理が可能です。' 
+summary: BlueXP  でFSx for ONTAP作業環境を作成または検出したら、ファイルシステムを管理し、バックアップやリカバリなどの機能を提供するBlueXP  データサービスを使用できます。 
 ---
-= FSx for ONTAP作業環境の管理
+= FSx for ONTAPファイルシステムの管理
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,161 +14,68 @@ summary: 'BlueXPを使用すると"FSX for ONTAP の作業環境を管理でき�
 
 
 [role="lead"]
-BlueXPを使用すると'FSX for ONTAP の作業環境を管理できます容量の自動管理の有効化、スループットとストレージ容量とIOPSの変更、作業環境の削除と削除、バックアップとリカバリ、コピーと同期、分類、レプリケーション、ボリュームキャッシングなどのデータサービスの管理が可能です。
+BlueXP  でFSx for ONTAP作業環境を作成または検出したら、ボリュームの作成、Storage VMの管理、データの保護、ファイルシステムの管理によってファイルシステムを管理できます。BlueXP  では、バックアップとリカバリ、データの分類、データ同期などの機能を提供するデータサービスも利用できます。
 
 
 
-== 容量の自動管理
+== BlueXP  ワークロードファクトリを使用したファイルシステムの管理
 
-容量の自動管理を有効にして、必要に応じて増分ストレージを追加することができます。自動容量管理では、クラスタを定期的にポーリングして、需要を評価し、クラスタの最大容量の10%までの割合でストレージ容量を自動的に拡張します。
+BlueXP  キャンバスからFSx for ONTAP作業環境を開くと、BlueXP  ワークロードファクトリーに移動します。Workload Factoryは、Amazon FSx for NetApp ONTAPを使用して主要なワークロードの設計、セットアップ、運用に業界のベストプラクティスを使用するインテリジェントな最適化および自動化サービスです。
 
+https://docs.netapp.com/us-en/workload-fsx-ontap/index.html["BlueXP  Workload Factoryを使用したファイルシステムの管理方法"^]
 
-NOTE: 作業環境の作成時にIOPS値を手動で指定しなかった場合、BlueXPは新しい合計容量の1GiBあたり3 IOPS増加します。IOPS値を指定した場合、IOPSは調整されません。IOPSの設定の詳細については、を参照してくださいlink:task-creating-fsx-working-environment.html["作業環境を作成"]。
 
-容量の自動管理は、デフォルトでは無効になっています。AWSでは、アクティブなコネクタの有無に関係なく、容量の自動割り当てを管理できます。
 
+== ONTAP System Managerを使用したファイルシステムの管理
 
+ONTAPシステムマネージャに精通している場合は、ONTAPシステムマネージャのインターフェイスを使用して、BlueXP  から直接FSx for ONTAPファイルシステムを管理できます。
 
-=== アクティブなコネクタなしで自動容量を管理します
+image:screenshot-system-manager.png["作業環境を選択したあとのBlueXP  キャンバスの右側パネルのスクリーンショット。[System Manager]オプションが表示されます。"]
 
-AWSではアクティブなコネクタなしで容量の自動管理が可能です。
 
-.手順
-. キャンバスで作業環境を選択し、*[Enter Working Environment]*を選択します。
-. 鉛筆のアイコン（image:icon-pencil.png["鉛筆の編集アイコンの画像。"]）をクリックして、*容量の自動管理*ページを開きます。
-+
 
-NOTE: 他のすべてのオプションにはコネクタが必要であり、無効になっています。
+== ファイルシステムでBlueXP  データサービスを使用する
 
-+
-** ボックスを選択して、容量の自動管理を有効にします。
-** 容量の自動管理を以前に有効にしていた場合は、このチェックボックスをオフにします。
+FSx for ONTAPファイルシステムでBlueXP  データサービスを使用すると、データのバックアップとリカバリ、データの転送と同期、データのスキャンと分類、データのレプリケート、アクセスの高速化やトラフィックのオフロードが可能になります。
 
+image:screenshot-data-services.png["作業環境を選択したあとのBlueXP  キャンバスの右側パネルのスクリーンショット。[System Manager]オプションが表示されます。"]
 
-. * 適用 * を選択します。
 
 
+=== データのバックアップとリカバリ
 
+BlueXP  バックアップ/リカバリサービスは、オンプレミスとクラウドの両方で、NetApp ONTAPのデータ、データベース、仮想マシンに効率的でセキュアな対費用効果の高いデータ保護を提供します。
 
-=== アクティブなコネクタで自動容量を管理します
+https://docs.netapp.com/us-en/bluexp-backup-recovery/index.html["BlueXP  のバックアップとリカバリを開始する"^]
 
-AWSのアクティブなコネクタを使用して自動容量を管理できます。
 
-.手順
-. FSX for ONTAP 作業環境を開きます。
-. 概要*（Overview *）タブで、*フィーチャー*（* Features *）を選択します。
-. 鉛筆のアイコン（image:icon-pencil.png["鉛筆の編集アイコンの画像。"]）をクリックして、*容量の自動管理*ページを開きます。
-. [容量の自動管理*]ページで、次の操作を行います。
-+
-** ボックスを選択して、容量の自動管理を有効にします。
-** 容量の自動管理を以前に有効にしていた場合は、このチェックボックスをオフにします。
 
+=== データの転送と同期
 
-. * 適用 * を選択します。
+BlueXPのコピーと同期は、オンプレミスとクラウドのオブジェクトストア間でNASデータを転送するためのクラウドレプリケーションおよび同期サービスです。
 
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-quick-start.html["BlueXP  のコピーと同期を開始する"^]
 
 
 
-== スループット容量を変更します
+=== データのスキャンと分類
 
-スループット容量は、ONTAP 作業環境でFSXを作成したあとにいつでも変更できます。
+BlueXPは、組織のハイブリッドマルチクラウド全体にわたってデータをスキャンして分類できます。
 
-.作業を開始する前に
-アクティブなが必要です https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-aws.html["AWS のコネクタ"^]。
+https://docs.netapp.com/us-en/bluexp-classification/index.html["BlueXP  分類を開始する"^]
 
-.手順
-. FSX for ONTAP 作業環境を開きます。
-. 概要*（Overview *）タブで、*フィーチャー*（* Features *）を選択します。
-. 鉛筆のアイコン（image:icon-pencil.png["鉛筆の編集アイコンの画像。"]）をクリックして、* Throughput Capacity *編集ページを開きます。
-. ドロップダウンから新しいスループット容量を選択し、「* Update *」を選択します。この変更が反映されるまでに最大25分かかることがあり、データアクセスが中断されることはありません。
 
 
+=== データのレプリケート
 
+BlueXP  レプリケーションを使用すると、ONTAPストレージシステム間でデータをレプリケートして、クラウドまたはクラウド間でのバックアップとディザスタリカバリをサポートできます。
 
-== ストレージ容量とIOPSを変更します
+https://docs.netapp.com/us-en/bluexp-replication/task-replicating-data.html["BlueXP  レプリケーションを開始する"^]
 
-ストレージ容量とIOPSは、ONTAP 作業環境でFSXを作成した後、いつでも変更できます。
 
-.作業を開始する前に
-アクティブなが必要です https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-aws.html["AWS のコネクタ"^]。
 
-.手順
-. FSX for ONTAP 作業環境を開きます。
-. 概要*（Overview *）タブで、*フィーチャー*（* Features *）を選択します。
-. 鉛筆のアイコン（image:icon-pencil.png["鉛筆の編集アイコンの画像。"]）をクリックして、* Storage Capacity & IOPS *編集ページを開きます。
-. ストレージ容量とIOPSは6時間に1回変更可能です。頻繁に変更しようとすると、エラーが表示されます。
-+
-image:screenshot-configure-iops.png["ストレージ容量とIOPSの値を変更するページのスクリーンショット。"]
+=== アクセスの高速化またはトラフィックのオフロード
 
-+
-[NOTE]
-====
-** データ階層化のパフォーマンスを維持し、追加のデータ用の容量を確保するために、推奨されるストレージ容量の最大利用率は80%です。
-** [Automatic]*[IOPS]を選択すると、プライマリストレージのGiBあたり3つのプロビジョニング済みSSD IOPSの比率が維持され、最大16、000になります。160、000を超えるIOPS値を手動でプロビジョニングすることはできません。
+BlueXP  ボリュームキャッシングは、書き込み可能な永続ボリュームをリモートの場所に提供します。BlueXPのボリュームキャッシュを使用すると、データへのアクセスを高速化したり、アクセス頻度の高いボリュームのトラフィックをオフロードしたりできます。
 
-
-====
-. チェックボックスをオンにすると、ストレージ容量の変更がONTAP サービスのFSXのコストに影響し、さらに6時間変更できないことがわかります。
-. 「* Update *」を選択して変更を確定します。
-
-
-
-
-== プロジェクトやワークスペースからFSx for ONTAPを削除
-
-アカウントやボリュームを削除することなく、FSx for ONTAPをBlueXPから削除できます。FSX for ONTAP の作業環境はいつでもBlueXPに戻すことができます。
-
-.手順
-. 作業環境を開きます。AWS にコネクタがない場合は、プロンプト画面が表示されます。これは無視して作業環境の削除に進んでください。
-. ページの右上にあるアクションメニューを選択し、*ワークスペースから削除*を選択します。
-+
-image:screenshot_fsx_working_environment_remove.png["BlueXPインターフェイスからのFSX for ONTAP の削除オプションのスクリーンショット"]
-
-. ONTAP 用FSXをBlueXPから削除するには、「*削除」を選択します。
-
-
-
-
-== ONTAP 作業環境の FSX を削除します
-
-BlueXPからFSX for ONTAP を削除できます。
-
-
-WARNING: この操作を実行すると、作業環境に関連付けられているすべてのリソースが削除されます。この操作を元に戻すことはできません。
-
-.作業を開始する前に
-作業環境を削除する前に、次の作業を行う必要があります。
-
-* この作業環境とのレプリケーション関係をすべて解除します。
-* link:task-manage-fsx-volumes.html#delete-volumes["すべてのボリュームを削除します"] ファイルシステムに関連付けられています。ボリュームを削除または削除するには、 AWS でアクティブなコネクタが必要になります。
-+
-
-NOTE: 障害ボリュームは、AWS管理コンソールまたはCLIを使用して削除する必要があります。
-
-
-
-.手順
-. 作業環境を開きます。AWS にコネクタがない場合は、プロンプト画面が表示されます。これは無視して作業環境の削除に進んでください。
-. ページの右上にあるアクションメニューを選択し、*削除*を選択します。
-+
-image:screenshot_fsx_working_environment_delete.png["BlueXPインターフェイスからのFSX for ONTAP の削除オプションのスクリーンショット。"]
-
-. 作業環境の名前を入力し、*削除*を選択します。
-
-
-
-
-== データサービスを管理
-
-FSx for ONTAP作業環境から追加のデータサービスを管理できます。
-
-image:data-services.png["作業環境の[Data Services]タブのスクリーンショット"]
-
-データサービスの設定の詳細については、以下を参照してください。
-
-* link:https://docs.netapp.com/us-en/bluexp-replication/task-replicating-data.html["BlueXPのバックアップとリカバリ"^] オンプレミスとクラウドの両方で、NetApp ONTAPデータ、Kubernetesの永続的ボリューム、データベース、仮想マシンに、効率的でセキュアで対費用効果の高いデータ保護を提供します。
-* link:https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html["BlueXPのコピーと同期"^] は、オンプレミスとクラウドのオブジェクトストア間でNASデータを転送するためのクラウドレプリケーションおよび同期サービスです。
-* link:https://docs.netapp.com/us-en/bluexp-classification/index.html["BlueXPの分類"^] 組織のハイブリッドマルチクラウド全体にわたってデータをスキャンして分類できます。
-* link:https://docs.netapp.com/us-en/bluexp-replication/index.html["データのレプリケート"^] ONTAPストレージシステム間で、クラウドまたはクラウド間のバックアップとディザスタリカバリをサポートします。
-* link:https://docs.netapp.com/us-en/bluexp-volume-caching/index.html["ボリュームキャッシュ"^] 書き込み可能な永続ボリュームをリモートの場所に提供します。BlueXPのボリュームキャッシュを使用すると、データへのアクセスを高速化したり、アクセス頻度の高いボリュームのトラフィックをオフロードしたりできます。
-
+https://docs.netapp.com/us-en/bluexp-volume-caching/get-started/cache-intro.html["BlueXP  ボリュームのキャッシングを開始する"^]
