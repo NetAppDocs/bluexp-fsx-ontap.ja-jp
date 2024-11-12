@@ -52,7 +52,7 @@ Amazon FSx for NetApp ONTAPファイルシステムは、ヨーロッパ（チ�
 
 === Storage VMを追加してください
 
-次の操作を実行できます。 link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-add-fsx-svm.html["Storage VMを追加してください"] BlueXPを使用してAmazon FSx for NetApp ONTAPファイルシステムに移行できます。
+BlueXP  を使用してAmazon FSx for NetApp ONTAPファイルシステムにStorage VMを追加できるようになりました。
 
 
 
@@ -68,13 +68,13 @@ Amazon FSx for NetApp ONTAPファイルシステムは、ヨーロッパ（チ�
 
 === メンテナンス時間の開始時間
 
-いつ link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-creating-fsx-working-environment.html#create-an-amazon-fsx-for-netapp-ontap-working-environment["作業環境の作成"]では、毎週の30分のメンテナンス時間の開始時間を指定して、メンテナンスが重要なビジネスアクティビティと競合しないようにすることができます。
+の場合はlink:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-creating-fsx-working-environment.html#create-an-amazon-fsx-for-netapp-ontap-working-environment["作業環境の作成"]、毎週の30分のメンテナンス時間の開始時間を指定して、メンテナンスが重要なビジネスアクティビティと競合しないようにすることができます。
 
 
 
 === FlexGroupを使用したボリュームデータの分散
 
-いつ link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-add-fsx-volumes.html["ボリュームを作成しています"]では、ボリューム間でデータを分散するFlexGroupを作成することで、データの最適化を有効にすることができます。
+ボリュームを作成する際に、FlexGroupを作成してボリューム間でデータを分散することで、データの最適化を有効にすることができます。
 
 
 
@@ -84,13 +84,13 @@ Amazon FSx for NetApp ONTAPファイルシステムは、ヨーロッパ（チ�
 
 === メンテナンス時間の開始時間
 
-いつ link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-creating-fsx-working-environment.html#create-an-amazon-fsx-for-netapp-ontap-working-environment["作業環境の作成"]では、毎週の30分のメンテナンス時間の開始時間を指定して、メンテナンスが重要なビジネスアクティビティと競合しないようにすることができます。
+の場合はlink:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-creating-fsx-working-environment.html#create-an-amazon-fsx-for-netapp-ontap-working-environment["作業環境の作成"]、毎週の30分のメンテナンス時間の開始時間を指定して、メンテナンスが重要なビジネスアクティビティと競合しないようにすることができます。
 
 
 
 === FlexGroupを使用したボリュームデータの分散
 
-いつ link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-add-fsx-volumes.html["ボリュームを作成しています"]では、ボリューム間でデータを分散するFlexGroupを作成することで、データの最適化を有効にすることができます。
+ボリュームを作成する際に、FlexGroupを作成してボリューム間でデータを分散することで、データの最適化を有効にすることができます。
 
 
 
@@ -106,7 +106,7 @@ Amazon FSx for NetApp ONTAPファイルシステムは、ヨーロッパ（チ�
 
 === タグの追加または変更
 
-必要に応じて、タグとlink:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-manage-fsx-volumes.html#manage-volume-tags["変更"]タグを使用してボリュームを分類できますlink:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-add-fsx-volumes.html#create-volumes["追加（ Add ）"]。
+必要に応じて、タグを追加および変更してボリュームを分類できます。
 
 
 
@@ -170,13 +170,13 @@ FSx for ONTAP作業環境の作成後、いつでも使用できるようにな�
 
 === データをレプリケートして同期
 
-FSx for ONTAPをソースとして使用して、オンプレミスと他のFSx for ONTAPシステムに移行できるようになりましlink:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-manage-fsx-volumes.html#replicate-and-sync-data["データをレプリケートして同期"]た。
+FSx for ONTAPをソースとして、オンプレミスや他のFSx for ONTAPシステムにデータをレプリケートして同期できるようになりました。
 
 
 
 === iSCSIボリュームの作成
 
-お前ならできるlink:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-add-fsx-volumes.html#creating-volumes["Cloud Managerを使用して、FSX for ONTAP にiSCSIボリュームを作成します"]
+Cloud Managerを使用してFSx for ONTAPでiSCSIボリュームを作成できるようになりました。
 
 
 
@@ -224,7 +224,7 @@ Cloud Manager API を使用して FSX for ONTAP 用の iSCSI ボリュームを�
 
 === ボリュームの作成時にボリュームの単位を選択します
 
-FSx for ONTAPで実現できますlink:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-add-fsx-volumes.html#creating-volumes["ボリュームの作成時にボリュームの単位（ GiB または TiB ）を選択します"]。
+FSx for ONTAPでボリュームを作成するときは、ボリューム単位（GiBまたはTiB）を選択できます。
 
 
 
@@ -234,13 +234,13 @@ FSx for ONTAPで実現できますlink:https://docs.netapp.com/us-en/bluexp-fsx-
 
 === Cloud Manager を使用して CIFS ボリュームを作成
 
-できるようになりまし link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-add-fsx-volumes.html#creating-volumes["Cloud Manager を使用して、 FSX for ONTAP に CIFS ボリュームを作成します"]た。
+Cloud Managerを使用して、FSx for ONTAPでCIFSボリュームを作成できるようになりました。
 
 
 
 === Cloud Manager を使用してボリュームを編集
 
-できるようになりまし link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-manage-fsx-volumes.html#editing-volumes["Cloud Manager を使用して ONTAP ボリュームの FSX を編集します"]た。
+Cloud Managerを使用してFSx for ONTAPボリュームを編集できるようになりました。
 
 
 
