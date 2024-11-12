@@ -28,6 +28,10 @@ FSx for ONTAPの新機能をご確認ください。
 
 link:https://docs.netapp.com/us-en/workload-fsx-ontap/learn-fsx-ontap.html#features["BlueXP  ワークロードファクトリでのFSx for ONTAPの機能についてご確認ください"^]
 
+ONTAPシステムマネージャを使用してFSx for ONTAPファイルシステムを管理できる_advanced view_optionを探している場合、作業環境を選択すると、BlueXP  キャンバスにそのオプションが表示されるようになりました。
+
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-fsx-ontap/main/media/screenshot-system-manager.png["作業環境を選択したあとのBlueXP  キャンバスの右側パネルのスクリーンショット。[System Manager]オプションが表示されます。"]
+
 
 
 == 2023年7月30日

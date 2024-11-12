@@ -28,7 +28,7 @@ https://docs.netapp.com/us-en/workload-fsx-ontap/index.html["BlueXP  Workload F
 
 == ONTAP System Managerを使用したファイルシステムの管理
 
-ONTAPシステムマネージャに精通している場合は、ONTAPシステムマネージャのインターフェイスを使用して、BlueXP  から直接FSx for ONTAPファイルシステムを管理できます。
+FSx for ONTAPファイルシステムは、ONTAPシステムマネージャのインターフェイスを使用して、BlueXP  から直接管理できます。System Managerを使用するにはコネクタが必要です。
 
 image:screenshot-system-manager.png["作業環境を選択したあとのBlueXP  キャンバスの右側パネルのスクリーンショット。[System Manager]オプションが表示されます。"]
 
