@@ -30,7 +30,7 @@ BlueXP  ユーザは、ワークロードファクトリインターフェイ�
 
 == このタスクについて
 
-BlueXP  Workload FactoryでストレージからFSx for ONTAPの新しいクレデンシャルを追加する場合は、どの権限レベル（_operational mode_）で操作するかを決定する必要があります。FSx for ONTAPファイルシステムなどのAWSリソースを検出して導入するには、_read_or_automate_permissionsが必要です。BlueXP  FSx for ONTAPは、_read_modeまたは_automate_modeを選択しないかぎり、_basic_modeで動作します。link:https://docs.netapp.com/us-en/workload-setup-admin/operational-modes.html["動作モードの詳細"]です。
+BlueXP  Workload FactoryでストレージからFSx for ONTAPの新しいクレデンシャルを追加する場合は、どの権限レベル（_operational mode_）で操作するかを決定する必要があります。FSx for ONTAPファイルシステムなどのAWSリソースを検出して導入するには、_read_or_automate_permissionsが必要です。BlueXP  FSx for ONTAPは、_read_modeまたは_automate_modeを選択しないかぎり、_basic_modeで動作します。_読み取り_は、表示権限と同じです。_automate_はOPERATE権限と同じです。link:https://docs.netapp.com/us-en/workload-setup-admin/operational-modes.html["動作モードの詳細"]です。
 
 AWSの新規および既存のクレデンシャルは、BlueXP  設定>*クレデンシャル*ページで確認できます。
 
@@ -73,9 +73,9 @@ image:screenshot-add-credentials-manually.png["クレデンシャルのセット
 
 
 
-=== 手順1：ワークロードの機能を選択し、IAMポリシーを作成する
+=== 手順1：ストレージ機能を選択してIAMポリシーを作成する
 
-このセクションでは、これらのクレデンシャルの一部として管理できるワークロード機能のタイプと、各ワークロードに対して有効にする権限を選択します。選択した各ワークロードのポリシー権限をCodeboxからコピーし、AWSアカウント内のAWS管理コンソールに追加してポリシーを作成する必要があります。
+このセクションでは、これらのクレデンシャルの一部として管理するストレージ機能と、ストレージに対して有効にする権限を選択します。データベース、生成AI、VMwareなど、他のワークロードを選択することもできます。選択が完了したら、選択した各ワークロードのポリシー権限をCodeboxからコピーし、AWSアカウント内のAWS管理コンソールに追加してポリシーを作成する必要があります。
 
 image:screenshot-create-policies-manual.png["スクリーンショットは、これらのクレデンシャルのポリシーの一部として管理できるワークロード機能のタイプを示しています。"]
 
@@ -86,6 +86,51 @@ image:screenshot-create-policies-manual.png["スクリーンショットは、�
 
 . 権限レベル（自動化または読み取り）を選択できるワークロード機能については、これらのクレデンシャルで使用できる権限のタイプを選択します。link:https://docs.netapp.com/us-en/workload-setup-admin/operational-modes.html["権限（運用モードとも呼ばれます）について説明します。"^]です。
 . [コードボックス]ウィンドウで、最初のIAMポリシーの権限をコピーします。
++
+ストレージ権限は次のタブからコピーすることもできます。
+
++
+[role="tabbed-block"]
+====
+.アクセス許可の読み取り
+--
+[source, json]
+----
+        "fsx:Describe*",
+        "fsx:ListTagsForResource",
+        "ec2:Describe*",
+        "kms:Describe*",
+        "elasticfilesystem:Describe*",
+        "kms:List*",
+        "cloudwatch:GetMetricData",
+        "cloudwatch:GetMetricStatistics"
+----
+--
+.権限の自動化
+--
+[source, json]
+----
+        "fsx:*",
+        "ec2:Describe*",
+        "ec2:CreateTags",
+        "ec2:CreateSecurityGroup",
+        "iam:CreateServiceLinkedRole",
+        "kms:Describe*",
+        "elasticfilesystem:Describe*",
+        "kms:List*",
+        "kms:CreateGrant",
+        "cloudwatch:PutMetricData",
+        "cloudwatch:GetMetricData",
+        "iam:SimulatePrincipalPolicy",
+        "cloudwatch:GetMetricStatistics"
+        "ec2:AuthorizeSecurityGroupEgress",
+        "ec2:AuthorizeSecurityGroupIngress",
+        "ec2:RevokeSecurityGroupEgress",
+        "ec2:RevokeSecurityGroupIngress",
+        "ec2:DeleteSecurityGroup"
+----
+--
+====
 . 別のブラウザウィンドウを開き、AWS管理コンソールでAWSアカウントにログインします。
 . IAMサービスを開き、* Policies *>* Create Policy *を選択します。
 . ファイルタイプとしてJSONを選択し、手順3でコピーした権限を貼り付けて* Next *を選択します。

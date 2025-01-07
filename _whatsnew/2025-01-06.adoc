@@ -1,0 +1,11 @@
+= NetAppが追加のCloudFormationリソースをリリース
+:allow-uri-read: 
+
+
+
+
+=== NetAppが追加のCloudFormationリソースをリリース
+
+NetAppは、AWSコンソール内で公開されていない高度なONTAPコンポーネントを利用できるCloudFormationリソースを提供するようになりました。CloudFormationは、AWS向けのコードとしてのインフラメカニズムです。レプリケーション関係、CIFS共有、NFSエクスポートポリシー、Snapshotなどを作成できます。
+
+link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-manage-working-environment.html["CloudFormationを使用したAmazon FSx for NetApp ONTAPファイルシステムの管理"]

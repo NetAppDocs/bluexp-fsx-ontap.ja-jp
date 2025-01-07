@@ -34,6 +34,14 @@ image:screenshot-system-manager.png["作業環境を選択したあとのBlueXP�
 
 
 
+== Amazon CloudFormationを使用したファイルシステムの管理
+
+Amazon CloudFormationを使用して、FSx for ONTAPのファイルシステムリソース（ボリューム、CIFS共有、エクスポートポリシーなど）をプロビジョニングおよび管理できます。
+
+link:https://github.com/NetApp/NetApp-CloudFormation-FSx-ONTAP-provider[""]
+
+
+
 == ファイルシステムでBlueXP  データサービスを使用する
 
 FSx for ONTAPファイルシステムでBlueXP  データサービスを使用すると、データのバックアップとリカバリ、データの転送と同期、データのスキャンと分類、データのレプリケート、アクセスの高速化やトラフィックのオフロードが可能になります。

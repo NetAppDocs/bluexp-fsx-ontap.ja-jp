@@ -16,10 +16,10 @@ indexpage:
       url: "/use/task-creating-fsx-working-environment.html"
   - title: FSx for ONTAPを使用
     links:
+    - title: FSx for ONTAPファイルシステムの作成
+      url: "/use/task-creating-fsx-working-environment.html"
     - title: FSx for ONTAPファイルシステムの管理
       url: "/use/task-manage-working-environment.html"
-    - title: NVMeとiSCSIホストの構成
-      url: https://docs.netapp.com/us-en/ontap-sanhost/
   - title: 知識とサポート
     links:
     - title: サポートに登録します

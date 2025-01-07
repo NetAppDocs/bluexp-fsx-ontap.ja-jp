@@ -18,6 +18,18 @@ FSx for ONTAPの新機能をご確認ください。
 
 
 
+== 2025年1月6日
+
+
+
+=== NetAppが追加のCloudFormationリソースをリリース
+
+NetAppは、AWSコンソール内で公開されていない高度なONTAPコンポーネントを利用できるCloudFormationリソースを提供するようになりました。CloudFormationは、AWS向けのコードとしてのインフラメカニズムです。レプリケーション関係、CIFS共有、NFSエクスポートポリシー、Snapshotなどを作成できます。
+
+link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-manage-working-environment.html["CloudFormationを使用したAmazon FSx for NetApp ONTAPファイルシステムの管理"]
+
+
+
 == 2024年11月11日
 
 
