@@ -217,10 +217,12 @@ image:screenshot_add_fsx_cloud.png["[Working Environments]ページのFSx for ON
 
 == 既存の FSX for ONTAP ファイルシステムを検出します
 
-以前にBlueXPにAWSのクレデンシャルを提供していた場合、* My estate *がBlueXPを使用して追加および管理するFSx for ONTAPファイルシステムを自動的に検出して提案します。使用可能なデータサービスを確認することもできます。
+以前にAWSのクレデンシャルをBlueXP  に提供していた場合、* My estate *がワークスペース内のFSx for ONTAPファイルシステムを自動的に検出して提案し、BlueXP  を使用して追加および管理することができます。使用可能なデータサービスを確認することもできます。
 
 .このタスクについて
-FSx for ONTAPファイルシステムは、お客様または*マイエステート*ページを使用して検出できます<<ONTAP 作業環境用の FSX を作成します>>。
+FSx for ONTAPファイルシステムは、作業環境を追加するか、*マイエステート*ページを使用して検出できます。
+
+FSx for ONTAPファイルシステムは、BlueXP  アカウント内で1回だけ検出し、1つのワークスペースに接続できます。ファイルシステムは、後で削除して別のワークスペースに再度関連付けることができます。
 
 [role="tabbed-block"]
 ====

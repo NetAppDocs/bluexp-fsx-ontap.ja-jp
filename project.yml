@@ -28,6 +28,10 @@ sidebar:
       url: "/use/task-creating-fsx-working-environment.html"
   - title: FSx for ONTAPファイルシステムの管理
     url: "/use/task-manage-working-environment.html"
+  - title: Trackerを使用した操作の監視
+    url: "/use/task-monitor-operations.html"
+  - title: ワークスペースからファイルシステムを削除する
+    url: "/use/task-remove-filesystem.html"
   - title: 知識とサポート
     entries:
     - title: サポートに登録します

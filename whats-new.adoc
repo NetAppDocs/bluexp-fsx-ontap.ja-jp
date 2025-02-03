@@ -18,6 +18,42 @@ FSx for ONTAPの新機能をご確認ください。
 
 
 
+== 2025年2月2日
+
+
+
+=== FSx for ONTAPファイルシステムをBlueXP  のワークスペースに関連付ける
+
+2024年11月のBlueXP  統合後、新しく作成したFSx for ONTAPファイルシステムは、BlueXP  内の1つのワークスペースに関連付けられませんでした。FSx for ONTAPファイルシステムを作成または検出すると、それらのファイルシステムはBlueXP  アカウント内の1つのワークスペースに関連付けられます。
+
+既存のFSx for ONTAPファイルシステムがワークスペースに関連付けられていない場合は、BlueXP  でワークスペースに関連付けられるようお手伝いします。BlueXP  コンソール内から実行できますlink:https://docs.netapp.com/us-en/bluexp-setup-admin/task-get-help.html#create-a-case-with-netapp-support["NetAppサポートでケースを作成"^]。サービスとして*[Workload Factory]*を選択します。
+
+
+
+=== BlueXP  カンバスカラノファイルシステムノサクジョ
+
+BlueXP  キャンバスのワークスペースからFSx for ONTAPファイルシステムを削除できるようになりました。この操作を実行すると、ファイルシステムとワークスペースの関連付けが解除され、同じBlueXP  アカウント内の別のワークスペースにファイルシステムを関連付けることができます。
+
+link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-remove-filesystem.html["BlueXP  のワークスペースからFSx for ONTAPファイルシステムを削除する方法"^]
+
+
+
+=== 運用の監視と追跡に使用可能なトラッカー
+
+新しい監視機能であるTrackerがBlueXP  Amazon FSx for NetApp ONTAPで利用可能になりました。Trackerを使用して、クレデンシャル、ストレージ、およびリンク処理の進捗状況とステータスの監視と追跡、処理タスクとサブタスクの詳細の確認、問題や障害の診断、失敗した処理のパラメータの編集、失敗した処理の再試行を行うことができます。
+
+link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-monitor-operations.html["BlueXP  でFSx for ONTAPの運用を監視および追跡する方法をご確認ください"^]
+
+
+
+=== BlueXP  ワークロードで利用可能なCloudShell
+
+CloudShellは、BlueXP  コンソール内でBlueXP  ワークロードを実行している場合に使用できます。CloudShellを使用すると、BlueXP  アカウントで提供したAWSとONTAPのクレデンシャルを使用して、シェルに似た環境でAWS CLIコマンドまたはONTAP CLIコマンドを実行できます。
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/use-cloudshell.html#before-you-begin["CloudShellを使用"^]
+
+
+
 == 2025年1月6日
 
 

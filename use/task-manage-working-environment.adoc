@@ -54,7 +54,7 @@ image:screenshot-data-services.png["作業環境を選択したあとのBlueXP 
 
 BlueXP  バックアップ/リカバリサービスは、オンプレミスとクラウドの両方で、NetApp ONTAPのデータ、データベース、仮想マシンに効率的でセキュアな対費用効果の高いデータ保護を提供します。
 
-https://docs.netapp.com/us-en/bluexp-backup-recovery/index.html["BlueXP  のバックアップとリカバリを開始する"^]
+link:https://docs.netapp.com/us-en/bluexp-backup-recovery/index.html["BlueXP  のバックアップとリカバリを開始する"^]
 
 
 
@@ -62,7 +62,7 @@ https://docs.netapp.com/us-en/bluexp-backup-recovery/index.html["BlueXP  のバ
 
 BlueXPのコピーと同期は、オンプレミスとクラウドのオブジェクトストア間でNASデータを転送するためのクラウドレプリケーションおよび同期サービスです。
 
-https://docs.netapp.com/us-en/bluexp-copy-sync/task-quick-start.html["BlueXP  のコピーと同期を開始する"^]
+link:https://docs.netapp.com/us-en/bluexp-copy-sync/task-quick-start.html["BlueXP  のコピーと同期を開始する"^]
 
 
 
@@ -70,7 +70,7 @@ https://docs.netapp.com/us-en/bluexp-copy-sync/task-quick-start.html["BlueXP  �
 
 BlueXPは、組織のハイブリッドマルチクラウド全体にわたってデータをスキャンして分類できます。
 
-https://docs.netapp.com/us-en/bluexp-classification/index.html["BlueXP  分類を開始する"^]
+link:https://docs.netapp.com/us-en/bluexp-classification/index.html["BlueXP  分類を開始する"^]
 
 
 
@@ -78,7 +78,7 @@ https://docs.netapp.com/us-en/bluexp-classification/index.html["BlueXP  分類�
 
 BlueXP  レプリケーションを使用すると、ONTAPストレージシステム間でデータをレプリケートして、クラウドまたはクラウド間でのバックアップとディザスタリカバリをサポートできます。
 
-https://docs.netapp.com/us-en/bluexp-replication/task-replicating-data.html["BlueXP  レプリケーションを開始する"^]
+link:https://docs.netapp.com/us-en/bluexp-replication/task-replicating-data.html["BlueXP  レプリケーションを開始する"^]
 
 
 
@@ -86,4 +86,4 @@ https://docs.netapp.com/us-en/bluexp-replication/task-replicating-data.html["Blu
 
 BlueXP  ボリュームキャッシングは、書き込み可能な永続ボリュームをリモートの場所に提供します。BlueXPのボリュームキャッシュを使用すると、データへのアクセスを高速化したり、アクセス頻度の高いボリュームのトラフィックをオフロードしたりできます。
 
-https://docs.netapp.com/us-en/bluexp-volume-caching/get-started/cache-intro.html["BlueXP  ボリュームのキャッシングを開始する"^]
+link:https://docs.netapp.com/us-en/bluexp-volume-caching/get-started/cache-intro.html["BlueXP  ボリュームのキャッシングを開始する"^]
