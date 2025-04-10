@@ -77,7 +77,7 @@ image:screenshot-add-credentials-manually.png["クレデンシャルのセット
 
 このセクションでは、これらのクレデンシャルの一部として管理するストレージ機能と、ストレージに対して有効にする権限を選択します。データベース、生成AI、VMwareなど、他のワークロードを選択することもできます。選択が完了したら、選択した各ワークロードのポリシー権限をCodeboxからコピーし、AWSアカウント内のAWS管理コンソールに追加してポリシーを作成する必要があります。
 
-image:screenshot-create-policies-manual.png["スクリーンショットは、これらのクレデンシャルのポリシーの一部として管理できるワークロード機能のタイプを示しています。"]
+image:screenshot-create-policies-manual-permissions-check.png["スクリーンショットは、これらのクレデンシャルのポリシーの一部として管理できるワークロード機能のタイプを示しています。"]
 
 .手順
 . [ポリシーの作成]*セクションで、これらのクレデンシャルに含めるワークロード機能をそれぞれ有効にします。ファイルシステムを作成および管理するには、*[ストレージ]*を有効にします。
@@ -85,6 +85,7 @@ image:screenshot-create-policies-manual.png["スクリーンショットは、�
 あとから機能を追加できるので、導入と管理が必要なワークロードを選択するだけです。
 
 . 権限レベル（自動化または読み取り）を選択できるワークロード機能については、これらのクレデンシャルで使用できる権限のタイプを選択します。link:https://docs.netapp.com/us-en/workload-setup-admin/operational-modes.html["権限（運用モードとも呼ばれます）について説明します。"^]です。
+. オプション：[自動権限チェックを有効にする]*を選択して、ワークロードの処理を完了するために必要なAWSアカウントの権限があるかどうかを確認します。チェックを有効にすると、権限ポリシーにが追加され `iam:SimulatePrincipalPolicy permission`ます。この権限の目的は、権限のみを確認することです。クレデンシャルを追加したあとにこの権限を削除することもできますが、処理が一部しか成功しないようにリソースが作成されないようにしたり、必要なリソースの手動クリーンアップを行わないようにするために、
 . [コードボックス]ウィンドウで、最初のIAMポリシーの権限をコピーします。
 +
 ストレージ権限は次のタブからコピーすることもできます。
@@ -129,51 +130,50 @@ image:screenshot-create-policies-manual.png["スクリーンショットは、�
 [source, json]
 ----
 {
-    "Version": "2012-10-17",
-    "Statement": [
-        {
-            "Effect": "Allow",
-            "Action": [
-                "fsx:*",
-                "ec2:Describe*",
-                "ec2:CreateTags",
-                "ec2:CreateSecurityGroup",
-                "iam:CreateServiceLinkedRole",
-                "kms:Describe*",
-                "elasticfilesystem:Describe*",
-                "kms:List*",
-                "kms:CreateGrant",
-                "cloudwatch:PutMetricData",
-                "cloudwatch:GetMetricData",
-                "iam:SimulatePrincipalPolicy",
-                "cloudwatch:GetMetricStatistics"
-            ],
-            "Resource": "*"
-        },
-        {
-            "Effect": "Allow",
-            "Action": [
-                "ec2:AuthorizeSecurityGroupEgress",
-                "ec2:AuthorizeSecurityGroupIngress",
-                "ec2:RevokeSecurityGroupEgress",
-                "ec2:RevokeSecurityGroupIngress",
-                "ec2:DeleteSecurityGroup"
-            ],
-            "Resource": "*",
-            "Condition": {
-                "StringLike": {
-                    "ec2:ResourceTag/AppCreator": "NetappFSxWF"
-                }
-            }
-        },
-        {
-            "Effect": "Allow",
-            "Action": [
-                "iam:SimulatePrincipalPolicy"
-            ],
-            "Resource": "*"
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": [
+        "fsx:*",
+        "ec2:Describe*",
+        "ec2:CreateTags",
+        "ec2:CreateSecurityGroup",
+        "iam:CreateServiceLinkedRole",
+        "kms:Describe*",
+        "elasticfilesystem:Describe*",
+        "kms:List*",
+        "kms:CreateGrant",
+        "cloudwatch:PutMetricData",
+        "cloudwatch:GetMetricData",
+        "cloudwatch:GetMetricStatistics"
+      ],
+      "Resource": "*"
+    },
+    {
+      "Effect": "Allow",
+      "Action": [
+        "ec2:AuthorizeSecurityGroupEgress",
+        "ec2:AuthorizeSecurityGroupIngress",
+        "ec2:RevokeSecurityGroupEgress",
+        "ec2:RevokeSecurityGroupIngress",
+        "ec2:DeleteSecurityGroup"
+      ],
+      "Resource": "*",
+      "Condition": {
+        "StringLike": {
+          "ec2:ResourceTag/AppCreator": "NetappFSxWF"
         }
-    ]
+      }
+    },
+    {
+      "Effect": "Allow",
+      "Action": [
+        "iam:SimulatePrincipalPolicy"
+      ],
+      "Resource": "*"
+    }
+  ]
 }
 ----
 --
@@ -278,6 +278,7 @@ image:screenshot-add-credentials-cloudformation.png["CloudFormationを起動し�
 +
 あとから機能を追加できるので、導入と管理が必要なワークロードを選択するだけです。
 
+. オプション：[自動権限チェックを有効にする]*を選択して、ワークロードの処理を完了するために必要なAWSアカウントの権限があるかどうかを確認します。チェックを有効にすると、権限ポリシーに権限が追加され `iam:SimulatePrincipalPolicy`ます。この権限の目的は、権限のみを確認することです。クレデンシャルを追加したあとにこの権限を削除することもできますが、処理が一部しか成功しないようにリソースが作成されないようにしたり、必要なリソースの手動クリーンアップを行わないようにするために、
 . [クレデンシャル名]*で、これらのクレデンシャルに使用する名前を入力します。
 . AWS CloudFormationからクレデンシャルを追加します。
 +

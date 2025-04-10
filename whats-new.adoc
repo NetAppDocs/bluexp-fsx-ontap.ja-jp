@@ -18,6 +18,18 @@ FSx for ONTAPの新機能をご確認ください。
 
 
 
+== 2025年3月30日
+
+
+
+=== IAM：SimulatePermissionPolicy権限の更新
+
+管理できるようになりまし `iam:SimulatePrincipalPolicy`AWSアカウントのクレデンシャルを追加したり、生成AIワークロードなどの新しいワークロード機能を追加したりするときに、BlueXP  コンソールから権限をた。
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html#change-log["アクセス権参照変更ログ"^]
+
+
+
 == 2025年3月2日
 
 

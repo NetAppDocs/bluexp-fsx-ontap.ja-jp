@@ -345,7 +345,6 @@
   <block id="ef7fe40c036b5b08d74837dcb702dc33" category="inline-image-macro">クレデンシャルのセットごとに手動で定義する必要がある項目を示すスクリーンショット。</block>
   <block id="083fb8583b0a2366ef9a94388dd9640f" category="paragraph"><block ref="083fb8583b0a2366ef9a94388dd9640f" category="inline-image-macro-rx" type="image"></block></block>
   <block id="445f4ba50fbc8e7b285aedb4396412bb" category="inline-image-macro">スクリーンショットは、これらのクレデンシャルのポリシーの一部として管理できるワークロード機能のタイプを示しています。</block>
-  <block id="0edc9a25423073fcc768405f6aeda88b" category="paragraph"><block ref="0edc9a25423073fcc768405f6aeda88b" category="inline-image-macro-rx" type="image"></block></block>
   <block id="eb73cd2a4bbc3dbb4bbab5f5a9b6fb8d" category="list-text">[ポリシーの作成]*セクションで、これらのクレデンシャルに含めるワークロード機能をそれぞれ有効にします。ファイルシステムを作成および管理するには、*[ストレージ]*を有効にします。</block>
   <block id="3b9b789374908017040d97f81eb4008d" category="paragraph">あとから機能を追加できるので、導入と管理が必要なワークロードを選択するだけです。</block>
   <block id="a488a73463d70a082950f1cd09a4be8c" category="inline-link-macro">権限（運用モードとも呼ばれます）について説明します。</block>
@@ -653,4 +652,12 @@
   <block id="fd8693cf8f6802fd1c7d50d5742a4c71" category="doc">TrackerのCloudShellイベント</block>
   <block id="de57e19ed3d5b873e357689269de25a1" category="paragraph">CloudShellを使用してBlueXP  ワークロードからFSx for ONTAPの処理を実行すると、イベントがトラッカーに表示されます。</block>
   <block id="2d5a4b914acb6c2f03d312067c73ce32" category="section-title">2025年3月2日</block>
+  <block id="4ef50e373522b91f7df59d5cba69a8b7" category="doc">IAM：SimulatePermissionPolicy権限の更新</block>
+  <block id="b84cda7d6006e8abb6e6264e292b13c0" category="paragraph">管理できるようになりまし<block ref="19f5de89e4c667692a153296018e225f" prefix=" " category="inline-code"></block>AWSアカウントのクレデンシャルを追加したり、生成AIワークロードなどの新しいワークロード機能を追加したりするときに、BlueXP  コンソールから権限をた。</block>
+  <block id="6cff628e35cc5d429a57e4a125a0bf6b" category="inline-link-macro">アクセス権参照変更ログ</block>
+  <block id="8ee0913e940253bb841c1a05228d81e5" category="paragraph"><block ref="8ee0913e940253bb841c1a05228d81e5" category="inline-link-macro-rx"></block></block>
+  <block id="c1bc5d8eeb872326cb512499f02befb5" category="paragraph"><block ref="c1bc5d8eeb872326cb512499f02befb5" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="04c38dfa84592feebab3e30dfe4a019a" category="list-text">オプション：[自動権限チェックを有効にする]*を選択して、ワークロードの処理を完了するために必要なAWSアカウントの権限があるかどうかを確認します。チェックを有効にすると、権限ポリシーにが追加され<block ref="23bd3e826a13b6d94db9e07f105dfed2" prefix=" " category="inline-code"></block>ます。この権限の目的は、権限のみを確認することです。クレデンシャルを追加したあとにこの権限を削除することもできますが、処理が一部しか成功しないようにリソースが作成されないようにしたり、必要なリソースの手動クリーンアップを行わないようにするために、</block>
+  <block id="c3c7c9c146408a0ee564eedba4821f52" category="list-text">オプション：[自動権限チェックを有効にする]*を選択して、ワークロードの処理を完了するために必要なAWSアカウントの権限があるかどうかを確認します。チェックを有効にすると、権限ポリシーに権限が追加され<block ref="19f5de89e4c667692a153296018e225f" prefix=" " category="inline-code"></block>ます。この権限の目的は、権限のみを確認することです。クレデンシャルを追加したあとにこの権限を削除することもできますが、処理が一部しか成功しないようにリソースが作成されないようにしたり、必要なリソースの手動クリーンアップを行わないようにするために、</block>
+  <block id="db54384248c75c5896f34bcb0879b66c" category="section-title">2025年3月30日</block>
 </blocks>
