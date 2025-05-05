@@ -18,6 +18,46 @@ FSx for ONTAPの新機能をご確認ください。
 
 
 
+== 2025年5月4日
+
+
+
+=== トラッカー応答サポート
+
+TrackerでAPI応答が返されるようになり、タスクに関連するREST API出力を確認できるようになりました。
+
+
+
+=== AWS Secrets Managerのリンク認証のサポート
+
+AWS Secrets Managerのシークレットを使用してリンクを認証できるようになり、BlueXP  ワークロードに保存されているクレデンシャルを使用する必要がなくなりました。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-link.html["LambdaリンクでFSx for ONTAPファイルシステムに接続"]
+
+
+
+=== FSx for ONTAPファイルシステムのベストプラクティスを実装
+
+BlueXP  ワークロードは、ファイルシステム構成の適切な設計ステータスを確認できるダッシュボードを提供します。この分析を活用して、FSx for ONTAPファイルシステムのベストプラクティスを実装できます。ファイルシステム構成の分析には、SSD容量のしきい値、スケジュールされたローカルスナップショット、FSx for ONTAPのスケジュールされたバックアップ、データ階層化、リモートデータレプリケーションなどの構成が含まれます。
+
+* link:https://docs.netapp.com/us-en/workload-fsx-ontap/configuration-analysis.html["ファイルシステム構成の適切に設計された分析をご紹介します"]
+* link:https://review.docs.netapp.com/us-en/workload-fsx-ontap_well-architected/improve-configurations.html["ファイルシステムのベストプラクティスの実装"]
+
+
+
+
+=== ファイルシステムの問題に対する適切に設計された通知
+
+BlueXP  コンソールで、適切に設計された問題があるFSx for ONTAPファイルシステムに、ファイルシステムに修正が必要な問題があることを示す通知がキャンバスに表示されるようになりました。
+
+
+
+=== 権限に関する用語を更新
+
+ワークロードファクトリのユーザインターフェイスとドキュメントでは、読み取り権限を「読み取り専用」に、自動権限を「読み取り/書き込み」に指定するようになりました。
+
+
+
 == 2025年3月30日
 
 

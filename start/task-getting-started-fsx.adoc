@@ -18,7 +18,7 @@ BlueXP  でAmazon FSx for NetApp ONTAPの使用を開始するには、クレ�
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1つ"] link:../requirements/task-setting-up-permissions-fsx.html["クレデンシャルと権限の追加"]
 [role="quick-margin-para"]
-FSx for ONTAPファイルシステムの作成と管理に必要な権限をBlueXP  に付与するには、AWSクレデンシャルを追加する必要があります。_automate permissions_and_read permissions_のいずれかを選択できます。
+FSx for ONTAPファイルシステムの作成と管理に必要な権限をBlueXP  に付与するには、AWSクレデンシャルを追加する必要があります。_Read/Write_permissionsと_Read-only_permissionsのどちらかを選択できます。
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2 つ"]オプション：コネクタまたはリンクを作成する
 [role="quick-margin-para"]

@@ -30,7 +30,7 @@ BlueXP  ユーザは、ワークロードファクトリインターフェイ�
 
 == このタスクについて
 
-BlueXP  Workload FactoryでストレージからFSx for ONTAPの新しいクレデンシャルを追加する場合は、どの権限レベル（_operational mode_）で操作するかを決定する必要があります。FSx for ONTAPファイルシステムなどのAWSリソースを検出して導入するには、_read_or_automate_permissionsが必要です。BlueXP  FSx for ONTAPは、_read_modeまたは_automate_modeを選択しないかぎり、_basic_modeで動作します。_読み取り_は、表示権限と同じです。_automate_はOPERATE権限と同じです。link:https://docs.netapp.com/us-en/workload-setup-admin/operational-modes.html["動作モードの詳細"]です。
+BlueXP  Workload FactoryでストレージからFSx for ONTAPの新しいクレデンシャルを追加する場合は、どの権限レベル（_operational mode_）で操作するかを決定する必要があります。FSx for ONTAPファイルシステムなどのAWSリソースを検出して導入するには、_Read-only_or_Read/Write_permissionsが必要です。BlueXP  FSx for ONTAPは、_Read-only_modeまたは_Read/Write_modeを選択しないかぎり、_basic_modeで動作します。_読み取り専用_は、表示権限と同じです。_読み取り/書き込み_は、操作権限と同じです。link:https://docs.netapp.com/us-en/workload-setup-admin/operational-modes.html["動作モードの詳細"]です。
 
 AWSの新規および既存のクレデンシャルは、BlueXP  設定>*クレデンシャル*ページで確認できます。
 
@@ -84,7 +84,7 @@ image:screenshot-create-policies-manual-permissions-check.png["スクリーン�
 +
 あとから機能を追加できるので、導入と管理が必要なワークロードを選択するだけです。
 
-. 権限レベル（自動化または読み取り）を選択できるワークロード機能については、これらのクレデンシャルで使用できる権限のタイプを選択します。link:https://docs.netapp.com/us-en/workload-setup-admin/operational-modes.html["権限（運用モードとも呼ばれます）について説明します。"^]です。
+. アクセス許可レベル（[Read/Write]または[Read-Only]）を選択できるワークロード機能については、これらのクレデンシャルで使用できるアクセス許可のタイプを選択します。link:https://docs.netapp.com/us-en/workload-setup-admin/operational-modes.html["権限（運用モードとも呼ばれます）について説明します。"^]です。
 . オプション：[自動権限チェックを有効にする]*を選択して、ワークロードの処理を完了するために必要なAWSアカウントの権限があるかどうかを確認します。チェックを有効にすると、権限ポリシーにが追加され `iam:SimulatePrincipalPolicy permission`ます。この権限の目的は、権限のみを確認することです。クレデンシャルを追加したあとにこの権限を削除することもできますが、処理が一部しか成功しないようにリソースが作成されないようにしたり、必要なリソースの手動クリーンアップを行わないようにするために、
 . [コードボックス]ウィンドウで、最初のIAMポリシーの権限をコピーします。
 +
@@ -93,7 +93,7 @@ image:screenshot-create-policies-manual-permissions-check.png["スクリーン�
 +
 [role="tabbed-block"]
 ====
-.アクセス許可の読み取り
+.読み取り専用権限
 --
 [source, json]
 ----
@@ -125,7 +125,7 @@ image:screenshot-create-policies-manual-permissions-check.png["スクリーン�
 }
 ----
 --
-.権限の自動化
+.読み取り/書き込み権限
 --
 [source, json]
 ----
@@ -236,32 +236,32 @@ AWS CloudFormationスタックを使用してAWSクレデンシャルをBlueXP 
 [source, json]
 ----
 {
-    "Version": "2012-10-17",
-    "Statement": [
-        {
-            "Effect": "Allow",
-            "Action": [
-                "cloudformation:CreateStack",
-                "cloudformation:UpdateStack",
-                "cloudformation:DeleteStack",
-                "cloudformation:DescribeStacks",
-                "cloudformation:DescribeStackEvents",
-                "cloudformation:DescribeChangeSet",
-                "cloudformation:ExecuteChangeSet",
-                "cloudformation:ListStacks",
-                "cloudformation:ListStackResources",
-                "cloudformation:GetTemplate",
-                "cloudformation:ValidateTemplate",
-                "lambda:InvokeFunction",
-                "iam:PassRole",
-                "iam:CreateRole",
-                "iam:UpdateAssumeRolePolicy",
-                "iam:AttachRolePolicy",
-                "iam:CreateServiceLinkedRole"
-            ],
-            "Resource": "*"
-        }
-    ]
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": [
+        "cloudformation:CreateStack",
+        "cloudformation:UpdateStack",
+        "cloudformation:DeleteStack",
+        "cloudformation:DescribeStacks",
+        "cloudformation:DescribeStackEvents",
+        "cloudformation:DescribeChangeSet",
+        "cloudformation:ExecuteChangeSet",
+        "cloudformation:ListStacks",
+        "cloudformation:ListStackResources",
+        "cloudformation:GetTemplate",
+        "cloudformation:ValidateTemplate",
+        "lambda:InvokeFunction",
+        "iam:PassRole",
+        "iam:CreateRole",
+        "iam:UpdateAssumeRolePolicy",
+        "iam:AttachRolePolicy",
+        "iam:CreateServiceLinkedRole"
+      ],
+      "Resource": "*"
+    }
+  ]
 }
 ----
 
