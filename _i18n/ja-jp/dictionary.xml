@@ -590,9 +590,7 @@
   <block id="1d871a79e130277eac94bdf23b8f559d" category="summary">BlueXP  のTrackerを使用して、FSx for ONTAPの運用を追跡し、運用の進捗状況を監視できます。</block>
   <block id="16edaff1d441f823f269cfb57989844e" category="doc">BlueXP  のTrackerでFSx for ONTAPの運用を監視</block>
   <block id="c51aab10e5fd03127f375a02c70e31d1" category="paragraph">BlueXP  のTrackerを使用して、FSx for ONTAPの処理の実行を監視および追跡し、ジョブの進捗状況を監視できます。</block>
-  <block id="030aa1dc2f523ee33fca72b98728f303" category="paragraph">BlueXP  のジョブ監視機能であるTrackerを使用すると、クレデンシャル、FSx for ONTAP、およびリンク処理の進捗状況とステータスの監視と追跡、処理タスクとサブタスクの詳細の確認、問題や失敗の診断、失敗した処理のパラメータの編集、失敗した処理の再試行を行うことができます。</block>
   <block id="6092aff2fd96382c8039bf4b05f69f42" category="paragraph">Trackerでは、いくつかのアクションを使用できます。期間（過去24時間、7日、14日、または30日）、ワークロード、ステータス、およびユーザでジョブをフィルタリングしたり、検索機能を使用してジョブを検索したり、ジョブテーブルをCSVファイルとしてダウンロードしたりできます。トラッカーはいつでも更新できます。また、失敗した処理をすばやく再試行したり、失敗した処理のパラメータを編集して、処理を再試行したりできます。</block>
-  <block id="f2cee538b7196c0114b7722b311de074" category="paragraph">Trackerは2つのレベルの監視をサポートしています。ファイルシステムの作成などの各タスクには、タスクの説明、ステータス、開始時間、タスク期間、ユーザ、リージョン、プロキシリソース（リンク関連付け）、タスクID、および関連するすべてのサブタスクが表示されます。</block>
   <block id="5cdbeb1c4cc65e8f551e161828701113" category="list-text">Trackerタスクレベルと例</block>
   <block id="05bee9860c0a2efcc43ba9c2e7d71a73" category="list-text">レベル1（親タスク）：ファイルシステムの展開を追跡します。</block>
   <block id="bf4ab25188da8d1000fe4fd110b6cc4e" category="list-text">レベル2（サブタスク）：ファイルシステムの導入に関連するサブタスクを追跡します。</block>
@@ -677,4 +675,6 @@
   <block id="6c89d11178770d48b64eed2f5ad15ee0" category="open-title">読み取り/書き込み権限</block>
   <block id="bff2a32004a29ed6a2b848b515ee2ed4" category="paragraph">FSx for ONTAPファイルシステムの作成と管理に必要な権限をBlueXP  に付与するには、AWSクレデンシャルを追加する必要があります。_Read/Write_permissionsと_Read-only_permissionsのどちらかを選択できます。</block>
   <block id="822748e99c70e9162ce5432b2e1eff5c" category="section-title">2025年5月4日</block>
+  <block id="5a727a54cd3005d4cc50f72f6b62d2d0" category="paragraph">BlueXP  のジョブ監視機能であるTrackerを使用すると、クレデンシャル、FSx for ONTAP、リンク処理の進捗状況とステータスの監視と追跡、処理タスクとサブタスクの詳細の確認、問題や障害の診断を行うことができます。</block>
+  <block id="9233b1148f18eb744b69d4d3620c296c" category="paragraph">トラッカーは、操作に応じて2つのレベルの監視をサポートします。ファイルシステムの導入などの各タスクには、タスクの説明、ステータス、開始時間、タスク期間、ユーザー、地域、プロキシリソース、タスクID、および関連するすべてのサブタスクが表示されます。API応答を表示して、処理中に発生した問題を把握することができます。</block>
 </blocks>
