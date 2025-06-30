@@ -18,6 +18,26 @@ FSx for ONTAPの新機能をご確認ください。
 
 
 
+== 2025年6月29日
+
+
+
+=== 資格情報の更新
+
+FSx for ONTAP ファイルシステムの認証情報と権限を設定すると、BlueXP の認証情報ページにリダイレクトされます。このページから、FSx for ONTAP の認証情報の名前を変更したり、削除したりできます。
+
+link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/requirements/task-setting-up-permissions-fsx.html["FSx for ONTAP ファイルシステムの権限を設定する"]
+
+
+
+=== 2つのFSx for ONTAPファイルシステム間でのデータ複製のサポート
+
+BlueXP コンソールから 2 つの FSx for ONTAP ファイル システム間でデータ レプリケーションが利用できるようになりました。
+
+link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-manage-working-environment.html#replicate-data["データのレプリケート"]
+
+
+
 == 2025年5月4日
 
 
@@ -54,7 +74,7 @@ BlueXP  コンソールで、適切に設計された問題があるFSx for ONT
 
 === 権限に関する用語を更新
 
-ワークロードファクトリのユーザインターフェイスとドキュメントでは、読み取り権限を「読み取り専用」に、自動権限を「読み取り/書き込み」に指定するようになりました。
+ワークロード ファクトリのユーザー インターフェースとドキュメントでは、読み取り権限を示すために「読み取り専用」を使用し、自動化権限を示すために「読み取り/書き込み」を使用するようになりました。
 
 
 
