@@ -9,11 +9,3 @@
 FSx for ONTAP ファイルシステムの認証情報と権限を設定すると、BlueXP の認証情報ページにリダイレクトされます。このページから、FSx for ONTAP の認証情報の名前を変更したり、削除したりできます。
 
 link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/requirements/task-setting-up-permissions-fsx.html["FSx for ONTAP ファイルシステムの権限を設定する"]
-
-
-
-=== 2つのFSx for ONTAPファイルシステム間でのデータ複製のサポート
-
-BlueXP コンソールから 2 つの FSx for ONTAP ファイル システム間でデータ レプリケーションが利用できるようになりました。
-
-link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-manage-working-environment.html#replicate-data["データのレプリケート"]
